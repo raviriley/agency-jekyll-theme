@@ -1,3 +1,6 @@
+[Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)
+
+
 # [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
