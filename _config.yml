@@ -19,10 +19,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title: Your awesome title
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "site description"
+
+author: Ravi Riley
 
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -30,17 +29,23 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+footer:
+  links:
+    - title: "Twitter"
+      icon: "fab fa-twitter"
+      url: https://twitter.com
+    - title: "Facebook"
+      icon: "fab fa-facebook-f"
+      url: https://facebook.com
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: https://linkedin.com
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: https://github.com/raviriley
+    - title: "Instagram"
+      icon: "fab fa-instagram"
+      url: https://instagram.com
