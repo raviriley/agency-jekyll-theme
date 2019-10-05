@@ -1,0 +1,36 @@
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+        </div>
+		<!-- Links -->
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+		  {% for link in site.footer.links %}
+            <li class="list-inline-item">
+			  {% if link.url %}
+              <a href="{{ link.url }}">
+                {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+              </a>
+			  {% endif %}
+            </li>
+			{% endfor %}
+          </ul>
+        </div>
+		<!-- Legal -->
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
