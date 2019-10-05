@@ -2,9 +2,6 @@ nav:
   - title: "Services"
     section: services
 
-  - title: "Portfolio"
-    section: portfolio
-
   - title: "About"
     section: about
 
@@ -14,7 +11,7 @@ nav:
   - title: "Contact"
     section: contact
 
-#- title: "test"
-#    url: htpps://raviriley.github.io
+  - title: "External"
+    url: https://raviriley.github.io
 
-#- title: "No link"
+  - title: "No link"
