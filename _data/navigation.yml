@@ -1,0 +1,20 @@
+nav:
+  - title: "Services"
+    section: services
+
+  - title: "Portfolio"
+    section: portfolio
+
+  - title: "About"
+    section: about
+
+  - title: "Team"
+    section: team
+
+  - title: "Contact"
+    section: contact
+
+#- title: "test"
+#    url: htpps://raviriley.github.io
+
+#- title: "No link"
