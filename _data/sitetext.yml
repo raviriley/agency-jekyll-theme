@@ -2,8 +2,18 @@ header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
+    buttonlink: "#services"
 
-#- title: "test"
-#    url: htpps://raviriley.github.io
+about:
+    title: About Us 
+    text: our story
 
-#- title: "No link"
+timeline:
+    title: Timeline 
+    text: Timeline
+    
+contact:
+    title: Contact Us #Below
+    #text: Or call tel
+    
+# {{ site.data.sitetext.ex.ex | default: example }}
