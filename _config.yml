@@ -20,11 +20,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: Your awesome title 
 email: your-email@example.com
 description: "site description"
-logo: #optional, no logo defaults to site title
-  path: \assets\img\logos\creative-market.jpg
+#logo: #optional, no logo defaults to site title
+  #path: \assets\img\logos\creative-market.jpg
   #height: 60 #height in px, defaults to 52px
 
-author: Ravi Riley
+author: Ravi Riley 
 
 # Build settings
 markdown: kramdown
