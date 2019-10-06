@@ -1,5 +1,3 @@
 ---
-layout: default
+layout: test
 ---
-
-test
