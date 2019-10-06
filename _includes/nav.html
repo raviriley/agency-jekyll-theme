@@ -1,0 +1,34 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          {%- if site.logo -%}
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          {%- else -%}
+            {{ site.title }}
+          {%- endif -%}
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+		  {%- for link in site.data.navigation.nav -%}
+		    {%- if link.url -%}
+		      {%- assign target = link.url -%}
+			{%- else if link.section -%}
+			  {%- assign target = | append: '#' | link.section -%}
+			{%- else -%}
+			  {%- assign target = "#" -%}
+			{%- endif -%}
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="{{ target }}">{{ link.title }}</a>
+          </li>
+		  {% endfor %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
