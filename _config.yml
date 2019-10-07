@@ -14,17 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: Your awesome title 
-email: your-email@example.com
+title      : Your awesome title 
+email      : your-email@example.com
 description: "site description"
-#logo: #optional, no logo defaults to site title
+author     : Ravi Riley 
+#logo      : #optional, defaults to site title
   #path: \assets\img\logos\creative-market.jpg
   #height: 60 #height in px, defaults to 52px
 
-author: Ravi Riley 
+analytics:
+  google:  #tracking code
 
 # Build settings
 markdown: kramdown
