@@ -2,17 +2,14 @@
 
 # [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme)
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme) and [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency)), both of these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source
-
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-
-<!-- PayPal
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+
+This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme) and [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency)), both of these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
--->
 
 ## Installation
 
@@ -42,6 +39,8 @@ Then, replace the contents of your `_config.yml` file with [this](https://github
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
+navheader is used only for the home page. nav is used everywhere else. -maybe incorporate navheader into home layout and nav into page layout?
+
 ## Contributing
 
 This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
@@ -49,10 +48,8 @@ For bug reports, follow the provided template.
 
 #### Improvements - Up for Grabs
 
-- 404.html needs work
--
 - multiple language support
-
+- custom background images
 
 ## Development
 
