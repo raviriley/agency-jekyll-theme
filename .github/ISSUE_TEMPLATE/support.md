@@ -4,8 +4,9 @@ about: Having trouble with the theme?
 title: ''
 labels: ''
 assignees: ''
-#based on support issue template from mmistakes/minimal-mistakes/
+
 ---
+
 <!--
   Before opening a new issue please:
   
@@ -19,5 +20,3 @@ assignees: ''
   NOTE: Please provide a code repository, gist, code snippet, sample files, or 
   screenshots to triage your issue.
 -->
-
-
