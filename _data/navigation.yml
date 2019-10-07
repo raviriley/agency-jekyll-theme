@@ -2,6 +2,9 @@ nav:
   - title: "Services"
     section: services
 
+  - title: "Portfolio"
+    section: portfolio
+    
   - title: "About"
     section: about
 
