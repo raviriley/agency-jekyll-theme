@@ -1,7 +1,7 @@
-  <!-- Navigation -->
+<!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
     <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+	  <a class="navbar-brand js-scroll-trigger" href="../#">
           {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
@@ -15,15 +15,14 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
 		  {%- for link in site.data.navigation.nav -%}
-		    {%- if link.url -%}
-		      {%- assign target = link.url -%}
-			{%- else if link.section -%}
-			  {%- assign target = | append: '#' | link.section -%}
-			{%- else -%}
-			  {%- assign target = "#" -%}
-			{%- endif -%}
 		  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ target }}">{{ link.title }}</a>
+		  {%- if link.url -%}
+		    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+		  {%- else if link.section -%}
+		    <a class="nav-link js-scroll-trigger" href="../#{{ link.section }}">{{ link.title }}</a>
+		  {%- else -%}
+		    <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+		  {%- endif -%}
           </li>
 		  {% endfor %}
           </li>
