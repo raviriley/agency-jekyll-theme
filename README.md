@@ -36,7 +36,7 @@ Or install it yourself as:
 
     $ gem install agency-jekyll-theme
 
-Then, replace the contents of your _config.yml file with [this](https://github.com/raviriley/agency-jekyll-theme/blob/master/_config.yml).
+Then, replace the contents of your `_config.yml` file with [this](https://github.com/raviriley/agency-jekyll-theme/blob/master/_config.yml).
 
 ## Usage
 
@@ -44,11 +44,19 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Contributing
 
-Bug reports and pull requests are welcome. This project is intended to be a welcoming space for collaboration. For bug reports, follow the 
+This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
+For bug reports, follow the provided template.
+
+#### Improvements - Up for Grabs
+
+- 404.html needs work
+-
+- multiple language support
+
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+To set up your environment to develop this theme, clone this repo, then run `bundle install`.
 
 ## License
 
@@ -62,8 +70,12 @@ When your theme is released, only the files in `_layouts`, `_includes`, `_sass` 
 To add a custom directory to your theme-gem, please edit the regexp in `agency-jekyll-theme.gemspec` accordingly.
 
 ## Sources
+I referenced the two old repos and some of their respective PRs.
 
-https://github.com/y7kim/agency-jekyll-theme
-https://github.com/y7kim/agency-jekyll-theme/pull/38
-https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/5/files
-https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/9
+[@y7kim](https://github.com/y7kim)'s [old Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme)
+
+Some of [@amon-ra](https://github.com/amon-ra)'s [pull request](https://github.com/y7kim/agency-jekyll-theme/pull/38)
+
+[](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/5)
+
+[@Muttmatt](https://github.com/Mutmatt)'s [Google Analytics suggestion](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/9)
