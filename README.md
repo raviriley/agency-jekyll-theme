@@ -60,3 +60,10 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
 To add a custom directory to your theme-gem, please edit the regexp in `agency-jekyll-theme.gemspec` accordingly.
+
+## Sources
+
+https://github.com/y7kim/agency-jekyll-theme
+https://github.com/y7kim/agency-jekyll-theme/pull/38
+https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/5/files
+https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/9
