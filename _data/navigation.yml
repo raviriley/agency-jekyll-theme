@@ -6,7 +6,7 @@ nav:
     section: portfolio
     
   - title: "About"
-    section: about
+    section: timeline
 
   - title: "Team"
     section: team
@@ -16,5 +16,3 @@ nav:
 
   - title: "External"
     url: https://raviriley.github.io
-
-  - title: "No link"

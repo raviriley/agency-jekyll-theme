@@ -1,10 +1,10 @@
 <!-- Contact -->
-  <section class="page-section" id="contact">
+  <section class="page-section" id="{{ site.data.sitetext.contact.section | contact }}">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.contact.title | default: Contact Us }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext.contact.text | default: "" }}</h3>
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.contact.title | markdownify | default: Contact Us }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.contact.text | markdownify | default: "" }}</h3>
         </div>
       </div>
       <div class="row">
