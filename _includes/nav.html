@@ -14,7 +14,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-		  {%- for link in site.data.navigation.nav -%}
+		{%- for link in site.data.navigation.nav -%}
 		  <li class="nav-item">
 		  {%- if link.url -%}
 		    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
@@ -24,7 +24,7 @@
 		    <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
 		  {%- endif -%}
           </li>
-		  {% endfor %}
+		{% endfor %}
           </li>
         </ul>
       </div>
