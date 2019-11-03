@@ -5,10 +5,10 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
         </div>
-		<!-- Links -->
+		<!-- Social Media -->
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-		  {% for link in site.footer.links %}
+		  {% for link in site.data.sitetext.footer.social  %}
             <li class="list-inline-item">
 			  {% if link.url %}
               <a href="{{ link.url }}">
@@ -23,10 +23,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="legal">{{ site.data.sitetext.footer.legal | default: Privacy Policy }}</a>
             </li>
           </ul>
         </div>

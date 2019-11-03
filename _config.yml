@@ -33,21 +33,3 @@ markdown: kramdown
 
 #plugins:
 #  - jekyll-feed
-
-footer:
-  links:
-    - title: "Twitter"
-      icon: "fab fa-twitter"
-      url: https://twitter.com
-    - title: "Facebook"
-      icon: "fab fa-facebook-f"
-      url: https://facebook.com
-    - title: "LinkedIn"
-      icon: "fab fa-linkedin-in"
-      url: https://linkedin.com
-    - title: "GitHub"
-      icon: "fab fa-github"
-      url: https://github.com/raviriley
-    - title: "Instagram"
-      icon: "fab fa-instagram"
-      url: https://instagram.com
