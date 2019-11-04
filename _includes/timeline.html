@@ -22,10 +22,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ event.year | markdownify }}</h4>
-                  <h4 class="subheading">{{ event.title | markdownify }}</h4>
+                  <h4 class="subheading">{{ event.title }}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">{{ event.desc | markdownify }}</p>
+                  <div class="text-muted">{{ event.desc | markdownify }}</div>
                 </div>
               </div>
             </li>
