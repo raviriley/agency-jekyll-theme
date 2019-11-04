@@ -18,10 +18,10 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Your awesome title 
-email      : your-email@example.com
+email      : your-email@example.com #this is the email contact forms will go to
 description: "site description"
 author     : Ravi Riley 
-#logo      : #optional, defaults to site title
+#logo:     #optional, defaults to site title
   #path: \assets\img\logos\creative-market.jpg
   #height: 60 #height in px, defaults to 52px
 
@@ -31,5 +31,10 @@ analytics:
 # Build settings
 markdown: kramdown
 
+collections:
+  projects:
+    #output: true
+    #permalink: /:collection/:path/
+    
 #plugins:
 #  - jekyll-feed
