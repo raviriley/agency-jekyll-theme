@@ -1,37 +1,35 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | team }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: team }}">
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-	  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title | markdownify }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text | markdownify }}</h3>
 	</div>
   </div>
   <div class="row">
-  {% if page.people %}
-  {% for person in site.people %}
+  {% for person in site.data.sitetext.team.people %}
 	<div class="col-sm-4">
 	  <div class="team-member">
-		<img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="">
-		<h4>{{ page.person.name }}</h4>
-		<p class="text-muted">{{ page.person.position }}</p>
+		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		<h4>{{ person.name }}</h4>
+		<p class="text-muted">{{ person.role }}</p>
 		<ul class="list-inline social-buttons">
-		  {% for network in person.social %}
+		{% for network in person.social %}
 		  <li class="list-inline-item">
 			<a href="{{ network.url }}">
-			  <i class="fab fa-twitter"></i>
+			  <i class="{{ network.icon }}"></i>
 			</a>
 		  </li>
-		  {% endfor %}
+		{% endfor %}
 		</ul>
 	  </div>
 	</div>
   {% endfor %}
-  {% endif %}
   </div>
   <div class="row">
 	<div class="col-lg-8 mx-auto text-center">
-	  <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+	  <p class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</p>
 	</div>
   </div>
 </div>

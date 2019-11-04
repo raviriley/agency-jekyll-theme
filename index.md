@@ -1,3 +1,3 @@
 ---
-layout: test
+layout: custom
 ---
