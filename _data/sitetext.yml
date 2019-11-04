@@ -19,6 +19,12 @@ services:
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
+portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    
+
 timeline:
     title: "About" 
     text: "Lorem ipsum timeline"
@@ -48,12 +54,28 @@ timeline:
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
-    cap: "Be Part <br> of Our <br> Story!"
+    end: "Be Part <br> of Our <br> Story!"
 
 about:
     title: "About Us"
     text: "our story"
     section: about
+
+clients:
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/logos/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/logos/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/logos/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/logos/creative-market.jpg
+    section: clients
     
 team:
     title: "OUR AMAZING TEAM"
@@ -91,8 +113,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-            
-
+          
 contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
