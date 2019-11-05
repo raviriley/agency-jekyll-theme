@@ -17,7 +17,7 @@
 			<li>
 			{% endif %}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | markdownify | default: ""}}">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
