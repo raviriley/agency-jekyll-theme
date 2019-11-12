@@ -6,7 +6,7 @@ header:
 
 services:
     title: "Services"
-    text: "Lorem ipsum markdown supported"
+    text: "Lorem ipsum"
     section: services
     list:
       - title: "E-Commerce"
@@ -50,7 +50,7 @@ timeline:
         #align: #default is left       
       - title: "Title"
         year: "2009-2011"
-        desc: "Your description here, Markdown is fully supported."
+        desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
@@ -62,6 +62,7 @@ about:
     section: about
 
 clients:
+    section: clients
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -75,12 +76,11 @@ clients:
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/logos/creative-market.jpg
-    section: clients
     
 team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Kay Garland"
