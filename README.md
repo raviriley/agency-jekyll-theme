@@ -1,16 +1,16 @@
 [Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)
 
-# [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme) - incomplete
+# [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme) - Work in Progress
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme) and [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency)), both of these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
+This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/)), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
 
 - custom pages
 - 404 page
 - legal/Privacy Policy page
-- Google Analytics
+- Google Analytics support
 - Markdown support
 - custom colors
 - logo support (instead of just text)
@@ -20,6 +20,15 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - portfolio carousel (coming soon)
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
+- custom footer
+
+The Jekyll features of this theme include:
+
+- `_projects` files are what generate the portfolio grid, YAML front matter handles all the details
+- `sitetext.yml` enables complete customization of all site text
+- `nav.yml` enables fully customizable navigation
+- the `page` layout allows custom pages, as seen in the legal and 404 pages
+- `style.yml` enables fully customizable colors and background images
 
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
@@ -82,12 +91,4 @@ When your theme is released, only the files in `_layouts`, `_includes`, `_sass` 
 To add a custom directory to your theme-gem, please edit the regexp in `agency-jekyll-theme.gemspec` accordingly.
 
 ## Sources
-I referenced the two old repos and some of their respective PRs.
-
-[@y7kim](https://github.com/y7kim)'s [old Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme)
-
-Some of [@amon-ra](https://github.com/amon-ra)'s [pull request](https://github.com/y7kim/agency-jekyll-theme/pull/38)
-
-[](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/5)
-
-[@Muttmatt](https://github.com/Mutmatt)'s [Google Analytics suggestion](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/pull/9)
+I referenced [@y7kim](https://github.com/y7kim)'s [old Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme) and some of the PRs.
