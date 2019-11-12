@@ -5,7 +5,22 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme) and [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency)), both of these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source
+This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme) and [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency)), both of these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
+
+- custom pages
+- 404 page
+- legal/Privacy Policy page
+- Google Analytics
+- Markdown support
+- custom colors
+- logo support (instead of just text)
+- automatically updating copyright years
+- custom navigation bar, even without the header images
+- about section (not the timeline)
+- portfolio carousel (coming soon)
+- custom colors with automatic gradient generation (coming soon)
+- site title logo text font customization (coming soon)
+
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
