@@ -32,7 +32,7 @@ analytics:
 markdown: kramdown
 
 collections:
-  projects:
+  portfolio:
     #output: true
     #permalink: /:collection/:path/
     
