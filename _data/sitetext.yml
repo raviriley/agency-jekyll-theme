@@ -66,16 +66,16 @@ clients:
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/logos/envato.jpg
+        logo: assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/logos/designmodo.jpg
+        logo: assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/logos/themeforest.jpg
+        logo: assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/logos/creative-market.jpg
+        logo: assets/img/clients/creative-market.jpg
     
 team:
     title: "OUR AMAZING TEAM"
