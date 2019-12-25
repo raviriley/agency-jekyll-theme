@@ -12,22 +12,22 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - legal/Privacy Policy page
 - Google Analytics support
 - Markdown support
-- custom colors
+- custom images
 - logo support (instead of just text)
 - automatically updating copyright years
 - custom navigation bar, even without the header images
 - about section (not the timeline)
+- custom footer
 - portfolio carousel (coming soon)
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
-- custom footer
 
-The Jekyll features of this theme include:
+The Jekyll structure of this theme includes:
 
-- `_projects` files are what generate the portfolio grid, YAML front matter handles all the details
+- `_projects` files - what generate the portfolio grid, YAML front matter handles all the details
+- the `page` layout allows custom pages, as seen in the legal and 404 pages
 - `sitetext.yml` enables complete customization of all site text
 - `nav.yml` enables fully customizable navigation
-- the `page` layout allows custom pages, as seen in the legal and 404 pages
 - `style.yml` enables fully customizable colors and background images
 
 
@@ -40,13 +40,13 @@ The Jekyll features of this theme include:
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "agency-jekyll-theme"
+gem "jekyll-agency"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: agency-jekyll-theme
+theme: jekyll-agency
 ```
 
 And then execute:
@@ -55,7 +55,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install agency-jekyll-theme
+    $ gem install jekyll-agency
 
 Then, replace the contents of your `_config.yml` file with [this](https://github.com/raviriley/agency-jekyll-theme/blob/master/_config.yml).
 
@@ -63,7 +63,7 @@ Then, replace the contents of your `_config.yml` file with [this](https://github
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
-navheader is used only for the home page. nav is used everywhere else. -maybe incorporate navheader into home layout and nav into page layout?
+navheader is used only for the home page. nav is used everywhere else.
 
 ## Contributing
 
@@ -77,18 +77,8 @@ For bug reports, follow the provided template.
 
 ## Development
 
-To set up your environment to develop this theme, clone this repo, then run `bundle install`.
+To set up your environment to develop this theme, clone this repo, then run `bundle install`. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-#### theme stuff
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `agency-jekyll-theme.gemspec` accordingly.
-
-## Sources
-I referenced [@y7kim](https://github.com/y7kim)'s [old Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme) and some of the PRs.
