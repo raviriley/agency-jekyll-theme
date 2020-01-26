@@ -10,7 +10,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-	  var url = "https://formspree.io/" + "{{ site.email }}"
+	  var url = "https://formspree.io/" + "{{ site.email }}";
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
@@ -32,7 +32,8 @@ $(function() {
           message: message
         },
         cache: false,
-        success: function() {
+        
+		success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -44,6 +45,7 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
+		
         error: function() {
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
@@ -54,6 +56,7 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
+		
         complete: function() {
           setTimeout(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete

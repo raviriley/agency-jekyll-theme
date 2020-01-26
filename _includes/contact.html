@@ -9,7 +9,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate" method="POST" action="https://formspree.io/{{ site.email }}">
+          <form id="contactForm" action="https://formspree.io/' + {{ site.email }}" <!--name="sentMessage"--> novalidate="novalidate" method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -37,8 +37,13 @@
                 <div id="success"></div>
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
               </div>
+			  <input type="text" name="_gotcha" style="display:none">
             </div>
           </form>
+		  <script>
+			var contactForm =  document.getElementById('contactForm');
+			contactForm.setAttribute('action', 'https://formspree.io/' + '{{ site.email }}');
+		  </script>
         </div>
       </div>
     </div>
