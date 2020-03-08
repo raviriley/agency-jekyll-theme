@@ -61,7 +61,7 @@ Then, replace the contents of your `_config.yml` file with [this](https://github
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+<!--TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.-->
 
 navheader is used only for the home page. nav is used everywhere else.
 
