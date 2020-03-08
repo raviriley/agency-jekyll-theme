@@ -1,4 +1,4 @@
-[Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)
+<!--[Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)-->
 
 # [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme) - Work in Progress
 
@@ -7,6 +7,7 @@
 
 This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/)), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
 
+- contact form functionality powered by [Formspree.io]()
 - custom pages
 - 404 page
 - legal/Privacy Policy page
@@ -15,16 +16,16 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - custom images
 - logo support (instead of just text)
 - automatically updating copyright years
-- custom navigation bar, even without the header images
-- about section (not the timeline)
+- custom navigation bar, even without the header image(s)
+- about section (different from the timeline)
 - custom footer
-- portfolio carousel (coming soon)
+<!-- - portfolio carousel (coming soon) -->
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
 
 The Jekyll structure of this theme includes:
 
-- `_projects` files - what generate the portfolio grid, YAML front matter handles all the details
+- `_projects` files - what generate the portfolio grid. YAML front matter handles all the details
 - the `page` layout allows custom pages, as seen in the legal and 404 pages
 - `sitetext.yml` enables complete customization of all site text
 - `nav.yml` enables fully customizable navigation
