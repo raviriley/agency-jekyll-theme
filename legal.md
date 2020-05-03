@@ -12,7 +12,7 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 {% if site.analytics.google %}
 
-Automatically Collected:
+Automatically Collected (Google Analytics):
 
 When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
 
