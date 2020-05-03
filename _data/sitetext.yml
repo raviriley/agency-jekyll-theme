@@ -85,7 +85,7 @@ team:
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -105,7 +105,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
