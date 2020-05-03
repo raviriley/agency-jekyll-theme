@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name     = "jekyll-agency"
-  spec.version  = "1.0.8"
+  spec.version  = "1.0.9"
   
   spec.authors  = ["Ravi Riley"]
   
@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/raviriley/agency-jekyll-theme"
   spec.license  = "MIT"
   spec.files    = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|index|404|legal|config)((\.(txt|md|markdown|html|yml)|$)))}i)
+    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|index|404|legal)((\.(txt|md|markdown|html)|$)))}i)
   end
 
   spec.required_ruby_version = '>= 2.5.0'
