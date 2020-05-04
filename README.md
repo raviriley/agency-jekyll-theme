@@ -74,7 +74,7 @@ Replace the contents of your `_config.yml` file with [this](https://raw.githubus
     $ bundle
 
 [template]: https://github.com/raviriley/agency-jekyll-theme-starter
-
+<!--
 ## Usage
 
 **TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
@@ -85,7 +85,14 @@ Layouts:
 
 Includes:
 
-File Structure:
+The Jekyll structure of this theme includes:
+
+- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
+- the `page` layout allows custom pages, as seen in the legal and 404 pages
+- `sitetext.yml` enables complete customization of all site text
+- `nav.yml` enables fully customizable navigation
+- `style.yml` enables fully customizable colors, background images, and other style-related things
+-->
 
 ## Contributing
 
