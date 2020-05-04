@@ -21,9 +21,9 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - custom navigation bar, even without the header image(s)
 - about section (different from the timeline)
 - custom footer
-<!-- - portfolio carousel (coming soon) -->
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
+<!-- - portfolio carousel (coming soon) -->
 
 The Jekyll structure of this theme includes:
 
