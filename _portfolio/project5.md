@@ -1,6 +1,5 @@
 ---
 title: Project Name
-link: project5
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/05-full.jpg
 alt: 
