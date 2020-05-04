@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: 
-  subtitle: 
+  title: Title
+  subtitle: subtitle
   thumbnail: https://place-hold.it/400x300
   
 #what displays when the item is clicked:
