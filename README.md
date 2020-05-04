@@ -9,6 +9,7 @@
 
 This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme with GitHub Pages support. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/)), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
 
+- GitHub Pages support
 - contact form functionality powered by [Formspree.io](https://formspree.io)
 - custom pages
 - 404 page
@@ -39,6 +40,12 @@ The Jekyll structure of this theme includes:
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
 
 ## Installation
+There are three ways to install this theme:
+1. As a gem-based theme
+2. Use the [starter template][template]  (best for GitHub Pages)
+3. As a remote theme
+
+#### 1. Gem-based Theme Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -46,27 +53,39 @@ Add this line to your Jekyll site's `Gemfile`:
 gem "jekyll-agency"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-agency
-```
+Then, replace the contents of your `_config.yml` file with [this](https://github.com/raviriley/agency-jekyll-theme/blob/master/_config.yml).
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or, install it yourself as:
 
     $ gem install jekyll-agency
 
-Then, replace the contents of your `_config.yml` file with [this](https://github.com/raviriley/agency-jekyll-theme/blob/master/_config.yml).
+#### 2. Using the [Starter Template][template]
+This is the fastest and easiest way to get up and running on GitHub Pages.
+Simply generate your own repository by clicking [here](), then replace the sample content with your own and configure for your needs.
+
+#### 3. Remote Theme Installation
+
+Replace the contents of your `_config.yml` file with [this](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml) and your `Gemfile` with [this](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile). Then execute:
+
+    $ bundle
+
+[template]: https://github.com/raviriley/agency-jekyll-theme-starter
 
 ## Usage
 
-<!--TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.-->
+**TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
 
 navheader is used only for the home page. nav is used everywhere else.
+
+Layouts:
+
+Includes:
+
+File Structure:
 
 ## Contributing
 
@@ -76,7 +95,7 @@ For bug reports, follow the provided template.
 #### Improvements - Up for Grabs
 
 - multiple language support
-- custom background images
+- ~~custom background images~~
 
 ## Development
 
