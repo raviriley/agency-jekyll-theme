@@ -10,6 +10,7 @@
 This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) converted to a gem-based Jekyll theme with GitHub Pages support. While this had been done before, ([here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/)), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. I also added a lot of new features that go beyond the original theme's capabilities:
 
 - GitHub Pages support
+- [template repo][template] to get up and running in minutes
 - contact form functionality powered by [Formspree.io](https://formspree.io)
 - custom pages
 - 404 page
@@ -20,11 +21,13 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - logo support (instead of just title text)
 - automatically updating copyright years
 - custom navigation bar, even without the header image(s)
-- about section (different from the timeline)
 - customizable footer
+- custom accent color and dark/light colors
+<!-- 
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
-<!-- - portfolio carousel (coming soon) -->
+- portfolio carousel (coming soon)
+- about section (different from the timeline) -->
 
 The Jekyll structure of this theme includes:
 
