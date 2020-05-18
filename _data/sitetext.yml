@@ -63,6 +63,7 @@ about:
 
 clients:
     section: clients
+    max-height: 100px
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
