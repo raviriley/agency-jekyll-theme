@@ -23,10 +23,11 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 - custom navigation bar, even without the header image(s)
 - customizable footer
 - custom accent color and dark/light colors
+- horizontal scrolling support for client section
 <!-- 
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
-- portfolio carousel (coming soon)
+- horizontal scrolling support for portfolio section (coming soon)
 - about section (different from the timeline) -->
 
 The Jekyll structure of this theme includes:
