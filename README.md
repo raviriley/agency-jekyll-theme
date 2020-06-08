@@ -1,10 +1,11 @@
 <!--[Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)-->
 
 # [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme)
-
+[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
+
+<!--[![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com)-->
 
 ![screenshot](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme/master/screenshot.PNG)
 
@@ -71,6 +72,8 @@ Or, install it yourself as:
 #### 2. Using the [Starter Template][template]
 This is the fastest and easiest way to get up and running on GitHub Pages.
 Simply generate your own repository by clicking [here](https://github.com/raviriley/agency-jekyll-theme-starter/generate), then replace the sample content with your own and configure for your needs.
+
+<button class="btn btn-outline-green" type="button">Create repository from template</button>
 
 #### 3. Remote Theme Installation
 
