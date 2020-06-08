@@ -71,9 +71,9 @@ Or, install it yourself as:
 
 #### 2. Using the [Starter Template][template]
 This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking [here](https://github.com/raviriley/agency-jekyll-theme-starter/generate), then replace the sample content with your own and configure for your needs.
+Simply generate your own repository by clicking the button below, then replace the sample content with your own and configure for your needs.
 
-<button class="btn btn-primary mr-2" type="button">Create repository from template</button>
+[![template button](https://img.shields.io/badge/-Create%20repository%20from%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate)
 
 #### 3. Remote Theme Installation
 
