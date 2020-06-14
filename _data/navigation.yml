@@ -14,5 +14,5 @@ nav:
   - title: "Contact"
     section: contact
 
-  - title: "External"
-    url: https://raviriley.github.io
+  - title: "Theme Source"
+    url: https://github.com/raviriley/agency-jekyll-theme/
