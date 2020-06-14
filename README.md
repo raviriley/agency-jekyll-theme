@@ -1,5 +1,3 @@
-<!--[Creating Gem Based Themes For Jekyll](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/)-->
-
 # [Agency Jekyll Theme](https://raviriley.github.io/agency-jekyll-theme)
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
@@ -38,7 +36,7 @@ The Jekyll structure of this theme includes:
 - `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
 - the `page` layout allows custom pages, as seen in the legal and 404 pages
 - `sitetext.yml` enables complete customization of all site text
-- `nav.yml` enables fully customizable navigation
+- `navigation.yml` enables fully customizable navigation
 - `style.yml` enables fully customizable colors, background images, and other style-related things
 
 
@@ -82,9 +80,11 @@ Replace the contents of your `_config.yml` file with [this](https://raw.githubus
 
     $ bundle
 
+
 [template]: https://github.com/raviriley/agency-jekyll-theme-starter
+
 <!--
-## Usage
+## Documentation and Usage
 
 **TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
 
@@ -94,13 +94,6 @@ Layouts:
 
 Includes:
 
-The Jekyll structure of this theme includes:
-
-- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
-- the `page` layout allows custom pages, as seen in the legal and 404 pages
-- `sitetext.yml` enables complete customization of all site text
-- `nav.yml` enables fully customizable navigation
-- `style.yml` enables fully customizable colors, background images, and other style-related things
 -->
 
 ## Contributing
@@ -111,11 +104,12 @@ For bug reports, follow the provided template.
 #### Improvements - Up for Grabs
 
 - multiple language support
+- customizable background coloring for each section
 - ~~custom background images~~
 
 ## Development
 
-To set up your environment to develop this theme, clone this repo, then run `bundle install`. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+To set up your environment to develop this theme, [clone this repo](https://github.com/raviriley/agency-jekyll-theme.git), then run `bundle install`. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
 ## License
 
