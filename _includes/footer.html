@@ -1,5 +1,5 @@
   <!-- Footer -->
-  <footer class="footer" style="background-color:white">
+  <footer class="footer" id="footer" style="background-color:white;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -30,4 +30,11 @@
       </div>
     </div>
   </footer>
+{% if page.layout == "page" %}
+<script>
+document.getElementById("footer").style.position="fixed";
+document.getElementById("footer").style.bottom=0;
+document.getElementById("footer").style.width="100%";
+</script>
+{% endif %}
   <!-- End Footer -->
