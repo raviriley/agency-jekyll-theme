@@ -19,7 +19,7 @@
 				<p>{{ project.content }}</p>		
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  {{ site.data.sitetext.portfolio.closebutton | default: "Close Project" }}</button>
               </div>
             </div>
           </div>

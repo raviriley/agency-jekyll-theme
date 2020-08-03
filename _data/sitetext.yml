@@ -23,6 +23,7 @@ portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
+    closebutton: "Close Project"
     
 
 timeline:
