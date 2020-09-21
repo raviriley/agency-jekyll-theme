@@ -6,18 +6,18 @@ header:
 
 projects:
     title: "Projects"
-    text: "Lorem ipsum"
+    text: "Discover what we are working on."
     section: projects
     list:
-      - title: "E-Commerce"
+      - title: "Computational Psychiatry"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-brain #find more at https://fontawesome.com/icons
+      - title: "Precision Medicine"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fas fa-crosshairs
+      - title: "Social NeuroAI"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-share-alt
 
 papers:
     title: "Papers"
@@ -36,7 +36,7 @@ timeline:
         image: assets/img/timeline/1.jpg
         alt: 
         align: left
-      - title: "An Agency is Born"
+      - title: "A lab is Born"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
@@ -85,16 +85,18 @@ team:
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/1.jpg
+      - name: "Guillaume Dumas"
+        role: "Principal Investigator"
+        image: https://avatars2.githubusercontent.com/u/208779?s=460&u=50ba7cf117603ccd51e27c6df3ee65153d97eb2f&v=4
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/introspection
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/deep.introspection/
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/guillaumedumas/
             icon: fab fa-linkedin-in
+          - url: https://github.com/deep-introspection
+            icon: fab fa-github 
       - name: "Larry Parker"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
@@ -118,7 +120,7 @@ team:
           
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Please leave us a message."
     section: contact
     
 footer:

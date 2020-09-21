@@ -1,5 +1,5 @@
 #Color Customization
-highlight: "#3f6298"
+highlight: "#0f6cb6"
 #white: "#FF0000"
 #black: "#000"
 
@@ -8,4 +8,4 @@ header-image: "../img/header.png"
 contact-image: "../img/contact.png"
 
 #Font Awesome icon for papers grid when an item is hovered over
-#papers-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+papers-icon: fas fa-search-plus fa-3x #default: fas fa-plus fa-3x

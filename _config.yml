@@ -16,13 +16,13 @@ theme: jekyll-agency
 url    : "ppsp-team.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : Precision Psychiatry and Social Physiology
+title      : Precision Psychiatry & Social Physiology
 email      : contact@ppsp.team #this is also the email contact forms will go to
 description: "The Precision Psychiatry and Social Physiology team combines computational biology and social neuroscience approaches to pave the way for a Predictive, Preventive, Personalized, Prescriptive, and Participatory (5P) medicine, especially for mental disorders."
 author     : Guillaume Dumas
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+#logo:     #optional, defaults to site title
+#  path: assets\img\fundings\creative-market.jpg
+#  height: 60 #height in px, defaults to 52px
 
 analytics:
   google: #Google Analytics tracking code here
