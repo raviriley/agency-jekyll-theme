@@ -1,22 +1,19 @@
 ---
-caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
-  
-#what displays when the item is clicked:
 title: Title
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41572-019-0138-4/MediaObjects/41572_2019_138_Fig1_HTML.png
 alt: image alt text
 
+caption:
+  title: Example
+  subtitle: subtitle
+  thumbnail: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41572-019-0138-4/MediaObjects/41572_2019_138_Fig1_HTML.png
 ---
 Use this area to describe your project. **Markdown** supported.
 
 optional info list (delete if not using):
 
 {:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
-
+- Date: 2020
+- Journal: Nature Review Disease Primer
+- Category: Review

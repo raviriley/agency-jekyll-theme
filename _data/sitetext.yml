@@ -31,26 +31,26 @@ timeline:
     section: timeline
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
+        year: "April 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt: 
         align: left
-      - title: "A lab is Born"
-        year: "March 2011"
+      - title: "First grant!"
+        year: "July 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
         alt: 
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Affiliation to Mila"
+        year: "September 2020"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/3.jpg
         alt: image alt text
         #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "The lab is opening"
+        year: "October 2020"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
@@ -91,32 +91,36 @@ team:
         social:
           - url: https://twitter.com/introspection
             icon: fab fa-twitter
-          - url: https://www.facebook.com/deep.introspection/
-            icon: fab fa-facebook-f
+          # - url: https://www.facebook.com/deep.introspection/
+          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/guillaumedumas/
             icon: fab fa-linkedin-in
           - url: https://github.com/deep-introspection
             icon: fab fa-github 
       - name: "Larry Parker"
-        role: "Lead Marketer"
+        role: "Postdoc"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+          - url: https://github.com/
+            icon: fab fa-github 
       - name: "Diana Perterson"
-        role: "Lead Developer"
+        role: "PhD Student"
         image: assets/img/team/3.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+          - url: https://github.com/
+            icon: fab fa-github 
           
 contact:
     title: "Contact Us"
