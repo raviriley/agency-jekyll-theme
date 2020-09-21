@@ -28,6 +28,6 @@ analytics:
   google: #Google Analytics tracking code here
 
 collections:
-  projects:
+  papers:
 
 markdown: kramdown
