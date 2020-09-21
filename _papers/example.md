@@ -19,4 +19,3 @@ optional info list (delete if not using):
 - Date: 
 - Client: 
 - Category: 
-
