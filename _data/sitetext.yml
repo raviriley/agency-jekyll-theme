@@ -31,7 +31,7 @@ timeline:
     section: timeline
     events:
       - title: "Our Humble Beginnings"
-        year: "April 2020"
+        year: "May 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt: 
@@ -48,7 +48,7 @@ timeline:
         image: assets/img/timeline/3.jpg
         alt: image alt text
         #align: #default is left       
-      - title: "The lab is opening"
+      - title: "The lab is finally opening!"
         year: "October 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/4.jpg
