@@ -27,12 +27,12 @@ This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/) 
 <!-- 
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
-- horizontal scrolling support for portfolio section (coming soon)
+- horizontal scrolling support for papers section (coming soon)
 - about section (different from the timeline) -->
 
 The Jekyll structure of this theme includes:
 
-- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
+- `_papers` files - what generate the papers grid. YAML front matter handles all the details
 - the `page` layout allows custom pages, as seen in the legal and 404 pages
 - `sitetext.yml` enables complete customization of all site text
 - `navigation.yml` enables fully customizable navigation

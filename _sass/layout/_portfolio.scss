@@ -1,15 +1,15 @@
-// Styling for the portfolio section
-#portfolio {
-  .portfolio-item {
+// Styling for the papers section
+#papers {
+  .papers-item {
     right: 0;
     margin: 0 0 15px;
-    .portfolio-link {
+    .papers-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .portfolio-hover {
+      .papers-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +21,7 @@
         &:hover {
           opacity: 1;
         }
-        .portfolio-hover-content {
+        .papers-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +40,7 @@
         }
       }
     }
-    .portfolio-caption {
+    .papers-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -63,14 +63,14 @@
   }
 }
 @media(min-width:767px) {
-  #portfolio {
-    .portfolio-item {
+  #papers {
+    .papers-item {
       margin: 0 0 30px;
     }
   }
 }
 
-.portfolio-modal {
+.papers-modal {
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;
