@@ -24,8 +24,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
-@import "layout/services.scss";
-@import "layout/portfolio.scss";
+@import "layout/projects.scss";
+@import "layout/papers.scss";
 @import "layout/timeline.scss";
 @import "layout/team.scss";
 @import "layout/contact.scss";
