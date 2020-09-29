@@ -25,6 +25,7 @@ $(function() {
       $.ajax({
         url: url,
         type: "POST",
+	dataType: "json",      
         data: {
           name: name,
           phone: phone,
