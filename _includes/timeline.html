@@ -10,12 +10,25 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
-		  {%- for event in site.data.sitetext.timeline.events -%}
-            {% if event.align == "right" %}
-			<li class="timeline-inverted">
-			{% else %}
-			<li>
-			{% endif %}
+      {%- assign align = site.data.sitetext.timeline.start_align -%}
+      {%- for event in site.data.sitetext.timeline.events -%}
+            {%- if align == "right" -%}
+              {%- if event.align and event.align == "left" -%}
+                {%- assign align = "right" -%}
+                <li>
+              {%- else -%}
+                {%- assign align = "left" %}
+                <li class="timeline-inverted">
+              {% endif %}
+            {% else %}
+              {%- if event.align and event.align == "right" -%}
+                {%- assign align = "left" -%}
+                <li class="timeline-inverted">
+              {%- else -%}
+                {%- assign align = "right" %}
+                <li>
+              {% endif %}
+            {%- endif -%}
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
               </div>
@@ -38,7 +51,7 @@
               </div>
             </li>
 		  {% endif %}
-			
+
           </ul>
         </div>
       </div>
