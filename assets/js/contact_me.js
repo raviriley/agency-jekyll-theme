@@ -11,10 +11,11 @@ $(function() {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
 	    var url = "https://getform.io/f/d544d86b-0ad3-4825-9a56-4fe07ea0e2c6";
+      
+      var form = $('form')[0]; // You need to use standard javascript object here
+      var formData = new FormData(form);
+      
       var name = $("input#name").val();
-      var email = $("input#email").val();
-      var file = $("input#file").val();
-      var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -25,14 +26,9 @@ $(function() {
       $.ajax({
         url: url,
         type: "POST",
-        data: {
-          name: name,
-          file: file,
-          email: email,
-          message: message,
-        },
+        data: formData,
         cache: false,
-        contentType: 'multipart/form-data',
+        contentType: false,
         processData: false,
         
 		success: function() {
