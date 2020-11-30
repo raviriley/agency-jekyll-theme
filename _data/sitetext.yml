@@ -64,7 +64,7 @@ about:
 fundings:
     section: fundings
     max-height: 200px
-    horizontal-scrolling: "yes" #"yes/no"
+    horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "CHU Sainte Justine Research Center"
         url: https://research.chusj.org/en/Home
