@@ -21,7 +21,7 @@ projects:
 
 papers:
     title: "Papers"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Here are some highlights from the lab. Enjoy the reading!"
     section: papers
     
 
@@ -85,7 +85,7 @@ fundings:
 team:
     title: "MEET THE TEAM"
     text: "The whole is other than the sum of the parts."
-    subtext: "If you want to join our team, do not hesitate to reach out: submit your cover letter and CV using this form or directly at \"join@ppsp.team\"!"
+    subtext: ""
     section: team
     people:
       - name: "Guillaume Dumas"
@@ -163,7 +163,7 @@ team:
 
 contact:
     title: "Contact Us"
-    text: "Please leave us a message."
+    text: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
     section: contact
     
 footer:
