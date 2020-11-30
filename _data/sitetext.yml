@@ -32,25 +32,25 @@ timeline:
     events:
       - title: "Our Humble Beginnings"
         year: "May 2020"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "With the COVID19 pandemic, the lab started online..."
         image: assets/img/timeline/1.jpg
         alt: 
         align: left
       - title: "First grant!"
         year: "July 2020"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "FRQS J1 in Artificial Intelligence and Digital Medicine."
         image: assets/img/timeline/2.jpg
         alt: 
         align: right
       - title: "Affiliation to Mila"
         year: "September 2020"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Guillaume joined Mila as an affiliated professor."
         image: assets/img/timeline/3.jpg
         alt: image alt text
         #align: #default is left       
       - title: "The lab is finally opening!"
         year: "November 2020"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Our office is at the level A of CHUSH Research Center."
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
