@@ -6,7 +6,7 @@ header:
 
 projects:
     title: "Projects"
-    text: "Our team is focusing on three main research axes."
+    text: "The Precision Psychiatry and Social Physiology team is focusing on three main research axes."
     section: projects
     list:
       - title: "Computational Psychiatry"
