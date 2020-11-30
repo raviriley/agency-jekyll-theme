@@ -85,7 +85,7 @@ fundings:
 team:
     title: "MEET THE TEAM"
     text: "The whole is other than the sum of the parts."
-    subtext: "If you want to join our team, do not hesitate to reach out: submit your cover letter and CV at join@ppsp.team!"
+    subtext: "If you want to join our team, do not hesitate to reach out: submit your cover letter and CV using this form or directly at \"join@ppsp.team\"!"
     section: team
     people:
       - name: "Guillaume Dumas"
