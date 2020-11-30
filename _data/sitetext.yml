@@ -99,7 +99,7 @@ team:
             icon: fab fa-github
       - name: "Position Available"
         role: "PhD Student / Postdoc"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -111,7 +111,7 @@ team:
           #  icon: fab fa-github 
       - name: "Position Available"
         role: "PhD Student / Postdoc"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -123,7 +123,7 @@ team:
           #  icon: fab fa-github
       - name: "Coming soon..."
         role: "PhD Student (Computational Psychiatry)"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -135,7 +135,7 @@ team:
           #  icon: fab fa-github
       - name: "Coming soon..."
         role: "PhD Student (Precision Medicine)"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/unknown.png
         #social:
           #- url: https://twitter.com
           #  icon: fab fa-twitter
@@ -147,7 +147,7 @@ team:
           #  icon: fab fa-github 
       - name: "Coming soon..."
         role: "Postdoc (Social NeuroAI)"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/unknown.png
         #social:
           #- url: https://twitter.com
           #  icon: fab fa-twitter
