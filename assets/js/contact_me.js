@@ -13,7 +13,7 @@ $(function() {
 	    var url = "https://getform.io/f/d544d86b-0ad3-4825-9a56-4fe07ea0e2c6";
       var name = $("input#name").val();
       var email = $("input#email").val();
-      var upload = $("input#upload").val();
+      var file = $("input#file").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -27,11 +27,13 @@ $(function() {
         type: "POST",
         data: {
           name: name,
-          file: upload,
+          file: file,
           email: email,
           message: message,
         },
         cache: false,
+        contentType: 'multipart/form-data',
+        processData: false,
         
 		success: function() {
           // Success message
