@@ -66,18 +66,21 @@ fundings:
     max-height: 200px
     horizontal-scrolling: "yes" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/fundings/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/fundings/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/fundings/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/fundings/creative-market.jpg
+      - title: "CHU Sainte Justine Research Center"
+        url: https://research.chusj.org/en/Home
+        logo: assets/img/fundings/CHUSJ_logo.png
+      - title: "University of Montreal"
+        url: https://medecine.umontreal.ca/medical-school/
+        logo: assets/img/fundings/UDEM_logo.png
+      - title: "Mila - Quebec AI institute"
+        url: https://mila.quebec/en/
+        logo: assets/img/fundings/Mila_logo.png
+      - title: "IVADO"
+        url: https://ivado.ca/en/
+        logo: assets/img/fundings/IVADO_logo.png
+      - title: "FRQS"
+        url: http://www.frqs.gouv.qc.ca/en/
+        logo: assets/img/fundings/FRQS_logo.png
     
 team:
     title: "MEET THE TEAM"

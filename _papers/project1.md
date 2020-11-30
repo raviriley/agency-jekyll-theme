@@ -13,5 +13,5 @@ Use this area to describe your project. **Markdown** supported. This entry (proj
 
 {:.list-inline}
 - Date: 2012
-- Journal: PLoS ONE
+- Journal: PNAS
 - Category: Empirical
