@@ -61,8 +61,8 @@ about:
     text: "our story"
     section: about
 
-funding:
-    section: funding
+fundings:
+    section: fundings
     max-height: 200px
     horizontal-scrolling: "yes" #"yes/no"
     list:
