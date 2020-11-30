@@ -26,9 +26,7 @@ $(function() {
         url: url,
         type: "POST",
         data: formData,
-        cache: false,
-        contentType: false,
-        processData: false
+        cache: false
         
 		success: function() {
           // Success message
