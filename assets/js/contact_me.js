@@ -12,9 +12,9 @@ $(function() {
       // get values from FORM
 	    var url = "https://getform.io/f/d544d86b-0ad3-4825-9a56-4fe07ea0e2c6";
       
-      var form = $('form')[0]; // You need to use standard javascript object here
-      var formData = new FormData(form);
-      
+      var formData = new FormData($('form')[0]);
+      formData.append('tax_file', $('input[type=file]')[0].files[0]);
+
       var name = $("input#name").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
