@@ -10,10 +10,11 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-	    var formData = new FormData($("input"));
-
-      var url = "https://formspree.io/f/mgepllgp";
+	    var url = "https://getform.io/f/d544d86b-0ad3-4825-9a56-4fe07ea0e2c6";
       var name = $("input#name").val();
+      var email = $("input#email").val();
+      var upload = $("input#upload").val();
+      var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -21,12 +22,16 @@ $(function() {
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
-      
       $.ajax({
         url: url,
         type: "POST",
-        data: formData,
-        cache: false
+        data: {
+          name: name,
+          file: upload,
+          email: email,
+          message: message,
+        },
+        cache: false,
         
 		success: function() {
           // Success message
@@ -41,7 +46,7 @@ $(function() {
           $('#contactForm').trigger("reset");
         },
 		
-    error: function() {
+        error: function() {
           // Fail message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -52,7 +57,7 @@ $(function() {
           $('#contactForm').trigger("reset");
         },
 		
-    complete: function() {
+        complete: function() {
           setTimeout(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
           }, 1000);
