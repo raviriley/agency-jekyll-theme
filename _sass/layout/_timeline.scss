@@ -16,7 +16,7 @@
   > li {
     position: relative;
     min-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     &:after,
     &:before {
       display: table;
@@ -106,7 +106,7 @@
     }
     > li {
       min-height: 100px;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
       .timeline-panel {
         float: left;
         width: 41%;
