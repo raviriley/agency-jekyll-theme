@@ -5,7 +5,7 @@ header:
     buttonlink: "#projects" # "#{section}" or "URL/page link"
 
 projects:
-    title: "Projects"
+    title: "Our vision"
     text: "The Precision Psychiatry and Social Physiology team is focusing on three main research axes."
     section: projects
     list:
@@ -20,13 +20,13 @@ projects:
         icon: fas fa-share-alt
 
 papers:
-    title: "Papers"
+    title: "Our work"
     text: "Here are some highlights from the lab. Enjoy the reading!"
     section: papers
     
 
 timeline:
-    title: "TIMELINE" 
+    title: "Our story"
     text: "\"Past, present, and future is where we're at.\""
     section: timeline
     events:
@@ -83,7 +83,7 @@ fundings:
         logo: assets/img/fundings/FRQS_logo.png
     
 team:
-    title: "MEET THE TEAM"
+    title: "Our team"
     text: "The whole is other than the sum of the parts."
     subtext: ""
     section: team
@@ -101,7 +101,7 @@ team:
           - url: https://github.com/deep-introspection
             icon: fab fa-github
       - name: "Position Available"
-        role: "PhD Student / Postdoc"
+        role: "PhD Student / Postdoc<br>(Social NeuroAI)"
         image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
@@ -111,9 +111,9 @@ team:
           #- url: https://linkedin.com
           #  icon: fab fa-linkedin-in
           #- url: https://github.com/
-          #  icon: fab fa-github 
+          #  icon: fab fa-github
       - name: "Position Available"
-        role: "PhD Student / Postdoc"
+        role: "PhD Student / Postdoc<br>(Computational Physiology)"
         image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
@@ -124,8 +124,32 @@ team:
           #  icon: fab fa-linkedin-in
           #- url: https://github.com/
           #  icon: fab fa-github
-      - name: "Coming soon..."
-        role: "PhD Student (Computational Psychiatry)"
+      - name: "Quentin Moreau"
+        role: "Postdoc (Social Physiology)<br>Coming soon ..."
+        image: assets/img/team/unknown.png
+        #social:
+          #- url: https://twitter.com
+          #  icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          #- url: https://linkedin.com
+          #  icon: fab fa-linkedin-in
+          #- url: https://github.com/
+          #  icon: fab fa-github 
+      - name: "Sayeh Kazem"
+        role: "PhD Student (Precision Medicine)<br>Coming soon ..."
+        image: assets/img/team/unknown.png
+        #social:
+          #- url: https://twitter.com
+          #  icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          #- url: https://linkedin.com
+          #  icon: fab fa-linkedin-in
+          #- url: https://github.com/
+          #  icon: fab fa-github
+      - name: "Mariem Hafsia"
+        role: "PhD Student (Computational Psychiatry)<br>Coming soon ..."
         image: assets/img/team/unknown.png
         #social:
           # - url: https://twitter.com
@@ -136,30 +160,6 @@ team:
           #  icon: fab fa-linkedin-in
           #- url: https://github.com/
           #  icon: fab fa-github
-      - name: "Coming soon..."
-        role: "PhD Student (Precision Medicine)"
-        image: assets/img/team/unknown.png
-        #social:
-          #- url: https://twitter.com
-          #  icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github 
-      - name: "Coming soon..."
-        role: "Postdoc (Social NeuroAI)"
-        image: assets/img/team/unknown.png
-        #social:
-          #- url: https://twitter.com
-          #  icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github 
 
 contact:
     title: "Contact Us"

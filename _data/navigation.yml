@@ -1,11 +1,11 @@
 nav:
-  - title: "Projects"
+  - title: "Vision"
     section: projects
 
-  - title: "Papers"
+  - title: "Work"
     section: papers
     
-  - title: "About"
+  - title: "Story"
     section: timeline
 
   - title: "Team"
