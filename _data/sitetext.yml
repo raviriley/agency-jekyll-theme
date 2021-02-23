@@ -102,6 +102,18 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/deep-introspection
             icon: fab fa-github
+      - name: "Position Available"
+        role: "PhD/Postdoc<br>(Computational Physiology)"
+        image: assets/img/team/unknown.png
+        #social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          #- url: https://linkedin.com
+          #  icon: fab fa-linkedin-in
+          #- url: https://github.com/
+          #  icon: fab fa-github
       - name: "Quentin Moreau"
         role: "Postdoc coming soon ...<br>(Social Physiology)"
         image: img/team/Quentin_Moreau.jpg
@@ -114,18 +126,6 @@ team:
           #  icon: fab fa-linkedin-in
           # - url: https://github.com/
           #  icon: fab fa-github 
-      - name: "Position Available"
-        role: "Postdoc<br>(Computational Physiology)"
-        image: assets/img/team/unknown.png
-        #social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
       - name: "Sayeh Kazem"
         role: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
         image: img/team/Sayeh_Kazem.jpg
@@ -134,10 +134,10 @@ team:
             icon: fab fa-twitter
           # - url: https://facebook.com
           #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
+          - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/sayekazem94
+            icon: fab fa-github
       - name: "Mariem Hafsia"
         role: "PhD Student coming soon ...<br>(Computational Psychiatry)"
         image: img/team/Mariem_Hafsia.jpg
@@ -150,33 +150,21 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/Mhafsia
             icon: fab fa-github
-      - name: "Position Available"
-        role: "PhD Student<br>(Social NeuroAI)"
-        image: assets/img/team/unknown.png
-        #social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
+      - name: "Samuele Bolotta"
+        role: "PhD Student coming soon ...<br>(Social NeuroAI)"
+        image: img/team/Samuele_Bolotta.jpg
+        social:
+          - url: https://twitter.com/SamBolotta
+            icon: fab fa-twitter
           # - url: https://facebook.com
           #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
-      - name: "Elisabeth Audet-Duchesne"
-        role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        image: assets/img/team/unknown.png
-        #social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
+          - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/SamueleBolotta
+            icon: fab fa-github
       - name: "Lena Adel"
         role: "MSc Student<br>(Social Computational Physiology)"
-        image: assets/img/team/unknown.png
+        image: img/team/Lena_Adel.jpg
         social:
           - url: https://twitter.com/anelleda_
             icon: fab fa-twitter
@@ -210,6 +198,18 @@ team:
           #  icon: fab fa-linkedin-in
           - url: https://github.com/gabrevaya
             icon: fab fa-github
+      - name: "Elisabeth Audet-Duchesne"
+        role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
+        image: assets/img/team/unknown.png
+        #social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          #- url: https://linkedin.com
+          #  icon: fab fa-linkedin-in
+          #- url: https://github.com/
+          #  icon: fab fa-github
 contact:
     title: "Contact Us"
     text: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
