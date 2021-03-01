@@ -14,9 +14,9 @@
   .navbar-brand {
     color: #FFF;  // $primary;
     @include heading-font;  //script-font;
-    &.active,
-    &:active,
-    &:focus,
+    // &.active,
+    // &:active,
+    // &:focus,
     &:hover {
       color: darken($primary, 10%);
     }
