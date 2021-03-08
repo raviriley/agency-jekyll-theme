@@ -201,7 +201,7 @@ team:
       - name: "Elisabeth Audet-Duchesne"
         role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
         image: img/team/Elisabeth_Audet-Duchesne.jpeg
-        #social:
+        social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
           # - url: https://facebook.com
