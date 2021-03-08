@@ -200,7 +200,7 @@ team:
             icon: fab fa-github
       - name: "Elisabeth Audet-Duchesne"
         role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        image: assets/img/team/unknown.png
+        image: img/team/Elisabeth_Audet-Duchesne.jpeg
         #social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
@@ -208,8 +208,10 @@ team:
           #   icon: fab fa-facebook-f
           #- url: https://linkedin.com
           #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
+          - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
+            icon: fab fa-researchgate
+          - url: https://github.com/ElisabethAD
+            icon: fab fa-github
       - name: "Florence Dolan"
         role: "BSc intern coming soon ...<br>(Computational Physiology)"
         image: img/team/Florence_Dolan.jpg
