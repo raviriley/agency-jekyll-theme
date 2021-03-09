@@ -1,21 +1,38 @@
 // Styling for the papers section
 #papers {
+  
   .pubitem {
-    margin: 5px 150px;
+    margin: 15px 250px;
     line-height: 1em;
     display: grid;
     min-width: 240px
   }
   
   .pubtitle {
-    margin-bottom: .5em;
+    margin: 0px;
     line-height: 1.2em;
     font-weight: bold;
+    ::before{
+    background: transparent url(/assets/img/newlink.png) 0 0 no-repeat;
+    background-size: 16px;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-right: 3px;
+    width: 16px;
+      // background: "assets/img/newlink.png";
+    }
   }
   
   .pubauthors, .pubinfo {
     font-size: 85%;
     margin: 10px 0px;
+  }
+
+  .pubinfo{
+    font-style: italic;
+    color: #666a6d;
+    font-weight: 500;
   }
   .papers-item {
     right: 0;
@@ -53,6 +70,7 @@
         &:hover {
           opacity: 1;
         }
+        
         .papers-hover-content {
           font-size: 20px;
           position: absolute;
@@ -71,6 +89,7 @@
           }
         }
       }
+      
     }
     .papers-caption {
       max-width: 400px;
@@ -100,7 +119,7 @@
     // width: fit-content;
     z-index: 2;
     width: fit-content;
-    margin: 15px auto;
+    margin: 25px auto;
     
   }
   

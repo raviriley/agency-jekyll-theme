@@ -1,15 +1,15 @@
 <!-- Papers -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
+<section class="bg-light" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
   <h1 class="mt-4">Publications</h1>
     <div class="container"></div>
       {% for project in site.papers %}
         <div class="row pubitem">
           <div class="col-md-12 col-sm-12">
-          <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
             <div class="pubtitle">
-              {{ project.caption.title }}
+              <a class="papers-link" target="_blank" href="{{ project.info.doi }}">
+                {{ project.caption.title }}
+              </a>
             </div>
-          </a>
           <div class="pubauthors">
             {{ project.info.authors }}
           </div>

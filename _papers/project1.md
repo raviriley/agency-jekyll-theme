@@ -2,7 +2,7 @@
 title: The Human Dynamic Clamp
 subtitle:
 image: https://www.pnas.org/content/pnas/111/35/E3726/F4.medium.gif
-alt:
+alt: Fig. 4.
 
 caption:
   title: The Human Dynamic Clamp
@@ -10,10 +10,10 @@ caption:
   thumbnail: https://www.pnas.org/content/pnas/111/35/E3726/F4.medium.gif
   
 info:
-  authors: 
+  authors: Guillaume Dumas, Gonzalo C. de Guzman, Emmanuelle Tognoli, and J. A. Scott Kelso
   publication: PNAS
-  year: 
-  doi: 
+  year: 2012
+  doi: https://doi.org/10.1073/pnas.1407486111
 ---
 
 
