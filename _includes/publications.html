@@ -1,15 +1,15 @@
-<!-- Papers -->
+<!-- Publications -->
 <section class="bg-light" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
   <h1 class="mt-4">Publications</h1>
-    <div class="container"></div>
-      {% for project in site.papers %}
-        <div class="row pubitem">
-          <div class="col-md-12 col-sm-12">
-            <div class="pubtitle">
-              <a class="papers-link" target="_blank" href="{{ project.info.doi }}">
-                {{ project.caption.title }}
-              </a>
-            </div>
+  <div class="container">
+    {% for project in site.papers %}
+      <div class="row pub-item">
+        <div class="col-md-12 col-sm-12">
+          <div class="pubtitle">
+            <a class="papers-link" target="_blank" href="{{ project.info.doi }}">
+              {{ project.caption.title }}
+            </a>
+          </div>
           <div class="pubauthors">
             {{ project.info.authors }}
           </div>
@@ -21,4 +21,4 @@
     {% endfor %}
   </div>
 </section>
-<!-- End Papers -->
+<!-- End publications -->

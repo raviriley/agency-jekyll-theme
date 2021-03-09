@@ -3,6 +3,7 @@ title: Example of paper
 subtitle: 
 image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41572-019-0138-4/MediaObjects/41572_2019_138_Fig1_HTML.png
 alt: 
+type: book #article, book...
 
 caption:
   title: Example of paper

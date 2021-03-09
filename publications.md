@@ -1,5 +1,5 @@
 ---
-layout: papers
+layout: publications
 title: Previous work
 ---
 
