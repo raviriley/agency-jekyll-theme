@@ -1,47 +1,24 @@
 <!-- Papers -->
 <section class="bg-light page-section" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
-<h1 class="mt-4">Publications</h1>
-{% for project in site.papers %}
-<div class="pubitem">
-  <div class="pubtitle">
-    {{ project.caption.title }}
-    <!-- {{ pub.title }} -->
-  </div>
-  <div class="pubauthors">
-    <!-- {{ pub.authors }} -->
-  </div>
-  <div class="pubinfo">
-    <!-- {{ pub.publication }}, {{ pub.year}} -->
-  </div>
-</div>
-{% endfor %}
-</section>
-<!-- <section class="bg-light page-section" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.papers.title | markdownify | default: "Papers" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.papers.text | markdownify }}</h3>
-      </div>
-      </div>
-    <div class="row">
+  <h1 class="mt-4">Publications</h1>
+    <div class="container"></div>
       {% for project in site.papers %}
-        <div class="col-md-4 col-sm-6 papers-item">
+        <div class="row pubitem">
+          <div class="col-md-12 col-sm-12">
           <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
-            <div class="papers-hover">
-              <div class="papers-hover-content">
-                <i class="{{ site.data.style.papers-icon | default: "fas fa-plus fa-3x" }}"></i>
-              </div>
+            <div class="pubtitle">
+              {{ project.caption.title }}
             </div>
-            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
           </a>
-          <div class="papers-caption">
-            <h4>{{ project.caption.title }}</h4>
-            <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <div class="pubauthors">
+            {{ project.info.authors }}
+          </div>
+          <div class="pubinfo">
+            {{ project.info.publication }}, {{ project.info.year }}
           </div>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
-</section> -->
+</section>
 <!-- End Papers -->
