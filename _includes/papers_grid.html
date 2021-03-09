@@ -9,21 +9,23 @@
     </div>
     <div class="row">
 	{% for project in site.papers %}
-      <div class="col-md-4 col-sm-6 papers-item">
-        <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="papers-hover">
-            <div class="papers-hover-content">
-              <i class="{{ site.data.style.papers-icon | default: "fas fa-plus fa-3x" }}"></i>
+      {% if forloop.index <= 3  %}
+    <div class="col-md-4 col-sm-6 papers-item">
+          <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="papers-hover">
+              <div class="papers-hover-content">
+                <i class="{{ site.data.style.papers-icon | default: "fas fa-plus fa-3x" }}"></i>
+              </div>
             </div>
+            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          </a>
+          <div class="papers-caption">
+            <h4>{{ project.caption.title }}</h4>
+            <p class="text-muted">{{ project.caption.subtitle }}</p>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="papers-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
-      </div>
-	{% endfor %}
+    {% endif %}
+    {% endfor %}
     </div>
   <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=papers>{{ site.data.sitetext.papers.button }}</a>
   </div>
