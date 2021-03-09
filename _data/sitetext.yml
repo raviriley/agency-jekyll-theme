@@ -23,6 +23,8 @@ papers:
     title: "Our work"
     text: "Here are some highlights from the lab. Enjoy the reading!"
     section: papers
+    button: "See all articles"
+    buttonlink: articles # "#{section}" or "URL/page link"
     
 
 timeline:
