@@ -3,7 +3,8 @@ title: Inter-brain synchronization during social interaction
 subtitle: 
 image: https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0012166.g001
 alt: Experimental design and coding software.
-type: article #article, book...
+type: Journal article #article, book...
+test: 1
 
 caption:
   title: Inter-brain synchronization during social interaction

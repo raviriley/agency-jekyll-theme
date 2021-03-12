@@ -5,7 +5,9 @@
     margin: 15px 0px;
     line-height: 1em;
     display: grid;
-    min-width: 240px
+    min-width: 240px;
+    
+    
 }
   .pubtitle {
     margin: 0px;
@@ -31,19 +33,18 @@
       font-style: italic;
       color: #666a6d;
       font-weight: 500;
-    }
+
+}
   
   
   .papers-item {
-    right: 0;
     background: white;
     padding: 0 5px;
-    margin: 50px 20px;
+    margin: 0px auto;
     max-width: 310px;
     min-width: 260px;
     min-height: 450px;
     display: grid;
-    align-items: flex-start;
     border-radius: 10px;
     filter: drop-shadow(0 0 0.25rem lightgrey);
     .img-fluid {
@@ -114,14 +115,12 @@
     width: initial;
   }
   a.btn {
+    margin: 50px auto;
     display: block;
+    width: fit-content;
   }
   * {
-    // width: fit-content;
-    z-index: 2;
-    width: fit-content;
-    margin: 25px auto;
-    
+    z-index: 2;    
   }
   
 }

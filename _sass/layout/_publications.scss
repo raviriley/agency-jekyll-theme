@@ -1,0 +1,48 @@
+// Styling for the publications page
+#papers{
+    min-height: 900px;
+.form-select{
+    display: flex;
+    margin: 30px 10px;
+    height: 47px;
+}
+.form-control.rounded{
+    height: 40px;
+    margin: auto 0;
+}
+.pub-filters.pubtype-select.form-control.form-control-sm{
+    margin: auto 10px;
+    HEIGHT: 40px;
+    max-width: 150px;
+}
+.form-control.form-control-sm{
+    height: 40px;
+    max-width: 150px;
+    margin: auto;
+}
+.grid-sizer.col-lg-12.Journal article {
+    ::after {
+        content:"";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0.5em;
+        
+        z-index: -1;
+
+    // BORDER-BOTTOM: #212629;
+    /* border-width: 65.1px; */
+    /* border-bottom-style: solid; */
+    border-bottom: inset;
+    /* border: thin; */
+    border-color: #212529;
+    border-bottom-width: thin;
+}
+} 
+}
+
+span.input-group-text{
+    margin: auto 10px;
+    height: 40px;
+}

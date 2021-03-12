@@ -1,24 +1,61 @@
 <!-- Publications -->
-<section class="bg-light" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
-  <h1 class="mt-4">Publications</h1>
+
+<section class="bg-light" id="{{ site.data.sitetext.papers.section | default: 'papers' }}">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading text-uppercase">Publications</h2>
+    </div>
+  </div>
   <div class="container">
-    {% for project in site.papers %}
-      <div class="row pub-item">
-        <div class="col-md-12 col-sm-12">
-          <div class="pubtitle">
-            <a class="papers-link" target="_blank" href="{{ project.info.doi }}">
-              {{ project.caption.title }}
-            </a>
-          </div>
-          <div class="pubauthors">
-            {{ project.info.authors }}
-          </div>
-          <div class="pubinfo">
-            {{ project.info.publication }}, {{ project.info.year }}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
+    <div class="form-select" aria-label="Default select example">
+      <input type="search" class="form-control rounded" id="search-input" onkeyup="searchItem()" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+      <select class="pub-filters pubtype-select form-control form-control-sm" id="publication-type" data-filter-group="pubtype">
+        <option value="*">Type</option>
+        <option value="Conference paper">Conference paper</option>
+        <option value="Journal article">Journal article</option>
+        <option value="Preprint">Preprint</option>
+        <option value="Book">Book</option>
+        <option value="Thesis">Thesis</option>
+      </select>
+      <select class="pub-filters form-control form-control-sm" id="publication-year">
+        <option value="*">Date</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+      </select>
+      <span class="input-group-text border-0" id="search-addon" onclick=filterItems()>
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
+    <div id="container-publications">
+      <table id="pubTable"> 
+        {% for project in site.papers %}
+          <tr>
+            <td>
+              <div class="row pub-item  {{ project.type }}">
+                <div class="grid-sizer col-lg-12">
+                  <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.info.year }}" id="pubtitle" style="margin-bottom: 1rem">
+                    <a class="papers-link" target="_blank" href="{{ project.info.doi }}">{{ project.caption.title }}</a>
+                  </div>
+                  <div class="pubauthors">
+                    <span>{{ project.info.authors }}</span>
+                  </div>
+                  <div class="pubinfo">
+                    <span>{{ project.info.publication }}, {{ project.info.year }}</span>
+                  </div>    
+                </div>    
+              </div>    
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   </div>
 </section>
 <!-- End publications -->

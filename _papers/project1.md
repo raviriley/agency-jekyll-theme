@@ -3,7 +3,8 @@ title: The Human Dynamic Clamp
 subtitle:
 image: https://www.pnas.org/content/pnas/111/35/E3726/F4.medium.gif
 alt: Fig. 4.
-type: article #article, book...
+type: Journal article #article, book...
+test: 1
 
 caption:
   title: The Human Dynamic Clamp

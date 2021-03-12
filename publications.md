@@ -1,6 +1,6 @@
 ---
 layout: publications
-title: Previous work
+title: Publications
 ---
 
 {{ page.title }}

@@ -3,7 +3,8 @@ title: Autism Spectrum Disorders
 subtitle: 
 image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41572-019-0138-4/MediaObjects/41572_2019_138_Fig1_HTML.png
 alt: 
-type: article #article, book...
+type: Journal article #article, book...
+test: 2
 
 caption:
   title: Autism Spectrum Disorders
