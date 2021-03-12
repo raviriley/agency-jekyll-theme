@@ -16,7 +16,7 @@ theme:
 url    : "ppsp-team.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : The PPSP laboratory
+title      : "PPSP team — Dumas lab"
 email      : contact@ppsp.team #this is also the email contact forms will go to
 description: "The Precision Psychiatry and Social Physiology team combines computational biology and social neuroscience approaches to pave the way for a Predictive, Preventive, Personalized, Prescriptive, and Participatory (5P) medicine, especially for mental disorders."
 author     : Guillaume Dumas

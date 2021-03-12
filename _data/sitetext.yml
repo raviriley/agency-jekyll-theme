@@ -6,18 +6,27 @@ header:
 
 projects:
     title: "Our vision"
-    text: "The Precision Psychiatry and Social Physiology team is focusing on three main research axes."
+    text: "The Precision Psychiatry and Social Physiology team focuses on three research axes and three core values."
     section: projects
     list:
       - title: "Computational Psychiatry"
         desc: "Understanding mental function and dysfunction through multi-scale mathematical models."
         icon: fas fa-brain #find more at https://fontawesome.com/icons
       - title: "Precision Medicine"
-        desc: "Tailoring optimal care to the individual patient, using data from genomes to smartphones."
+        desc: "Tailoring optimal care to each individual patient, using data from genomes to smartphones."
         icon: fas fa-crosshairs
-      - title: "Social NeuroAI"
+      - title: "Social Neuro-AI"
         desc: "Translating insights of basic social neuroscience into artificial intelligence and machine learning."
         icon: fas fa-share-alt
+      - title: "Open Science"
+        desc: "Beyond reproducibility research, cultivating inclusivity and solidarity."
+        icon: fas fa-book-reader #find more at https://fontawesome.com/icons
+      - title: "Team Work"
+        desc: "United in our diversity, aiming at mutual respect and collective growth."
+        icon: fas fa-users-cog
+      - title: "Social Impact"
+        desc: "Changing human lives from laboratory to hospital, from hospital to homes."
+        icon: fas fa-hand-holding-heart
 
 papers:
     title: "Our work"
