@@ -4,7 +4,7 @@ subtitle:
 image: https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0012166.g001
 alt: Experimental design and coding software.
 type: Journal article #article, book...
-test: 1
+doc_path: /assets/docs/project2
 
 caption:
   title: Inter-brain synchronization during social interaction

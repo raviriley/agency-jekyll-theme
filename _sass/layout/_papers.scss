@@ -1,46 +1,12 @@
 // Styling for the papers section
 #papers {
-  .pub-item {
-    // @extend #papers;
-    margin: 15px 0px;
-    line-height: 1em;
-    display: grid;
-    min-width: 240px;
-    
-    
-}
-  .pubtitle {
-    margin: 0px;
-    line-height: 1.2em;
-    font-weight: bold;
-    ::before{
-      background: transparent url(/assets/img/newlink.png) 0 0 no-repeat;
-      background-size: 16px;
-      content: "";
-      display: inline-block;
-      height: 16px;
-      margin-right: 3px;
-      width: 16px;
-    }
-  }
-  
-.pubauthors, .pubinfo {
-      font-size: 85%;
-      margin: 10px 0px;
-    }
-  
-    .pubinfo{
-      font-style: italic;
-      color: #666a6d;
-      font-weight: 500;
 
-}
-  
+
   
   .papers-item {
     background: white;
     padding: 0 5px;
-    margin: 0px auto;
+    margin: 15px auto;
     max-width: 310px;
     min-width: 260px;
     min-height: 450px;
@@ -71,6 +37,7 @@
         background: fade-out($primary, .1);
         &:hover {
           opacity: 1;
+          height: 250px
         }
         
         .papers-hover-content {
@@ -95,8 +62,7 @@
     }
     .papers-caption {
       max-width: 400px;
-      margin: 0 auto;
-      padding: 25px;
+      margin: 30px auto 0px auto;
       text-align: center;
       background-color: $white;
       h4 {
@@ -202,3 +168,15 @@
     }
   }
 }
+.card-img-top{
+  height: 250px;
+}
+
+.controls-top{
+  float: right;
+}
+
+.carousel.slide{
+  margin: 0 auto;
+}
+

@@ -49,6 +49,7 @@ function filterItems() {
     }
   }
   searchItem()
+
 }
 
 

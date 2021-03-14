@@ -1,10 +1,10 @@
 ---
-title: The Human Dynamic Clamp
+title: The Human Dynamic Clamp as a paradigm for social interaction
 subtitle:
 image: https://www.pnas.org/content/pnas/111/35/E3726/F4.medium.gif
 alt: Fig. 4.
 type: Journal article #article, book...
-test: 1
+doc_path: /assets/docs/project1
 
 caption:
   title: The Human Dynamic Clamp
