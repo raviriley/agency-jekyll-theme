@@ -1,12 +1,13 @@
-<section>
+<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: 'team'}}">
+
 <div class="container" id="collaborators">
         <div class="row">
           <div class="col-lg-12 banner">
-            <h2 class="section-heading text-uppercase">collaborators</h2>
+            <h1 class="section-heading text-uppercase">Collaborators</h2>
           </div>
         </div>
         <div class="row">
-        {% for person in site.data.sitetext.team.people %}
+        <!-- {% for person in site.data.sitetext.team.people %}
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
@@ -30,5 +31,5 @@
             <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
           </div>
         </div>
-      </div>
+      </div> -->
       </section>
