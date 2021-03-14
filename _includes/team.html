@@ -1,6 +1,6 @@
 <!-- Team -->
 <section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
-<div class="container">
+<div class="container"  id="the-team">
   <div class="row">
 	<div class="col-lg-12 text-center">
 	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
@@ -32,6 +32,14 @@
 	  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
 	</div>
   </div>
+	</div>
+	<div class="row" style="width: fit-content;margin: 0 auto;">
+		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" onclick="showTeam()" href=work>{{ site.data.sitetext.team.buttonText }}</a>
+		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" onclick=showCollaborators() href=work>Our collaborators</a>
+	</div>
 </div>
+
+</div>
+
 </section>
 <!-- End Team -->

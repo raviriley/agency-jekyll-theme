@@ -23,7 +23,7 @@ papers:
     title: "Our work"
     text: "Here are some highlights from the lab. Enjoy the reading!"
     section: papers
-    button: "See all articles"
+    buttonText: "See all articles"
     buttonlink: publications # "#{section}" or "URL/page link"
     
 
@@ -88,6 +88,7 @@ team:
     title: "Our team"
     text: "The whole is other than the sum of the parts."
     subtext: ""
+    buttonText: "Discover our team"
     section: team
     people:
       - name: "Guillaume Dumas"

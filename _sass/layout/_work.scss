@@ -1,0 +1,40 @@
+// Styling for the Work page
+.col-lg-12.banner{
+  // background: antiquewhite;
+  margin: 30px auto;
+}
+.navbar-brand.js-scroll-trigger{
+  display: inline-flex;
+}
+
+.logo{
+  margin: auto 10px;
+}
+
+#collaborators{
+  display: none;
+}
+
+
+.btn-primary{
+      min-width: 350px;
+      background-color: $primary;
+
+      }
+      #btncheck1, #btncheck2{
+        width: 251.97px;
+      }
+      
+
+      
+
+.btn-check, .btn-check, .btn-primary, .btn-primary{
+  &:active
+  &:checked
+  &:active
+  {
+    background-color: #550139;
+
+  }
+}
+
