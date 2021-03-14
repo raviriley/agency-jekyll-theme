@@ -1,5 +1,6 @@
 // Styling for the footer
 .footer {
+  min-height: 285px;
   padding: 25px 0;
   text-align: center;
   span.copyright {
@@ -40,4 +41,8 @@ ul.social-buttons {
       }
     }
   }
+}
+
+.align-items-center{
+  margin: 80px auto;
 }
