@@ -1,8 +1,5 @@
 // Styling for the papers section
-#papers {
-
-
-  
+#papers {  
   .papers-item {
     background: white;
     padding: 0 5px;
@@ -170,6 +167,7 @@
 }
 .card-img-top{
   height: 250px;
+  padding: 15px;
 }
 
 .controls-top{
@@ -178,5 +176,9 @@
 
 .carousel.slide{
   margin: 0 auto;
+  background-color: #ffffffb3;
+  border-radius: 15px;
+  padding: 15px 50px;
+  margin-top: 40px;
 }
 
