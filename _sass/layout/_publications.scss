@@ -1,6 +1,15 @@
 // Styling for the Publications page
 #publications{
         min-height: 900px;
+          .masthead{
+            height: 250px;
+            background-image: url(../img/background-header.png);
+          .section-heading{
+            margin-top: 180px;
+            margin-right: 553px;
+            font-size: 75px;
+          }
+        }
     .form-select{
         display: flex;
         margin: 30px 10px;
@@ -34,7 +43,18 @@
         }
     } 
 }
-
+.publications{
+  // background-color: #2b76bb17;
+    // /* padding: 0px 6px 1px 2px; */
+    // border-radius: 20px;
+    // box-shadow: 5px 10px lightgrey;
+    min-height: 800px;
+    // border-right: groove;
+    // border-left: groove;
+    td{
+      box-shadow: 1px 1px 5px 1px lightgrey;
+    }
+}
 span.input-group-text{
     margin: auto 10px;
     height: 40px;
@@ -105,7 +125,7 @@ a.btn.btn-outline-primary{
     line-height: 1em;
     display: grid;
     min-width: 240px;
-    min-height: 140px;
+    min-height: 160px;
     line-height: 1.75;
 }
 
