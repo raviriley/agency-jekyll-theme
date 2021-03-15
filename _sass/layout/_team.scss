@@ -22,6 +22,12 @@
   width: fit-content;
 }
 .btn-primary{
-  min-width: fit-content;
-  // margin: auto;
+  // min-width: fit-content;
+  margin: auto;
+}
+#team{
+  .btn-primary{
+    // min-width: fit-content;
+    margin: 10px;
+  }
 }
