@@ -11,15 +11,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+#theme: jekyll-agency
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
+title      : Hiller Law, LLC
 email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+description: "A solo law practice owned and operated by Adam Hiller, Esquire in Wilmington, Delaware"
+author     : Adam Hiller
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
