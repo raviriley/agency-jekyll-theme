@@ -1,5 +1,5 @@
 header:
-    title: Welcome to our Studio!
+    title: Welcome to our Office!
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
@@ -131,10 +131,5 @@ footer:
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
