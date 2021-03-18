@@ -119,7 +119,7 @@ team:
           
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: Call Us at <a href="tel:+13024427677">(302) 442-7677</a> or fill in the form below
     section: contact
     
 footer:

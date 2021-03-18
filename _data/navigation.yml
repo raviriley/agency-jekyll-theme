@@ -2,7 +2,7 @@ nav:
   - title: "Services"
     section: services
 
-  - title: "Portfolio"
+  - title: "Legal"
     section: portfolio
     
   - title: "About"
@@ -13,6 +13,3 @@ nav:
 
   - title: "Contact"
     section: contact
-
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/
