@@ -5,18 +5,44 @@ header:
     buttonlink: "#services"
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Legal Services"
+    text: "The firm focuses its practice in the following areas"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Bankruptcy and Insolvency"
+        desc: |
+          * Chapter 11 small business debtor cases
+          * Chapter 11 individual cases
+          * Chapter 7 corporate debtors
+          * Official committees in Chapter 11
+          * Secured creditors, such as banks
+          * Trade vendors
+          * Lessors, landlords, and contract parties
+          * Other unsecured creditors
+          * Former and present employees of the debtor
+          * Motions for relief from the automatic stay
+          * Purchasers of assets out of bankruptcy estates
+          * Preference/avoidance litigation
+          * Administrative claims and proofs of claim
+          * Discharge litigation
+          * Complex issues in consumer bankruptcies
+          * Local counsel representation
+          * Conflicts counsel
+          * Assignment for the Benefit of Creditors
+        icon: fas fa-shopping-cart
+      - title: "Corporate Litigation"
+        desc: |
+          * Corporate litigation in the Delaware Court of Chancery and other Delaware courts
+          * Commercial litigation in state and federal court 
         icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Other Areas"
+        desc: |
+          * Judgment enforcement/debt collection
+          * Complex lien and mortgage foreclosures
+          * Assessment lien foreclosure and litigation
+          * Mechanics’ liens
+          * Eviction/writ of possession
+          * Low-cost uncontested judgments
         icon: fab fa-markdown
 
 portfolio:
@@ -27,35 +53,27 @@ portfolio:
     
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
+    title: "About Adam Hiller" 
+    text: |
+      During his career, Adam has represented clients in a multitude of roles in bankruptcy and insolvency proceedings: Chapter 11 debtors, Chapter 7 corporate debtors, creditors’ committees, secured creditors, Chapter 7 trustees, landlords, asset purchasers, executory contract parties, taxing authorities, and post-confirmation trusts. 
+      He has also represented numerous clients in preference actions, other bankruptcy litigation, non-bankruptcy fraudulent conveyance actions, and collection and enforcement of judgments under Maryland law.
+      He is admitted to practice in Delaware, Maryland, and the District of Columbia (inactive), as well as the federal district courts 
+      in Delaware and Maryland, and the United States Courts of Appeals for the Third Circuit and Fourth Circuit.
     section: timeline
     # left is the default
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        year: "2011"
+        desc: "Adam Hiller and Brian Arban formed the firm in 2011 under the name Hiller & Arban, LLC."
         image: assets/img/timeline/1.jpg
         alt: 
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "A Law Firm is Reborn"
+        year: "April 2017"
+        desc: "We became Hiller Law, LLC in April 2017 when Mr. Arban left the firm."
         image: assets/img/timeline/2.jpg
         alt: 
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        # you can enforce the aligment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Sue <br>Some People<br> With Us!"
 
 about:
     title: "About Us"
@@ -83,7 +101,16 @@ clients:
 team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: |
+      Adam began his legal career as a law clerk to the Honorable E. Stephen Derby, a judge (now retired) for the United States Bankruptcy Court for the District of Maryland. 
+
+      Following his clerkship, he joined the firm of Tydings & Rosenberg LLP in Baltimore, Maryland, where he practiced primarily Chapter 11 bankruptcy law and non-bankruptcy collections. 
+
+      He then moved to Delaware and became an associate in the Bankruptcy and Restructuring Group of Pepper Hamilton LLP for approximately seven years. 
+
+      Thereafter, he opened the Wilmington, Delaware office of Draper & Goldberg, PLLC (which later became Atlantic Law Group, LLC), where he continued his commercial bankruptcy practice while assisting with the firm’s foreclosure and consumer bankruptcy practice. 
+      
+      He joined Pinckney, Harris & Weidinger, LLC as a member in 2009, until opening Hiller Law in 2011 (under its prior name).
     section: team
     people:
       - name: "Kay Garland"
@@ -96,8 +123,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Adam Hiller"
+        role: "Attorney At Law"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
