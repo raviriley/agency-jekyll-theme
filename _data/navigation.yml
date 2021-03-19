@@ -11,5 +11,8 @@ nav:
   - title: "Team"
     section: team
 
+  - title: "Links"
+    url: links
+    
   - title: "Contact"
     section: contact

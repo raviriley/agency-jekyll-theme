@@ -29,12 +29,12 @@ services:
           * Local counsel representation
           * Conflicts counsel
           * Assignment for the Benefit of Creditors
-        icon: fas fa-shopping-cart
+        icon: fas fa-building
       - title: "Corporate Litigation"
         desc: |
           * Corporate litigation in the Delaware Court of Chancery and other Delaware courts
           * Commercial litigation in state and federal court 
-        icon: fas fa-laptop       
+        icon: fas fa-fax
       - title: "Other Areas"
         desc: |
           * Judgment enforcement/debt collection
@@ -43,7 +43,7 @@ services:
           * Mechanics’ liens
           * Eviction/writ of possession
           * Low-cost uncontested judgments
-        icon: fab fa-markdown
+        icon: fas fa-balance-scale
 
 portfolio:
     title: "Portfolio"
