@@ -2,7 +2,7 @@ header:
     title: Welcome to our Office!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#welcome"
 
 services:
     title: "Legal Services"

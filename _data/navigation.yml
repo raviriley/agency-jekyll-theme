@@ -1,18 +1,15 @@
 nav:
-  - title: "Services"
-    section: services
-
-  - title: "Legal"
-    section: portfolio
-    
   - title: "About"
-    section: timeline
+    url: about
 
-  - title: "Team"
-    section: team
+  - title: "Community"
+    url: community
+    
+  - title: "Mediation"
+    url: mediation
 
   - title: "Links"
     url: links
     
-  - title: "Contact"
-    section: contact
+  - title: "Legal"
+    url: legal

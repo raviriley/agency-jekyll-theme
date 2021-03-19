@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include navheader.html %}
+
+<<<<<<< Updated upstream
+{% include services.html %}
+{% include portfolio_grid.html %}
+{% include timeline.html %}
+{% include team.html %}
+{% include contact.html %}
+=======
+{% include welcome.html %}
+{% include contact.html %}
+>>>>>>> Stashed changes
