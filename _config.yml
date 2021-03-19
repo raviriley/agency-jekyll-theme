@@ -25,7 +25,7 @@ author     : Adam Hiller
   # height: 60 #height in px, defaults to 52px
 
 analytics:
-  google: #Google Analytics tracking code here
+  googletag: GTM-W2M338C
 
 collections:
   portfolio:
