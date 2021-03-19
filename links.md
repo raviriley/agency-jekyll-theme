@@ -4,10 +4,6 @@ title: Links For Legal Practitioners
 background: grey
 permalink: /links
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Links For Legal Practitioners</h2>
-</div>
-
 The firm is pleased to provide you with a page of commonly used links for the Delaware legal practitioner. 
 
 The websites listed on this page are not part of or endorsed by the firm, and many of them require registration and payment, but many attorneys will find this single-page list useful.

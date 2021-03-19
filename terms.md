@@ -4,9 +4,6 @@ title: Terms Of Service
 background: grey
 permalink: /terms
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Terms Of Service</h2>
-</div>
 
 Use of the Hiller Law, LLC website is subject to the following terms:
 
