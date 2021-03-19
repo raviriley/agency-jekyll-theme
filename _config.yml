@@ -32,6 +32,8 @@ collections:
 
 markdown: kramdown
 
+logo_svg: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

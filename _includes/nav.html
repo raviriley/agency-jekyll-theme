@@ -5,6 +5,9 @@
           {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
+            {%- if site.logo_svg -%}
+              {% include logo.svg %}
+            {%- endif -%}
             {{ site.title }}
           {%- endif -%}
       </a>
