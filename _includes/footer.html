@@ -8,7 +8,7 @@
 		<!-- Social Media -->
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-		  {% for link in site.data.sitetext.footer.social  %}
+		  {% for link in site.data.sitetext[site.locale].footer.social  %}
             <li class="list-inline-item">
 			  {% if link.url %}
               <a href="{{ link.url }}">
@@ -23,7 +23,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="legal">{{ site.data.sitetext.footer.legal | default: "Privacy Policy" }}</a>
+              <a href="legal">{{ site.data.sitetext[site.locale].footer.legal | default: "Privacy Policy" }}</a>
             </li>
           </ul>
         </div>

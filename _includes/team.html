@@ -1,14 +1,14 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.text }}</h3>
 	</div>
   </div>
   <div class="row">
-  {% for person in site.data.sitetext.team.people %}
+  {% for person in site.data.sitetext[site.locale].team.people %}
 	<div class="col-sm-4">
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
@@ -29,7 +29,7 @@
   </div>
   <div class="row">
 	<div class="col-lg-8 mx-auto text-center">
-	  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
+	  <div class="large text-muted">{{ site.data.sitetext[site.locale].team.subtext | markdownify }}</div>
 	</div>
   </div>
 </div>
