@@ -8,7 +8,7 @@ The firm is pleased to provide you with a page of commonly used links for the De
 
 The websites listed on this page are not part of or endorsed by the firm, and many of them require registration and payment, but many attorneys will find this single-page list useful.
 
-## Court Websites
+### Court Websites
 
 * [United States Bankruptcy Court for the District of Delaware](http://www.deb.uscourts.gov/)
 * [United States District Court for the District of Delaware](http://www.ded.uscourts.gov/)
@@ -16,51 +16,51 @@ The websites listed on this page are not part of or endorsed by the firm, and ma
 * [Delaware Court of Chancery](http://courts.delaware.gov/Chancery)
 * [Supreme Court of Delaware](http://courts.delaware.gov/Supreme)
 
-## Electronic Filing
+### Electronic Filing
 
-* <a href="https://ecf.deb.uscourts.gov/cgi-bin/login.pl">United States Bankruptcy Court for the District of Delaware</a>
-* <a href="https://ecf.ded.uscourts.gov/cgi-bin/login.pl">United States District Court for the District of Delaware</a>
-* <a href="https://secure.fileandservexpress.com/Login/Login.aspx">Lexis File &amp; Serve</a>
-* <a href="https://pcl.uscourts.gov/search">PACER National Database</a>
+* [United States Bankruptcy Court for the District of Delaware](https://ecf.deb.uscourts.gov/cgi-bin/login.pl)
+* [United States District Court for the District of Delaware](https://ecf.ded.uscourts.gov/cgi-bin/login.pl)
+* [Lexis File & Serve](https://secure.fileandservexpress.com/Login/Login.aspx)
+* [PACER National Database](https://pcl.uscourts.gov/search)
 
-## Statutes, Rules, and Codes
+### Statutes, Rules, and Codes
 
-* <a href="http://www.law.cornell.edu/uscode/">United States Code</a> (most of the Bankruptcy Code is at title 11)
-* <a href="http://www.deb.uscourts.gov/local-rules-and-orders">Local Rules for the U.S. Bankruptcy Court for the District of Delaware</a>
-* <a href="http://www.law.cornell.edu/rules/frbp/">Federal Rules of Bankruptcy Procedure</a>
-* <a href="http://www.law.cornell.edu/rules/frcp/">Federal Rules of Civil Procedure</a>
-* <a href="http://www.law.cornell.edu/rules/fre/">Federal Rules of Evidence</a>
-* <a href="http://www.ded.uscourts.gov/Forms/LocalRules/LocalRulesCivil_4-30-10.pdf">Local Rules for the U.S. District Court for the District of Delaware</a>
-* <a href="http://delcode.delaware.gov/">Delaware Code&nbsp;Online</a>
-* <a href="http://courts.state.de.us/rules/pdf/DLRPC-LN.pdf">Delaware Rules of Professional Conduct</a>
-* <a href="http://courts.delaware.gov/rules/superior_civil_rules_2014.pdf">Delaware Superior Court Rules</a>
-* <a href="http://courts.delaware.gov/rules/pdf/SupremeCourtRules.pdf">Delaware Supreme Court Rules</a>
+* [United States Code](http://www.law.cornell.edu/uscode/) (most of the Bankruptcy Code is at title 11)
+* [Local Rules for the U.S. Bankruptcy Court for the District of Delaware](http://www.deb.uscourts.gov/local-rules-and-orders)
+* [Federal Rules of Bankruptcy Procedure](http://www.law.cornell.edu/rules/frbp/)
+* [Federal Rules of Civil Procedure](http://www.law.cornell.edu/rules/frcp/)
+* [Federal Rules of Evidence](http://www.law.cornell.edu/rules/fre/)
+* [Local Rules for the U.S. District Court for the District of Delaware](http://www.ded.uscourts.gov/Forms/LocalRules/LocalRulesCivil_4-30-10.pdf)
+* [Delaware Code Online](http://delcode.delaware.gov/)
+* [Delaware Rules of Professional Conduct](http://courts.state.de.us/rules/pdf/DLRPC-LN.pdf)
+* [Delaware Superior Court Rules](http://courts.delaware.gov/rules/superior_civil_rules_2014.pdf)
+* [Delaware Supreme Court Rules](http://courts.delaware.gov/rules/pdf/SupremeCourtRules.pdf)
 
-## Important Government Agencies
+### Important Government Agencies
 
-* <a href="https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx">Delaware Division of Corporations</a>
-* <a href="http://www.ncc-deeds.com/recclkshr/default.asp">Recorder of Deeds for New Castle County</a>
-* <a href="https://de.uslandrecords.com/">Recorder of Deeds for Kent &amp; Sussex County</a>
-* <a href="https://www.servicememberscivilreliefact.com/">Military search for Servicemembers Civil Relief Act</a>
+* [Delaware Division of Corporations](https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx)
+* [Recorder of Deeds for New Castle County](http://www.ncc-deeds.com/recclkshr/default.asp)
+* [Recorder of Deeds for Kent & Sussex County](https://de.uslandrecords.com/)
+* [Military search for Servicemembers Civil Relief Act](https://www.servicememberscivilreliefact.com/)
 
-## Organizations
+### Organizations
 
-* <a href="http://www.abiworld.org/">American Bankruptcy Institute</a>
-* <a href="http://www.innsofcourt.org/Content/InnContent.aspx?Id=1486">Delaware Bankruptcy Inn of Court</a>
-* <a href="https://www.dsba.org/sections-committees/sections-of-the-bar/bankruptcy-law/">DSBA, Bankruptcy Law Section</a>
-* <a href="http://www.iwirc.org/networks/delaware">IWIRC Delaware Network</a>
+* [American Bankruptcy Institute](http://www.abiworld.org/)
+* [Delaware Bankruptcy Inn of Court](http://www.innsofcourt.org/Content/InnContent.aspx?Id=1486)
+* [DSBA, Bankruptcy Law Section](https://www.dsba.org/sections-committees/sections-of-the-bar/bankruptcy-law/)
+* [IWIRC Delaware Network](http://www.iwirc.org/networks/delaware)
 
-## Asset Research Tools
+### Asset Research Tools
 
-* <a href="http://www.xe.com/ucc/">XE Currency Converter</a>
-* <a href="http://www.kbb.com/">Kelly Blue Book</a>
-* <a href="https://www.zillow.com/">Real Estate Comparable Values</a>
-* <a href="http://finance.yahoo.com/">Stock market prices</a>
+* [XE Currency Converter](http://www.xe.com/ucc/)
+* [Kelly Blue Book](http://www.kbb.com/)
+* [Real Estate Comparable Values](https://www.zillow.com/)
+* [Stock market prices](http://finance.yahoo.com/)
 
-## For Lawyers That Like To Cook
+### For Lawyers That Like To Cook
 
-* <a href="http://www.recipecircus.com/">The Recipe Circus</a>
-* <a href="http://www.cyber-kitchen.com/">Mimi’s Cyber-Kitchen</a>
+* [The Recipe Circus](http://www.recipecircus.com/)
+* [Mimi’s Cyber-Kitchen](http://www.cyber-kitchen.com/)
 
 
 Important Note: These links are intended as aids to help readers identify internet resources that may be of interest. These resources are not under the control of the firm, and the firm is not responsible for the contents of any of these unaffiliated, third-party resources. 
