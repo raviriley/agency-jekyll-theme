@@ -52,12 +52,12 @@ contact:
     
 footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"  
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
