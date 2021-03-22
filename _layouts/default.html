@@ -4,24 +4,26 @@
   {% include head.html %}
 
   <body id="page-top">
-
       {{ content }}
 
 	  {% include footer.html %}
 
 	  <!-- Bootstrap core JavaScript -->
-	  <script src="assets/js/jquery.min.js"></script>
-	  <script src="assets/js/bootstrap.bundle.min.js"></script>
+	  <script src="{{base.url}}/assets/js/jquery.min.js"></script>
+	  <script src="{{base.url}}/assets/js/bootstrap.bundle.min.js"></script>
 
 	  <!-- Plugin JavaScript -->
-	  <script src="assets/js/jquery.easing.min.js"></script>
+	  <script src="{{base.url}}/assets/js/jquery.easing.min.js"></script>
 
 	  <!-- Contact form JavaScript -->
-	  <script src="assets/js/jqBootstrapValidation.js"></script>
-	  <script src="assets/js/contact_me.js"></script>
+	  <script src="{{base.url}}/assets/js/jqBootstrapValidation.js"></script>
+	  <script src="{{base.url}}/assets/js/contact_me.js"></script>
 
 	  <!-- Custom scripts for this template -->
-	  <script src="assets/js/agency.min.js"></script>
+	  <script src="{{base.url}}/assets/js/agency.min.js"></script>
+	  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
-  </body>
+
+</body>
 </html>
