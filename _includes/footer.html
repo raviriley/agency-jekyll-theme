@@ -5,20 +5,26 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
         </div>
+        {% if site.designer %}
+        <div class="col-md-4">
+          <span class="designer">Website Design by <a href="{{ site.designlink }}">{{ site.designer }}</a></span>
+        </div>
+        {% else %}
 		<!-- Social Media -->
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-		  {% for link in site.data.sitetext.footer.social  %}
+          {% for link in site.data.sitetext.footer.social  %}
             <li class="list-inline-item">
-			  {% if link.url %}
+			      {% if link.url %}
               <a href="{{ link.url }}">
                 {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
               </a>
-			  {% endif %}
+    			  {% endif %}
             </li>
-			{% endfor %}
+    			{% endfor %}
           </ul>
         </div>
+        {% endif %}
 		<!-- Legal -->
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
