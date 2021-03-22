@@ -1,13 +1,27 @@
 // Styling for the papers section
-#papers {
+#papers {  
   .papers-item {
-    right: 0;
-    margin: 0 0 15px;
+    background: white;
+    padding: 0 5px;
+    margin: 15px auto;
+    max-width: 310px;
+    min-width: 260px;
+    min-height: 450px;
+    display: grid;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.25rem lightgrey);
+    .img-fluid {
+      padding: 15px;
+      max-width: 100%;
+      height: 230px;
+  }
+  
     .papers-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
+      height: 230px;
       cursor: pointer;
       .papers-hover {
         position: absolute;
@@ -20,7 +34,9 @@
         background: fade-out($primary, .1);
         &:hover {
           opacity: 1;
+          height: 275px;
         }
+        
         .papers-hover-content {
           font-size: 20px;
           position: absolute;
@@ -39,11 +55,11 @@
           }
         }
       }
+      
     }
     .papers-caption {
       max-width: 400px;
-      margin: 0 auto;
-      padding: 25px;
+      margin: 30px auto 0px auto;
       text-align: center;
       background-color: $white;
       h4 {
@@ -58,14 +74,27 @@
       }
     }
   }
+  .text-muted{
+    width: initial;
+  }
+  a.btn {
+    margin: 50px auto;
+    display: block;
+    width: fit-content;
+  }
   * {
-    z-index: 2;
+    z-index: 2;    
+  }
+  .carousel-item {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 1, 1), -webkit-transform 0.5s ease-out;
+    backface-visibility: visible;
+     
   }
 }
 @media(min-width:767px) {
   #papers {
     .papers-item {
-      margin: 0 0 30px;
+      // margin: 0 0 30px;
     }
   }
 }
@@ -101,7 +130,9 @@
     button {
       cursor: pointer;
     }
+    
   }
+  
   .close-modal {
     position: absolute;
     top: 25px;
@@ -138,3 +169,22 @@
     }
   }
 }
+.card-img-top{
+  height: 250px;
+  height: 300px;
+  padding: 30px 10px;
+}
+
+.controls-top{
+  float: right;
+}
+
+.carousel.slide{
+  margin: 0 auto;
+  // background-color: #ffffffb3;
+  border-radius: 15px;
+  margin-top: 40px;
+  filter: drop-shadow(5px 6px 100px lightgrey);
+}
+
+
