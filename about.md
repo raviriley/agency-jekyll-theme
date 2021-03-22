@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About Us
+title: About Adam Hiller And The Firm
 background: grey
 permalink: /about
 ---
-### About the Firm
+### The Firm
 Hiller Law is a boutique law firm. Because of Mr. Hiller’s skill set and experience, the firm brings to the table the strength, professionalism, and dedication of a large firm, but with the personalized attention and rate structure of a smaller firm.
 
 #### Bankruptcy And Insolvency:
@@ -46,7 +46,7 @@ Hiller Law strives to exceed being a mere business and gives back to the communi
 Adam Hiller and Brian Arban formed the firm in 2011 under the name Hiller & Arban, LLC. It became Hiller Law, LLC in April 2017 when Mr. Arban left the firm.
 
 
-### About Adam Hiller
+### Adam Hiller
 During his career, Adam has represented clients in a multitude of roles in bankruptcy and insolvency proceedings: Chapter 11 debtors, Chapter 7 corporate debtors, creditors’ committees, secured creditors, Chapter 7 trustees, landlords, asset purchasers, executory contract parties, taxing authorities, and post-confirmation trusts. He has also represented numerous clients in preference actions, other bankruptcy litigation, non-bankruptcy fraudulent conveyance actions, and collection and enforcement of judgments under Maryland law. He is admitted to practice in Delaware, Maryland, and the District of Columbia (inactive), as well as the federal district courts in Delaware and Maryland, and the United States Courts of Appeals for the Third Circuit and Fourth Circuit.
 
 Adam began his legal career as a law clerk to the Honorable E. Stephen Derby, a judge (now retired) for the United States Bankruptcy Court for the District of Maryland. Following his clerkship, he joined the firm of Tydings & Rosenberg LLP in Baltimore, Maryland, where he practiced primarily Chapter 11 bankruptcy law and non-bankruptcy collections. He then moved to Delaware and became an associate in the Bankruptcy and Restructuring Group of Pepper Hamilton LLP for approximately seven years. Thereafter, he opened the Wilmington, Delaware office of Draper & Goldberg, PLLC (which later became Atlantic Law Group, LLC), where he continued his commercial bankruptcy practice while assisting with the firm’s foreclosure and consumer bankruptcy practice. He joined Pinckney, Harris & Weidinger, LLC as a member in 2009, until opening Hiller Law in 2011 (under its prior name).
