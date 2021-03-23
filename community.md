@@ -22,8 +22,8 @@ Hiller Law is committed not only to providing excellent legal services to its cl
 
 ### And Mr. Hiller is proud to donate his professional and non-professional time to:
 
-* MVLS (Maryland Volunteer Lawyers Service)
-* Market Street Music*
+* [MVLS (Maryland Volunteer Lawyers Service)](https://mvlslaw.org)
+* [Market Street Music](https://marketstreetmusicde.org)
 * [DSBA](https://www.dsba.org/)
 
 
