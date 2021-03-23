@@ -15,6 +15,9 @@
     color: $primary;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
     @include script-font;
+    svg {
+      height: 40px;
+    }
     &.active,
     &:active,
     &:focus,
@@ -53,6 +56,9 @@
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      svg {
+        height: 60px;
+      }
     }
     svg {
       width: 50px;
