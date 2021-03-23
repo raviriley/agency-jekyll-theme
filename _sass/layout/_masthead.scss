@@ -21,8 +21,11 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 10px;
-      @include heading-font;
+      margin-bottom: 30px;
+      @include script-font;
+      .heading-suffix {
+        font-size: 27px;
+      }
     }
     .intro-subheading {
       font-size: 35px;
@@ -50,8 +53,11 @@ header.masthead {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        margin-bottom: 10px;
-        @include heading-font;
+        margin-bottom: 30px;
+        @include script-font;
+        .heading-suffix {
+          font-size: 40px;
+        }
       }
       .intro-subheading {
         font-size: 35px;

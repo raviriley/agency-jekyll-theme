@@ -2,9 +2,6 @@ nav:
   - title: "About"
     url: about
 
-  - title: "Contact"
-    section: contact
-
   - title: "Community"
     url: community
     
@@ -13,3 +10,6 @@ nav:
 
   - title: "Links"
     url: links
+
+  - title: "Contact"
+    section: contact

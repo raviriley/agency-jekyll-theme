@@ -1,7 +1,8 @@
 header:
-    title: Welcome To Our Law Office
-    text: Adam Hiller
-    subtext: Attorney At Law
+#    title: Welcome To Our Law Office
+    text: Hiller Law
+    suffix: LLC
+#    subtext: Attorney At Law
     button: Tell Me More
     buttonlink: "#welcome"
 
@@ -47,7 +48,7 @@ services:
         icon: fas fa-balance-scale
           
 contact:
-    title: "Contact Us"
+    title: "Contact"
     text: Call Us at <a href="tel:+13024427677">(302) 442-7677</a> or fill in the form below
     section: contact
     

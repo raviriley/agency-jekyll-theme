@@ -43,7 +43,7 @@
         <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text }} <span class="heading-suffix">{{ site.data.sitetext.header.suffix }}</span></div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.subtext -%}
         <div class="intro-subheading">{{ site.data.sitetext.header.subtext | markdownify }}</div>
