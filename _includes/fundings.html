@@ -1,12 +1,13 @@
 <!-- Fundings -->
-  <section class="py-5" id="{{ site.data.sitetext.fundings.section | default: "fundings" }}">
+  <section class="py-5" id="{{ site.data.sitetext.fundings.section | default: 'fundings' }}">
     <div class="container">
-      <div class="row" {% if site.data.sitetext.fundings.horizontal-scrolling == "yes" %} id="scrolling-fundings" {% endif %}>
+      <div class="row" {% if site.data.sitetext.fundings.horizontal-scrolling == 'yes' %} id="scrolling-fundings" {% endif %}>
 	  {% for fundings in site.data.sitetext.fundings.list %}
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <a href="{{ fundings.url }}">
-            <img class="img-fluid d-block mx-auto" src="{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: "100px" }}">
+            <img class="col-9 img-fluid d-block mx-auto" src="{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }}">
           </a>
+          <br>
         </div>
 	  {% endfor %}
       </div>
