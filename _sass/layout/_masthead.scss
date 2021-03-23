@@ -21,6 +21,14 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
+      margin-bottom: 10px;
+      @include heading-font;
+    }
+    .intro-subheading {
+      font-size: 35px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 40px;
       margin-bottom: 25px;
       @include heading-font;
     }
@@ -42,6 +50,14 @@ header.masthead {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        margin-bottom: 10px;
+        @include heading-font;
+      }
+      .intro-subheading {
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 40px;
         margin-bottom: 50px;
         @include heading-font;
       }

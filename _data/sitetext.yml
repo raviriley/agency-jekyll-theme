@@ -1,6 +1,7 @@
 header:
-    title: Welcome to our Office!
-    text: It's Nice To Meet You
+    title: Welcome To Our Law Office
+    text: Adam Hiller
+    subtext: Attorney At Law
     button: Tell Me More
     buttonlink: "#welcome"
 
