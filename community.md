@@ -14,11 +14,17 @@ Hiller Law is committed not only to providing excellent legal services to its cl
 * [Delaware Bar Foundation](http://www.delawarebarfoundation.org/)
 * [Delaware Humane Association](https://delawarehumane.org/)
 
-### We are also proud to provide administrative services to
+### We are also proud to provide administrative services to:
+
+* [Profundo Bono](http://profundobono.com)
+
+*(it’s the least we can do since they put up with Adam’s acting and singing)*
+
+### And Mr. Hiller is proud to donate his professional and non-professional time to:
+
 * MVLS (Maryland Volunteer Lawyers Service)
 * Market Street Music*
 * [DSBA](https://www.dsba.org/)
 
-*(it’s the least we can do since they put up with Adam’s acting and singing)
 
 *Please note that these are not official, authorized links or sponsorships. Links are provided for your convenience only.*
