@@ -29,6 +29,13 @@ designlink : https://www.catloafsoft.com/
 analytics:
   googletag: GTM-W2M338C
 
+geoloc:
+  coordinates:
+    long: 39.748890
+    lat: -75.543002
+  region: US-DE
+  placename: Wilmington
+
 collections:
   portfolio:
 
