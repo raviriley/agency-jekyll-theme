@@ -1,6 +1,7 @@
 <!-- About -->
-  <section class="page-section" id="{{ site.data.sitetext.timeline.section | default: "about" }}">
-    <div class="container">
+<section class="page-section" id="{{ site.data.sitetext.timeline.section | default: 'about' }}">
+  <div id="timeline" class="container">
+    <!-- <div class="col-12"> -->
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext.timeline.title | markdownify | default: "About" }}</h2>
@@ -8,16 +9,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-sm-11 col-md-11 col-lg-9 col-xl-9 mx-auto">
           <ul class="timeline">
-		  {%- for event in site.data.sitetext.timeline.events -%}
-            {% if event.align == "right" %}
-			<li class="timeline-inverted">
-			{% else %}
-			<li>
-			{% endif %}
+            {%- for event in site.data.sitetext.timeline.events -%}
+              {% if event.align == "right" %}
+                <li class="timeline-inverted">
+                  {% else %}
+                <li>
+              {% endif %}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ''}}">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -29,19 +30,21 @@
                 </div>
               </div>
             </li>
-		  {% endfor %}	
-            
-		  {% if site.data.sitetext.timeline.end %}	
-			<li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>{{ site.data.sitetext.timeline.end }}</h4>
-              </div>
-            </li>
-		  {% endif %}
-			
+            {% endfor %}	
+            {% if site.data.sitetext.timeline.end %}	
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>{{ site.data.sitetext.timeline.end }}</h4>
+                </div>
+              </li>
+            {% endif %}
           </ul>
         </div>
+        <div class="col-sm-4 col-md-6 col-lg-3 col-xl-3 mx-auto twitter-box" style="margin-top: 30px;">
+          <a class="twitter-timeline" data-height="1000" href="https://twitter.com/ppsp_team">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
       </div>
-    </div>
-  </section>
+    <!-- </div> -->
+  </div>
+</section>
 <!-- End About -->

@@ -99,6 +99,8 @@
     }
   }
 }
+
+
 @media(min-width:768px) {
   .timeline {
     &:before {
@@ -131,6 +133,9 @@
       }
     }
   }
+  .twitter-box{
+    margin: 0px auto;
+  }
 }
 @media(min-width:992px) {
   .timeline {
@@ -138,6 +143,7 @@
       min-height: 150px;
       .timeline-panel {
         padding: 0 20px 20px;
+        margin-left: -20px;
       }
       .timeline-image {
         width: 150px;
@@ -151,6 +157,7 @@
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 20px 20px;
+        margin-right: -20px;
       }
     }
   }
@@ -161,6 +168,7 @@
       min-height: 170px;
       .timeline-panel {
         padding: 0 20px 20px 100px;
+        margin-left: -20px;
       }
       .timeline-image {
         width: 170px;
@@ -172,7 +180,15 @@
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px;
+        margin-right: -20px;
       }
     }
+  }
+
+}
+
+@media (max-width: 576px){
+  .twitter-box{
+      margin: 50px auto; 
   }
 }
