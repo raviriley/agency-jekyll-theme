@@ -54,6 +54,8 @@ plugins:
 exclude: [
   LICENSE.txt,
   README.md,
+  EDITING.md,
   screenshot.PNG,
+  tutorial,
   jekyll-agency.gemspec
 ]
