@@ -13,13 +13,14 @@
 
 #theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://adamhillerlaw.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Hiller Law, LLC
 email      : ahiller@adamhillerlaw.com
 description: "A solo law practice owned and operated by Adam Hiller, Esquire in Wilmington, Delaware"
 author     : Adam Hiller
+logo       : assets/img/logo.jpg
 designer   : Catloaf Software, LLC
 designlink : https://www.catloafsoft.com/
 # logo:     #optional, defaults to site title
