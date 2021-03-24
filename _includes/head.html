@@ -15,8 +15,6 @@
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
-
   <meta name="DC.title" content="{{ site.title }}" />
   <meta name="geo.region" content="{{ site.geoloc.region }}" />
   <meta name="geo.placename" content="{{ site.geoloc.placename }}" />
