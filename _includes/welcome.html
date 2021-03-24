@@ -1,4 +1,6 @@
-<div class="container page-section" id="welcome">
-	{% capture welcome %}{% include welcome.md %}{% endcapture %}
-	{{ welcome | markdownify }}
-</div>
+<section class="page-section" id="welcome">
+	<div class="container">
+		{% capture welcome %}{% include welcome.md %}{% endcapture %}
+		{{ welcome | markdownify }}
+	</div>
+</section>
