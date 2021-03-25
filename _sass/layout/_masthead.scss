@@ -10,29 +10,21 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
-    }
     .intro-heading {
-      font-size: 50px;
+      font-size: 3.1rem;
       font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 30px;
+      line-height: 3.1rem;
+      margin-bottom: 0;
       @include script-font;
       .heading-suffix {
-        font-size: 27px;
+        font-size: 2.2rem;
       }
     }
     .intro-subheading {
-      font-size: 35px;
-      font-style: italic;
-      font-weight: 700;
-      line-height: 40px;
-      margin-bottom: 25px;
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 2.2rem;
+      margin-bottom: 2rem;
       @include heading-font;
     }
   }
@@ -43,30 +35,9 @@ header.masthead {
     .intro-text {
       padding-top: 500px;
       padding-bottom: 400px;
-      .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
-      }
       .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 30px;
-        @include script-font;
-        .heading-suffix {
-          font-size: 40px;
-        }
-      }
-      .intro-subheading {
-        font-size: 35px;
-        font-style: italic;
-        font-weight: 700;
-        line-height: 40px;
-        margin-bottom: 50px;
-        @include heading-font;
+        font-size: 4.7rem;
+        line-height: 4.7rem;
       }
     }
   }

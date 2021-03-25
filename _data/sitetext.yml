@@ -2,7 +2,7 @@ header:
 #    title: Welcome To Our Law Office
     text: Hiller Law
     suffix: LLC
-#    subtext: Attorney At Law
+    subtext: A solo law practice owned and operated by Adam Hiller, Esquire in Wilmington, Delaware
     button: Tell Me More
     buttonlink: "#welcome"
 
