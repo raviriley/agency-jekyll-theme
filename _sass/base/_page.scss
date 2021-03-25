@@ -19,6 +19,10 @@ a {
   color: $primary !important;
 }
 
+.section-heading {
+  font-size: 1.65rem;
+}
+
 h1,
 h2,
 h3,
@@ -28,11 +32,12 @@ h6 {
   font-weight: 700;
   @include heading-font;
 }
-
+#pagecontainer {
+  padding: 5rem 15px 1rem;
+}
 .page-section {
   padding: 50px 0;
   h2.section-heading {
-    font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -75,6 +80,7 @@ img::-moz-selection {
   }
 }
 #pagecontainer {
+  padding: 2rem 15px;
   h3 {
     font-size: 1.25rem;
   }

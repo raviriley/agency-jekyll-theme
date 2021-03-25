@@ -7,9 +7,12 @@ section#contact {
   .section-heading {
     color: $white;
   }
+  .section-heading {
+    @include script-font;
+  }
   address, address > h4 {
     @include script-font;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: $white;
     a {
       color: rgb(255, 153, 0);

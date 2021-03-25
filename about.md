@@ -45,6 +45,7 @@ Hiller Law strives to exceed being a mere business and gives back to the communi
 
 Adam Hiller and Brian Arban formed the firm in 2011 under the name Hiller & Arban, LLC. It became Hiller Law, LLC in April 2017 when Mr. Arban left the firm.
 
+---
 
 ### Adam Hiller
 During his career, Adam has represented clients in a multitude of roles in bankruptcy and insolvency proceedings: Chapter 11 debtors, Chapter 7 corporate debtors, creditors’ committees, secured creditors, Chapter 7 trustees, landlords, asset purchasers, executory contract parties, taxing authorities, and post-confirmation trusts. He has also represented numerous clients in preference actions, other bankruptcy litigation, non-bankruptcy fraudulent conveyance actions, and collection and enforcement of judgments under Maryland law. He is admitted to practice in Delaware, Maryland, and the District of Columbia (inactive), as well as the federal district courts in Delaware and Maryland, and the United States Courts of Appeals for the Third Circuit and Fourth Circuit.
