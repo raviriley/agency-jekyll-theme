@@ -32,4 +32,4 @@ We may update this privacy policy from time to time for personal, operational, l
 
 **CONTACT US**
 
-For more information about our privacy practices or if you have questions, please contact us using the form or phone number below.
+For more information about our privacy practices or if you have questions, please contact us using the email or phone number below.
