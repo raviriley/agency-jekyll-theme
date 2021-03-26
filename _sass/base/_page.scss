@@ -32,9 +32,6 @@ h6 {
   font-weight: 700;
   @include heading-font;
 }
-#pagecontainer {
-  padding: 5rem 15px 1rem;
-}
 .page-section {
   padding: 50px 0;
   h2.section-heading {
@@ -80,11 +77,16 @@ img::-moz-selection {
   }
 }
 #pagecontainer {
-  padding: 2rem 15px;
+  padding: 4.5rem 15px 2rem;
   h3 {
     font-size: 1.25rem;
   }
   h4 {
     font-size: 1rem;
+  }
+}
+@media(min-width:768px) {
+  #pagecontainer {
+    padding-top: 2rem;
   }
 }
