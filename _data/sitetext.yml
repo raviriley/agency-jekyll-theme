@@ -224,18 +224,7 @@ team:
             icon: fab fa-researchgate
           - url: https://github.com/ElisabethAD
             icon: fab fa-github
-      - name: "Florence Dolan"
-        role: "BSc intern coming soon ...<br>(Computational Physiology)"
-        image: img/team/Florence_Dolan.jpg
-        #social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
+
 contact:
     title: "Contact Us"
     text: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
