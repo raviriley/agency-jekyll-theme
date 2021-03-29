@@ -4,7 +4,7 @@ header.masthead {
   color: white;
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   .intro-text {
