@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-11 col-md-11 col-lg-9 col-xl-9 mx-auto">
+        <div class="col-sm-11 col-md-11 col-lg-8 col-xl-8 mx-auto">
           <ul class="timeline">
             {%- for event in site.data.sitetext.timeline.events -%}
               {% if event.align == "right" %}
@@ -18,7 +18,7 @@
                 <li>
               {% endif %}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ''}}">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: '}}'">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -40,7 +40,7 @@
             {% endif %}
           </ul>
         </div>
-        <div class="col-sm-4 col-md-6 col-lg-3 col-xl-3 mx-auto twitter-box" style="margin-top: 30px;">
+        <div class="col-sm-10 col-md-10 col-lg-4 col-xl-4 mx-auto twitter-box" style="margin-top: 30px;">
           <a class="twitter-timeline" data-height="1000" href="https://twitter.com/ppsp_team">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
