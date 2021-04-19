@@ -237,6 +237,20 @@ team:
             icon: fab fa-researchgate
           - url: https://github.com/ElisabethAD
             icon: fab fa-github
+      - name: "Katie Douglas"
+        role: "Research Assistant coming soon ...<br>(Social Physiology)"
+        image: img/team/Katie_Douglas.jpeg
+        social:
+          - url: https://twitter.com/douglascait/
+            icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          #- url: https://linkedin.com
+          #  icon: fab fa-linkedin-in
+          - url: https://www.researchgate.net/profile/Caitriona-Douglas
+            icon: fab fa-researchgate
+          # - url: https://github.com/
+          #   icon: fab fa-github
 
 contact:
     title: "Contact Us"
