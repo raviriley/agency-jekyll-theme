@@ -249,8 +249,8 @@ team:
           #  icon: fab fa-linkedin-in
           - url: https://www.researchgate.net/profile/Caitriona-Douglas
             icon: fab fa-researchgate
-          # - url: https://github.com/
-          #   icon: fab fa-github
+          - url: https://github.com/katied-neuro
+            icon: fab fa-github
 
 contact:
     title: "Contact Us"
