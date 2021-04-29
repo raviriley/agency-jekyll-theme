@@ -106,7 +106,7 @@ For bug reports, follow the provided template.
 
 #### Improvements - Up for Grabs
 
-- multiple language support
+- multiple language support (~~Spanish~~, Chinese, Arabic, etc.)
 - customizable background coloring for each section
 - ~~custom background images~~
 
