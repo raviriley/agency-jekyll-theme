@@ -163,18 +163,6 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/sayekazem94
             icon: fab fa-github
-      - name: "Mariem Hafsia"
-        role: "PhD Student coming soon ...<br>(Computational Psychiatry)"
-        image: img/team/Mariem_Hafsia.jpg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/mariemhafsia/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/Mhafsia
-            icon: fab fa-github
       - name: "Samuele Bolotta"
         role: "PhD Student coming soon ...<br>(Social NeuroAI)"
         image: img/team/Samuele_Bolotta.jpg
@@ -188,7 +176,7 @@ team:
           - url: https://github.com/SamueleBolotta
             icon: fab fa-github
       - name: "Lena Adel"
-        role: "MSc Student<br>(Social Computational Physiology)"
+        role: "PhD Student coming soon ...<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
         image: img/team/Lena_Adel.jpg
         social:
           - url: https://twitter.com/anelleda_
@@ -198,6 +186,18 @@ team:
           - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
             icon: fab fa-linkedin-in
           - url: https://github.com/lenaadel
+            icon: fab fa-github
+      - name: "Mariem Hafsia"
+        role: "MSc Student coming soon ...<br>(Computational Psychiatry)"
+        image: img/team/Mariem_Hafsia.jpg
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/mariemhafsia/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/Mhafsia
             icon: fab fa-github
       - name: "Mahta Ramezanian"
         role: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
