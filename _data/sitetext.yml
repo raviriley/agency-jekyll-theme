@@ -223,6 +223,20 @@ team:
           #  icon: fab fa-linkedin-in
           - url: https://github.com/gabrevaya
             icon: fab fa-github
+      - name: "Jean-Christophe Gagnon-Audet"
+        role: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        image: img/team/Jean-Christophe_Gagnon-Audet.jpg
+        social:
+          # - url: https://twitter.com/
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/jcaudet/
+            icon: fab fa-linkedin-in
+          # - url: https://www.researchgate.net/profile/
+          #  icon: fab fa-researchgate
+          - url: https://github.com/jc-audet
+            icon: fab fa-github
       - name: "Annabelle Harvey"
         role: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
         image: img/team/Annabelle_Harvey.jpg
@@ -236,6 +250,20 @@ team:
           # - url: https://www.researchgate.net/profile/
           #  icon: fab fa-researchgate
           - url: https://github.com/harveyaa
+            icon: fab fa-github
+      - name: "Ghazaleh Ranjbaran"
+        role: "MSc Student<br>(Computational Physiology)"
+        image: img/team/Ghazaleh_Ranjbaran.jpeg
+        social:
+          - url: https://twitter.com/BioMDScience
+            icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
+            icon: fab fa-linkedin-in
+          # - url: https://www.researchgate.net/profile/
+          #  icon: fab fa-researchgate
+          - url: https://github.com/ghazalehran
             icon: fab fa-github
       - name: "Elisabeth Audet-Duchesne"
         role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
