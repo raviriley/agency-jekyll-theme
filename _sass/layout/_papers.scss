@@ -108,11 +108,12 @@
     padding: 100px 0;
     text-align: center;
     h2 {
-      font-size: 3em;
-      margin-bottom: 15px;
+      font-size: 2.3em;
+      margin-bottom: 50px;
     }
     p {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+      text-align: justify;
     }
     p.item-intro {
       font-size: 16px;
@@ -126,6 +127,9 @@
     }
     img {
       margin-bottom: 30px;
+      width: 350px;
+      height: auto;
+      float: right;
     }
     button {
       cursor: pointer;
@@ -185,4 +189,18 @@
   filter: drop-shadow(5px 6px 100px lightgrey);
 }
 
-
+.list-inline{
+  li{
+  float: left;
+}
+}
+.papers-info{
+  list-style: none;
+  padding: 0;
+  li{
+    text-align-last: left
+  }
+  p{
+    margin: 0;
+  }
+}
