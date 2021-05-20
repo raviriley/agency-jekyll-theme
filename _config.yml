@@ -28,7 +28,12 @@ analytics:
   google: #Google Analytics tracking code here
 
 collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
   papers:
+    output: true
+    # permalink: /:paper/:name
 
 markdown: kramdown
 
