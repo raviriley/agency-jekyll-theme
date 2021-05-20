@@ -1,13 +1,13 @@
 <!-- Publications -->
 
-<section class="bg-light" id="{{ site.data.sitetext.publications.section | default: 'publications' }}" style="padding: 0;">
+<section class="bg-light" id="{{ site.data.sitetext.publications.section | default: 'publications' }}" style="padding: 20px 0;">
   
   {% include header.html %}
  
  
   <div class="container publications">
-    <!-- <div class="" style="margin: 2em auto">
-      <div class="form-select" aria-label="Default select example" style="padding-right: 0; margin: 50px auto;; height: 140px;">
+    <div class="" style="margin: 2em auto">
+      <!-- <div class="form-select" aria-label="Default select example" style="padding-right: 0; margin: 50px auto;; height: 140px;">
         <div style="margin-top: 50px;">
           <h5 style="color: #0d6cb5; position: absolute; margin: -37px auto;"> Filter your research</h3>
         </div>
@@ -35,8 +35,8 @@
         <span class="input-group-text border-0" id="search-addon" onclick=filterItems()>
           <i class="fas fa-search"></i>
         </span>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
 
     <!-- <div class="row"> -->
       <div class="col-12" style="margin: 50px 0px;">
@@ -45,18 +45,18 @@
           <tr>
             <td>
               <div class="container pub-item {{ project.type }}">
-                <div class="grid-sizer col-lg-12">
-                  <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.info.year }}" id="pubtitle" style="margin-bottom: 1rem">
-                    <a class="papers-link" target="_blank" href="{{ project.info.doi }}">{{ project.title }}</a>
+                <div class="grid-sizer col-lg-10 mx-auto">
+                  <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.year }}" id="pubtitle">
+                    <a class="papers-link" target="_blank" href="{{ project.link }}">{{ project.title }}</a>
                   </div>
                   <div class="pubauthors">
-                    <span>{{ project.info.authors }}</span>
+                    <span>{{ project.authors }}</span>
                   </div>
                   <div class="pubinfo">
-                    <span>{{ project.info.publication }}, {{ project.info.year }}</span>
+                    <span>{{ project.publication }}, {{ project.year }}</span>
                   </div>    
                   <!-- <div>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{project.info.doi}}" target="_blank" rel="noopener">
+                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{project.doi}}" target="_blank" rel="noopener">
                       DOI
                     </a>
                     <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{project.doc_path}}.pdf" target="_blank" rel="noopener">
