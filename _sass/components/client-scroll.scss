@@ -2,7 +2,7 @@
 #scrolling-clients {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
 }
 
