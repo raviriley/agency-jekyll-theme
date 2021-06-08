@@ -1,0 +1,87 @@
+- groupName: Montreal collaborators
+  align:
+  icon:
+  people:
+  - Irina Rish
+  - Danilo Bzdok
+  - Sebastien Jacquemont
+  - Sarah Lippé
+  - Anne Gallagher
+  - Baudouin Forgeot d'Arc
+  - Alexandre Lehmann
+  - Michael Lifshitz 
+  - Maxwell Ramstead
+  - Axel Constant
+
+- groupName: International collaborators
+  align: right
+  icon:
+  people:
+  - Denis Engemann
+  - Elvis Dohmatob
+  - J.-A. Micoulaud-Franchi
+  - Christophe Gauld
+  - Quentin Moreau
+  - Leonhard Schilbach
+  - Juha Lahnakoski
+  - Dimitris Bolis
+  - Eva Loth
+  - Merle Fairhurst
+  - Pavel Goldstein
+  - Suzanne Dikker
+  - Amir Djalovski
+  - Ruth Feldman
+  - Clara Moreau
+  - Tom Froese
+
+- groupName: Previous Paris Team
+  align:
+  icon:
+  people:
+  - Thomas Bourgeron
+  - Richard Delorme
+  - Jean-Pierre Changeux
+  - Aline Lefebvre
+  - Yann Beauxis
+  - Yang-Min Kim
+  - Anaël Ayrolles
+  - Florence Brun
+
+- groupName: Boca Raton Team
+  align: right
+  icon:
+  people:
+  - J.A. Scott Kelso
+  - Emmanuelle Tognoli
+  - Mengsen Zhang
+
+- groupName: Alius Research group
+  align:
+  icon:
+  people:
+  - David Dupuis
+  - Matthieu Koroma
+  - Raphaël Millière
+  - Martin Fortier
+  - Baptiste Gilles
+  - and the other members!
+
+- groupName: PhD Paris Team
+  align: right
+  icon:
+  people:
+  - Jacqueline Nadel 
+  - Jacques Martinerie
+  - Robert Soussignan
+  - Mario Chavez
+
+- groupName: HackYourResearch
+  align:
+  icon:
+  people:
+  - Célya Gruson-Daniel
+  - Matthieu Le Chanjour
+  - Romain Rouyer
+  - Alexandre Hannu-Abdo
+  - Clara Moreau
+  - and the other members!

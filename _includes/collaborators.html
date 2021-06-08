@@ -1,0 +1,44 @@
+<!-- Team -->
+<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: 'collaborators' }}">
+	{% include header.html %}
+	<div class="container">
+		{% for collaborator in site.data.collaborators %}
+			{% if collaborator.align == "right" %}
+				<div class="container collabinfo" >
+					<div class="row">
+						<h1>
+							{{ collaborator.groupName }}
+						</h1>
+					</div>
+					<div class="row" >
+						<div class="col">
+							{% for person in collaborator.people %}
+								<ul>
+									<li>{{ person }}</li>
+								</ul>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			{% else %}
+				<div class="container  collabinfo">
+					<div class="row">
+						<h1>
+							{{ collaborator.groupName }}
+						</h1>
+					</div>
+					<div class="row">
+						<div class="col">
+							{% for person in collaborator.people %}
+								<ul>
+									<li>{{ person }}</li>
+								</ul>
+							{% endfor %}
+						</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+    <!-- {{ collaborator.icon }} -->
+	</div>
+</section>
+<!-- End Team -->
