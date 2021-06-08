@@ -1,5 +1,8 @@
 // Styling for the Publications page
+
 #publications{
+  @include heading-font;
+
           .masthead{
             height: 20vw;
             background-image: url(../img/background-header.png);
@@ -54,13 +57,7 @@
     } 
 }
 .publications{
-  // background-color: #2b76bb17;
-    // /* padding: 0px 6px 1px 2px; */
-    // border-radius: 20px;
-    // box-shadow: 5px 10px lightgrey;
     min-height: 800px;
-    // border-right: groove;
-    // border-left: groove;
     td{
       box-shadow: 1px 1px 5px 1px #d3d3d35e;
     }
@@ -100,7 +97,7 @@ a.btn.btn-outline-primary{
   }
 
 }
-.pubtitle {
+div.pubtitle {
     text-align: justify;
     margin: 0px;
     line-height: 1.2em;
@@ -141,5 +138,8 @@ a.btn.btn-outline-primary{
     td{
         border-bottom-width: 1px;
     }
-}
+  }
 
+.pubcategory{
+  color: red;
+}

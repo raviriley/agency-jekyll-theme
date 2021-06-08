@@ -38,8 +38,7 @@
       </div> -->
     </div>
 
-    <!-- <div class="row"> -->
-      <div class="col-12" style="margin: 50px 0px;">
+      <div class="" style="margin: 50px 0px;">
       <table id="pubTable" style="margin-bottom: 45px;"> 
         {% for project in site.papers %}
           <tr>
@@ -48,23 +47,21 @@
                 <div class="grid-sizer col-lg-10 mx-auto">
                   <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.year }}" id="pubtitle">
                     <a class="papers-link" target="_blank" href="{{ project.link }}">{{ project.title }}</a>
-                  </div>
+                  </div>         
                   <div class="pubauthors">
                     <span>{{ project.authors }}</span>
                   </div>
                   <div class="pubinfo">
-                    <span>{{ project.publication }}, {{ project.year }}</span>
-                  </div>    
-                  <!-- <div>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{project.doi}}" target="_blank" rel="noopener">
-                      DOI
-                    </a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{project.doc_path}}.pdf" target="_blank" rel="noopener">
-                      PDF
-                    </a>
-                </div>     -->
+                    <span>{{ project.publication }}, {{ project.year }}</span> <br>
+                  </div> 
+              <div class="pubcategory mt-10">
+                <img class="" style="height: 35px;" src="/assets/img/icons/{{ project.type }}@2x.png">
+                {% for cat in project.category %}
+                  <img class="" style="height: 35px;" src="/assets/img/icons/{{ cat }}@2x.png">
+                {% endfor %}                  
               </div>
             </div>
+              </div>
             </td>
           </tr>
         {% endfor %}
