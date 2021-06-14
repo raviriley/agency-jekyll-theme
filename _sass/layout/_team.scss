@@ -4,8 +4,9 @@
   text-align: center;
   img {
     width: 225px;
-    height: 225px;
+    height: auto;
     border: 7px solid fade-out($black, 0.9);
+    padding: 0;
   }
   h4 {
     margin-top: 25px;
@@ -13,6 +14,45 @@
     text-transform: none;
   }
   p {
-    margin-top: 0;
+    margin: 10px auto;
+    height: 35px;
+    line-height: 1.3em;
+  .role{
+    font-weight: 500;
+  }
+  .topic{
+    font-weight: 400;
+  }
+  }
+}
+.btn {
+  margin: 20px;
+  display: block;
+  width: fit-content;
+}
+.btn-primary{
+  margin: auto;
+}
+#team{
+  .btn-primary{
+    margin: 50px auto;
+    width: 220px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px){
+  
+}
+@media (max-width: 567px){
+  .member-card {
+      margin: auto;
+  }
+  #team{
+    .btn-primary{
+      margin: 20px auto;
+      width: 220px;
+      padding: 10px;  
+    }
   }
 }
