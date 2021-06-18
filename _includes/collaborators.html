@@ -1,44 +1,79 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: 'collaborators' }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext.collaborators.section | default: 'collaborators' }}" style="padding: 20px 0;">
+	<style>
+		
+	html{scroll-behavior: smooth;}
+	</style>
 	{% include header.html %}
-	<div class="container">
-		{% for collaborator in site.data.collaborators %}
-			{% if collaborator.align == "right" %}
-				<div class="container collabinfo" >
-					<div class="row">
-						<h1>
-							{{ collaborator.groupName }}
-						</h1>
-					</div>
-					<div class="row" >
-						<div class="col">
-							{% for person in collaborator.people %}
-								<ul>
-									<li>{{ person }}</li>
-								</ul>
-							{% endfor %}
-						</div>
-					</div>
-				</div>
-			{% else %}
-				<div class="container  collabinfo">
-					<div class="row">
-						<h1>
-							{{ collaborator.groupName }}
-						</h1>
-					</div>
-					<div class="row">
-						<div class="col">
-							{% for person in collaborator.people %}
-								<ul>
-									<li>{{ person }}</li>
-								</ul>
-							{% endfor %}
-						</div>
-				</div>
-			{% endif %}
-		{% endfor %}
-    <!-- {{ collaborator.icon }} -->
+	<div class="pos-f-t">
+		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collaborators-menu" aria-expanded="false" aria-controls="collapseExample">
+		V
+	  </button>
 	</div>
+	
+	  <div class="collapse" id="collaborators-menu">
+		<div class="card card-body">
+			<ul class="nav-collaborators" >
+			{% for collaborator in site.data.collaborators %}
+				<li class="list-inline">
+					<a class="nav-link js-scroll-trigger" href="#{{ collaborator.groupName }}">
+						{{ collaborator.groupName }}
+					</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row backlink">
+			<ul class="path" >
+				<li class="list-inline">
+					<a class="js-scroll-trigger" href="./">
+						{{ site.title }}
+					</a>
+				</li>
+				<li class="list-inline current-page">
+					<a class="js-scroll-trigger" href="{{ page.url }}">
+						{{ page.title | capitalize }}
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-3 col-sm-3 collaborators-menu" style="height: fit-content; background-color:white; margin: 30px 15px;  padding: 55px 0px;">
+			{% for collaborator in site.data.collaborators %}
+				<a href="#{{ collaborator.groupName }}">
+					<ul>
+						<li class="list-inline">
+							{{ collaborator.groupName }}
+						</li>
+					</ul>	
+				</a>
+				{% endfor %}
+			</div>
+			<div class="col-12 col-md-8 col-sm-8">						
+			{% for collaborator in site.data.collaborators %}
+			<section class="collaborator group" id="{{ collaborator.groupName }}">
+				<div class="">
+					<div class="groupName">
+						<h3>
+							{{ collaborator.groupName }}
+						</h3>
+					</div>
+					<div class="col">
+						{% for person in collaborator.people %}
+							<div class="col collaborator"> 
+								<p style="line-height: 2.75; font-size: 1.2rem;;">{{ person }} </p>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+					{% endfor %}
+			</div>
+    <!-- {{ collaborator.icon }} -->
+		</div>
+	</div>
+</div>
 </section>
 <!-- End Team -->

@@ -1,26 +1,104 @@
-.collabinfo{
-  margin-top: 30px;
-    li{
-        list-style-type: none;
+// Styling for the Collaborators page
+#collaborators{
+    @include heading-font;
+    .logo{
+        margin: auto 10px;
     }
-}
-.masthead{
-    height: 20vw;
-    background-image: url(../img/background-header.png);
-    @media(max-width:425px) {
-    height: 150px;
+    ul.nav-collaborators{
+        @media(min-width:546px) {
+            display: none;
+        }
+        
     }
-    .section-heading{
-      color: #f3f3f3f2;
-      font-size: 2.2em;
+li.list-inline.current-page{
+            &::before{
+                content: "";
+                background-image: url(../img/chevron-right.svg);
+                filter: opacity(0.5);
+                background-repeat: no-repeat;
+                background-position-y: 3.5px;
+                background-position-x: 1px;
+                padding: 2px 10px 0px 10px;
+                font-size: initial;
+                margin-left: 10px;
+            }
+        }
+        .path{
+            display: inline-flex;
+        }
+.collaborators-menu{
+        position: sticky;
+        top: 100px;
+        @media(max-width:546px) {
+            position: initial;
+            display: none;
+            
+            }
+        }
+    .masthead{
+        height: 20vw;
+        background-image: url(../img/background-header.png);
+        .section-heading{
+            color: white;
+            font-size: 80px;
+            @media(max-width:992px) {
+                font-size: 40px;
+                margin: 5px;
+            }
+        }
+        .masthead-title{
+            top: 450px;
+            position: sticky;
+            .display-1 {
+                font-size: 5vw;
+                font-weight: 600;
+                color: #f8f9fa;
+            }
+        }
     }
-    .masthead-title{
-      top: 450px;
-      position: sticky;              
-      .display-1{
-        font-size: 5vw;
-      font-weight: 600;
-      color: #f8f9fa;
-      }
+    .collaborator.group{
+        background: #2a75bb1c;
+        padding: 35px;
+        margin: 30px 0px;
+        border-radius: 5px;
+        .groupName{
+                margin: 30px 15px;
+            }
+        .collaborator{
+            height: 100px;
+            background-color: #f8f9fad9;
+            border-radius: 5px;
+            margin: 5px 0;
+            
+            p{
+                &::after {
+                content: "";
+                position: absolute;
+                bottom: 50px;
+                left: 15px;
+                right: 0;
+                height: 0.5em;
+                border-top: 1px solid #2c75bb;;
+                z-index: 2;
+                width: 40px
+            }
+        }
+        }
+    
+    }
+    .collapse{
+        position: sticky;
+        top: 100px;
+        z-index: 1;
+    }
+    .pos-f-t{
+        position: sticky;
+        top: 110px;
+        z-index: 2;
+        margin-left: 0px;
+        width: fit-content;
+        @media(min-width:546px) {
+            display: none;
+        }
     }
 }
