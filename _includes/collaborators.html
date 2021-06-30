@@ -53,11 +53,11 @@
 									{% endfor %}
 										<span style="font-size: .81rem;"> {{ person.country }} </span>
 								</div>	
-								<div class="col align-self-end">
+								<div class="col">
 									<ul class="list-inline social-buttons ml-auto p-2">
 										{% for network in person.social %}
 											<li class="list-inline">
-												<a href="{{ network.url }}">
+												<a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
 												<i class="{{ network.icon }}"></i>
 												</a>
 											</li>

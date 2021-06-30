@@ -64,11 +64,10 @@ li.list-inline.current-page{
                 margin: 30px 0px;
             }
         .collaborator{
-            display: table;
-            height: fit-content;
             background-color: #ffffffbd;
             border-radius: 5px;
-            margin: 5px 0;
+            margin: 15px 0;
+            padding: 15px 30px;
             border: #87a8cc2b;
             border-style: solid;
             border-width: thin;
@@ -77,7 +76,7 @@ li.list-inline.current-page{
                 filter: drop-shadow(1px 2px 13px #acc0d4);;
             }
             .list-inline{
-                display: inline-block;
+                float: right;
             }
 
             ul.social-buttons li a {
