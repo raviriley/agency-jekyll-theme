@@ -33,7 +33,7 @@
 			{% endfor %}
 		</div> -->
 		<div class="container">						
-			<section class="bg-light collaborator group" id="{{ collaborator.groupName[0] }}">
+			<div class="bg-light collaborator group" id="{{ collaborator.groupName[0] }}">
 				<div class="">
 					{% for collaborator in site.data.collaborators %}
 						<div class="col groupName {{ collaborator.groupName }}">
@@ -44,7 +44,7 @@
 					{% for person in collaborator.people %}
 						<div class="col-12 collaborator">
 							<div class="row">
-								<div class="col-3 collaborator-name">
+								<div class="col-sm collaborator-name">
 									<p style=" font-size: 1rem;"> {{ person.name }} </p> 
 								</div>
 								<div class="col-6 collaborators-position">
@@ -69,7 +69,7 @@
 						{% endfor %}
 						{% endfor %}
 				</div>
-			</section>
+			</div>
 		</div>
 	</div>
 </section>
