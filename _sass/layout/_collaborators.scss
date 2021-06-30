@@ -58,14 +58,14 @@ li.list-inline.current-page{
     }
     .collaborator.group{
         background: #2a75bb1c;
-        padding: 35px;
+        padding: 10px 0 0 0;
         border-radius: 5px;
         .groupName{
                 margin: 30px 0px;
             }
         .collaborator{
             display: table;
-            height: 6.7em;
+            height: fit-content;
             background-color: #ffffffbd;
             border-radius: 5px;
             margin: 5px 0;
@@ -76,17 +76,29 @@ li.list-inline.current-page{
                 background-color: #fffffff0;
                 filter: drop-shadow(1px 2px 13px #acc0d4);;
             }
-            p{
-                &:after {
-                    content: '\279A';
-                    color: #106cb5;
-                }
+            .list-inline{
+                display: inline-block;
             }
+
+            ul.social-buttons li a {
+                font-size: 20px;
+                line-height: 0px;
+                color: #106cb5;
+                background-color: transparent;
+                width: auto;
+                margin: 0 5px;
+            }
+            // p{
+            //     &:after {
+            //         content: '\279A';
+            //         color: #106cb5;
+            //     }
+            // }
             .collaborator-name{
                 &::before {
                 content: "";
                 position: absolute;
-                top: 45px;
+                top: 2.4em;
                 left: 15px;
                 right: 0;
                 height: 0.9em;
@@ -121,4 +133,5 @@ li.list-inline.current-page{
             display: none;
         }
     }
+    
 }
