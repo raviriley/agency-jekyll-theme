@@ -1,0 +1,91 @@
+<!-- Publications -->
+
+<section class="page-section" id="{{ site.data.sitetext.publications.section | default: 'publications' }}" style="padding: 20px 0;">
+  
+  {% include header.html %}
+  <div class="container">
+		<div class="row backlink">
+			<ul class="path" style="padding: 0px 1.2em;">
+				<li class="list-inline">
+					<a class="js-scroll-trigger" href="./">
+						{{ site.title }}
+					</a>
+				</li>
+				<li class="list-inline current-page">
+					<a class="js-scroll-trigger" href="{{ page.url }}">
+						{{ page.title | capitalize }}
+					</a>
+				</li>
+			</ul>
+		</div>
+  </div>
+ 
+  <div class="container-fluid bg-light publications">
+    <div class="container">
+      <div class="form-select" aria-label="Default select example" style="padding-right: 0; height: 140px;">
+        <!-- <div style="margin-top: 50px;">
+          <h5 style="color: #0d6cb5; position: absolute; margin: -37px auto;"> Filter your research</h3>
+        </div> -->
+        <input type="search" class="form-control rounded" id="search-input" onkeyup="searchItem()" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+        <!-- <select class="pub-filters pubtype-select form-control form-control-sm" id="publication-type" data-filter-group="pubtype">
+          <option value="">Type</option>
+          <option value="Conference paper">Conference paper</option>
+          <option value="Journal article">Journal article</option>
+          <option value="Preprint">Preprint</option>
+          <option value="Book">Book</option>
+          <option value="Thesis">Thesis</option>
+        </select>
+        <select class="pub-filters form-control form-control-sm" id="publication-year">
+          <option value="">Date</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+        </select> -->
+        <span class="input-group-text border-0" id="search-addon" onclick=filterItems()>
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+
+      <div class="" style="margin: 50px 0px;">
+      <table id="pubTable" style="margin-bottom: 45px;"> 
+        {% for project in site.papers reversed %}
+          <tr>
+            <td>
+              <div class="container pub-item {{ project.type }}">
+                <div class="grid-sizer col-lg-10 mx-auto">
+                  <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.year }}" id="pubtitle">
+                    <a class="papers-link" target="_blank" href="{{ project.link }}">{{ project.title }}</a>
+                  </div>         
+                  <div class="pubauthors">
+                    <span>{{ project.authors }}</span>
+                  </div>
+                  <div class="pubinfo">
+                    <span>{{ project.publication }}, {{ project.year }}</span> <br>
+                  </div> 
+              <div class="pubcategory mt-10">
+                <img class="" style="height: 35px;" src="/assets/img/icons/{{ project.type }}@2x.png">
+                {% for cat in project.category %}
+                  <img class="" style="height: 35px;" src="/assets/img/icons/{{ cat }}@2x.png">
+                {% endfor %}                  
+              </div>
+            </div>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+      <div class="col-lg-12 text-center">
+      <p class="no-search-result" id="noResult">Sorry, your search did not return any results. Please try again with new search criteria.</h2>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+</section>
+<!-- End publications -->

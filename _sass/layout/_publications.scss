@@ -1,0 +1,160 @@
+// Styling for the Publications page
+
+#publications{
+  @include heading-font;
+
+          .masthead{
+            height: 20vw;
+            background-image: url(../img/background-header.png);
+            @media(max-width:425px) {
+            height: 150px;
+            }
+            .section-heading{
+              color: #f3f3f3f2;
+              font-size: 2.2em;
+            }
+            .masthead-title{
+              top: 450px;
+              position: sticky;              
+              .display-1{
+                font-size: 5vw;
+              font-weight: 600;
+              color: #f8f9fa;
+              }
+            }
+        }
+    .form-select{
+        display: flex;
+    }
+    .form-control.rounded{
+        height: 40px;
+        margin: auto 0;
+    }
+    .pub-filters.pubtype-select.form-control.form-control-sm{
+        margin: auto 10px;
+        height: 40px;
+        max-width: 150px;
+    }
+    .form-control.form-control-sm{
+        height: 40px;
+        max-width: 150px;
+        margin: auto;
+    }
+    .grid-sizer.col-lg-12.Journal article {
+        ::after {
+            content:"";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 0.5em;      
+            z-index: -1;
+            border-bottom: inset;
+            border-color: #212529;
+            border-bottom-width: thin;
+        }
+    } 
+}
+.publications{
+    min-height: 800px;
+    td{
+      box-shadow: 1px 1px 5px 1px #d3d3d35e;
+    }
+}
+span.input-group-text{
+    margin: auto 10px;
+    height: 40px;
+}
+
+.navbar-brand.js-scroll-trigger{
+    display: inline-flex;
+  }
+  .logo{
+    margin: auto 10px;
+  }
+.no-search-result{
+  display: none;
+}
+
+a.papers-link{
+    color: #1e629e;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+a.btn.btn-outline-primary{
+  margin: 0;
+  display: inline;
+  width: fit-content;
+  border-color: #1d639d;
+  color: #1d639d;
+  &:hover,
+  &:active,
+  &:not(:disabled):not(.disabled):active,{
+      color: white;
+      background-color: darken($color: #1d639d, $amount: 2);
+  }
+
+}
+div.pubtitle {
+    text-align: justify;
+    margin: 0px;
+    line-height: 1.2em;
+    font-weight: bold;
+    ::before{
+      background: transparent url(/assets/img/newlink.png) 0 0 no-repeat;
+      background-size: 16px;
+      content: "";
+      display: inline-block;
+      height: 16px;
+      margin-right: 3px;
+      width: 16px;
+    }
+  }
+  
+.pubauthors, .pubinfo {
+      font-size: 85%;
+      margin: 10px 0px;
+    }
+  
+    .pubinfo{
+      font-style: italic;
+      color: #666a6d;
+      font-weight: 500;
+
+}
+.pub-item {
+    // @extend #papers;
+    margin: 25px 0px;
+    line-height: 1em;
+    display: grid;
+    min-width: 240px;
+    min-height: 100px;
+    line-height: 1.75;
+}
+
+#pubTable{
+    td{
+        border-bottom-width: 1px;
+    }
+  }
+
+.pubcategory{
+  color: red;
+}
+li.list-inline.current-page{
+  &::before{
+      content: "";
+      background-image: url(../img/chevron-right.svg);
+      filter: opacity(0.5);
+      background-repeat: no-repeat;
+      background-position-y: 3.5px;
+      background-position-x: 1px;
+      padding: 2px 10px 0px 10px;
+      font-size: initial;
+      margin-left: 10px;
+  }
+}
+.path{
+  display: inline-flex;
+}

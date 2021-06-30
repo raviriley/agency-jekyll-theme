@@ -10,14 +10,36 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-10 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.caption.title }}</h2>
-                <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-				<p>{{ project.content }}</p>		
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <h2 class="text-uppercase">{{ project.title }}</h2>
+                <p class="item-intro text-muted">{{ project.highlightData.subtitle }}</p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid d-block mx-auto" src="{{ project.highlightData.image }}" alt="{{ project.alt }}">
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="papers-info">
+                      <li>
+                        <p> <b> Authors:</b> {{ project.authors }}</p> 
+                      </li>
+                      <li>
+                        <p> <b> Publication Year:</b> {{ project.year }}</p> 
+                      </li>
+                      <li>
+                        <p> <b> Journal:</b> {{ project.publication }}</p> 
+                      </li>
+                      <li>
+                          <a class="btn btn-primary my-1 mr-1 btn-sm" href="{{ project.doi }}" target="_blank" rel="noopener">
+                            DOI
+                          </a>
+                      </li>
+                    </ul> 
+                  </div>		
+                </div>		
+                  <div>{{ project.content }}</div>
+                  <button class="btn btn-primary" style="margin-top:50px" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   {{ site.data.sitetext.papers.closebutton | default: "Close Project" }}</button>
               </div>
