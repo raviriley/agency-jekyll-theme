@@ -1,87 +1,198 @@
-- groupName: Montreal collaborators
+- groupName: Local collaborators
   align:
   icon:
   people:
-  - Irina Rish
-  - Danilo Bzdok
-  - Sebastien Jacquemont
-  - Sarah Lippé
-  - Anne Gallagher
-  - Baudouin Forgeot d'Arc
-  - Alexandre Lehmann
-  - Michael Lifshitz 
-  - Maxwell Ramstead
-  - Axel Constant
+    - name: Irina Rish
+      position:
+        - Professor at Université of Montréal
+        - Associate Professor & Associate at Mila
+      link: https://scholar.google.com/citations?user=Avse5gIAAAAJ&hl=en
+
+    - name: Danilo Bzdok
+      position:
+        - Associate Professor at McGill University
+      link: https://danilobzdok.de/
+
+    - name: Sebastien Jacquemont
+      position:
+        - Associate Professor at University of Montréal
+        - Medical Geneticist at CHU Sainte Justine
+      link: https://scholar.google.com/citations?user=l_TQ6fAAAAAJ
+
+    - name: Sarah Lippé
+      position: 
+        - Professor at University of Montréal
+      link: https://scholar.google.com/citations?user=QL9V5DAAAAAJ&hl=en
+
+    - name: Anne Gallagher
+      position:
+        - Professor at University of Montréal
+      link: https://scholar.google.ca/citations?user=zAyeJmoAAAAJ&hl=en
+
+    - name: Baudouin Forgeot d'Arc
+      position:
+        - Psychiatrist, Department of Psychiatry, CHU Sainte-Justine
+        - Researcher, brain and development axis, CHU Ste-Justine research center
+        - Associate Member, Department of Psychiatry and Research Center, CNMTL (Hôpital Rivière-des-Prairies), Montreal, Qc
+        - Associate Professor, Faculty of Medicine, Université de Montréal
+      link: https://scholar.google.com/citations?user=nPxD7n4AAAAJ&hl=en
+
+    - name: Alexandre Lehmann
+      position: 
+        - Assistant Professor at McGill University
+        - Adjunct Professor at Université of Montréal
+        - Principal Investigator at the Centre for Research on Brain Language and Music (CRBLM)
+        - Full member, International Laboratory for Brain, Music, and Sound Research (BRAMS) 
+      link: https://www.researchgate.net/profile/Alexandre-Lehmann
+
+    - name: Michael Lifshitz 
+      position:
+        - Post-Doc at McGill University, Social and Transcultural Psychiatry
+        - Faculty Member Stanford University, Anthropology
+      link: https://scholar.google.de/citations?user=bbFD2uEAAAAJ&hl=en
+
+    - name: Maxwell Ramstead
+      position:
+        - CEO of the Nested Minds Network
+        - Director of Research at the Spatial Web Foundation
+        - Postdoctoral Fellow at McGill University
+      link: https://scholar.google.ca/citations?user=ILpGOMkAAAAJ&hl=fr
+
+    - name: Axel Constant
+      position:
+        - '*** University of Sydney'
+      link: https://scholar.google.com/citations?user=ceTlA00AAAAJ&hl=en
+
 
 - groupName: International collaborators
   align: right
   icon:
   people:
-  - Denis Engemann
-  - Elvis Dohmatob
-  - J.-A. Micoulaud-Franchi
-  - Christophe Gauld
-  - Quentin Moreau
-  - Leonhard Schilbach
-  - Juha Lahnakoski
-  - Dimitris Bolis
-  - Eva Loth
-  - Merle Fairhurst
-  - Pavel Goldstein
-  - Suzanne Dikker
-  - Amir Djalovski
-  - Ruth Feldman
-  - Clara Moreau
-  - Tom Froese
+  - name: Denis Engemann
+    position:
+      - Research Scientist, Principal Investigator at Parietal, INRIA Saclay
+    country: 🇫🇷 Palaiseau, France
+    link: https://denis-engemann.de/
+  
+  - name: Elvis Dohmatob
+    position:
+      - Researcher, Facebook AI Research (FAIR)
+    link: https://scholar.google.com/citations?user=FDWgJY8AAAAJ
+    country: 🇫🇷 Paris, France
+  
+  - name: J.-A. Micoulaud-Franchi
+    position:
+      - Psychiatrist at CHU de Bordeaux - University of Bordeaux 
+    link: https://sites.google.com/site/jarthurmicoulaud/home
+    country: 🇫🇷 Bordeaux, France
+  
+  - name: Christophe Gauld
+    position:
+      - Psychiatrist at CHU Grenoble Alpes
+    link: https://www.researchgate.net/profile/Christophe-Gauld
+    country: 🇫🇷 Saint-Étienne, France
 
-- groupName: Previous Paris Team
-  align:
-  icon:
-  people:
-  - Thomas Bourgeron
-  - Richard Delorme
-  - Jean-Pierre Changeux
-  - Aline Lefebvre
-  - Yann Beauxis
-  - Yang-Min Kim
-  - Anaël Ayrolles
-  - Florence Brun
+  - name: Quentin Moreau
+    position:
+      - Postdoctoral Researcher in the department of Psychology at Sapienza University of Rome
+    link: https://scholar.google.com/citations?user=x0EFmuoAAAAJ&hl=en
+    country: 🇮🇹 Rome, Italy
+  
+  - name: Leonhard Schilbach
+    position:
+      - Psychiatrist and head of the Department for General Psychiatry 2 at the LVR-Klinikum Düsseldorf
+    link: https://scholar.google.com/citations?user=cgtEK4EAAAAJ&hl=en
+    country: 🇩🇪 Munich, Germany
+  
+  - name: Juha Lahnakoski
+    position:
+      - Postdoctoral Researcher at  Institute of Neuroscience and Medicine - Julich Forschungszentrum
+    link: https://users.aalto.fi/~jlahnako/
+    country: 🇩🇪 Jülich, Germany
+  
+  - name: Dimitris Bolis
+    position:
+      - postdoc researcher at the Max Planck Institute of Psychiatry Munich
+    link: https://sites.google.com/site/dimitrisbolis/
+    country: 🇩🇪 Munich, Germany
+  
+  - name: Eva Loth
+    position:
+      - Researcher at Institute of Psychiatry - King's College London
+    link: https://scholar.google.fr/citations?user=OsU8i_UAAAAJ&hl=en
+    country: 🇬🇧 London, United Kingdom
 
-- groupName: Boca Raton Team
-  align: right
-  icon:
-  people:
-  - J.A. Scott Kelso
-  - Emmanuelle Tognoli
-  - Mengsen Zhang
+  - name: Merle Fairhurst
+    position:
+      - Professor of Biological Psychology at Institute of Psychology - University of Bundeswehr
+    link: https://www.merlefairhurst.com/
+    country: 🇩🇪 Munich, Germany
+  
+  - name: Pavel Goldstein
+    position:
+      - Head of Integrative Pain (iPain) lab at School of public Health, University of Haifa
+      - Head of Biostatistics MPH track at School of public Health, University of Haifa
+    link: https://scholar.google.co.il/citations?user=LyivYq8AAAAJ&hl=en
+    country: 🇮🇱 Haifa, Israel
+  
+  - name: Suzanne Dikker
+    position:
+      - Researcher at New York University
+    link: http://www.suzannedikker.net/
+    country: 🇺🇸 New York, United States
+  
+  - name: Amir Djalovski
+    position:
+      - Neurocognitive psychology PhD candidate
+      - Data analyst
+    link: https://amirdjv.netlify.app/
+    country: 🇮🇱 Herzliya, Israel
+  
+  - name: Ruth Feldman
+    position:
+      - Psychologist at Interdisciplinary Center - Herzliya
+    link: https://ruthfeldmanlab.com/
+    country: 🇮🇱 Herzliya, Israel
+  
+  - name: Clara Moreau
+    position:
+      - Postdoctoral researcher at Institut Pasteur - Paris
+    link: https://claramoreau9.github.io/
+    country: 🇫🇷 Paris, France
+  
+  - name: Tom Froese
+    position:
+      - Researcher at Okinawa Institute of Science and Technology
+    link: https://scholar.google.com/citations?user=uKd8pmUAAAAJ&hl=en
+    country: 🇯🇵 Okinawa, Japan
+  
 
-- groupName: Alius Research group
-  align:
-  icon:
-  people:
-  - David Dupuis
-  - Matthieu Koroma
-  - Raphaël Millière
-  - Martin Fortier
-  - Baptiste Gilles
-  - and the other members!
+# - groupName: Previous Paris Team
+#   align:
+#   icon:
+#   people:
+#   - Thomas Bourgeron
+#   - Richard Delorme
+#   - Jean-Pierre Changeux
+#   - Aline Lefebvre
+#   - Yann Beauxis
+#   - Yang-Min Kim
+#   - Anaël Ayrolles
+#   - Florence Brun
 
-- groupName: PhD Paris Team
-  align: right
-  icon:
-  people:
-  - Jacqueline Nadel 
-  - Jacques Martinerie
-  - Robert Soussignan
-  - Mario Chavez
+# - groupName: Boca Raton Team
+#   align: right
+#   icon:
+#   people:
+#   - J.A. Scott Kelso
+#   - Emmanuelle Tognoli
+#   - Mengsen Zhang
 
-- groupName: HackYourResearch
-  align:
-  icon:
-  people:
-  - Célya Gruson-Daniel
-  - Matthieu Le Chanjour
-  - Romain Rouyer
-  - Alexandre Hannu-Abdo
-  - Clara Moreau
-  - and the other members!
+# - groupName: PhD Paris Team
+#   align: right
+#   icon:
+#   people:
+#   - Jacqueline Nadel 
+#   - Jacques Martinerie
+#   - Robert Soussignan
+#   - Mario Chavez

@@ -1,17 +1,17 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.collaborators.section | default: 'collaborators' }}" style="padding: 20px 0;">
+<section class="page-section" id="{{ site.data.sitetext.collaborators.section | default: 'collaborators' }}" style="padding: 20px 0;">
 	<style>
 		
 	html{scroll-behavior: smooth;}
 	</style>
 	{% include header.html %}
-	<div class="pos-f-t">
+	<!-- <div class="pos-f-t">
 		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collaborators-menu" aria-expanded="false" aria-controls="collapseExample">
 		V
 	  </button>
-	</div>
+	</div> -->
 	
-	  <div class="collapse" id="collaborators-menu">
+	  <!-- <div class="collapse" id="collaborators-menu">
 		<div class="card card-body">
 			<ul class="nav-collaborators" >
 			{% for collaborator in site.data.collaborators %}
@@ -23,8 +23,8 @@
 			{% endfor %}
 			</ul>
 		</div>
-	</div>
-	<div class="container">
+	</div> -->
+		<div class="container">
 		<div class="row backlink">
 			<ul class="path" >
 				<li class="list-inline">
@@ -39,8 +39,9 @@
 				</li>
 			</ul>
 		</div>
-		<div class="row">
-			<div class="col-12 col-md-3 col-sm-3 collaborators-menu" style="height: fit-content; background-color:white; margin: 30px 15px;  padding: 55px 0px;">
+	</div>
+		<div class="container-fluid bg-light">
+			<!-- <div class="col-12 col-md-3 col-sm-3 collaborators-menu" style="height: fit-content; background-color:white; margin: 30px 15px;  padding: 55px 0px;">
 			{% for collaborator in site.data.collaborators %}
 				<a href="#{{ collaborator.groupName }}">
 					<ul>
@@ -50,12 +51,12 @@
 					</ul>	
 				</a>
 				{% endfor %}
-			</div>
-			<div class="col-12 col-md-8 col-sm-8">						
+			</div> -->
+			<div class="container">						
 			{% for collaborator in site.data.collaborators %}
-			<section class="collaborator group" id="{{ collaborator.groupName }}">
+			<section class="bg-light collaborator group" id="{{ collaborator.groupName }}">
 				<div class="">
-					<div class="groupName">
+					<div class="col groupName">
 						<h3>
 							{{ collaborator.groupName }}
 						</h3>
@@ -63,7 +64,17 @@
 					<div class="col">
 						{% for person in collaborator.people %}
 							<div class="col collaborator"> 
-								<p style="line-height: 2.75; font-size: 1.2rem;;">{{ person }} </p>
+								<div class="collaborator-name">
+									<a href="{{ person.link }}" target="_blank">
+										<p style=" font-size: 1rem;">{{ person.name }} </p> 
+									</a>
+								</div>
+								<div class="collaborator-position">
+									{% for positions in person.position %}
+									<span style="font-size: .81rem;"> {{ positions }} </span>
+									{% endfor %}
+									<span style="font-size: .81rem;"> {{ person.country }} </span>
+								</div>
 							</div>
 						{% endfor %}
 					</div>

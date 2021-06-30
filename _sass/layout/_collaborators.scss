@@ -59,33 +59,53 @@ li.list-inline.current-page{
     .collaborator.group{
         background: #2a75bb1c;
         padding: 35px;
-        margin: 30px 0px;
         border-radius: 5px;
         .groupName{
-                margin: 30px 15px;
+                margin: 30px 0px;
             }
         .collaborator{
-            height: 100px;
-            background-color: #f8f9fad9;
+            display: table;
+            height: 6.7em;
+            background-color: #ffffffbd;
             border-radius: 5px;
             margin: 5px 0;
-            
+            border: #87a8cc2b;
+            border-style: solid;
+            border-width: thin;
+            &:hover{
+                background-color: #fffffff0;
+                filter: drop-shadow(1px 2px 13px #acc0d4);;
+            }
             p{
-                &::after {
+                &:after {
+                    content: '\279A';
+                    color: #106cb5;
+                }
+            }
+            .collaborator-name{
+                &::before {
                 content: "";
                 position: absolute;
-                bottom: 50px;
+                top: 45px;
                 left: 15px;
                 right: 0;
-                height: 0.5em;
-                border-top: 1px solid #2c75bb;;
+                height: 0.9em;
+                border-top: 1px solid #2c75bb;
                 z-index: 2;
                 width: 40px
+                
             }
         }
+        .collaborator-name{
+            padding-top: 10px;
         }
-    
+        .collaborator-position{
+            display: grid;
+            margin: 25px 0px;
+        }
     }
+    
+}
     .collapse{
         position: sticky;
         top: 100px;
