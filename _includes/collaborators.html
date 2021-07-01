@@ -4,23 +4,7 @@
 		html{scroll-behavior: smooth;}
 	</style> -->
 	{% include header.html %}
-	<div class="container">
-		<div class="row backlink">
-			<ul class="path" >
-				<li class="list-inline">
-					<a class="js-scroll-trigger" href="./">
-						{{ site.title }}
-					</a>
-				</li>
-				<li class="list-inline current-page">
-					<a class="js-scroll-trigger" href="{{ page.url }}">
-						{{ page.title | capitalize }}
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="container-fluid bg-light">
+	<div class="container-fluid bg-light" style="padding-bottom: 100px;">
 		<!-- <div class="col-12 col-md-3 col-sm-3 collaborators-menu" style="height: fit-content; background-color:white; margin: 30px 15px;  padding: 55px 0px;">
 		{% for collaborator in site.data.collaborators %}
 			<a href="#{{ collaborator.groupName }}">
@@ -37,24 +21,32 @@
 				<div class="">
 					{% for collaborator in site.data.collaborators %}
 						<div class="col groupName {{ collaborator.groupName }}">
-							<h3>
+							<h1>
 								{{ collaborator.groupName[0] }}
-							</h3>
+							</h1>
 					</div>
 					{% for person in collaborator.people %}
-						<div class="col-12 collaborator">
+						<div class="col-12 collaborator" style="border-bottom: inset;">
 							<div class="row">
-								<div class="col-sm collaborator-name">
+								<div class="col-lg-3 collaborator-name">
 									<p style=" font-size: 1rem;"> {{ person.name }} </p> 
 								</div>
-								<div class="col-6 collaborators-position">
+								<div class="col-lg-8">
 									{% for positions in person.position %}
-										<span style="font-size: .81rem;"> {{ positions }} </span> <br>
+									<div class="positions">
+										<span> {{ positions }} </span> <br>
+									</div>	
 									{% endfor %}
-										<span style="font-size: .81rem;"> {{ person.country }} </span>
+									{% if person.country %}
+									<div class="country">
+
+										<span> {{ person.country }} </span>
+									
+									</div>	
+									{% endif %}
 								</div>	
-								<div class="col">
-									<ul class="list-inline social-buttons ml-auto p-2">
+								<div class="col-md">
+									<ul class="list-inline social-buttons">
 										{% for network in person.social %}
 											<li class="list-inline">
 												<a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">

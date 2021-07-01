@@ -62,53 +62,74 @@ li.list-inline.current-page{
         border-radius: 5px;
         .groupName{
                 margin: 30px 0px;
+                h1{
+                    filter: drop-shadow(-10px 5px 6px #5d5d5d91);
+                }
             }
         .collaborator{
             background-color: #ffffffbd;
             border-radius: 5px;
             margin: 15px 0;
-            padding: 15px 30px;
+            padding: 30px 30px 0px 30px;
             border: #87a8cc2b;
             border-style: solid;
             border-width: thin;
-            &:hover{
-                background-color: #fffffff0;
-                filter: drop-shadow(1px 2px 13px #acc0d4);;
+            
+            .positions{
+                margin-bottom: 15px;
+                &::before{
+                    content: "▪️";
+                    color: #106cb5;
+                }
+            }
+            .country{
+                margin-bottom: 30px;
             }
             .list-inline{
                 float: right;
+                // @media (max-width: 991px){
+                //     float: left;
+                // }
             }
 
             ul.social-buttons li a {
-                font-size: 20px;
+                font-size: 1.2em;
                 line-height: 0px;
                 color: #106cb5;
                 background-color: transparent;
                 width: auto;
-                margin: 0 5px;
+                margin: 0;
+                i{
+                    &:hover{
+                        filter: drop-shadow(2px 1px 2px #c9c9c9);
+                    }
+                }
+                .fab, .fas, .far{
+                    width: 20px;
+                    margin-left: 9px;
+                }
             }
-            // p{
-            //     &:after {
-            //         content: '\279A';
-            //         color: #106cb5;
-            //     }
-            // }
             .collaborator-name{
-                &::before {
-                content: "";
-                position: absolute;
-                top: 2.4em;
-                left: 15px;
-                right: 0;
-                height: 0.9em;
-                border-top: 1px solid #2c75bb;
-                z-index: 2;
-                width: 40px
+                p{
+                font-weight: 600;
+                // &:after {
+                //     content: '\279A';
+                //     color: #106cb5;
+                // }
                 
             }
-        }
-        .collaborator-name{
-            padding-top: 10px;
+            
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 1.7em;
+                    left: 15px;
+                    right: 0;
+                    height: 0.9em;
+                    border-top: 5px groove #649cd8;
+                    z-index: 2;
+                    width: 60px;
+            }
         }
         .collaborator-position{
             display: grid;
