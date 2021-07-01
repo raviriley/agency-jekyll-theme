@@ -87,18 +87,16 @@ li.list-inline.current-page{
             }
             .list-inline{
                 float: right;
-                // @media (max-width: 991px){
-                //     float: left;
-                // }
+                text-align: right;
+                @media (max-width: 991px){
+                    text-align: initial;
+                }
             }
 
             ul.social-buttons li a {
-                font-size: 1.2em;
                 line-height: 0px;
                 color: #106cb5;
                 background-color: transparent;
-                width: auto;
-                margin: 0;
                 i{
                     &:hover{
                         filter: drop-shadow(2px 1px 2px #c9c9c9);
