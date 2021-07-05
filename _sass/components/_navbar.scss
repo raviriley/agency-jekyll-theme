@@ -24,8 +24,7 @@
       margin: 0
     }
   }
-  
-  
+
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -47,7 +46,7 @@
     }
   }
   .logo{
-    height:1.6em;
+    height: 1.8em;
   }
   li{
         width: fit-content;
@@ -78,10 +77,7 @@
     .twitter-location-box{
       display: inline-flex;
     }
-    .logo{
-      height:55px;
-      // top: 43px; 
-  }
+
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -109,10 +105,6 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 20px 0 10 0;
-      }
-      .logo{
-        height:30px; 
-        margin-right: 10px;
       }
     }
   }
