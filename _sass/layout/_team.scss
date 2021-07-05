@@ -25,20 +25,9 @@
   }
   }
 }
-.btn {
-  margin: 20px;
-  display: block;
-  width: fit-content;
-}
+
 .btn-primary{
   margin: auto;
-}
-#team{
-  .btn-primary{
-    margin: 50px auto;
-    width: 220px;
-    padding: 10px;
-  }
 }
 
 @media (max-width: 768px){
@@ -51,7 +40,6 @@
   #team{
     .btn-primary{
       margin: 20px auto;
-      width: 220px;
       padding: 10px;  
     }
   }
