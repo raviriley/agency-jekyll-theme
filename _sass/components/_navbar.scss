@@ -1,6 +1,17 @@
 // Styling for the navbar
 #mainNav {
+  .dropdown-menu{
+    background-color: transparent;
+  }
   
+  .dropdown-item{
+    &:hover{
+      background-color: transparent;
+      filter: drop-shadow(3px 6px 3px black);
+    }
+  }
+}
+#mainNav, #Nav {
   .navbar{
   background-color: #212529;
   }
@@ -50,7 +61,7 @@
     // &:active,
     // &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      filter: drop-shadow(3px 6px 3px black);
     }
   }
   .logo{
@@ -71,7 +82,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          filter: drop-shadow(3px 6px 3px black);
         }
       }
     }
@@ -107,6 +118,9 @@
       }
     }
     &.navbar-shrink {
+      #mainNav, .dropdown-menu {
+        background-color:  #212629bd;
+    }
       padding-top: 0;
       padding-bottom: 0;
       background-color: $gray-900;
