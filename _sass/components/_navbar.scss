@@ -1,5 +1,8 @@
 // Styling for the navbar
 #mainNav {
+  .button{
+    text-align: end;
+  }
   .twitter-location-box{
     display: inline-flex;
   }
@@ -26,9 +29,9 @@
   }
 
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 10px;
     right: 0;
-    padding: 13px;
+    padding: 15px 10px;
     text-transform: uppercase;
     color: white;
     border: 0;

@@ -1,27 +1,33 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
-      <div class="logo">
-        <img class="logo"  src="./favicon-blue.png"/>
-      </div>
-      {%- if site.logo -%}    
-        <div>
-          <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+    <div class="row">
+      <div class="col">
+        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
+        <div class="logo">
+          <img class="logo"  src="./favicon-transparent.png"/>
         </div>
-      {%- else -%}
-        <div class="col-sm" style="margin: auto;">
-          <span class="text-break">{{ site.title }}</span>
-        </div>  
-      {%- endif -%}
-    </a>
-    <div class="col" style="text-align: end;">
+        {%- if site.logo -%}    
+          <div>
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          </div>
+        {%- else -%}
+          <div class="col-sm" style="margin: auto;">
+            <span style="font-size: 0.8em;">{{ site.title }}</span>
+          </div>  
+        {%- endif -%}
+      </a>
+      </div>
+    </div>
+    
+    <div class="col button">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i> MEnu
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
+      <div class="col">
+        <ul class="navbar-nav text-uppercase ml-auto">
         {%- for link in site.data.navigation.nav -%}
           {%- if link.url -%}
             <li class="nav-item">
@@ -66,14 +72,14 @@
           {%- endif -%}
         {% endfor %}
         <div class="twitter-location-box">
-          <li class="nav-item twitter">
+          <li class="nav-item twitter" style="margin: 0 0.5em;">
           <a class="nav-link js-scroll-trigger" target="_blank" href="https://twitter.com/ppsp_team">
             <i class="fab fa-twitter" style="font-size: 1.2em;"></i>
             <!-- <img src="../img/icons/twitter_white@2x.png" alt="PPSP twitter" style="height: 34px; padding-left: 0;"> -->
             <div class="twitter"></div>
             </a>
           </li>
-          <li class="nav-item location">
+          <li class="nav-item location" style="margin: 0 0.5em;">
             <a class="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/maps/7E8Upxotto9NGyXdA">
               <i class="fas fa-map-marker-alt" style="font-size: 1.2em;"></i>
                 <!-- <img src="../img/icons/location_white@2x.png" alt="PPSP twitter" style="height: 40px; padding-left: 0; ;"> -->
@@ -82,6 +88,8 @@
           </li>
         </div>
       </ul>
+      </div>
+      
     </div>
   </div>
 </nav>
