@@ -45,6 +45,11 @@ li.list-inline.current-page{
                 margin: 5px;
             }
         }
+        @media(max-width: 425px){
+            .masthead {
+                height: 150px;
+            }
+        }
         .masthead-title{
             top: 450px;
             position: sticky;
