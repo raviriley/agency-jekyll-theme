@@ -117,18 +117,6 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/deep-introspection
             icon: fab fa-github
-      - name: "Position Available"
-        role: "PhD/Postdoc<br>(Computational Physiology)"
-        image: assets/img/team/unknown.png
-        #social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          #- url: https://github.com/
-          #  icon: fab fa-github
       - name: "Quentin Moreau"
         role: "Postdoc coming soon ...<br>(Social Physiology)"
         image: img/team/Quentin_Moreau.jpg
@@ -143,25 +131,22 @@ team:
             icon: fab fa-researchgate
           - url: https://github.com/quentinmoreau
             icon: fab fa-github
-        # social:
-        #   -url: https://twitter.com/quentin_moreau
-        #   icon: fab fa-twitter
-        #   -url: https://scholar.google.com/citations?user=x0EFmuoAAAAJ&hl=en
-        #   icon: fab fa-google
-        #   url: https://www.researchgate.net/profile/Quentin-Moreau-2
-        #   icon: fab fa-researchgate
-        #   -url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
-        #   icon: fab fa-linkedin-in
-        #   -url: https://github.com/quentinmoreau
-        #   icon: fab fa-github 
+      - name: "Katie Douglas"
+        role: "Research Assistant coming soon ...<br>(Social Physiology)"
+        image: img/team/Katie_Douglas.jpeg
+        social:
+          - url: https://twitter.com/douglascait/
+            icon: fab fa-twitter
+          - url: https://www.researchgate.net/profile/Caitriona-Douglas
+            icon: fab fa-researchgate
+          - url: https://github.com/katied-neuro
+            icon: fab fa-github
       - name: "Sayeh Kazem"
         role: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
         image: img/team/Sayeh_Kazem.jpg
         social:
           - url: https://twitter.com/KazemSayeh
             icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
             icon: fab fa-linkedin-in
           - url: https://github.com/sayekazem94
@@ -172,8 +157,6 @@ team:
         social:
           - url: https://twitter.com/SamBolotta
             icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
             icon: fab fa-linkedin-in
           - url: https://github.com/SamueleBolotta
@@ -194,16 +177,40 @@ team:
         role: "MSc Student coming soon ...<br>(Computational Psychiatry)"
         image: img/team/Mariem_Hafsia.jpg
         social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/mariemhafsia/
             icon: fab fa-linkedin-in
           - url: https://github.com/Mhafsia
             icon: fab fa-github
+      - name: "Elisabeth Audet-Duchesne"
+        role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
+        image: img/team/Elisabeth_Audet-Duchesne.jpeg
+        social:
+          - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
+            icon: fab fa-researchgate
+          - url: https://github.com/ElisabethAD
+            icon: fab fa-github
+      - name: "Ghazaleh Ranjbaran"
+        role: "MSc Student coming soon ...<br>(Computational Physiology)"
+        image: img/team/Ghazaleh_Ranjbaran.jpeg
+        social:
+          - url: https://twitter.com/BioMDScience
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
+            icon: fab fa-linkedin-in
+          - url: https://github.com/ghazalehran
+            icon: fab fa-github
+      - name: "Annabelle Harvey"
+        role: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
+        image: img/team/Annabelle_Harvey.jpg
+        social:
+          - url: https://twitter.com/harvey_aa
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/harveyaa
+            icon: fab fa-github
       - name: "Mahta Ramezanian"
-        role: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        role: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
         image: img/team/Mahta_Ramezanian.jpg
         social:
           - url: https://mahtaao.github.io/bio/
@@ -214,31 +221,19 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/mahtaao
             icon: fab fa-github
-      - name: "Germán Abrevaya"
-        role: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        image: img/team/German_Abrevaya.png
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          - url: https://github.com/gabrevaya
-            icon: fab fa-github
       - name: "Jean-Christophe Gagnon-Audet"
         role: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
         image: img/team/Jean-Christophe_Gagnon-Audet.jpg
         social:
-          # - url: https://twitter.com/
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/jcaudet/
             icon: fab fa-linkedin-in
-          # - url: https://www.researchgate.net/profile/
-          #  icon: fab fa-researchgate
           - url: https://github.com/jc-audet
+            icon: fab fa-github
+      - name: "Germán Abrevaya"
+        role: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        image: img/team/German_Abrevaya.png
+        social:
+          - url: https://github.com/gabrevaya
             icon: fab fa-github
       - name: "Harshit_Bokadia"
         role: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
@@ -248,70 +243,13 @@ team:
             icon: fab fa-twitter
           - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
             icon: fab fa-google
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/hbk007/
             icon: fab fa-linkedin-in
-          # - url: https://www.researchgate.net/profile/
-          #  icon: fab fa-researchgate
           - url: https://github.com/hbk008
             icon: fab fa-github
-      - name: "Annabelle Harvey"
-        role: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
-        image: img/team/Annabelle_Harvey.jpg
-        social:
-          - url: https://twitter.com/harvey_aa
-            icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
-            icon: fab fa-linkedin-in
-          # - url: https://www.researchgate.net/profile/
-          #  icon: fab fa-researchgate
-          - url: https://github.com/harveyaa
-            icon: fab fa-github
-      - name: "Ghazaleh Ranjbaran"
-        role: "MSc Student coming soon ...<br>(Computational Physiology)"
-        image: img/team/Ghazaleh_Ranjbaran.jpeg
-        social:
-          - url: https://twitter.com/BioMDScience
-            icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
-            icon: fab fa-linkedin-in
-          # - url: https://www.researchgate.net/profile/
-          #  icon: fab fa-researchgate
-          - url: https://github.com/ghazalehran
-            icon: fab fa-github
-      - name: "Elisabeth Audet-Duchesne"
-        role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        image: img/team/Elisabeth_Audet-Duchesne.jpeg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
-            icon: fab fa-researchgate
-          - url: https://github.com/ElisabethAD
-            icon: fab fa-github
-      - name: "Katie Douglas"
-        role: "Research Assistant coming soon ...<br>(Social Physiology)"
-        image: img/team/Katie_Douglas.jpeg
-        social:
-          - url: https://twitter.com/douglascait/
-            icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          #- url: https://linkedin.com
-          #  icon: fab fa-linkedin-in
-          - url: https://www.researchgate.net/profile/Caitriona-Douglas
-            icon: fab fa-researchgate
-          - url: https://github.com/katied-neuro
-            icon: fab fa-github
+      - name: "Position Available"
+        role: "PhD/Postdoc<br>(Computational Physiology)"
+        image: assets/img/team/unknown.png
 
 contact:
     title: "Contact Us"
