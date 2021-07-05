@@ -1,15 +1,13 @@
 // Styling for the Collaborators page
-#collaborators{
+
+    #collaborators{
+    
     @include heading-font;
     .logo{
         margin: auto 10px;
     }
-    ul.nav-collaborators{
-        @media(min-width:546px) {
-            display: none;
-        }
-        
-    }
+    
+
 li.list-inline.current-page{
             &::before{
                 content: "";
@@ -70,7 +68,7 @@ li.list-inline.current-page{
             background-color: #ffffffbd;
             border-radius: 5px;
             margin: 15px 0;
-            padding: 30px 30px 0px 30px;
+            padding: 30px 30px 20px 40px;
             border: #87a8cc2b;
             border-style: solid;
             border-width: thin;
@@ -87,7 +85,7 @@ li.list-inline.current-page{
             }
             .list-inline{
                 float: right;
-                text-align: right;
+                // text-align: right;
                 @media (max-width: 991px){
                     text-align: initial;
                 }
@@ -97,6 +95,10 @@ li.list-inline.current-page{
                 line-height: 0px;
                 color: #106cb5;
                 background-color: transparent;
+                height: fit-content;
+                width: fit-content;
+                margin: 10px 10px 10px 10px;
+                padding: 1px 11px 1px 1px;                
                 i{
                     &:hover{
                         filter: drop-shadow(2px 1px 2px #c9c9c9);
@@ -153,3 +155,19 @@ li.list-inline.current-page{
     }
     
 }
+.dropdown-menu{
+    width: fit-content;
+    background-color: #212629bd;
+    border-color: transparent;
+    .dropdown-item {
+        color: white;
+        &:hover{
+            background-color: #72737394;
+        }
+}
+@include heading-font;
+
+} 
+
+
+ 

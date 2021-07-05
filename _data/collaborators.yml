@@ -27,7 +27,7 @@
 
   - name:  Danilo Bzdok
     position:
-      - Associate Professor at McGill University
+      - Associate Professor at the department of Biomedical Engineering at McGill University
     social:
       - url: https://danilobzdok.de/
         icon: fas fa-home
@@ -55,8 +55,10 @@
     social :
         # - url: https://www.personal-website.com
         #   icon: fas fa-home
+        # - url : 
+        #   icon: fas fa-graduation-cap
         - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in19646/
-          icon: fas fa-graduation-cap
+          icon: fas fa-university
         - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=97a89db2-d642-4ad8-a857-058b0a6d088d
           icon: far fa-hospital
         - url: https://www.researchgate.net/profile/Sebastien-Jacquemont
@@ -81,7 +83,7 @@
         # - url: https://www.personal-website.com
         #   icon: fas fa-home
         - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15005/
-          icon: fas fa-graduation-cap
+          icon: fas fa-university
         - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=f8b3f542-fb84-453d-9d19-52f80859568a
           icon: far fa-hospital
         - url: https://www.researchgate.net/scientific-contributions/Sarah-Lippe-10930163
@@ -105,7 +107,7 @@
         - url: https://lionlab.umontreal.ca/home/
           icon: fas fa-home
         - url : https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in15783/
-          icon: fas fa-graduation-cap
+          icon: fas fa-university
         - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=2f93cc94-1e8c-4b64-9771-2efa21f354f5
           icon: far fa-hospital
         - url : https://scholar.google.ca/citations?user=zAyeJmoAAAAJ&hl=en
@@ -132,7 +134,7 @@
         # - url: https://www.personal-website.com
         #   icon: fas fa-home
         - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in16722/
-          icon: fas fa-graduation-cap
+          icon: fas fa-university
         - url : https://recherche.chusj.org/fr/Axes-de-recherche/Bio?id=3eb7a212-f013-469d-965a-fd2fb96b27e6
           icon: far fa-hospital
         - url : https://scholar.google.com/citations?user=nPxD7n4AAAAJ&hl=en
@@ -309,8 +311,8 @@
 
   - name: Quentin Moreau
     position :
-      - Postdoctoral researcher in the department of Psychology at Sapienza –– University of Rome
-      - Postdoc researcher in the department of Social Physiology at PPSP lab (coming soon...)
+      - Postdoctoral researcher at the department of Psychology at Sapienza –– University of Rome
+      - Postdoc researcher at the department of Social Physiology at PPSP lab (coming soon...)
     country : 🇮🇹 Rome, Italy
     social :
       # - url: https://www.personal-website.com

@@ -21,9 +21,9 @@
 				<div class="">
 					{% for collaborator in site.data.collaborators %}
 						<div class="col groupName {{ collaborator.groupName }}">
-							<h1>
+							<h2>
 								{{ collaborator.groupName[0] }}
-							</h1>
+							</h2>
 					</div>
 					{% for person in collaborator.people %}
 						<div class="col-12 collaborator" style="border-bottom: inset;">
@@ -46,9 +46,9 @@
 									{% endif %}
 								</div>	
 								<div class="col-md">
-									<ul class="list-inline social-buttons">
+									<ul class="list-inline social-buttons" style="padding: 0 13px;">
 										{% for network in person.social %}
-											<li class="list-inline">
+											<li class="list-inline mx-auto">
 												<a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
 												<i class="{{ network.icon }}"></i>
 												</a>
