@@ -1,15 +1,9 @@
 // Styling for the Collaborators page
 
-    #collaborators{
-    
-        
+#collaborators{        
     @include heading-font;
-    .logo{
-        margin: auto 10px;
-    }
     
-
-li.list-inline.current-page{
+    li.list-inline.current-page{
             &::before{
                 content: "";
                 background-image: url(../img/chevron-right.svg);
@@ -22,18 +16,16 @@ li.list-inline.current-page{
                 margin-left: 10px;
             }
         }
-        .path{
-            display: inline-flex;
-        }
-.collaborators-menu{
+        
+    .collaborators-menu{
         position: sticky;
         top: 100px;
         @media(max-width:546px) {
             position: initial;
             display: none;
-            
-            }
         }
+    }
+    
     .masthead{
         height: 20vw;
         background-image: url(../img/background-header.png);
@@ -45,11 +37,6 @@ li.list-inline.current-page{
                 margin: 5px;
             }
         }
-        @media(max-width: 425px){
-            .masthead {
-                height: 150px;
-            }
-        }
         .masthead-title{
             top: 450px;
             position: sticky;
@@ -58,6 +45,11 @@ li.list-inline.current-page{
                 font-weight: 600;
                 color: #f8f9fa;
             }
+        }
+    }
+    @media(max-width: 425px){
+        .masthead {
+            height: 150px;
         }
     }
     .collaborator.group{

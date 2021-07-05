@@ -11,6 +11,12 @@
     }
   }
 }
+#Nav{
+  .dropdown-menu {
+    background-color:  #212629bd;
+  }
+}
+
 #mainNav, #Nav {
   .navbar{
   background-color: #212529;
@@ -96,7 +102,6 @@
     .twitter-location-box{
       display: inline-flex;
     }
-
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -118,7 +123,7 @@
       }
     }
     &.navbar-shrink {
-      #mainNav, .dropdown-menu {
+      .dropdown-menu {
         background-color:  #212629bd;
     }
       padding-top: 0;
