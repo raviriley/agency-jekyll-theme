@@ -1,10 +1,42 @@
 // Styling for the navbar
 #mainNav {
+  
+  .navbar{
+  background-color: #212529;
+  }
+  
+  .button{
+    text-align: end;
+  }
+  .twitter-location-box{
+    display: inline-flex;
+  }
   background-color: $gray-900;
+  @media(max-width:398px){
+    .twitter{
+      // position: fixed;
+      left: 70px;
+      top: 358px;
+    }
+    
+    li{
+      margin: 0 10px;
+    }
+  }
+  
+  @media(max-width:991px){
+    .twitter, .location{
+      margin-right: 30px;
+    }
+    li{
+      margin: 0
+    }
+  }
+
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 10px;
     right: 0;
-    padding: 13px;
+    padding: 15px 10px;
     text-transform: uppercase;
     color: white;
     border: 0;
@@ -21,12 +53,19 @@
       color: darken($primary, 10%);
     }
   }
-  .navbar-nav {
+  .logo{
+    height: 1.8em;
+  }
+  li{
+        width: fit-content;
+        line-height: 2.4em;
+      }
+      .navbar-nav {
     .nav-item {
       .nav-link {
+        max-width: fit-content;
         font-size: 90%;
         font-weight: 400;
-        padding: 0.75em 0;
         letter-spacing: 1px;
         color: white;
         @include heading-font;
@@ -36,10 +75,17 @@
         }
       }
     }
-  }
+  
+}
+  
+  
 }
 @media(min-width:992px) {
   #mainNav {
+    .twitter-location-box{
+      display: inline-flex;
+    }
+
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -48,7 +94,7 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
+      font-size: 1.45em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -56,7 +102,7 @@
     .navbar-nav {
       .nav-item {
         .nav-link {
-          padding: 1.1em 1em !important;
+          // margin: 0.8em 1em !important;
         }
       }
     }
@@ -66,8 +112,12 @@
       background-color: $gray-900;
       .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0;
+        padding: 20px 0 10 0;
       }
     }
+  }
+  li{
+    margin: auto;
+
   }
 }

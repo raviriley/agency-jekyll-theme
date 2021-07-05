@@ -101,6 +101,7 @@ team:
     text: "The whole is other than the sum of the parts."
     subtext: ""
     section: team
+    buttonText: "Meet also our collaborators"
     people:
       - name: "Guillaume Dumas"
         role: "Principal Investigator"

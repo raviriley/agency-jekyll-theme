@@ -1,0 +1,68 @@
+<!-- Team -->
+<section class="page-section" id="{{ site.data.sitetext.collaborators.section | default: 'collaborators' }}" style="padding: 20px 0;">
+	<!-- <style>
+		html{scroll-behavior: smooth;}
+	</style> -->
+	{% include header.html %}
+	<div class="container-fluid bg-light" style="padding-bottom: 100px;">
+		<!-- <div class="col-12 col-md-3 col-sm-3 collaborators-menu" style="height: fit-content; background-color:white; margin: 30px 15px;  padding: 55px 0px;">
+		{% for collaborator in site.data.collaborators %}
+			<a href="#{{ collaborator.groupName }}">
+				<ul>
+					<li class="list-inline">
+						{{ collaborator.groupName }}
+					</li>
+				</ul>	
+			</a>
+			{% endfor %}
+		</div> -->
+		<div class="container">						
+			<div class="bg-light collaborator group" id="{{ collaborator.groupName[0] }}">
+				<div class="">
+					{% for collaborator in site.data.collaborators %}
+						<div class="col groupName {{ collaborator.groupName }}">
+							<h2>
+								{{ collaborator.groupName[0] }}
+							</h2>
+					</div>
+					{% for person in collaborator.people %}
+						<div class="col-12 collaborator" style="border-bottom: inset;">
+							<div class="row">
+								<div class="col-lg-3 collaborator-name">
+									<p style=" font-size: 1rem;"> {{ person.name }} </p> 
+								</div>
+								<div class="col-lg-7">
+									{% for positions in person.position %}
+									<div class="positions">
+										<span> {{ positions }} </span> <br>
+									</div>	
+									{% endfor %}
+									{% if person.country %}
+									<div class="country">
+
+										<span> {{ person.country }} </span>
+									
+									</div>	
+									{% endif %}
+								</div>	
+								<div class="col-md">
+									<ul class="list-inline social-buttons" style="padding: 0 13px;">
+										{% for network in person.social %}
+											<li class="list-inline mx-auto">
+												<a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
+												<i class="{{ network.icon }}"></i>
+												</a>
+											</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Collaborators -->

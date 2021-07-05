@@ -1,0 +1,601 @@
+- groupName: 
+  - 🍁 Local collaborators
+- people:
+  - name: Irina Rish
+    position:
+      - Professor at University of Montréal
+      - Associate Professor & Associate at Mila
+    social:
+      - url: https://sites.google.com/site/irinarish/
+        icon: fas fa-home
+      # - url :  
+      #   icon: fas fa-graduation-cap
+      - url : https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in31339/ 
+        icon: fas fa-university
+      # - url : 
+      #   icon: far fa-hospital
+      - url: https://scholar.google.com/citations?user=Avse5gIAAAAJ&hl=en 
+        icon: fab fa-google
+      - url: https://mila.quebec/en/person/irina-rish/
+        icon: far fa-handshake
+      - url: https://twitter.com/irinarish?lang=en
+        icon: fab fa-twitter
+      - url: https://ca.linkedin.com/in/irina-rish-8b2162
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name:  Danilo Bzdok
+    position:
+      - Associate Professor at the department of Biomedical Engineering at McGill University
+    social:
+      - url: https://danilobzdok.de/
+        icon: fas fa-home
+      - url : https://www.mcgill.ca/bbme/danilo-bzdok
+        icon: fas fa-graduation-cap
+    #   - url : https://hospital-link.com/
+    #     icon: far fa-hospital
+      - url: https://mila.quebec/en/person/danilo-bzdok/
+        icon: far fa-handshake # Mila
+      - url: https://www.researchgate.net/profile/Danilo-Bzdok
+        icon: fab fa-researchgate
+      - url : https://scholar.google.com/citations?user=yMLTxlUAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://twitter.com/danilobzdok?lang=en
+        icon: fab fa-twitter
+      - url: https://ca.linkedin.com/in/danilo-bzdok-63b64956
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Sebastien Jacquemont
+    position :
+      - Associate Professor at University of Montréal
+      - Medical Geneticist at CHU Sainte Justine
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        # - url : 
+        #   icon: fas fa-graduation-cap
+        - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in19646/
+          icon: fas fa-university
+        - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=97a89db2-d642-4ad8-a857-058b0a6d088d
+          icon: far fa-hospital
+        - url: https://www.researchgate.net/profile/Sebastien-Jacquemont
+          icon: fab fa-researchgate
+        - url : https://scholar.google.com/citations?user=l_TQ6fAAAAAJ
+          icon: fab fa-google
+        - url: https://twitter.com/jacquemontseb?lang=en
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/sebastien-jacquemont-05757033/
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+
+  - name: Sarah Lippé
+    position : 
+      - Deputy Head, Research Axis, Brain and Child Development, CHU Sainte-Justine
+      - Associate Professor, Psychology Department, University of Montreal
+      - Scientist, CHU Sainte-Justine Research Center
+      - Salary award FRQ-S
+      - Clinical neuropsychologist
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15005/
+          icon: fas fa-university
+        - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=f8b3f542-fb84-453d-9d19-52f80859568a
+          icon: far fa-hospital
+        - url: https://www.researchgate.net/scientific-contributions/Sarah-Lippe-10930163
+          icon: fab fa-researchgate
+        - url : https://scholar.google.com/citations?user=QL9V5DAAAAAJ&hl=en
+          icon: fab fa-google
+        # - url: https://twitter.com
+        #   icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/sarah-lipp%C3%A9-ph-d-637b1029/
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+
+
+  - name: Anne Gallagher
+    position :
+        - Associate Professor
+        - Canada Research Chair in Child Neuropsychology and Brain Imaging
+        - Department of Psychology, University of Montréal
+    social :
+        - url: https://lionlab.umontreal.ca/home/
+          icon: fas fa-home
+        - url : https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in15783/
+          icon: fas fa-university
+        - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=2f93cc94-1e8c-4b64-9771-2efa21f354f5
+          icon: far fa-hospital
+        - url : https://scholar.google.ca/citations?user=zAyeJmoAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Anne-Gallagher-4
+          icon: fab fa-researchgate
+        # - url: https://twitter.com
+        #   icon: fab fa-twitter
+        # - url: https://facebook.com
+        #   icon: fab fa-facebook-f
+        # - url: https://linkedin.com
+        #   icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+    
+
+  - name: Baudouin Forgeot d'Arc
+    position :
+        - Psychiatrist, Department of Psychiatry, CHU Sainte-Justine
+        - Researcher, brain and development axis, CHU Ste-Justine research center
+        - Associate Member, Department of Psychiatry and Research Center, CNMTL (Hôpital Rivière-des-Prairies)
+        - Associate Professor, Faculty of Medicine, University of Montréal
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in16722/
+          icon: fas fa-university
+        - url : https://recherche.chusj.org/fr/Axes-de-recherche/Bio?id=3eb7a212-f013-469d-965a-fd2fb96b27e6
+          icon: far fa-hospital
+        - url : https://scholar.google.com/citations?user=nPxD7n4AAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Baudouin-Forgeot-Darc
+          icon: fab fa-researchgate
+        # - url: https://twitter.com
+        #   icon: fab fa-twitter
+        # - url: https://facebook.com
+        #   icon: fab fa-facebook-f
+        - url: https://www.linkedin.com/in/baudouin-forgeot-d-arc-93953557/
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github 
+
+  - name: Alexandre Lehmann
+    position : 
+        - Assistant Professor at McGill University
+        - Adjunct Professor at Université of Montréal
+        - Principal Investigator at the Centre for Research on Brain Language and Music (CRBLM)
+        - Full member, International Laboratory for Brain, Music, and Sound Research (BRAMS) 
+    social :
+      # - url: https://www.personal-website.com
+      #   icon: fas fa-home
+      # - url : https://www.university-link.com
+      #   icon: fas fa-graduation-cap
+      - url: https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in19355/
+        icon: fas fa-university
+      # - url : https://scholar.com/
+      #   icon: fab fa-google
+      - url : https://www.mcgill.ca/ent/about-us/faculty/dr-alexandre-lehmann
+        icon: fas fa-graduation-cap
+      - url: https://www.researchgate.net/profile/Alexandre-Lehmann
+        icon: fab fa-researchgate
+        # - url: https://twitter.com
+        #   icon: fab fa-twitter
+        # - url: https://linkedin.com
+        #   icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+    
+
+  - name: Michael Lifshitz 
+    position :
+        - Post-Doc at McGill University, Social and Transcultural Psychiatry
+        - Faculty Member Stanford University, Anthropology
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        - url : https://scholar.google.de/citations?user=bbFD2uEAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Michael-Lifshitz
+          icon: fab fa-researchgate
+        - url: https://twitter.com/illumabilities?lang=en
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/michaellifshitz/
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github     
+
+  - name: Maxwell Ramstead
+    position :
+        - CEO of the Nested Minds Network
+        - Director of Research at the Spatial Web Foundation
+        - Postdoctoral Fellow at McGill University
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        - url : https://scholar.google.ca/citations?user=ILpGOMkAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Maxwell-Ramstead
+          icon: fab fa-researchgate
+        - url: https://twitter.com/mjdramstead?lang=en
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/maxwell-ramstead-43a1991b7/
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+    
+
+  - name: Axel Constant
+    position :
+        - PhD student in the Philosophy of Biomedicine at the University of Sydney
+    social :
+        # - url: https://www.personal-website.com
+        #   icon: fas fa-home
+        - url : https://scholar.google.com/citations?user=ceTlA00AAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Axel-Constant
+          icon: fab fa-researchgate
+        - url: https://twitter.com/constantaxel?lang=en
+          icon: fab fa-twitter
+        # - url: https://linkedin.com
+        #   icon: fab fa-linkedin-in
+        # - url: https://github.com/
+        #   icon: fab fa-github
+
+
+- groupName: 
+  - 🌎 International collaborators
+- people:
+  - name: Denis Engemann
+    position :
+      - Research Scientis and Principal Investigator at Parietal – INRIA Saclay
+    country : 🇫🇷 Palaiseau, France
+    social :
+      - url: https://denis-engemann.de/
+        icon: fas fa-home
+      - url : https://scholar.google.com/citations?user=ombAzhMAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/scientific-contributions/Denis-A-Engemann-2042333644
+        icon: fab fa-researchgate
+      - url: https://twitter.com/dngman?lang=en
+        icon: fab fa-twitter
+      # - url: https://linkedin.com
+      #   icon: fab fa-linkedin-in
+      - url: https://github.com/dengemann
+        icon: fab fa-github
+  
+  - name: Elvis Dohmatob
+    position :
+      - Researcher at Facebook AI Research (FAIR)
+    country : 🇫🇷 Paris, France
+    social :
+      - url: https://dohmatob.github.io/
+        icon: fas fa-home
+      - url : https://scholar.google.com/citations?user=FDWgJY8AAAAJ
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Elvis-Dohmatob
+        icon: fab fa-researchgate
+      - url: https://twitter.com/dohmatobelvis?lang=ga
+        icon: fab fa-twitter
+      - url: https://fr.linkedin.com/in/elvis-dohmatob-53bba979
+        icon: fab fa-linkedin-in
+      - url: https://github.com/dohmatob
+        icon: fab fa-github 
+
+  - name: Jean-Arthur Micoulaud-Franchi
+    position :
+      - Psychiatrist at CHU de Bordeaux –– University of Bordeaux 
+    country : 🇫🇷 Bordeaux, France
+    social :
+      - url: https://sites.google.com/site/jarthurmicoulaud/home
+        icon: fas fa-home
+      - url : http://scholar.google.fr/citations?user=fyvL6y8AAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Jean-Arthur_Micoulaud_Franchi/
+        icon: fab fa-researchgate
+      - url: https://twitter.com/caimadja
+        icon: fab fa-twitter
+      - url: https://fr.linkedin.com/in/jean-arthur-micoulaud-franchi-6aa0a618
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Christophe Gauld
+    position :
+      - Psychiatrist at CHU Grenoble Alpes
+    country : 🇫🇷 Saint-Étienne, France
+    social :
+      # - url: https://www.personal-website.com
+      #   icon: fas fa-home
+      # - url : https://scholar.com/
+      #   icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Christophe-Gauld
+        icon: fab fa-researchgate
+      - url: https://twitter.com/christophegauld?lang=en
+        icon: fab fa-twitter
+      - url: https://fr.linkedin.com/in/christophe-gauld-166b31209
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Quentin Moreau
+    position :
+      - Postdoctoral researcher at the department of Psychology at Sapienza –– University of Rome
+      - Postdoc researcher at the department of Social Physiology at PPSP lab (coming soon...)
+    country : 🇮🇹 Rome, Italy
+    social :
+      # - url: https://www.personal-website.com
+      #   icon: fas fa-home
+      - url : https://scholar.google.com/citations?user=x0EFmuoAAAAJ&hl=en
+        icon: fab fa-google
+      - url:  https://www.researchgate.net/profile/Quentin-Moreau-2
+        icon: fab fa-researchgate
+      - url: https://twitter.com/quentin_moreau
+        icon: fab fa-twitter
+      - url: https://facebook.com
+        icon: fab fa-facebook-f
+      - url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
+        icon: fab fa-linkedin-in
+      - url: https://github.com/quentinmoreau
+        icon: fab fa-github
+
+
+  - name: Leonhard Schilbach
+    position :
+      - Psychiatrist and head of the Department for General Psychiatry 2 at the LVR–Klinikum Düsseldorf
+    country : 🇩🇪 Munich, Germany
+    social :
+      - url: https://www.leoschilbach.de/
+        icon: fas fa-home
+      - url : https://www.gsn.uni-muenchen.de/people/faculty/associate/schilbach/index.html
+        icon: fas fa-graduation-cap
+      - url : https://www.psych.mpg.de/2039788/PM1509
+        icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=cgtEK4EAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Leonhard-Schilbach
+        icon: fab fa-researchgate
+      - url: https://twitter.com/leoschilbach
+        icon: fab fa-twitter
+      - url: https://de.linkedin.com/in/leonhard-schilbach-b08a781
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Juha Lahnakoski
+    position :
+      - Postdoctoral researcher at  Institute of Neuroscience and Medicine –– Julich Forschungszentrum
+    country : 🇩🇪 Jülich, Germany
+    social :
+      - url: https://users.aalto.fi/~jlahnako/
+        icon: fas fa-home
+      # - url : https://www.univ-link.com
+      #   icon: fas fa-graduation-cap
+      - url : https://www.psych.mpg.de/person/44282/2031317
+        icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=7XtfKb4AAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Juha-Lahnakoski
+        icon: fab fa-researchgate
+      - url: https://twitter.com/juhalahnakoski?lang=en
+        icon: fab fa-twitter
+      - url: https://de.linkedin.com/in/juha-lahnakoski-7b99b635
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Dimitris Bolis
+    position :
+      - Postdoctoral researcher at the Max Planck Institute of Psychiatry Munich
+    country : 🇩🇪 Munich, Germany
+    social :
+      - url: https://sites.google.com/site/dimitrisbolis/
+        icon: fas fa-home
+      - url : https://www.imprs-tp.mpg.de/person/48384/2484
+        icon: fas fa-graduation-cap
+      # - url : https://hospital-link.com/
+      #   icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=BX6j9q4AAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Dimitris-Bolis
+        icon: fab fa-researchgate
+      - url: https://twitter.com/dimitrisbolis?lang=en
+        icon: fab fa-twitter
+      - url: https://de.linkedin.com/in/dimitris-bolis-phd-8810184b?trk=people-guest_people_search-card
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Eva Loth
+    position :
+      - Researcher at Institute of Psychiatry - King's College London
+    country : 🇬🇧 London, United Kingdom
+    social :
+      # - url: https://personal-website.com
+      #   icon: fas fa-home
+      - url : https://kclpure.kcl.ac.uk/portal/eva.loth.html
+        icon: fas fa-graduation-cap
+      # - url : https://hospital-link.com/
+      #   icon: far fa-hospital
+      - url : https://scholar.google.fr/citations?user=OsU8i_UAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Eva-Loth
+        icon: fab fa-researchgate
+      - url: https://twitter.com/eva_loth?lang=en
+        icon: fab fa-twitter
+      - url: https://www.linkedin.com/in/eva-loth-71859333/
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Merle Fairhurst
+    position :
+      - Professor of Biological Psychology at Institute of Psychology - University of Bundeswehr
+    country : 🇩🇪 Munich, Germany
+    social :
+      - url: https://www.merlefairhurst.com/
+        icon: fas fa-home
+      - url : https://www.mcn.uni-muenchen.de/members/associate/merle-fairhurst/index.html
+        icon: fas fa-graduation-cap
+      - url : https://scholar.google.com/citations?user=R_vUXEwAAAAJ
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Merle-Fairhurst
+        icon: fab fa-researchgate
+      - url: https://twitter.com/merlefairhurst?lang=en
+        icon: fab fa-twitter
+      # - url: https://linkedin.com
+      #   icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Pavel Goldstein
+    position :
+      - Head of Integrative Pain (iPain) lab at School of public Health, University of Haifa
+      - Head of Biostatistics MPH track at School of public Health, University of Haifa
+    country : 🇮🇱 Haifa, Israel
+    social :
+      # - url: https://www.personal-website.com
+      #   icon: fas fa-home
+      - url : https://hw.haifa.ac.il/en/people/sph/pavel-goldstein
+        icon: fas fa-graduation-cap
+      # - url : 
+      #   icon: far fa-hospital
+      - url : https://scholar.google.co.il/citations?user=LyivYq8AAAAJ&hl=en
+        icon: fab fa-google
+      # - url: https://twitter.com
+      #   icon: fab fa-twitter
+      - url: https://www.linkedin.com/in/pavel-goldstein-phd-a5008238/
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Suzanne Dikker
+    position :
+      - Researcher at New York University
+    country : 🇺🇸 New York, United States
+    social :
+      - url: http://www.suzannedikker.net/
+        icon: fas fa-home
+      - url : https://clame.nyu.edu/scientists/suzanne-dikker 
+        icon: fas fa-graduation-cap
+      # - url : 
+      #   icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=7iPnQTUAAAAJ
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Suzanne-Dikker
+        icon: fab fa-researchgate
+      - url: https://twitter.com/suzannedikker
+        icon: fab fa-twitter
+      - url: https://www.linkedin.com/in/suzanne-dikker-phd-13380724
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github
+
+  - name: Amir Djalovski
+    position :
+      - Neurocognitive psychology PhD candidate
+      - Data analyst
+    country : 🇮🇱 Herzliya, Israel
+    social :
+      - url: https://amirdjv.netlify.app/
+        icon: fas fa-home
+      - url : https://scholar.google.co.il/citations?user=kRDHxuYAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/scientific-contributions/Amir-Djalovski-2043929980
+        icon: fab fa-researchgate
+      # - url: https://twitter.com
+      #   icon: fab fa-twitter
+      # - url: https://facebook.com
+      #   icon: fab fa-facebook-f
+      - url: https://www.linkedin.com/in/amirdjalovski/
+        icon: fab fa-linkedin-in
+      - url: https://github.com/AmirDJV
+        icon: fab fa-github
+
+  - name: Ruth Feldman
+    position :
+      - Psychologist at Interdisciplinary Center - Herzliya
+    country : 🇮🇱 Herzliya, Israel
+    social :
+      - url: https://ruthfeldmanlab.com/
+        icon: fas fa-home
+      - url : https://www.idc.ac.il/en/pages/faculty.aspx?username=rfeldman
+        icon: fas fa-graduation-cap
+      # - url : 
+      #   icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=YY9fEokAAAAJ&hl=en
+        icon: fab fa-google
+    # - url: https://www.researchgate.net
+    #   icon: fab fa-researchgate
+    # - url: https://twitter.com
+    #   icon: fab fa-twitter
+    # - url: https://linkedin.com
+    #   icon: fab fa-linkedin-in
+    # - url: https://github.com/
+    #   icon: fab fa-github
+
+
+  - name: Clara Moreau
+    position :
+      - Postdoctoral researcher at Institut Pasteur - Paris
+    country : 🇫🇷 Paris, France
+    social :
+      - url: https://claramoreau9.github.io/
+        icon: fas fa-home
+      - url : https://research.pasteur.fr/en/member/clara-moreau/
+        icon: fas fa-graduation-cap
+      # - url : 
+      #   icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=tkN9j_cAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/scientific-contributions/Clara-A-Moreau-2181982853
+        icon: fab fa-researchgate
+      - url: https://twitter.com/claramoreau9?lang=en
+        icon: fab fa-twitter
+      - url: https://www.linkedin.com/in/clara-moreau-b44b6858/
+        icon: fab fa-linkedin-in
+      # - url: https://github.com/
+      #   icon: fab fa-github 
+
+  - name: Tom Froese
+    position :
+      - Researcher at Okinawa Institute of Science and Technology
+    country : 🇯🇵 Okinawa, Japan
+    social :
+      # - url: https://www.personal-website.com
+      #   icon: fas fa-home
+      # - url : 
+      #   icon: fas fa-graduation-cap
+      # - url : 
+      #   icon: far fa-hospital
+      - url : https://scholar.google.com/citations?user=uKd8pmUAAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/scientific-contributions/Tom-Froese-70670755
+        icon: fab fa-researchgate
+    # - url: https://twitter.com
+    #   icon: fab fa-twitter
+    # - url: https://facebook.com
+    #   icon: fab fa-facebook-f
+    # - url: https://linkedin.com
+    #   icon: fab fa-linkedin-in
+    # - url: https://github.com/
+    #   icon: fab fa-github
+
+
+# - groupName: Previous Paris Team
+#   people:
+#   - Thomas Bourgeron
+#   - Richard Delorme
+#   - Jean-Pierre Changeux
+#   - Aline Lefebvre
+#   - Yann Beauxis
+#   - Yang-Min Kim
+#   - Anaël Ayrolles
+#   - Florence Brun
+
+# - groupName: Boca Raton Team
+#   align: right
+#    icon:
+#   people:
+#   - J.A. Scott Kelso
+#   - Emmanuelle Tognoli
+#   - Mengsen Zhang
+
+# - groupName: PhD Paris Team
+#   align: right
+#    icon:
+#   people:
+#   - Jacqueline Nadel 
+#   - Jacques Martinerie
+#   - Robert Soussignan
+#   - Mario Chavez

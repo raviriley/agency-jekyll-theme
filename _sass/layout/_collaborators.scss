@@ -1,0 +1,174 @@
+// Styling for the Collaborators page
+
+    #collaborators{
+    
+        
+    @include heading-font;
+    .logo{
+        margin: auto 10px;
+    }
+    
+
+li.list-inline.current-page{
+            &::before{
+                content: "";
+                background-image: url(../img/chevron-right.svg);
+                filter: opacity(0.5);
+                background-repeat: no-repeat;
+                background-position-y: 3.5px;
+                background-position-x: 1px;
+                padding: 2px 10px 0px 10px;
+                font-size: initial;
+                margin-left: 10px;
+            }
+        }
+        .path{
+            display: inline-flex;
+        }
+.collaborators-menu{
+        position: sticky;
+        top: 100px;
+        @media(max-width:546px) {
+            position: initial;
+            display: none;
+            
+            }
+        }
+    .masthead{
+        height: 20vw;
+        background-image: url(../img/background-header.png);
+        .section-heading{
+            color: white;
+            font-size: 80px;
+            @media(max-width:992px) {
+                font-size: 40px;
+                margin: 5px;
+            }
+        }
+        .masthead-title{
+            top: 450px;
+            position: sticky;
+            .display-1 {
+                font-size: 5vw;
+                font-weight: 600;
+                color: #f8f9fa;
+            }
+        }
+    }
+    .collaborator.group{
+        background: #2a75bb1c;
+        padding: 10px 0 0 0;
+        border-radius: 5px;
+        .groupName{
+                margin: 30px 0px;
+                h1{
+                    filter: drop-shadow(-10px 5px 6px #5d5d5d91);
+                }
+            }
+        .collaborator{
+            background-color: #ffffffbd;
+            border-radius: 5px;
+            margin: 15px 0;
+            padding: 30px 30px 20px 40px;
+            border: #87a8cc2b;
+            border-style: solid;
+            border-width: thin;
+            
+            .positions{
+                margin-bottom: 15px;
+                &::before{
+                    content: "▪️";
+                    color: #106cb5;
+                }
+            }
+            .country{
+                margin-bottom: 30px;
+            }
+            .list-inline{
+                float: right;
+                // text-align: right;
+                @media (max-width: 991px){
+                    text-align: initial;
+                }
+            }
+
+            ul.social-buttons li a {
+                line-height: 0px;
+                color: #106cb5;
+                background-color: transparent;
+                height: fit-content;
+                width: fit-content;
+                margin: 10px 10px 10px 10px;
+                padding: 1px 11px 1px 1px;                
+                i{
+                    &:hover{
+                        filter: drop-shadow(2px 1px 2px #c9c9c9);
+                    }
+                }
+                .fab, .fas, .far{
+                    width: 20px;
+                    margin-left: 9px;
+                }
+            }
+            .collaborator-name{
+                p{
+                font-weight: 600;
+                // &:after {
+                //     content: '\279A';
+                //     color: #106cb5;
+                // }
+                
+            }
+            
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 1.7em;
+                    left: 15px;
+                    right: 0;
+                    height: 0.9em;
+                    border-top: 5px groove #649cd8;
+                    z-index: 2;
+                    width: 60px;
+            }
+        }
+        .collaborator-position{
+            display: grid;
+            margin: 25px 0px;
+        }
+    }
+    
+}
+    .collapse{
+        position: sticky;
+        top: 100px;
+        z-index: 1;
+    }
+    .pos-f-t{
+        position: sticky;
+        top: 110px;
+        z-index: 2;
+        margin-left: 0px;
+        width: fit-content;
+        @media(min-width:546px) {
+            display: none;
+        }
+    }
+    
+}
+.dropdown-menu{
+    width: fit-content;
+    background-color: #212629bd;
+    border-color: transparent;
+    .dropdown-item {
+        color: white;
+        &:hover{
+            background-color: #72737394;
+        }
+}
+@include heading-font;
+
+} 
+
+
+ 
