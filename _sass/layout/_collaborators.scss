@@ -103,18 +103,12 @@
                     }
                 }
                 .fab, .fas, .far{
-                    width: 20px;
-                    margin-left: 9px;
+                    width: 23px;
                 }
             }
             .collaborator-name{
                 p{
-                font-weight: 600;
-                // &:after {
-                //     content: '\279A';
-                //     color: #106cb5;
-                // }
-                
+                font-weight: 600;                
             }
             
                 &::before {
@@ -167,5 +161,7 @@
 
 } 
 
-
+.fa-mila{
+    content: url(../img/icons/mila-icon.png);
+}
  

@@ -13,7 +13,7 @@
       - url: https://scholar.google.com/citations?user=Avse5gIAAAAJ&hl=en 
         icon: fab fa-google
       - url: https://mila.quebec/en/person/irina-rish/
-        icon: far fa-handshake
+        icon: far fa-mila
       - url: https://twitter.com/irinarish?lang=en
         icon: fab fa-twitter
       - url: https://ca.linkedin.com/in/irina-rish-8b2162
@@ -84,7 +84,7 @@
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15227/
         icon: fas fa-graduation-cap
       - url: https://douglas.research.mcgill.ca/patricia-conrod-phd
-        icon: far fa-handshake # Mila
+        icon: far fa-mila # Mila
       - url: https://www.researchgate.net/profile/Patricia-Conrod-2
         icon: fab fa-researchgate
       - url : https://scholar.google.com/citations?user=dksr5mMAAAAJ
@@ -119,7 +119,7 @@
       - url : https://www.mcgill.ca/bbme/danilo-bzdok
         icon: fas fa-graduation-cap
       - url: https://mila.quebec/en/person/danilo-bzdok/
-        icon: far fa-handshake # Mila
+        icon: far fa-mila # Mila
       - url: https://www.researchgate.net/profile/Danilo-Bzdok
         icon: fab fa-researchgate
       - url : https://scholar.google.com/citations?user=yMLTxlUAAAAJ&hl=en
