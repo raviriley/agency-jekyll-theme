@@ -4,7 +4,7 @@
   - name: Irina Rish
     position:
       - Professor at University of Montréal
-      - Associate Professor & Associate at Mila
+      - Core Academic Member at Mila
     social:
       - url: https://sites.google.com/site/irinarish/
         icon: fas fa-home
@@ -82,9 +82,9 @@
       - url : https://recherche.chusj.org/en/Axes-de-recherche/Bio?id=9c4c6303-24ed-4d68-a375-02795554d609
         icon: far fa-hospital
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15227/
-        icon: fas fa-graduation-cap
+        icon: fas fa-university
       - url: https://douglas.research.mcgill.ca/patricia-conrod-phd
-        icon: far fa-mila # Mila
+        icon: far fa-graduation-cap
       - url: https://www.researchgate.net/profile/Patricia-Conrod-2
         icon: fab fa-researchgate
       - url : https://scholar.google.com/citations?user=dksr5mMAAAAJ
@@ -113,6 +113,7 @@
   - name:  Danilo Bzdok
     position:
       - Associate Professor at the department of Biomedical Engineering at McGill University
+      - Associate Academic Member at Mila
     social:
       - url: https://danilobzdok.de/
         icon: fas fa-home
