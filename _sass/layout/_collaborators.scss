@@ -95,7 +95,7 @@
                 background-color: transparent;
                 height: fit-content;
                 width: fit-content;
-                margin: 10px 10px 10px 10px;
+                margin: 20px 3px 0px 0px;
                 padding: 1px 11px 1px 1px;                
                 i{
                     &:hover{
@@ -163,5 +163,6 @@
 
 .fa-mila{
     content: url(../img/icons/mila-icon.png);
+    width: 22px !important;
 }
  
