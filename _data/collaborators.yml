@@ -138,10 +138,10 @@
         icon: fab fa-google
       - url: https://www.researchgate.net/profile/Michael-Lifshitz
         icon: fab fa-researchgate
-      - url: https://twitter.com/illumabilities?lang=en
-        icon: fab fa-twitter
-      - url: https://www.linkedin.com/in/michaellifshitz/
-        icon: fab fa-linkedin-in
+      # - url: https://twitter.com/illumabilities?lang=en
+      #   icon: fab fa-twitter
+      # - url: https://www.linkedin.com/in/michaellifshitz/
+      #   icon: fab fa-linkedin-in
 
   - name: Maxwell Ramstead
     position :
