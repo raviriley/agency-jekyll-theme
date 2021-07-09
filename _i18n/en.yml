@@ -1,0 +1,33 @@
+global:
+  en: 🇬🇧
+  fr: 🇫🇷
+  
+nav:
+  - title: "Vision"
+    section: projects
+
+  - title: "Work"
+    section: papers
+    subsection:
+      -
+        title: Highlights
+        href: "./#papers"
+      - 
+        title: All papers 
+        href: "publications"
+    
+  - title: "Story"
+    section: timeline
+
+  - title: "Team"
+    section: team
+    subsection:
+      -
+        title: PPSP team
+        href: "./#team"
+      - 
+        title: PPSP Collaborators 
+        href: "collaborators"
+
+  - title: "Contact"
+    section: contact

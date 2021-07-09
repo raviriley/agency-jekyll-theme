@@ -41,3 +41,12 @@ markdown: kramdown
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 formspree_form_path: "f/mgepllgp" 
 
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# The first item of languages will be used as the default.
+languages: ["en", "fr"]
+exclude_from_localizations:  ["assets", "img", "papers", "_site",  "favicon.ico"]
+highlighter: pygments
+
+
