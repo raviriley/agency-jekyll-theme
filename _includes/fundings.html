@@ -5,7 +5,7 @@
 	  {% for fundings in site.data.sitetext.fundings.list %}
         <div class="col-md-4 col-sm-6">
           <a href="{{ fundings.url }}">
-            <img class="col-9 img-fluid d-block mx-auto" src="{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }}">
+            <img class="col-9 img-fluid d-block mx-auto" src="/{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }}">
           </a>
           <br>
         </div>
