@@ -1,87 +1,95 @@
 <!-- Papers Grid -->
 <section class="bg-light page-section" id="{{ site.data.sitetext.papers.section | default: 'papers' }}">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.papers.title | default: "Papers" }}</h2>
         <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">{{ site.data.sitetext.papers.text }}</h3>
       </div>
     </div>
-    <!--Carousel Wrapper-->
-    <div class="col-lg-12 carousel slide carousel-multi-item" id="papers-carousel"  data-ride="carousel">
-      <!--Controls-->
-      <div class="controls-top">
-        <a class="carousel-control left" href="#papers-carousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-        <a class="carousel-control right" href="#papers-carousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-      </div>
-      <!--/.Controls-->
-
+      <!--Carousel Wrapper-->
+      <div class="container carousel slide carousel-multi-item" id="papers-carousel"  data-ride="carousel">
       <!--Slides-->
-      <div class="carousel-inner" role="listbox">          
-        <!--First slide-->
-        <div class="carousel-item active">
-          <div class="row">
+        <div class="carousel-inner" role="listbox">          
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
             {% for project in site.papers limit:6 %}
               {% if forloop.index <= 3  %}
-                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4 papers-item">
-                  <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
-                    <div class="papers-hover">
-                      <div class="papers-hover-content">
-                        <i class="{{ site.data.style.papers-icon | default: 'fas fa-plus fa-3x'}}"></i>
+                <div class="col-md-3 papers-item">
+                  <div class="mx-auto text-center" style="height: 110px;">
+                    <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
+                      <div class="papers-hover">
+                        <div class="papers-hover-content">
+                          <i class="{{ site.data.style.papers-icon | default: 'fas fa-plus fa-3x'}}"></i>
+                        </div>  
                       </div>
-                    </div>
-                    <div>
-                      <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
-                    </div>
-                  </a>
+                      <div class="card-img">
+                          <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
+                      </div>
+                    </a>
+                  </div>
                   <div class="card-body">
-                    <div class="papers-caption">
-                      <h4 class="card-title">{{ project.highlightData.title }}</h4>
-                      <p class="text-muted">{{ project.highlightData.subtitle }}</p>
-                    </div>
+                      <div class="col-12 papers-caption">
+                        <!-- <div class="col-12" style="height: 100px;"> -->
+                          <h5 class="card-title">{{ project.highlightData.title }}</h5>
+                          <p class="text-muted" style="position: absolute; top: 100px;">{{ project.highlightData.subtitle }}</p>
+                        <!-- </div> -->
+                      </div>
                   </div>
                 </div>
               {% endif %}
             {% endfor %}
-          </div>
-        </div>  
-        <!--/.First slide-->
-        <!--Second slide-->
-        <div class="carousel-item ">
-          <div class="row">
-            {% for project in site.papers limit:6 %}
-              {% if forloop.index > 3  %}
-                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4 papers-item">
-                  <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
-                    <div class="papers-hover">
-                      <div class="papers-hover-content">
-                        <i class="{{ site.data.style.papers-icon | default: 'fas fa-plus fa-3x' }}"></i>
+            </div>   
+          </div>   
+          <!--/.First slide-->
+          <!--Second slide-->
+          <div class="carousel-item ">
+            <div class="row">
+              {% for project in site.papers limit:6 %}
+                {% if forloop.index > 3  %}
+                <div class="col-md-3 papers-item">
+                  <div class="mx-auto text-center" style="height: 110px;">
+                    <a class="papers-link" data-toggle="modal" href="#p{{ forloop.index }}">
+                      <div class="papers-hover">
+                        <div class="papers-hover-content">
+                          <i class="{{ site.data.style.papers-icon | default: 'fas fa-plus fa-3x'}}"></i>
+                        </div>  
                       </div>
-                    </div>
-                    <div>
-                      <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
-                    </div>
-                  </a>
+                      <div class="card-img">
+                          <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
+                      </div>
+                    </a>
+                  </div>
                   <div class="card-body">
-                    <div class="papers-caption">
-                      <h4 class="card-title">{{ project.highlightData.title }}</h4>
-                      <p class="text-muted">{{ project.highlightData.subtitle }}</p>
-                    </div>
+                      <div class="col-12 papers-caption">
+                        <!-- <div class="col-12" style="height: 100px;"> -->
+                          <h5 class="card-title">{{ project.highlightData.title }}</h5>
+                          <p class="text-muted" style="position: absolute; top: 100px;">{{ project.highlightData.subtitle }}</p>
+                        <!-- </div> -->
+                      </div>
                   </div>
                 </div>
-              {% endif %}
-            {% endfor %}
-          </div>
+                {% endif %}
+              {% endfor %}
+              </div>
+            </div>
+          <!--/.Second slide-->
         </div>
-        <!--/.Second slide-->
+        <!--/.Slides-->
+      <!--Controls-->
+      <div class="text-center">
+        <a class="carousel-control left" href="#papers-carousel" data-slide="prev"><i class="far fa-arrow-alt-circle-left" style="margin: 10px;  font-size: x-large;"></i></a>
+        <a class="carousel-control right" href="#papers-carousel" data-slide="next"><i class="far fa-arrow-alt-circle-right" style="margin: 10px; font-size: x-large;"></i></a>
       </div>
-      <!--/.Slides-->
-    </div>
-    <!--/.Carousel Wrapper-->
-    <div class="row">
+      <!--/.Controls-->
+      <!--/.Carousel Wrapper-->
+   
+      <div class="row">
       <div class="col-sm text-center">
       <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=publications>{{ site.data.sitetext.papers.buttonText }}</a>
     </div> 
+  </div>
   </div> 
 </section>
 {% include modals.html %}
