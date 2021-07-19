@@ -2,7 +2,10 @@
 
 #collaborators{        
     @include heading-font;
-    
+    .fa-mila{
+        content: url(../img/icons/mila@2x.png);
+        color: #106cb5;
+    }
     li.list-inline.current-page{
             &::before{
                 content: "";
