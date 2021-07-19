@@ -3,8 +3,8 @@
 - people:
   - name: Irina Rish
     position:
-      - Professor at University of Montréal
-      - Core Academic Member at Mila
+      - Associate Professor of Computer Science at University of Montréal
+      - Core Academic Member at Mila – Quebec AI Institute
     social:
       - url: https://sites.google.com/site/irinarish/
         icon: fas fa-home
@@ -21,7 +21,8 @@
 
   - name: Sebastien Jacquemont
     position :
-      - Associate Professor at University of Montréal
+      - Associate Professor of Genetics at University of Montréal
+      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
       - Medical Geneticist at CHU Sainte Justine
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in19646/
@@ -39,10 +40,8 @@
 
   - name: Sarah Lippé
     position : 
-      - Deputy Head, Research Axis, Brain and Child Development, CHU Sainte-Justine
-      - Associate Professor, Psychology Department, University of Montreal
-      - Scientist, CHU Sainte-Justine Research Center
-      - Salary award FRQ-S
+      - Associate Professor of Psychology at University of Montreal
+      - Deputy Head and Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
       - Clinical neuropsychologist
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15005/
@@ -58,9 +57,10 @@
 
   - name: Anne Gallagher
     position :
-      - Associate Professor
+      - Associate Professor of Psychology at University of Montréal
+      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
       - Canada Research Chair in Child Neuropsychology and Brain Imaging
-      - Department of Psychology, University of Montréal
+      - Clinical neuropsychologist
     social :
       - url: https://lionlab.umontreal.ca/home/
         icon: fas fa-home
@@ -76,6 +76,8 @@
   - name: Patricia Conrod
     position:
       - Professor of Psychiatry at the Faculty of Medicine at University of Montréal
+      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
+      - Canada Research Chair in Preventative Mental Health and Addiction
     social:
       - url: 
         icon: fas fa-home
@@ -94,10 +96,11 @@
 
   - name: Baudouin Forgeot d'Arc
     position :
-      - Psychiatrist, Department of Psychiatry, CHU Sainte-Justine
-      - Researcher, brain and development axis, CHU Ste-Justine research center
+      - Associate Professor of Psychiatry at University of Montréal
+      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
       - Associate Member, Department of Psychiatry and Research Center, CNMTL (Hôpital Rivière-des-Prairies)
-      - Associate Professor, Faculty of Medicine, University of Montréal
+      - Psychiatrist at CHU Sainte Justine
+
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in16722/
         icon: fas fa-university
@@ -112,8 +115,8 @@
 
   - name:  Danilo Bzdok
     position:
-      - Associate Professor at the department of Biomedical Engineering at McGill University
-      - Associate Academic Member at Mila
+      - Associate Professor of Biomedical Engineering at McGill University
+      - Associate Academic Member at Mila - Quebec AI Institut
     social:
       - url: https://danilobzdok.de/
         icon: fas fa-home
@@ -132,8 +135,8 @@
 
   - name: Michael Lifshitz 
     position :
-      - Post-Doc at McGill University, Social and Transcultural Psychiatry
-      - Faculty Member Stanford University, Anthropology
+      - Assistant Professor in Social and Transcultural Psychiatry at McGill University
+      - Faculty Member in Anthropology at Stanford University
     social :
       - url : https://scholar.google.de/citations?user=bbFD2uEAAAAJ&hl=en
         icon: fab fa-google
@@ -223,7 +226,8 @@
 
   - name: Jean-Arthur Micoulaud-Franchi
     position :
-      - Psychiatrist at CHU de Bordeaux –– University of Bordeaux 
+      - Assistant Professor of Medical Sciences at the University of Bordeaux 
+      - Psychiatrist at CHU de Bordeaux
     location : 🇫🇷 Bordeaux, France
     social :
       - url: https://sites.google.com/site/jarthurmicoulaud/home
@@ -271,7 +275,7 @@
 
   - name: Juha Lahnakoski
     position :
-      - Postdoctoral researcher at  Institute of Neuroscience and Medicine –– Julich Forschungszentrum
+      - Postdoctoral researcher at Institute of Neuroscience and Medicine –– Julich Forschungszentrum
     location : 🇩🇪 Jülich, Germany
     social :
       - url: https://users.aalto.fi/~jlahnako/
@@ -307,7 +311,8 @@
 
   - name: Thomas Bourgeron
     position: 
-      - Professor at University of Paris and Institut Pasteur
+      - Professor of Human Genetics at University of Paris
+      - Head of the Human Genetics and Cognitive Functions at the Institut Pasteur
     location : 🇫🇷 Paris, France
     social :
       - url : https://research.pasteur.fr/en/member/thomas-bourgeron/
@@ -321,6 +326,7 @@
 
   - name: Richard Delorme
     position :
+      - Professor of Psychiatry at University of Paris
       - Psychiatrist at Hopital Robert Debré
     location : 🇫🇷 Paris, France
     social :
@@ -389,7 +395,8 @@
 
   - name: Eva Loth
     position :
-      - Researcher at Institute of Psychiatry - King's College London
+      - Senior Lecturer in Psychology at the Institute of Psychiatry, Psychology and Neuroscience (IoPPN), King's College London
+      - Deputy Director of the AIMS-2-TRIALS consortium
     location : 🇬🇧 London, United Kingdom
     social :
       - url : https://kclpure.kcl.ac.uk/portal/eva.loth.html
@@ -405,7 +412,7 @@
 
   - name: Merle Fairhurst
     position :
-      - Professor of Biological Psychology at Institute of Psychology - University of Bundeswehr
+      - Associate Professor of Biological Psychology at Universität der Bundeswehr München
     location : 🇩🇪 Munich, Germany
     social :
       - url: https://www.merlefairhurst.com/
@@ -434,19 +441,19 @@
 
   - name: Alejandro Perez
     position :
-      - Professor at Aix-Marseille Université 
-    location : 🇫🇷 Marseille, France 
+      - Research Fellow (Marie Curie) at MRC Cognition and Brain Sciences Unit
+    location : 🇬🇧 Cambridge, United Kingdom
     social :
-      - url : http://www.cpt.univ-mrs.fr/spip.php?page=personne&id_personne=39&lang=en
+      - url : http://www.mrc-cbu.cam.ac.uk/people/Alejandro.Perez/
         icon: fas fa-graduation-cap
-      - url : https://scholar.google.com/citations?user=y8A3rtIAAAAJ&hl=en
+      - url : https://scholar.google.com/citations?user=73C9FFMAAAAJ&hl=en
         icon: fab fa-google
-      - url: https://www.researchgate.net/profile/Alejandro-Perez-32
+      - url: https://www.researchgate.net/profile/Alejandro-Perez-Fernandez
         icon: fab fa-researchgate
 
   - name: Suzanne Dikker
     position :
-      - Researcher at New York University
+      - Senior Research Scientist at New York University
     location : 🇺🇸 New York City, New York, United States
     social :
       - url: http://www.suzannedikker.net/
@@ -484,8 +491,8 @@
 
   - name: J.A. Scott Kelso
     position :
-      - Professor of Complex Systems and Brain Sciences
-      - Professor of Psychology, Biological Sciences and Biomedical Science at Florida Atlantic University (FAU) in Boca Raton, Florida and The University of Ulster (Magee Campus) in Derry, N. Ireland
+      - Professor of Complex Systems and Brain Sciences at Florida Atlantic University
+      - Professor of Psychology, Biological Sciences and Biomedical Science at The University of Ulster
     location : 🇺🇸 Boca Raton, Florida, United States
     social :
       - url: http://www.ccs.fau.edu/~kelso/
@@ -501,7 +508,7 @@
 
   - name: Emmanuelle Tognoli
     position :
-      -  Professor at Center for Complex Systems and Brain Sciences
+      -  Research Professor of Complex Systems and Brain Sciences at Florida Atlantic University
     location : 🇺🇸  Boca Raton, Florida, United States
     social :
       - url: http://www.ccs.fau.edu/~tognoli/
@@ -539,7 +546,9 @@
 
   - name: Ruth Feldman
     position :
-      - Psychologist at Interdisciplinary Center - Herzliya
+      - Professor of Developmental Social Neuroscience at the Interdisciplinary Center, Herzlia and Yale Child Study Center
+      - Director of the Center for Developmental Social Neuroscience, IDC Herzlia
+      - Psychologist at IDC Herzlia
     location : 🇮🇱 Herzliya, Israel
     social :
       - url: https://ruthfeldmanlab.com/
@@ -551,7 +560,7 @@
 
   - name: Tom Froese
     position :
-      - Researcher at Okinawa Institute of Science and Technology
+      - Assistant Professor of Cognitive Science at Okinawa Institute of Science and Technology
     location : 🇯🇵 Okinawa, Japan
     social:
       - url : https://scholar.google.com/citations?user=uKd8pmUAAAAJ&hl=en
@@ -561,23 +570,23 @@
 
   - name: Julien Laroche
     position :
-      - PhD at the Italian Institute of Technology (CTNSC - Center for Translational Neurophysiology of Speech and Communication)
+      - Postdoctoral researcher at the Italian Institute of Technology (CTNSC - Center for Translational Neurophysiology of Speech and Communication)
     location : 🇮🇹 Genova, Italy
     social :
       - url: https://www.researchgate.net/profile/Julien-Laroche
         icon: fab fa-researchgate
+      - url: https://twitter.com/ju_laroche?lang=en
+        icon: fab fa-twitter
 
   - name: Ian Clark
     position :
-      - Professor of Musculoskeletal Biology, School of Biological Sciences
-    location : 🇬🇧 Norwich, United Kingdom
+      - Assistant Professor of Communication at Nagoya University 
+    location : 🇯🇵 Nagoya, Japan
     social :
-      - url : https://research-portal.uea.ac.uk/en/persons/ian-clark
+      - url : https://nucba.academia.edu/IanClark
         icon: fas fa-graduation-cap
-      - url: https://www.researchgate.net/profile/Ian-Clark-12
+      - url: https://www.researchgate.net/profile/Ian-Clark-10
         icon: fab fa-researchgate
-      - url: https://www.linkedin.com/in/ian-clark-0514a924/
-        icon: fab fa-linkedin-in
 
   - name: Mario Chavez
     position :
@@ -589,6 +598,7 @@
 
   - name: Jacqueline Nadel
     position :
+      - Professor in Developmental Psychology at Sorbonne Université
       - Emeritus Research Director at CNRS
     location : 
     social :
