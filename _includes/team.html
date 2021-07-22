@@ -7,11 +7,17 @@
 	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.text }}</h3>
 	</div>
   </div>
-  <div class="row">
+  <div class="row justify-content-center">
   {% for person in site.data.sitetext[site.locale].team.people %}
 	<div class="col-sm-4">
 	  <div class="team-member">
+		{% if person.href %}
+		<a href="{{ person.href }}">
+		{% endif %}
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		{% if person.href %}
+		</a>
+		{% endif %}
 		<h4>{{ person.name }}</h4>
 		<p class="text-muted">{{ person.role }}</p>
 		<ul class="list-inline social-buttons">

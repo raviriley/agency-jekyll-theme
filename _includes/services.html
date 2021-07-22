@@ -11,13 +11,19 @@
         </div>
       </div>
 	  
-      <div class="row text-center">
+      <div class="row text-center justify-content-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
         <div class="col-md-4">
+          {% if service.desc %}
+          <a href="{{ service.href }}">
+          {% endif %}
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
+          {% if service.desc %}
+          </a>
+          {% endif %}
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>

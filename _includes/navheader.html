@@ -36,11 +36,15 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
+      {%- if site.data.sitetext[site.locale].header.text -%}
+      <div style="background-color: rgba(0,0,0,0.3); border: 0px;">
+      <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+      </div>
+      {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.title -%}
+        <div style="background-color: rgba(0,0,0,0.3); border: 0px;">
         <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+        </div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
