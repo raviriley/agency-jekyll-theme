@@ -233,6 +233,8 @@ team:
         role: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
         image: img/team/German_Abrevaya.png
         social:
+          - url: https://twitter.com/GAbrevaya
+            icon: fab fa-twitter
           - url: https://github.com/gabrevaya
             icon: fab fa-github
       - name: "Harshit Bokadia"
