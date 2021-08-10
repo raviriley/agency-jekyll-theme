@@ -249,9 +249,9 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/hbk008
             icon: fab fa-github
-      - name: "Position Available"
-        role: "PhD/Postdoc<br>(Computational Physiology)"
-        image: assets/img/team/unknown.png
+#      - name: "Position Available"
+#        role: "PhD/Postdoc<br>(Computational Physiology)"
+#        image: assets/img/team/unknown.png
 
 contact:
     title: "Contact Us"
