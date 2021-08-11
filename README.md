@@ -1,9 +1,9 @@
 # Agency Jekyll Theme 
 
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
-[![template button](https://img.shields.io/badge/-Generate%20theme%20from%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip_me-green?logo=paypal)](https://www.paypal.me/raviriley)
+[![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
 [![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
 
 ## Demo
@@ -80,7 +80,7 @@ There are three ways to install this theme:
 
 #### 1. Gem-based Theme Installation
 
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](/_config.yml).
+Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/_config.yml).
 
 Install the gem with:
 
@@ -107,13 +107,13 @@ Simply generate your own repository by clicking the button below. Then replace t
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/raviriley/agency-jekyll-theme-starter/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)][generate]
 
 </div>
     
 #### 3. Remote Theme Installation
 
-Replace the contents of your `_config.yml` file with this repo's [\_config.yml](/_config.yml) and your `Gemfile` with this repo's [Gemfile](/Gemfile).
+Replace the contents of your `_config.yml` file with [\_config.yml](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/_config.yml) and your `Gemfile` with [Gemfile](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/Gemfile.yml).
 
 Then install gems.
 
@@ -186,5 +186,6 @@ The theme is available as open source under the terms of the [MIT License](https
 
 -->
 
-[template]: https://github.com/raviriley/agency-jekyll-theme-starter
 [demo-page]: https://raviriley.github.io/agency-jekyll-theme-starter/
+[template]: https://github.com/raviriley/agency-jekyll-theme-starter
+[generate]: https://github.com/raviriley/agency-jekyll-theme-starter/generate
