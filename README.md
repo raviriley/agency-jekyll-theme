@@ -137,6 +137,7 @@ Includes:
 ## Contributing
 
 This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
+
 For bug reports, follow the provided template.
 
 #### Improvements - Up for Grabs
@@ -160,13 +161,13 @@ Then run:
 $ bundle install
 ```
 
-To test the theme, run:
+To test the theme, run this. Using a flag for verbose errors.
 
 ```sh
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --trace
 ```
 
-Then open your browser at
+Then open your browser at:
 
 - http://localhost:4000
 
