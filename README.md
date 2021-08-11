@@ -80,7 +80,7 @@ There are three ways to install this theme:
 
 #### 1. Gem-based Theme Installation
 
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/_config.yml).
+Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
 
 Install the gem with:
 
@@ -113,7 +113,9 @@ Simply generate your own repository by clicking the button below. Then replace t
     
 #### 3. Remote Theme Installation
 
-Replace the contents of your `_config.yml` file with [\_config.yml](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/_config.yml) and your `Gemfile` with [Gemfile](https://github.com/raviriley/agency-jekyll-theme-starter/blob/master/Gemfile.yml).
+Replace your `_config.yml` file with the starter [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
+
+Replace your `Gemfile` with the starter [Gemfile](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile).
 
 Then install gems.
 
