@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Tech 4 Social Good
+    text: "@ The University of Michigan Ann Arbor"
+    button: Learn More
     buttonlink: "#services"
 
   services:
