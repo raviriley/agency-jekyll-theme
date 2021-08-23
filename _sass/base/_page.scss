@@ -44,6 +44,15 @@ h6 {
     text-transform: none;
     @include serif-font;
   }
+  h3.section-body {
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 75px;
+    margin-bottom: 200px;
+    line-height: 1.75;
+    text-align: left;
+    @include serif-font;
+  }
 }
 @media(min-width:768px) {
   section {
