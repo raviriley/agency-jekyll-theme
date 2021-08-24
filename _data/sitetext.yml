@@ -39,13 +39,13 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: "our timeline"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
+      - title: "T4SG Kickoff Meeting"
+        year: "March 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
