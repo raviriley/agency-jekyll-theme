@@ -18,7 +18,11 @@ en: &DEFAULT_EN
 
   mission:
     title: "Our Mission"
-    text: "Tech4SG is a community of students from all disciplines interested in reconsidering technology: its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems. We aim to do this by creating dialogues to critically examine the social/cultural/political dimensions of digital technologies and to rethink the education, ideology and culture of contemporary technological institutions. We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities."
+    text: "Tech4SG is a community of students from all disciplines interested in reconsidering technology: 
+    its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems. 
+    We aim to do this by creating dialogues to critically examine the social, cultural, and political dimensions of digital technologies, 
+    as well as to rethink the education, ideology and culture of contemporary technological institutions. 
+    We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities."
     section: mission
     # list:
     #   - title: "E-Commerce"
@@ -32,8 +36,8 @@ en: &DEFAULT_EN
     #     icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Teams"
+    #text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
@@ -127,10 +131,11 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+      
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Fill out this form and we'll be in touch shortly!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -152,6 +157,8 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/t4sg_umich/
         icon: "fab fa-instagram"
+      - url: https://www.instagram.com/t4sg_umich/
+        icon: "fa fa-star"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

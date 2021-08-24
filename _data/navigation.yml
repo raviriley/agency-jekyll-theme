@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "Mission"
       section: mission
-    - title: "Portfolio"
+    - title: "Teams"
       section: portfolio
     - title: "About"
       section: timeline
