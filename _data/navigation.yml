@@ -17,8 +17,8 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "About"
       section: timeline
-    - title: "Team"
-      section: team
+    - title: "Board"
+      section: board
     - title: "Contact"
       section: contact
     - title: "Theme Source"
