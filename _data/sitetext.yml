@@ -18,7 +18,11 @@ en: &DEFAULT_EN
 
   mission:
     title: "Our Mission"
-    text: "Tech4SG is a community of students from all disciplines interested in reconsidering technology: its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems. We aim to do this by creating dialogues to critically examine the social/cultural/political dimensions of digital technologies and to rethink the education, ideology and culture of contemporary technological institutions. We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities."
+    text: "Tech4SG is a community of students from all disciplines interested in reconsidering technology: 
+    its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems. 
+    We aim to do this by creating dialogues to critically examine the social, cultural, and political dimensions of digital technologies, 
+    as well as to rethink the education, ideology and culture of contemporary technological institutions. 
+    We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities."
     section: mission
     # list:
     #   - title: "E-Commerce"
@@ -32,20 +36,20 @@ en: &DEFAULT_EN
     #     icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Teams"
+    #text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: "our timeline"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
+      - title: "T4SG Kickoff Meeting"
+        year: "March 2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
@@ -95,6 +99,36 @@ en: &DEFAULT_EN
     title: "EXECUTIVE BOARD"
     section: board
     people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
       - name: "Taylor Murray"
         role: "President"
         image: assets/img/team/square_taylor-1.jpeg
@@ -119,7 +153,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Fill out this form and we'll be in touch shortly!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -141,6 +175,8 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/t4sg_umich/
         icon: "fab fa-instagram"
+      - url: https://www.instagram.com/t4sg_umich/
+        icon: "fa fa-star"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
