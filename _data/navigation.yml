@@ -23,8 +23,8 @@ en: &DEFAULT_EN
       section: board
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    #- title: "Theme Source"
+     # url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
