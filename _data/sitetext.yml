@@ -31,6 +31,11 @@ en: &DEFAULT_EN
     #     desc: "Your description here, full **Markdown** support"
     #     icon: fab fa-markdown
 
+  newsletter:
+    title: "Keep up with us!"
+    text: "Subscribe to our email newsletter to get monthly updates about the organization, relevant opportunities, cool media, and more!"
+    section: newsletter
+
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
