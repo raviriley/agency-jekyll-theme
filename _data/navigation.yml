@@ -13,16 +13,14 @@ en: &DEFAULT_EN
   nav:
     - title: "Mission"
       section: mission
-    - title: "Events"
-      section: calendar
-    - title: "Newsletter"
-      section: newsletter
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: timeline
     - title: "Board"
       section: board
+    - title: "Teams"
+      section: portfolio
+    - title: "Newsletter"
+      section: newsletter
+    - title: "Events"
+      section: calendar
     - title: "Contact"
       section: contact
     #- title: "Theme Source"
