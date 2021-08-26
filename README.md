@@ -1,4 +1,4 @@
-# Agency Jekyll Theme 
+# Agency Jekyll Theme
 
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
@@ -26,9 +26,9 @@
 
 ## About
 
-This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support. 
+This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support.
 
-While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source. 
+While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source.
 
 I also added a lot of new features that go beyond the original theme's capabilities:
 
@@ -47,7 +47,7 @@ I also added a lot of new features that go beyond the original theme's capabilit
 - customizable footer
 - custom accent color and dark/light colors
 - horizontal scrolling support for client section
-<!-- 
+<!--
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
 - horizontal scrolling support for portfolio section (coming soon)
@@ -60,7 +60,6 @@ The Jekyll structure of this theme includes:
 - `sitetext.yml` enables complete customization of all site text
 - `navigation.yml` enables fully customizable navigation
 - `style.yml` enables fully customizable colors, background images, and other style-related things
-
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
@@ -91,13 +90,13 @@ $ bundle add jekyll-agency
 Or manually.
 
 1. Add this line to your Jekyll site's `Gemfile`:
-    ```ruby
-    gem "jekyll-agency"
-    ```
+   ```ruby
+   gem "jekyll-agency"
+   ```
 2. Then execute:
-    ```sh
-    $ bundle install
-    ```
+   ```sh
+   $ bundle install
+   ```
 
 #### 2. Using the [Starter Template][template]
 

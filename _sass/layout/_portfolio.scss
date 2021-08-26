@@ -17,7 +17,7 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out($primary, .1);
+        background: fade-out($primary, 0.1);
         &:hover {
           opacity: 1;
         }
@@ -62,7 +62,7 @@
     z-index: 2;
   }
 }
-@media(min-width:767px) {
+@media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
