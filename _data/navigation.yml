@@ -15,7 +15,7 @@ en: &DEFAULT_EN
       section: mission
     - title: "Board"
       section: board
-    - title: "Portfolio"
+    - title: "Teams"
       section: portfolio
     - title: "Newsletter"
       section: newsletter
