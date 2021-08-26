@@ -13,6 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Mission"
       section: mission
+    - title: "Events"
+      section: calendar
     - title: "Newsletter"
       section: newsletter
     - title: "Portfolio"
