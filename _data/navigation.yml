@@ -17,7 +17,7 @@ en: &DEFAULT_EN
       section: mission
     - title: "Newsletter"
       section: newsletter
-    - title: "Portfolio"
+    - title: "Teams"
       section: portfolio
     - title: "About"
       section: timeline

@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : Tech 4 Social Good
 email      : t4sg-board@umich.edu #this is also the email contact forms will go to
 description: "Site description"
-author     : Your Name
+author     : Tech 4 Social Good
 logo:     #optional, defaults to site title
   path: assets/img/logo-wo-txt-clear.png
   height: 70 #height in px, defaults to 52px

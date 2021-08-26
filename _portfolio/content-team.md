@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Content Team
-  subtitle: #subtitle
+  subtitle: subtitle
   thumbnail: https://place-hold.it/400x300
   
 #what displays when the item is clicked:
@@ -15,8 +15,7 @@ alt: image alt text
 
 Some of the topics that we have covered include:
 
-{:.list-inline}
-* Race and Tech
+- Race and Tech
 - Data Privacy
 - Inclusive CS / Tech Education
 - Finding and cultivating a tech for social good workspace
@@ -26,7 +25,6 @@ Some of the topics that we have covered include:
 
 In the near future, we hope to cover more topics, including but not limited to:
 * Misinformation and disinformation
-{:.list-inline}
 
 
 Join our weekly meeting to have a say in what you'd like to include!
