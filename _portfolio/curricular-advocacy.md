@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Curricular Advocacy Team
-  subtitle: subtitle
+  subtitle:   
   thumbnail: https://place-hold.it/400x300
   
 #what displays when the item is clicked:

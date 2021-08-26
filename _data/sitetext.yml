@@ -67,14 +67,15 @@ en: &DEFAULT_EN
         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
+      #- title: "Title"
+       # year: "2009-2011"
+       # desc: "Your description here, **Markdown** is fully supported."
+       # image: assets/img/timeline/4.jpg
+       # alt:
         # you can enforce the alignment
-        align: right
+       # align: right
     end: "Be Part <br> of Our <br> Story!"
+      # url: https://t4sg.typeform.com/to/Az5vb9GU
 
   about:
     title: "About Us"
