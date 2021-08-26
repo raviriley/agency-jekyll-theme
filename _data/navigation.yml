@@ -13,7 +13,9 @@ en: &DEFAULT_EN
   nav:
     - title: "Mission"
       section: mission
-    - title: "Teams"
+    - title: "Newsletter"
+      section: newsletter
+    - title: "Portfolio"
       section: portfolio
     - title: "About"
       section: timeline
