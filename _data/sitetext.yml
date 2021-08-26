@@ -39,6 +39,10 @@ en: &DEFAULT_EN
     title: "Keep up with us!"
     text: "Subscribe to our email newsletter to get monthly updates about the organization, relevant opportunities, cool media, and more!"
     section: newsletter
+  
+  calendar:
+    title: "Events"
+    section: calendar
 
   portfolio:
     title: "Teams"
