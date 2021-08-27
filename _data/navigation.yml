@@ -15,14 +15,14 @@ en: &DEFAULT_EN
       url: https://t4sg.typeform.com/to/Az5vb9GU
     - title: "Mission"
       section: mission
-    - title: "Newsletter"
-      section: newsletter
-    - title: "Teams"
-      section: portfolio
-    - title: "About"
-      section: timeline
     - title: "Board"
       section: board
+    - title: "Teams"
+      section: portfolio
+    - title: "Newsletter"
+      section: newsletter
+    - title: "Events"
+      section: calendar
     - title: "Contact"
       section: contact
     #- title: "Theme Source"

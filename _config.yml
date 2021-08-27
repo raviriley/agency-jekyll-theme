@@ -19,8 +19,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Tech 4 Social Good
 email      : t4sg-board@umich.edu #this is also the email contact forms will go to
-description: "Site description"
-author     : Tech 4 Social Good
+
+
+description: "Tech 4 Social Good (T4SG) is a community of students from all disciplines interested in reconsidering technology: its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems."
+author     : Angelina Reyes, Ceciel Zhong
+
 logo:     #optional, defaults to site title
   path: assets/img/logo-wo-txt-clear.png
   height: 70 #height in px, defaults to 52px
