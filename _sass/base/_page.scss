@@ -59,6 +59,11 @@ h6 {
     padding: 150px 0;
   }
 }
+@media(max-width: 768px) {
+  .page-section h3.section-body {
+    font-size: 20px;
+  }
+}
 
 // Highlight color customization
 ::-moz-selection {

@@ -1,10 +1,15 @@
 // Styling for newsletter sign-up section
-iframe.substack {
-    border:1px solid #EEE;
-    background:white;
-    justify-content: center;
+#newsletter iframe {
+    width: 480px;
+    height: 320px;
+}
+@media(max-width: 480px) {
+    #newsletter iframe {
+        width: 300px;
+    }
 }
 
 div.container.flex {
     display: flex;
+    justify-content: center;
 }

@@ -1,0 +1,23 @@
+// Styling for calendar
+// #calendar iframe {
+//     border: 0;
+//     width: 90%;
+//     height: 700px;
+// }
+
+#calendar iframe {
+    border: 0;
+    width: 700px;
+    height: 600px;
+    max-width: 100vw;
+}
+@media(max-width: 800px) {
+    #calendar iframe {
+        width: 500px;
+    }
+}
+@media(max-width: 576px) {
+    #calendar iframe {
+        width: 400px;
+    }
+}
