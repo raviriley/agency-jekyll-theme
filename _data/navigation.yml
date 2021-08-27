@@ -11,6 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
+    - title: "Apply!"
+      url: https://t4sg.typeform.com/to/Az5vb9GU
     - title: "Mission"
       section: mission
     - title: "Board"

@@ -22,8 +22,12 @@ en: &DEFAULT_EN
     its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems. 
     We aim to do this by creating dialogues to critically examine the social, cultural, and political dimensions of digital technologies, 
     as well as to rethink the education, ideology and culture of contemporary technological institutions. 
-    We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities."
+    We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities.
+    "
+    #icon: "fas fa-chevron-circle-down"
+    #<img src="https://img.icons8.com/ios/50/000000/circled-down-2.png"/>
     section: mission
+
     # list:
     #   - title: "E-Commerce"
     #     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -44,11 +48,12 @@ en: &DEFAULT_EN
     title: "Events"
     section: calendar
 
-  portfolio:
+  Teams:
     title: "Teams"
-    #text: "Lorem ipsum dolor sit amet consectetur."
+    #text: "Learn about different parts of our club below:"
     section: portfolio
     closebutton: "Close Project"
+
 
   # timeline:
   #   title: "About"
@@ -80,6 +85,7 @@ en: &DEFAULT_EN
   #       # you can enforce the alignment
   #       align: right
   #   end: "Be Part <br> of Our <br> Story!"
+
 
   # about:
   #   title: "About Us"
@@ -148,8 +154,8 @@ en: &DEFAULT_EN
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
+    #phone: "Phone Number"
+    #phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
@@ -164,8 +170,9 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/t4sg_umich/
         icon: "fab fa-instagram"
-      - url: https://www.instagram.com/t4sg_umich/
-        icon: "fa fa-star"
+      #- url: https://www.instagram.com/t4sg_umich/
+      #  icon: "fa fa-star"
+      
 en-US:
   <<: *DEFAULT_EN
 en-CA:
