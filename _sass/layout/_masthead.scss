@@ -11,6 +11,8 @@ header.masthead {
   .intro-text {
     // padding-top: 150px;
     // padding-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 200px;
     .intro-subtitle {
       font-size: 22px;
       font-style: italic;
@@ -30,8 +32,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 250px;
-      padding-bottom: 200px;
+      
       .intro-subtitle {
         font-size: 40px;
         font-style: italic;
