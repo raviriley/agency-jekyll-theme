@@ -29,6 +29,12 @@ h6 {
   @include heading-font;
 }
 
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      color: $white;
+    }}}
+
 .page-section {
   padding: 100px 0;
   h2.section-heading {
