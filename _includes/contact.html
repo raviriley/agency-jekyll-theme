@@ -15,7 +15,7 @@
           novalidate="novalidate" method="POST">
           <!--name="sentMessage"-->
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="form-group">
                 <input name="name" class="form-control" id="name" type="text"
                   placeholder="{{ site.data.sitetext[site.locale].contact.name | default: "Name*" }}"
@@ -28,8 +28,14 @@
                   required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}">
                 <p class="help-block text-danger"></p>
               </div>
+              <div class="form-group">
+                <input name="phone" class="form-control" id="phone" type="tel"
+                  placeholder="{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number*" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
               <div class="form-group">
                 <textarea name="message" class="form-control" id="message"
                   placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
