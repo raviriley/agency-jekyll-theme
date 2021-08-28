@@ -24,6 +24,7 @@ en: &DEFAULT_EN
     as well as to rethink the education, ideology and culture of contemporary technological institutions. 
     We also work with social good oriented student orgs and non-profits on technical projects that aid the intervention of structural inequities.
     "
+    button: Learn More
     #icon: "fas fa-chevron-circle-down"
     #<img src="https://img.icons8.com/ios/50/000000/circled-down-2.png"/>
     section: mission
@@ -48,11 +49,11 @@ en: &DEFAULT_EN
     title: "Events"
     section: calendar
 
-  Teams:
-    title: "Teams"
+  Portfolio:
+    title: "Portfolio"
     #text: "Learn about different parts of our club below:"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
 
   # timeline:
