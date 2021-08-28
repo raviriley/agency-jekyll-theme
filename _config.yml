@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Tech 4 Social Good
-email      : t4sg-board@umich.edu #this is also the email contact forms will go to
+email      : t4sg-board@umich.edu
 
 
 description: "Tech 4 Social Good (T4SG) is a community of students from all disciplines interested in reconsidering technology: its limitations, how it has been a part of oppressive systems, and how it could side with the dismantling of such systems."
@@ -40,4 +40,4 @@ markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/mbjqqrvl"
