@@ -8,7 +8,7 @@ caption: #what displays in the portfolio grid:
 title: Curricular Advocacy
 subtitle: What does socially responsive tech curriculums look like?
 image: assets/img/portfolio/curri-cover.jpg #main image, can be a link or a file in assets/img/portfolio
-alt: image alt text
+alt: A picture showing two hands holding a lightbulb, symbolizing education and curriculum.
 
 ---
 **The curriculum advocacy team works as a cross-major/school coalition to make sure ALL students, especially those getting a technical degree, are able to look at technologies through a critical lens and analyze how they are impacted by larger social/political contexts.**

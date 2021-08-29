@@ -18,14 +18,17 @@ Some of the topics that we have covered include:
 
 - Race and Tech
 - Data Privacy <br/>
- ![Privacy Panel Poster](assets/img/portfolio/privacy-panel.jpg) 
+ <div style="text-align:center"><img src="assets/img/portfolio/privacy-panel.jpg" alt="Data Privacy Poster"></div>
+ 
 - Inclusive CS Education
-- Finding and cultivating a tech for social good workspace <br/> ![Finding and cultivating a tech for social good workspace Poster](assets/img/portfolio/workspace-values.jpg)
+- Finding and cultivating a tech for social good workspace <br/> 
+<div style="text-align:center"><img src="assets/img/portfolio/workspace-values.jpg" alt="Social Good Workspace Poster"></div>
 - Anti-capitalist computing
-- Social Media and Identity <br/> ![Social Media and Identity Poster](assets/img/portfolio/social-identity.jpg)
+- Social Media and Identity <br/> 
+<div style="text-align:center"><img src="assets/img/portfolio/social-identity.jpg" alt="Social Media and Identity Poster"></div>
 - Grind Culture in Tech and how to combat it
-- Misinformation and disinformation <br/>
-![Mis and Dis-information Event Poster](assets/img/portfolio/mis-dis-info.jpg)
+- Misinformation and disinformation in society
+<div style="text-align:center"><img src="assets/img/portfolio/mis-dis-info.jpg" alt="Misinformation and disinformation Poster"></div>
 
 &nbsp;
 In the near future, we will cover more topics, including but not limited to:
@@ -36,7 +39,9 @@ In the near future, we will cover more topics, including but not limited to:
 * Science Fiction and Reality
 * ...
 
-**Aside from one-time events, the content team also plans reading groups/book clubs, movie/documentary screenings, and discussions on historical and contemporary topics and events.**
+**Aside from one-time events, the content team also plans reading groups/book clubs, movie/documentary screenings, and discussions on historical and contemporary topics and events.** &nbsp;
+<div style="text-align:center"><img src="assets/img/portfolio/book-clubs.png" alt="Image showing three books: Race after Tech, Automating Inequality, Weapons of Math Destruction"></div>
+
 
 Have a topic of interest? Join our weekly meeting to plan an event with the team!
 
