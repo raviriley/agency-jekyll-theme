@@ -5,12 +5,45 @@ background: grey
 ---
 <br>
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Fun links</h2>
+	<h2 class="section-heading text-uppercase">Fun(-ish) links</h2>
 </div>
 
+Congratulations! You discovered a page of random and fun-ish links. All compiled from our slack space. Enjoy!
+
+Maybe you wonder [what your face looks like](https://glanceback.info) when staring at a laptop.
+
+[Virtual Care Lab](https://virtualcarelab.com/): a series of experiments for remote togetherness.
+
+[Epidemic Simulation](https://scratch.mit.edu/projects/376656449/): A simple project to make sense of what's going on.
+
+[Trace Lab](https://www.tracelabs.org/): An organization that hacks and find missing people. 
+
+[These wonderful jellyfish.. watch them live](https://www.montereybayaquarium.org/animals/live-cams/jelly-cam)
+
+[10 comfort games](https://www.kqed.org/mindshift/55771/10-comfort-games-that-encourage-kindness-community-and-well-being) that encourage kindness, community, and wellbeing.
+
+All the digital gardens in [this thread](https://twitter.com/Mappletons/status/1250532315459194880).
+
+[Languages, platforms, and systems that break from the norms of computing.](https://esoteric.codes/)
+
+[Bots like you](https://sites.google.com/view/botslikeyou/home)
+
+Some [Tech co-ops](https://www.coops.tech/) where work can be different.
+
+[For all you twitter users.](https://github.com/kescher/tithonus)
+
+[Wellness log template.](https://docs.google.com/spreadsheets/d/1OUT87lcsXPJHKkY21SLWT_xw3nqaUxSYHFi-WW1N_Os/edit?usp=sharing)
 
 
+and... that's the [end]() of everything.
 
+<!---
+
+Other links that didn't make the cut:
+[if you have 8 minutes](https://artsexperiments.withgoogle.com/thelagoon/) - very important, but not "fun"..
+
+
+>
 
 
 <!---
