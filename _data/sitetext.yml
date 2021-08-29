@@ -44,7 +44,7 @@ en: &DEFAULT_EN
     section: newsletter
   
   calendar:
-    title: "Events"
+    title: "Upcoming Events"
     section: calendar
 
   portfolio:
