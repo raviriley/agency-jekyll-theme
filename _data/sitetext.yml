@@ -110,7 +110,7 @@ en: &DEFAULT_EN
   #       logo: assets/img/clients/creative-market.jpg
 
   board:
-    title: "EXECUTIVE BOARD"
+    title: "EXECUTIVE BOARD (2020-2021)"
     section: board
     people:
       #- name: "Kay Garland"
@@ -161,7 +161,8 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    #legal: "What is this" # Privacy Policy
+    fun-links: "What is this"
     social:
       - url: https://twitter.com/t4sg_umich
         icon: "fab fa-twitter"
