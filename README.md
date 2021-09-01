@@ -6,15 +6,7 @@
 [![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
 [![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
 
-## Demo
-
-<div align="center">
-
-[![View - Live demo](https://img.shields.io/badge/View-Live_demo-2ea44f?style=for-the-badge)][demo-page]
-
-</div>
-
-## Preview
+## Preview - click for live demo
 
 [![screenshot](/screenshot.PNG)][demo-page]
 
@@ -162,7 +154,7 @@ Then run:
 $ bundle install
 ```
 
-To test the theme, run this. Using a flag for verbose errors.
+To test the theme, run this. (Using the `--trace` flag for verbose errors.)
 
 ```sh
 $ bundle exec jekyll serve --trace
