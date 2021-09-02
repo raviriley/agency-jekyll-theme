@@ -118,7 +118,7 @@ team:
           - url: https://github.com/deep-introspection
             icon: fab fa-github
       - name: "Quentin Moreau"
-        role: "Postdoc coming soon ...<br>(Social Physiology)"
+        role: "Postdoc<br>(Social Physiology)"
         image: img/team/Quentin_Moreau.jpg
         social:
           - url: https://twitter.com/quentin_moreau
@@ -132,7 +132,7 @@ team:
           - url: https://github.com/quentinmoreau
             icon: fab fa-github
       - name: "Katie Douglas"
-        role: "Research Assistant coming soon ...<br>(Social Physiology)"
+        role: "Research Assistant<br>(Social Physiology)"
         image: img/team/Katie_Douglas.jpeg
         social:
           - url: https://twitter.com/douglascait/
@@ -190,7 +190,7 @@ team:
           - url: https://github.com/ElisabethAD
             icon: fab fa-github
       - name: "Ghazaleh Ranjbaran"
-        role: "MSc Student coming soon ...<br>(Computational Physiology)"
+        role: "MSc Student<br>(Computational Physiology)"
         image: img/team/Ghazaleh_Ranjbaran.jpeg
         social:
           - url: https://twitter.com/BioMDScience
