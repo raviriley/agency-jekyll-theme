@@ -181,6 +181,12 @@ team:
             icon: fab fa-linkedin-in
           - url: https://github.com/Mhafsia
             icon: fab fa-github
+      - name: "Lisane Moses"
+        role: "MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
+        image: img/team/Lisane_Moses.jpg
+        social:
+          - url: http://www.linkedin.com/in/lisane-moses-754718210
+            icon: fab fa-linkedin-in
       - name: "Elisabeth Audet-Duchesne"
         role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
         image: img/team/Elisabeth_Audet-Duchesne.jpeg
