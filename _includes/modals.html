@@ -1,5 +1,6 @@
 <!-- Papers Modals -->
-{% for project in site.papers %}
+{% assign projects=site.papers | where:"ref", page.ref | sort: 'lang' %}
+{% for project in projects %}
   <div class="papers-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">

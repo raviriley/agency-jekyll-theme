@@ -100,6 +100,7 @@
 	  {%- if site.data.sitetext.header.text -%}
         <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 	  {%- endif -%} -->
+    <h1 class="display-1"> {{ page.title.language | | upcase }} </h1>
     {%- if site.data.sitetext.header.button -%}
         <br>
         <br>
@@ -112,7 +113,8 @@
         <br>
         <br>
         <br>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+        {% assign lang = site.lang %}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button[lang] }}</a>
 	  {%- endif -%}
       </div>
     </div>
