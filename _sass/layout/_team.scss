@@ -17,6 +17,7 @@
     margin: 10px auto;
     height: 35px;
     line-height: 1.3em;
+    font-family: 'Montserrat';
   .role{
     font-weight: 500;
   }
@@ -38,3 +39,10 @@
       margin: auto;
   }
 }
+ul.social-buttons li a{
+  padding: 13px;
+  line-height: 20px !important;
+  height: auto !important;
+  width: auto !important;
+}
+

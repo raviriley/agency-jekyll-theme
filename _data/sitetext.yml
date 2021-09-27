@@ -174,7 +174,7 @@ team:
   section: team
   buttonText:
     en: "Meet also our collaborators"
-    fr: "Rencontrez aussi nos collaborateurs"
+    fr: "Rencontrez nos collaborateurs"
   people:
     - name: "Guillaume Dumas"
       role: 
