@@ -1,52 +1,66 @@
 <!-- Papers Modals -->
-{% assign projects=site.papers | where:"ref", page.ref | sort: 'lang' %}
+{% assign projects = site.data.highlights %}
 {% for project in projects %}
-  <div class="papers-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
+  <div class="papers-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true" style="padding: 0;">
+    <div class="container modal-dialog mx-auto">
+      <div class="modal-content" style="background: transparent;">
+        
           <div class="row">
-            <div class="col-10 mx-auto">
+            
+            <div class="col-sm-10 col-xs-10 col-lg-7 col-xl-7 mx-auto" style=" background: rgb(253 251 251 / 97%); filter: drop-shadow(2px 4px 6px #adadad);">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-                <p class="item-intro text-muted">{{ project.highlightData.subtitle }}</p>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img class="img-fluid d-block mx-auto" src="{{ project.highlightData.image }}" alt="{{ project.alt }}">
+                <div class="row" style="margin-top: 15px;">
+                  <div class="col-1 close-modal" data-dismiss="modal">
+                    <div class="lr">
+                      <div class="rl"></div>
+                    </div>
+                  </div> 
+                    <div class="col-11">
+                    <h2 class="text-uppercase">{{ project.title-long[lang] }}</h2>
+                    <!-- <p class="item-intro text-muted">{{ project.subtitle }}</p>  -->
                   </div>
-                  <div class="col-md-6">
+                </div><hr>                    
+                <div class="row" style="margin-top: 40px;">
+                  <div class="col-sm-5">
+                    <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">    
+                  </div>
+                  <div class="col-md-7">
                     <ul class="papers-info">
                       <li>
                         <p> <b> Authors:</b> {{ project.authors }}</p> 
                       </li>
                       <li>
-                        <p> <b> Publication Year:</b> {{ project.year }}</p> 
+                        <p> <b> Publication year:</b> {{ project.year }}</p> 
                       </li>
                       <li>
-                        <p> <b> Journal:</b> {{ project.publication }}</p> 
+                        <p> <b> Journal:</b> {{ project.subtitle }}</p> 
                       </li>
                       <li>
-                          <a class="btn btn-primary my-1 mr-1 btn-sm" href="{{ project.doi }}" target="_blank" rel="noopener">
-                            DOI
-                          </a>
-                      </li>
+                        <a class="btn btn-primary my-1 mr-1 btn-sm" href="{{ project.link }}" target="_blank" rel="noopener">
+                          DOI
+                        </a>
+                    </li>
                     </ul> 
-                  </div>		
-                </div>		
-                  <div>{{ project.content }}</div>
-                  <button class="btn btn-primary" style="margin-top:50px" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  {{ site.data.sitetext.papers.closebutton | default: "Close Project" }}</button>
+                  </div>
+                  
+                </div>
+                  
+
+                <div class="row"> 
+                  <div class="col-sm">
+                    <h2 style="text-align: left;"> Abstract </h1>
+                    {% if project.abstract[lang] %}
+                      <p> {{ project.abstract[lang] }} </p>
+                    {% else %}
+                    <p> {{ project.abstract }} </p>
+                    {% endif %}
+                  </div>
+                  </div>
+                    <button class="btn btn-primary" style="margin-top:20px" data-dismiss="modal" type="button"><i class="fas fa-times"></i>{{ site.data.sitetext.papers.closebutton | default: " Close" }}</button>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
     </div>
   </div>

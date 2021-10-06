@@ -1,4 +1,16 @@
 <head>
+  {% for item in site.data.navigation.languages %} 
+{% if item.language == page.lang %} 
+{% for link in item.links %} 
+{% if link.url contains "http" %} 
+{% assign url = link.url %} 
+{% else %} 
+{% assign url = link.url | relative_url %} 
+{% endif %} 
+<a class="page-link" href="{{ url }}">{{ link.title }}</a> 
+{% endfor %} 
+{% endif %} 
+{% endfor %}
 {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
