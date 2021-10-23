@@ -12,40 +12,47 @@ header.masthead {
     padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
       @include serif-font;
     }
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 25px;
       @include heading-font;
     }
   }
 }
+    .header-logo{
+      width: 15em;
+      float: right;
+    }
 @media(min-width: 768px) {
   header.masthead {
   background-image: url("#{$header-image}");
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 250px;
+      padding-bottom: 50px;
       .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
+        font-size: 2.3em;
+        text-align: left;
+        @include heading-font;
       }
       .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
+        text-align: left;
+        font-size: 1.7em;
+        font-weight: 500;
         line-height: 75px;
-        margin-bottom: 50px;
         @include heading-font;
       }
     }
+  }
+}
+.btn.btn-primary{
+  margin: 20px auto;
+}
+@media(max-width: 767px) {
+  .intro-lead-in, .intro-heading, .header-logo {
+    display: none;
   }
 }
