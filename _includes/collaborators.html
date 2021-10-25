@@ -4,14 +4,15 @@
 		html{scroll-behavior: smooth;}
 	</style> -->
 	{% include header.html %}
+	{% assign lang = site.lang %}
 	<div class="container-fluid bg-light" style="padding-bottom: 100px;">
 		<div class="container">						
 			<div class="bg-light collaborator group" id="{{ collaborator.groupName[0] }}">
 				<div class="">
 					{% for collaborator in site.data.collaborators %}
-						<div class="col groupName {{ collaborator.groupName }}">
+						<div class="col groupName {{ collaborator.groupName[0].[lang] }}">
 							<h2>
-								{{ collaborator.groupName[0] }}
+								{{ collaborator.groupName[lang] }}
 							</h2>
 					</div>
 					{% for person in collaborator.people %}
@@ -21,7 +22,7 @@
 									<p style=" font-size: 1rem;"> {{ person.name }} </p> 
 								</div>
 								<div class="col-lg-7">
-									{% for positions in person.position %}
+									{% for positions in person.position[lang] %}
 									<div class="positions">
 										<span> {{ positions }} </span> <br>
 									</div>	
