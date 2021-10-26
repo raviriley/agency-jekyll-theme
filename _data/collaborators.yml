@@ -1,3 +1,6 @@
+- title:
+    en: "Collaborators"
+    fr: "Collaborateurs"
 - groupName:
     en: "🍁 Local collaborators"
     fr: "🍁 Collaborateurs locaux"
@@ -8,7 +11,7 @@
         - Associate Professor of Computer Science at University of Montréal
         - Core Academic Member at Mila – Quebec AI Institute
       fr:
-        - Professeure agrégée, Université de Montréal
+        - Professeure agrégée à l'Université de Montréal
         - Membre académique principal à l'institut Mila
     social:
       - url: https://sites.google.com/site/irinarish/
@@ -31,8 +34,8 @@
         - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
         - Medical Geneticist at CHU Sainte Justine
       fr: 
-        - Professeur agrégé, Département de pédiatrie, Faculté de médecine, Université de Montréal
-        - Médecin généticien, CHU Sainte Justine
+        - Professeur agrégé au Département de pédiatrie à l'Université de Montréal
+        - Médecin généticien au centre de recherche CHU Sainte Justine
         - Directeur scientifique, CARTaGENE, 2015
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in19646/
@@ -55,11 +58,10 @@
         - Deputy Head and Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
         - Clinical neuropsychologist
       fr:
-        - Chef adjointe d'axe, Cerveau et développement de l’enfant, CHU Sainte-Justine, 2017
+        - Chef adjointe d'axe, Cerveau et développement de l’enfant au centre de recherche CHU Sainte-Justine, 2017
         - Professeure agrégée, Département de psychologie, Université de Montréal
-        - Chercheure, Centre de recherche CHU Sainte-Justine
         - Chercheure boursière FRQ-S
-        - Neuropsychologue clinicienne depuis 2004
+        - Neuropsychologue clinicienne
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15005/
         icon: fas fa-university

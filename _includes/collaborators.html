@@ -11,9 +11,9 @@
 				<div class="">
 					{% for collaborator in site.data.collaborators %}
 						<div class="col groupName {{ collaborator.groupName[0].[lang] }}">
-							<h2>
+							<h3>
 								{{ collaborator.groupName[lang] }}
-							</h2>
+							</h3>
 					</div>
 					{% for person in collaborator.people %}
 						<div class="col-12 collaborator" style="border-bottom: inset;">
