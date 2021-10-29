@@ -9,7 +9,6 @@ header.masthead {
   background-size: cover;
   .intro-text {
     padding-top: 150px;
-    padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
       line-height: 22px;
@@ -24,15 +23,13 @@ header.masthead {
   }
 }
     .header-logo{
-      width: 15em;
-      float: right;
+      width: 14em;
     }
 @media(min-width: 768px) {
   header.masthead {
   background-image: url("#{$header-image}");
     .intro-text {
       padding-top: 250px;
-      padding-bottom: 50px;
       .intro-lead-in {
         font-size: 2.1em;
         text-align: left;
@@ -54,5 +51,17 @@ header.masthead {
 @media(max-width: 767px) {
   .intro-lead-in, .intro-heading, .header-logo {
     display: none;
+  }
+}
+
+@media(max-width: 991px) {
+  .intro-lead-in {
+    font-size: 1.7em;
+  p{
+    line-height: 1.5;
+  }
+  }
+  p{
+    line-height: 1.5;
   }
 }

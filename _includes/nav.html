@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top NavBar" id="Nav"  style="background-color: #212529;">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <a class="navbar-brand js-scroll-trigger" href="./">
         <div class="logo">
           <img class="logo"  src="./favicon-transparent.png"/>
@@ -26,7 +26,7 @@
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.translations[site.lang]["nav"] %}
           {%- if link.url -%}
@@ -67,7 +67,6 @@
           <li class="nav-item location" style="margin: 0 0.5em;">
             <a class="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/maps/7E8Upxotto9NGyXdA">
               <i class="fas fa-map-marker-alt" style="font-size: 1.2em;"></i>
-                <!-- <img src="../img/icons/location_white@2x.png" alt="PPSP twitter" style="height: 40px; padding-left: 0; ;"> -->
               <div class="location"></div>
             </a>
           </li>

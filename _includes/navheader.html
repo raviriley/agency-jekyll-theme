@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <a class="navbar-brand js-scroll-trigger" href="#">
         <div class="logo">
           <img class="logo"  src="./favicon-transparent.png"/>
@@ -28,7 +28,7 @@
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <ul class="navbar-nav text-uppercase ml-auto">
           {% for link in site.translations[site.lang]["nav"] %}
           {%- if link.url -%}
@@ -97,28 +97,29 @@
   <div class="container">
     <div class="row intro-text">
       {% assign lang = site.lang %}
-      <div style="margin: auto 0px;">
-        <img src="../assets/img/logo-transparent.png" class="header-logo" alt="ppsp logo">
+      <div class="col-4">
+        <div style="margin: auto 0px; width: fit-content; float: right;">
+          <img src="../assets/img/logo-transparent.png" class="header-logo" alt="ppsp logo">
+        </div>
       </div>
-       {%- if site.data.sitetext.header.title -%}
-      <div class="col-8 mx-auto" style="margin: auto 0px;">
-        <div class="row mx-auto intro-lead-in">{{ site.data.sitetext.header.title[lang] | markdownify }}</div>
+      {%- if site.data.sitetext.header.title -%}
+      <div class="col-6" style="margin: auto 0px;">
+        <div class="row mx-auto intro-lead-in">{{ site.data.sitetext.header.title[lang] | markdownify }}
+        </div>
         {%- endif -%}
         {%- if site.data.sitetext.header.text -%}
         <div class="row mx-auto intro-heading">{{ site.data.sitetext.header.text[lang] | markdownify }}</div>
-        {%- endif -%}
-        <h1 class="display-1"> {{ page.title.language | | upcase }} </h1>
-      </div>
+      {%- endif -%}
+      </div>           
     </div>           
     {%- if site.data.sitetext.header.button -%}
     <div class="row">
       <div class="col mx-auto">
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button[lang] }}</a>
       </div>
-      
-    {%- endif -%}
     </div>
-      
+    {%- endif -%}
   </div>
+      
 </header>
   <!-- End Header -->
