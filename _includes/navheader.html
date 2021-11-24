@@ -76,7 +76,7 @@
           {% if site.lang == "fr" %}
             {% capture link1 %}..{{ page.url}}{% endcapture %}
             <li class="nav-item"> 
-              <a class="nav-link js-scroll-trigger" href="{{ link1 }}" style="font-size: 30px;">{% t global.en %}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ link1 }}">{% t global.en %}</a>
             </li>
           {% elsif site.lang == "en" %}
             {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
