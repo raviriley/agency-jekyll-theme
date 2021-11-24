@@ -24,7 +24,7 @@ projects:
       fr: "Psychiatrie Computationelle"
       desc: 
         en: "Understanding mental function and dysfunction through multi-scale mathematical models."
-        fr: "Comprendre les processus mentaux physisiologiques et pathologiques grâce à des modèles mathématiques multi-échelles."
+        fr: "Comprendre les processus mentaux physiologiques et pathologiques grâce à des modèles mathématiques multi-échelles."
       icon: fas fa-brain #find more at https://fontawesome.com/icons
     - title: "Precision Medicine"
       en: "Precision Medicine"
