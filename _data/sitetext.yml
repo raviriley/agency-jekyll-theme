@@ -1,280 +1,387 @@
 header:
-    title: Welcome to our Lab!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#projects" # "#{section}" or "URL/page link"
+  title: 
+    en: The Precision Psychiatry & Social Physiology Team
+    fr: L'équipe de recherche en psychiatrie de précision et physiologie sociale
+  text: 
+    en: "PI: Guillaume Dumas"
+    fr: "Investigateur Principal: Guillaume Dumas"
+  button: 
+    en: Tell Me More
+    fr: En savoir plus
+  buttonlink: "#projects" # "#{section}" or "URL/page link"
 
 projects:
-    title: "Our vision"
-    text: "The Precision Psychiatry and Social Physiology team focuses on three research axes and three core values."
-    section: projects
-    list:
-      - title: "Computational Psychiatry"
-        desc: "Understanding mental function and dysfunction through multi-scale mathematical models."
-        icon: fas fa-brain #find more at https://fontawesome.com/icons
-      - title: "Precision Medicine"
-        desc: "Tailoring optimal care to each individual patient, using data from genomes to smartphones."
-        icon: fas fa-crosshairs
-      - title: "Social Neuro-AI"
-        desc: "Translating insights of basic social neuroscience into artificial intelligence and machine learning."
-        icon: fas fa-share-alt
-      - title: "Open Science"
-        desc: "Beyond reproducibility research, cultivating inclusivity and solidarity."
-        icon: fas fa-book-reader #find more at https://fontawesome.com/icons
-      - title: "Team Work"
-        desc: "United in our diversity, aiming at mutual respect and collective growth."
-        icon: fas fa-users-cog
-      - title: "Social Impact"
-        desc: "Changing human lives from laboratory to hospital, from hospital to homes."
-        icon: fas fa-hand-holding-heart
+  title: 
+    en: "Our vision"
+    fr: "Notre vision"
+  text:
+    en: "The Precision Psychiatry and Social Physiology team focuses on three research axes and three core values."
+    fr: "L'équipe de Psychiatrie de précision et physiologie sociale se concentre sur trois axes de recherche et trois valeurs fondamentales."
+  section: projects
+  list:
+    - title: 
+      en: "Computational Psychiatry"
+      fr: "Psychiatrie Computationelle"
+      desc: 
+        en: "Understanding mental function and dysfunction through multi-scale mathematical models."
+        fr: "Comprendre les processus mentaux physiologiques et pathologiques grâce à des modèles mathématiques multi-échelles."
+      icon: fas fa-brain #find more at https://fontawesome.com/icons
+    - title: "Precision Medicine"
+      en: "Precision Medicine"
+      fr: "Médecine de Précision"
+      desc: 
+        en: "Tailoring optimal care to each individual patient, using data from genomes to smartphones."
+        fr: Adapter les soins optimaux à chaque patient, en utilisant des données issues des génomes jusqu'aux smartphones.
+      icon: fas fa-crosshairs
+    - title: 
+      en: "Social Neuro-AI"
+      fr: "Neuro-IA Sociale"
+      desc: 
+        en: "Translating insights of basic social neuroscience into artificial intelligence and machine learning."
+        fr: "Traduire les connaissances des neurosciences sociales fondamentales en intelligence artificielle et en apprentissage machine."
+      icon: fas fa-share-alt
+    - title: 
+      en: "Open Science"
+      fr: "La Science Ouverte"
+      desc: 
+        en: "Beyond reproducibility research, cultivating inclusivity and solidarity."
+        fr: "Au-delà de la recherche sur la reproductibilité, notre équipe aspire à cultiver l'inclusivité et la solidarité."
+      icon: fas fa-book-reader #find more at https://fontawesome.com/icons
+    - title: 
+      en: "Team Work"
+      fr: "Team Work"
+      desc: 
+        en: "United in our diversity, aiming at mutual respect and collective growth."
+        fr: "Unis dans notre diversité, nous visons le respect mutuel et la croissance collective."
+      icon: fas fa-users-cog
+    - title: 
+      en: "Social Impact"
+      fr: "Impact Social"
+      desc: 
+        en: "Changing human lives from laboratory to hospital, from hospital to homes."
+        fr: "Changer des vies humaines, du laboratoire à l'hôpital, de l'hôpital aux foyers."
+      icon: fas fa-hand-holding-heart
 
 papers:
-    title: "Our work"
-    text: "Here are some highlights from the lab. Enjoy the reading!"
-    section: papers
-    buttonText: "Explore all our publications"
+  title:
+    en: "Our work"
+    fr: "Nos Travaux de Recherche"
+  text: 
+    en: "Here are some highlights from the lab. Enjoy the reading!"
+    fr: "Voici quelques publications du laboratoire. Bonne lecture !"
+  section: papers
+  buttonText: 
+    en: "Explore all our publications"
+    fr: "Voir toutes nos publications"
 
-    
+  
 
 timeline:
-    title: "Our story"
-    text: "\"Past, present, and future is where we're at.\""
-    section: timeline
-    events:
-      - title: "Our Humble Beginnings"
-        year: "May 2020"
-        desc: "With the COVID19 pandemic, the lab started online..."
-        image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
-      - title: "First grant!"
-        year: "July 2020"
-        desc: "FRQS J1 in Artificial Intelligence and Digital Medicine."
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Affiliation to Mila"
-        year: "September 2020"
-        desc: "Guillaume joined Mila as an affiliated professor."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "The lab is finally opening!"
-        year: "November 2020"
-        desc: "Our office is at the level A of CHUSJ Research Center."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  title: 
+    en: "Our story"
+    fr: "Notre histoire"
+  text: 
+    en: "\"Past, present, and future is where we're at.\""
+    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes..\""
+  section: timeline
+  events:
+    - title: 
+        en: "Our Humble Beginnings"
+        fr: "Nos humbles débuts"
+      year: 
+        en: "May 2020"
+        fr: "Mai 2020"
+      desc: 
+        en: "With the COVID19 pandemic, the lab started online..."
+        fr: "Avec la pandémie de COVID19, le laboratoire a démarré en ligne..."
+      image: assets/img/timeline/1.jpg
+      alt: 
+      align: left
+    - title: 
+        en: "First grant!"
+        fr: "Premier financement!"
+      year: 
+        en: "July 2020"
+        fr: "Juillet 2020"
+      desc: 
+        en: "FRQS J1 in Artificial Intelligence and Digital Medicine."
+        fr: "FRQS J1 en intelligence artificielle et médecine numérique."
+      image: assets/img/timeline/2.jpg
+      alt: 
+      align: right
+    - title: 
+        en: "Affiliation to Mila"
+        fr: "Affiliation à l'institut de recherche Mila"
+      year: 
+        en: "September 2020"
+        fr: "Septembre 2020"
+      desc: 
+        en: "Guillaume joined Mila as an affiliated professor."
+        fr: "Guillaume rejoint l’équipe académique de l’institut Québécois d’intelligence artificielle."
+      image: assets/img/timeline/3.jpg
+      alt: image alt text
+      #align: #default is left       
+    - title: 
+        en: "The lab is finally opening!"
+        fr: "Le laboratoire est enfin ouvert !"
+      year: 
+        en: "November 2020"
+        fr: "Novembre 2020"
+      desc: 
+        en: "Our office is at the level A of CHUSJ Research Center."
+        fr: "Nos bureaux sont situés au niveau A du Centre de Recherche CHUSJ"
+      image: assets/img/timeline/4.jpg
+      alt: 
+      align: right
+  end: "Be Part <br> of Our <br> Story!"
 
 about:
-    title: "About Us"
-    text: "our story"
-    section: about
+  title: "About Us"
+  text: "our story"
+  section: about
 
 fundings:
-    section: fundings
-    max-height: 200px
-    horizontal-scrolling: "no" #"yes/no"
-    list:
-      - title: "CHU Sainte Justine Research Center"
-        url: https://research.chusj.org/en/Home
-        logo: assets/img/fundings/CHUSJ_logo.png
-      - title: "University of Montreal"
-        url: https://medecine.umontreal.ca/medical-school/
-        logo: assets/img/fundings/UDEM_logo.png
-      - title: "Mila - Quebec AI institute"
-        url: https://mila.quebec/en/
-        logo: assets/img/fundings/Mila_logo.png
-      - title: "IVADO"
-        url: https://ivado.ca/en/
-        logo: assets/img/fundings/IVADO_logo.png
-      - title: "FRQS"
-        url: http://www.frqs.gouv.qc.ca/en/
-        logo: assets/img/fundings/FRQS_logo.png
-      - title: "Compute Canada"
-        url: https://www.computecanada.ca/
-        logo: assets/img/fundings/Compute-Canada_logo.png
-
+  section: fundings
+  max-height: 200px
+  horizontal-scrolling: "no" #"yes/no"
+  list:
+    - title: "CHU Sainte Justine Research Center"
+      url: https://research.chusj.org/en/Home
+      logo: assets/img/fundings/CHUSJ_logo.png
+    - title: "University of Montreal"
+      url: https://medecine.umontreal.ca/medical-school/
+      logo: assets/img/fundings/UDEM_logo.png
+    - title: "Mila - Quebec AI institute"
+      url: https://mila.quebec/en/
+      logo: assets/img/fundings/Mila_logo.png
+    - title: "IVADO"
+      url: https://ivado.ca/en/
+      logo: assets/img/fundings/IVADO_logo.png
+    - title: "FRQS"
+      url: http://www.frqs.gouv.qc.ca/en/
+      logo: assets/img/fundings/FRQS_logo.png
+    - title: "Compute Canada"
+      url: https://www.computecanada.ca/
+      logo: assets/img/fundings/Compute-Canada_logo.png
 team:
-    title: "Our team"
-    text: "The whole is other than the sum of the parts."
-    subtext: ""
-    section: team
-    buttonText: "Meet also our collaborators"
-    people:
-      - name: "Guillaume Dumas"
-        role: "Principal Investigator"
-        image: img/team/Guillaume_Dumas.jpg
-        social:
-          - url: https://www.extrospection.eu
-            icon: fas fa-home
-          - url: https://twitter.com/introspection
-            icon: fab fa-twitter
-          - url: https://scholar.google.com/citations?user=TakXk9MAAAAJ&hl=en
-            icon: fab fa-google
-          - url: https://www.linkedin.com/in/guillaumedumas/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/deep-introspection
-            icon: fab fa-github
-      - name: "Quentin Moreau"
-        role: "Postdoc<br>(Social Physiology)"
-        image: img/team/Quentin_Moreau.jpg
-        social:
-          - url: https://twitter.com/quentin_moreau
-            icon: fab fa-twitter
-          - url: https://scholar.google.com/citations?user=x0EFmuoAAAAJ&hl=en
-            icon: fab fa-google
-          - url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
-            icon: fab fa-linkedin-in
-          - url: https://www.researchgate.net/profile/Quentin-Moreau-2
-            icon: fab fa-researchgate
-          - url: https://github.com/quentinmoreau
-            icon: fab fa-github
-      - name: "Katie Douglas"
-        role: "Research Assistant<br>(Social Physiology)"
-        image: img/team/Katie_Douglas.jpeg
-        social:
-          - url: https://twitter.com/douglascait/
-            icon: fab fa-twitter
-          - url: https://www.researchgate.net/profile/Caitriona-Douglas
-            icon: fab fa-researchgate
-          - url: https://github.com/katied-neuro
-            icon: fab fa-github
-      - name: "Sayeh Kazem"
-        role: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
-        image: img/team/Sayeh_Kazem.jpg
-        social:
-          - url: https://twitter.com/KazemSayeh
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/sayekazem94
-            icon: fab fa-github
-      - name: "Samuele Bolotta"
-        role: "PhD Student coming soon ...<br>(Social NeuroAI)"
-        image: img/team/Samuele_Bolotta.jpg
-        social:
-          - url: https://twitter.com/SamBolotta
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/SamueleBolotta
-            icon: fab fa-github
-      - name: "Lena Adel"
-        role: "PhD Student coming soon ...<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        image: img/team/Lena_Adel.jpg
-        social:
-          - url: https://twitter.com/anelleda_
-            icon: fab fa-twitter
-          - url: https://www.researchgate.net/profile/Lena_Adel2
-            icon: fab fa-researchgate
-          - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/lenaadel
-            icon: fab fa-github
-      - name: "Mariem Hafsia"
-        role: "MSc Student coming soon ...<br>(Computational Psychiatry)"
-        image: img/team/Mariem_Hafsia.jpg
-        social:
-          - url: https://www.linkedin.com/in/mariemhafsia/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/Mhafsia
-            icon: fab fa-github
-      - name: "Lisane Moses"
-        role: "MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
-        image: img/team/Lisane_Moses.jpg
-        social:
-          - url: http://www.linkedin.com/in/lisane-moses-754718210
-            icon: fab fa-linkedin-in
-      - name: "Elisabeth Audet-Duchesne"
-        role: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        image: img/team/Elisabeth_Audet-Duchesne.jpeg
-        social:
-          - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
-            icon: fab fa-researchgate
-          - url: https://github.com/ElisabethAD
-            icon: fab fa-github
-      - name: "Ghazaleh Ranjbaran"
-        role: "MSc Student<br>(Computational Physiology)"
-        image: img/team/Ghazaleh_Ranjbaran.jpeg
-        social:
-          - url: https://twitter.com/BioMDScience
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
-            icon: fab fa-linkedin-in
-          - url: https://github.com/ghazalehran
-            icon: fab fa-github
-      - name: "Annabelle Harvey"
-        role: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
-        image: img/team/Annabelle_Harvey.jpg
-        social:
-          - url: https://twitter.com/harvey_aa
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/harveyaa
-            icon: fab fa-github
-      - name: "Mahta Ramezanian"
-        role: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        image: img/team/Mahta_Ramezanian.jpg
-        social:
-          - url: https://mahtaao.github.io/bio/
-            icon: fas fa-home
-          - url: https://twitter.com/Mahtaao
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/mahtaao/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/mahtaao
-            icon: fab fa-github
-      - name: "Jean-Christophe Gagnon-Audet"
-        role: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        image: img/team/Jean-Christophe_Gagnon-Audet.jpg
-        social:
-          - url: https://www.linkedin.com/in/jcaudet/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/jc-audet
-            icon: fab fa-github
-      - name: "Germán Abrevaya"
-        role: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        image: img/team/German_Abrevaya.png
-        social:
-          - url: https://twitter.com/GAbrevaya
-            icon: fab fa-twitter
-          - url: https://github.com/gabrevaya
-            icon: fab fa-github
-      - name: "Harshit Bokadia"
-        role: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        image: img/team/Harshit_Bokadia.jpg
-        social:
-          - url: https://twitter.com/harshitbokadia
-            icon: fab fa-twitter
-          - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
-            icon: fab fa-google
-          - url: https://www.linkedin.com/in/hbk007/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/hbk008
-            icon: fab fa-github
-#      - name: "Position Available"
-#        role: "PhD/Postdoc<br>(Computational Physiology)"
-#        image: assets/img/team/unknown.png
+  title: 
+    en: "Our team"
+    fr: "Notre équipe"
+  text: 
+    en: "The whole is other than the sum of the parts."
+    fr: "Un ensemble est bien plus que la somme de ses parties."
+  subtext: ""
+  section: team
+  buttonText:
+    en: "Meet also our collaborators"
+    fr: "Rencontrez nos collaborateurs"
+  people:
+    - name: "Guillaume Dumas"
+      role: 
+        en: "Principal Investigator"
+        fr: "Directeur des recherches"
+      image: img/team/Guillaume_Dumas.jpg
+      social:
+        - url: https://www.extrospection.eu
+          icon: fas fa-home
+        - url: https://twitter.com/introspection
+          icon: fab fa-twitter
+        - url: https://scholar.google.com/citations?user=TakXk9MAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/guillaumedumas/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/deep-introspection
+          icon: fab fa-github
+    - name: "Quentin Moreau"
+      role: 
+        en: "Postdoc<br>(Social Physiology)"
+        fr: "Postdoc<br>(Physiologie sociale)"
+      image: img/team/Quentin_Moreau.jpg
+      social:
+        - url: https://twitter.com/quentin_moreau
+          icon: fab fa-twitter
+        - url: https://scholar.google.com/citations?user=x0EFmuoAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
+          icon: fab fa-linkedin-in
+        - url: https://www.researchgate.net/profile/Quentin-Moreau-2
+          icon: fab fa-researchgate
+        - url: https://github.com/quentinmoreau
+          icon: fab fa-github
+    - name: "Katie Douglas"
+      role: 
+        en: "Research Assistant<br>(Social Physiology)"
+        fr: "Assistante de Recherche<br>(Physiologie sociale)"
+      image: img/team/Katie_Douglas.jpeg
+      social:
+        - url: https://twitter.com/douglascait/
+          icon: fab fa-twitter
+        - url: https://www.researchgate.net/profile/Caitriona-Douglas
+          icon: fab fa-researchgate
+        - url: https://github.com/katied-neuro
+          icon: fab fa-github
+    - name: "Sayeh Kazem"
+      role: 
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
+        fr: "Doctorante<br>co-supervision avec Sébastien Jacquemont<br>(Médecine de précision)"
+      image: img/team/Sayeh_Kazem.jpg
+      social:
+        - url: https://twitter.com/KazemSayeh
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/sayekazem94
+          icon: fab fa-github
+    - name: "Samuele Bolotta"
+      role: 
+        en: "PhD Student coming soon ...<br>(Social NeuroAI)"
+        fr: "Doctorant <br> Prochainement...<br>(Social NeuroAI)"
+      image: img/team/Samuele_Bolotta.jpg
+      social:
+        - url: https://twitter.com/SamBolotta
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/SamueleBolotta
+          icon: fab fa-github
+    - name: "Lena Adel"
+      role: 
+        en: "PhD Student coming soon ...<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
+        fr: "Doctorant <br>Prochainement...<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
+      image: img/team/Lena_Adel.jpg
+      social:
+        - url: https://twitter.com/anelleda_
+          icon: fab fa-twitter
+        - url: https://www.researchgate.net/profile/Lena_Adel2
+          icon: fab fa-researchgate
+        - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/lenaadel
+          icon: fab fa-github
+    - name: "Mariem Hafsia"
+      role: 
+        en: "MSc Student coming soon ...<br>(Computational Psychiatry)"
+        fr: "Étudiante en Maîtrise <br> Prochainement...<br>(Psychiatrie computationnelle)"
+      image: img/team/Mariem_Hafsia.jpg
+      social:
+        - url: https://www.linkedin.com/in/mariemhafsia/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Mhafsia
+          icon: fab fa-github
+    - name: "Lisane Moses"
+      role: 
+        en: "MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
+        fr: "Étudiante en Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
+      image: img/team/Lisane_Moses.jpg
+      social:
+        - url: http://www.linkedin.com/in/lisane-moses-754718210
+          icon: fab fa-linkedin-in
+    - name: "Elisabeth Audet-Duchesne"
+      role: 
+        en: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
+        fr: "Étudiante en Maîtrise <br>co-supervision avec Sarah Lippé<br>(Physiologie computationnelle)"
+      image: img/team/Elisabeth_Audet-Duchesne.jpeg
+      social:
+        - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
+          icon: fab fa-researchgate
+        - url: https://github.com/ElisabethAD
+          icon: fab fa-github
+    - name: "Ghazaleh Ranjbaran"
+      role: 
+        en: "MSc Student<br>(Computational Physiology)"
+        fr: "Étudiante en Maîtrise<br>(Physiologie computationnelle)"
+      image: img/team/Ghazaleh_Ranjbaran.jpeg
+      social:
+        - url: https://twitter.com/BioMDScience
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
+          icon: fab fa-linkedin-in
+        - url: https://github.com/ghazalehran
+          icon: fab fa-github
+    - name: "Annabelle Harvey"
+      role: 
+        en: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
+        fr: "Étudiante en Maîtrise<br>co-supervision avec S. Jacquemont & P. Bellec<br>(Precision Medicine)"
+      image: img/team/Annabelle_Harvey.jpg
+      social:
+        - url: https://twitter.com/harvey_aa
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/harveyaa
+          icon: fab fa-github
+    - name: "Mahta Ramezanian"
+      role: 
+        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiante en Maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
+      image: img/team/Mahta_Ramezanian.jpg
+      social:
+        - url: https://mahtaao.github.io/bio/
+          icon: fas fa-home
+        - url: https://twitter.com/Mahtaao
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/mahtaao/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/mahtaao
+          icon: fab fa-github
+    - name: "Jean-Christophe Gagnon-Audet"
+      role: 
+        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiant en Maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
+      image: img/team/Jean-Christophe_Gagnon-Audet.jpg
+      social:
+        - url: https://www.linkedin.com/in/jcaudet/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/jc-audet
+          icon: fab fa-github
+    - name: "Germán Abrevaya"
+      role: 
+        en: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Mila Intern / Doctorant invité<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+      image: img/team/German_Abrevaya.png
+      social:
+        - url: https://github.com/gabrevaya
+          icon: fab fa-github
+    - name: "Harshit Bokadia"
+      role: 
+        en: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Mila Intern<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+      image: img/team/Harshit_Bokadia.jpg
+      social:
+        - url: https://twitter.com/harshitbokadia
+          icon: fab fa-twitter
+        - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/hbk007/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/hbk008
+          icon: fab fa-github
 
 contact:
-    title: "Contact Us"
-    text: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
-    section: contact
-    
+  title: 
+    en: "Contact Us"
+    fr: "Nous contacter"
+  text:
+    en: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
+    fr: "Si vous souhaitez rejoindre notre équipe, n'hésitez pas à nous contacter : envoyez votre lettre de motivation accompagnée d'un CV en utilisant ce formulaire ou en envoyant un mail à l'adresse suivante : \"join@ppsp.team\"!"
+  section: contact
+  buttonText: 
+    en: "Send Message"
+    fr: "Envoyer"
+  
 footer:
-    legal: "Privacy Policy"
-    social:
-      - url: http://twitter.com/ppsp_team
-        icon: "fab fa-twitter"  
-      - url: https://www.facebook.com/ppspteam/
-        icon: "fab fa-facebook-f"
+  legal: 
+    en: "Privacy Policy"
+    fr: "Politique de confidentialité"
+  social:
+    - url: http://twitter.com/ppsp_team
+      icon: "fab fa-twitter"  
+    - url: https://www.facebook.com/ppspteam/
+      icon: "fab fa-facebook-f"
 #      - url: https://linkedin.com
 #        icon: "fab fa-linkedin-in"
-      - url: http://github.com/ppsp-team
-        icon: "fab fa-github"
+    - url: http://github.com/ppsp-team
+      icon: "fab fa-github"
 #      - url: https://instagram.com
 #        icon: "fab fa-instagram"
 

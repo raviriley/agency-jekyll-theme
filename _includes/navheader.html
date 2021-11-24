@@ -1,9 +1,11 @@
   <!-- Navigation -->
+  <meta charset="UTF-8">
+  
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
+      <div class="col" style="display: contents;">
+        <a class="navbar-brand js-scroll-trigger" href="#">
         <div class="logo">
           <img class="logo"  src="./favicon-transparent.png"/>
         </div>
@@ -12,54 +14,39 @@
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           </div>
         {%- else -%}
-          <div class="col-sm" style="margin: auto;">
-            <span style="font-size: 0.8em;">{{ site.title }}</span>
+          <div style="margin: auto;">
+            <span style="font-size: 0.75em;">{{ site.title }}</span>
           </div>  
         {%- endif -%}
       </a>
       </div>
     </div>
     
-    <div class="col button">
+    <div class="button">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i> MEnu
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <ul class="navbar-nav text-uppercase ml-auto">
-        {%- for link in site.data.navigation.nav -%}
+          {% for link in site.translations[site.lang]["nav"] %}
           {%- if link.url -%}
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
             </li>
-          {%- elsif link.section -%}
-            {% if link.title == "Team" or link.title == "Work" %}
-              {% if link.title == "Team"  %}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Team
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./#{{ link.section }}">PPSP team</a>
-                    <a class="dropdown-item" href="./collaborators">PPSP collaborators</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                  </div>
-                </li>
-                {%- else -%}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Work
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./#{{ link.section }}">Highlights</a>
-                    <a class="dropdown-item" href="./publications">All papers</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                  </div>
-                </li>
-              {%- endif -%}
+            {%- elsif link.section -%}
+            {% if link.subsection %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ link.title }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% for item in link.subsection %}
+                    <a class="dropdown-item" href="{{item['href']}}">{{item["title"]}}</a> 
+                  {% endfor %}
+                </div>
+              </li>
             {%- else -%}
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="./#{{ link.section }}">{{ link.title }}</a>
@@ -86,6 +73,17 @@
               <div class="location"></div>
             </a>
           </li>
+          {% if site.lang == "fr" %}
+            {% capture link1 %}..{{ page.url}}{% endcapture %}
+            <li class="nav-item"> 
+              <a class="nav-link js-scroll-trigger" href="{{ link1 }}">{% t global.en %}</a>
+            </li>
+          {% elsif site.lang == "en" %}
+            {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
+            <li class="nav-item"> 
+              <a class="nav-link js-scroll-trigger" href="{{ link2 }}">{% t global.fr %}</a>
+            </li>
+          {% endif %}
         </div>
       </ul>
       </div>
@@ -95,30 +93,33 @@
 </nav>
   <!-- End Navigation -->
   <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-	  <!-- {%- if site.data.sitetext.header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
-	  {%- endif -%} -->
+<header class="masthead">
+  <div class="container">
+    <div class="row intro-text">
+      {% assign lang = site.lang %}
+      <div class="col-4">
+        <div style="margin: auto 0px; width: fit-content; float: right;">
+          <img src="../assets/img/logo-transparent.png" class="header-logo" alt="ppsp logo">
+        </div>
+      </div>
+      {%- if site.data.sitetext.header.title -%}
+      <div class="col-6" style="margin: auto 0px;">
+        <div class="row mx-auto intro-lead-in">{{ site.data.sitetext.header.title[lang] | markdownify }}
+        </div>
+        {%- endif -%}
+        {%- if site.data.sitetext.header.text -%}
+        <div class="row mx-auto intro-heading">{{ site.data.sitetext.header.text[lang] | markdownify }}</div>
+      {%- endif -%}
+      </div>           
+    </div>           
     {%- if site.data.sitetext.header.button -%}
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
-	  {%- endif -%}
+    <div class="row">
+      <div class="col mx-auto">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button[lang] }}</a>
       </div>
     </div>
-  </header>
+    {%- endif -%}
+  </div>
+      
+</header>
   <!-- End Header -->

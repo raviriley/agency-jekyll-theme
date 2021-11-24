@@ -1,4 +1,16 @@
 <head>
+  {% for item in site.data.navigation.languages %} 
+{% if item.language == page.lang %} 
+{% for link in item.links %} 
+{% if link.url contains "http" %} 
+{% assign url = link.url %} 
+{% else %} 
+{% assign url = link.url | relative_url %} 
+{% endif %} 
+<a class="page-link" href="{{ url }}">{{ link.title }}</a> 
+{% endfor %} 
+{% endif %} 
+{% endfor %}
 {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
@@ -12,19 +24,19 @@
   <!-- End Google Analytics -->
 {% endif %}
 
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ 'assets/css/bootstrap.min.css' | prepend: site.baseurl_root }}" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ 'assets/css/all.min.css' | prepend: site.baseurl_root }}" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -32,7 +44,7 @@
 
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet">
+  <link href="{{ 'assets/css/agency.css' | prepend: site.baseurl_root }}" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
   <!-- Page container change top padding when nav shrinks -->

@@ -1,10 +1,18 @@
-- groupName: 
-  - 🍁 Local collaborators
+- title:
+    en: "Collaborators"
+    fr: "Collaborateurs"
+- groupName:
+    en: "🍁 Local collaborators"
+    fr: "🍁 Collaborateurs locaux"
 - people:
   - name: Irina Rish
     position:
-      - Associate Professor of Computer Science at University of Montréal
-      - Core Academic Member at Mila – Quebec AI Institute
+      en:
+        - Associate Professor of Computer Science at University of Montréal
+        - Core Academic Member at Mila – Quebec AI Institute
+      fr:
+        - Professeure agrégée à l'Université de Montréal
+        - Membre académique principal à l'institut Mila
     social:
       - url: https://sites.google.com/site/irinarish/
         icon: fas fa-home
@@ -21,9 +29,14 @@
 
   - name: Sebastien Jacquemont
     position :
-      - Associate Professor of Genetics at University of Montréal
-      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
-      - Medical Geneticist at CHU Sainte Justine
+      en:
+        - Associate Professor of Genetics at University of Montréal
+        - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
+        - Medical Geneticist at CHU Sainte Justine
+      fr: 
+        - Professeur agrégé au Département de pédiatrie à l'Université de Montréal
+        - Médecin généticien au centre de recherche CHU Sainte Justine
+        - Directeur scientifique, CARTaGENE, 2015
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in19646/
         icon: fas fa-university
@@ -40,9 +53,15 @@
 
   - name: Sarah Lippé
     position : 
-      - Associate Professor of Psychology at University of Montreal
-      - Deputy Head and Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
-      - Clinical neuropsychologist
+      en:
+        - Associate Professor of Psychology at University of Montreal
+        - Deputy Head and Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
+        - Clinical neuropsychologist
+      fr:
+        - Chef adjointe d'axe, Cerveau et développement de l’enfant au centre de recherche CHU Sainte-Justine, 2017
+        - Professeure agrégée, Département de psychologie, Université de Montréal
+        - Chercheure boursière FRQ-S
+        - Neuropsychologue clinicienne
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in15005/
         icon: fas fa-university
@@ -57,10 +76,14 @@
 
   - name: Anne Gallagher
     position :
-      - Associate Professor of Psychology at University of Montréal
-      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
-      - Canada Research Chair in Child Neuropsychology and Brain Imaging
-      - Clinical neuropsychologist
+      en:
+        - Associate Professor of Psychology at University of Montréal
+        - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
+        - Canada Research Chair in Child Neuropsychology and Brain Imaging
+      fr:
+        - Professeure agrégée au Département de psychologie de l'Université de Montréal
+        - Chercheuse en développement du cerveau et de l'enfant au centre de recherche du CHU Sainte-Justine
+        - Chaire de recherche du Canada en neuropsychologie de l'enfant et en imagerie cérébrale
     social :
       - url: https://lionlab.umontreal.ca/home/
         icon: fas fa-home
@@ -75,9 +98,12 @@
 
   - name: Patricia Conrod
     position:
-      - Professor of Psychiatry at the Faculty of Medicine at University of Montréal
-      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
-      - Canada Research Chair in Preventative Mental Health and Addiction
+      en:
+        - Full Professor at the Department of Psychiatry and Addictology at Université de Montréal
+        - Université de Montréal’s Dr. Julien/Marcelle and Jean Coutu Foundation Chair in Community Social Pediatrics
+      fr:
+        - Professeur titulaire au Département de psychiatrie et d’addictologie de Université de Montréal
+        - Chaire Dr Julien/Fondation Marcelle et Jean Coutu en pédiatrie sociale en communauté de l’Université de Montréal
     social:
       - url: 
         icon: fas fa-home
@@ -96,11 +122,18 @@
 
   - name: Baudouin Forgeot d'Arc
     position :
-      - Associate Professor of Psychiatry at University of Montréal
-      - Researcher in Brain and Child Development at CHU Sainte-Justine Research Center
-      - Associate Member, Department of Psychiatry and Research Center, CNMTL (Hôpital Rivière-des-Prairies)
-      - Psychiatrist at CHU Sainte Justine
-
+      en:
+        - Child psychiatrist
+        - Associate Professor in the Department of Psychiatry and Addictology at the Université de Montréal
+        - Academic head of the Department of Psychiatry at the Sainte-Justine UHC research center
+        - Regular researcher at the Sainte-Justine UHC research center
+        - Associate member of the Department of Psychiatry and associate researcher at CIUSSS of Nord-de-l'île-de-Montréal
+      fr:
+        - Pédopsychiatre
+        - Professeur agrégé au Département de psychiatrie et d’addictologie de l'Université de Montréal
+        - Responsable académique au Département de psychiatrie du centre de recherche du CHU Sainte-Justine
+        - Chercheur régulier au centre de recherche CHU Sainte-Justine        
+        - Membre associé au Département de psychiatrie et chercheur associé au CIUSSS du Nord-de-l'île-de-Montréal
     social :
       - url : https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in16722/
         icon: fas fa-university
@@ -113,10 +146,14 @@
       - url: https://www.linkedin.com/in/baudouin-forgeot-d-arc-93953557/
         icon: fab fa-linkedin-in
 
-  - name:  Danilo Bzdok
+  - name: Danilo Bzdok
     position:
-      - Associate Professor of Biomedical Engineering at McGill University
-      - Associate Academic Member at Mila - Quebec AI Institut
+      en:
+        - Associate Professor of Biomedical Engineering at McGill University
+        - Associate Academic Member at Mila - Quebec AI Institut
+      fr:
+        - Professeur associé de génie biomédical à l'Université McGill
+        - Membre académique associé à Mila - Institut québécois d'intelligence artificielle
     social:
       - url: https://danilobzdok.de/
         icon: fas fa-home
@@ -135,8 +172,12 @@
 
   - name: Michael Lifshitz 
     position :
-      - Assistant Professor in Social and Transcultural Psychiatry at McGill University
-      - Faculty Member in Anthropology at Stanford University
+      en:
+        - Assistant Professor in Social and Transcultural Psychiatry at McGill University
+        - Faculty Member in Anthropology at Stanford University
+      fr:
+        - Professeur adjoint en psychiatrie sociale et transculturelle à l'Université McGill
+        - Membre du corps professoral en anthropologie à l'Université Stanford
     social :
       - url : https://scholar.google.de/citations?user=bbFD2uEAAAAJ&hl=en
         icon: fab fa-google
@@ -149,10 +190,17 @@
 
   - name: Maxwell Ramstead
     position :
-      - CEO of the Nested Minds Network
-      - Director of Research at the Spatial Web Foundation
-      - Postdoctoral Fellow at McGill University
+      en:
+        - CEO of the Nested Minds Network
+        - Director of Research at the Spatial Web Foundation
+        - Postdoctoral Fellow at McGill University
+      fr:
+        - PDG du studio Nested Minds Network
+        - Directeur de Recherche à la Spatial Web Foundation
+        - Boursier postdoctoral à l'Université McGill
     social :
+      - url: https://www.nestedminds.org/
+        icon: fas fa-home
       - url : https://scholar.google.ca/citations?user=ILpGOMkAAAAJ&hl=en
         icon: fab fa-google
       - url: https://www.researchgate.net/profile/Maxwell-Ramstead
@@ -162,23 +210,19 @@
       - url: https://www.linkedin.com/in/maxwell-ramstead-43a1991b7/
         icon: fab fa-linkedin-in
 
-  - name: Axel Constant
-    position :
-      - PhD student in the Philosophy of Biomedicine at the University of Sydney
-    social :
-      - url : https://scholar.google.com/citations?user=ceTlA00AAAAJ&hl=en
-        icon: fab fa-google
-      - url: https://www.researchgate.net/profile/Axel-Constant
-        icon: fab fa-researchgate
-      - url: https://twitter.com/constantaxel?lang=en
-        icon: fab fa-twitter
-
   - name: Alexandre Lehmann
-    position : 
-      - Assistant Professor at McGill University
-      - Adjunct Professor at Université of Montréal
-      - Principal Investigator at the Centre for Research on Brain Language and Music (CRBLM)
-      - Full member, International Laboratory for Brain, Music, and Sound Research (BRAMS) 
+    position :
+      en:
+        - Assistant Professor at McGill University
+        - Adjunct Professor at the Department of Psychology at University of Montréal
+        - Principal Investigator at the Centre for Research on Brain Language and Music (CRBLM)
+        - Full member at the International Laboratory for Brain, Music, and Sound Research (BRAMS) 
+      fr:
+        - Professeur adjoint à l'Université McGill
+        - Professeur associé au Département de Psychologie de l'Université de Montréal
+        - Investigateur principal au Centre de recherche sur le cerveau, le langage et la musique (CRBLM)
+        - Consultant en recherche psychédélique 
+        - Directeur d’une équipe de recherche sur la plasticité cérébrale à l’Université McGill
     social :
       - url: https://recherche.umontreal.ca/english/our-researchers/professors-directory/researcher/is/in19355/
         icon: fas fa-university
@@ -188,11 +232,30 @@
         icon: fab fa-researchgate
 
 - groupName: 
-  - 🌎 International collaborators
+    en: "🌎 International collaborators"
+    fr: "🌎 Collaborateurs Internationaux"
 - people:
+  - name: Axel Constant
+    position :
+      en:
+        - PhD student in the Philosophy of Biomedicine at the University of Sydney
+      fr:
+        - Doctorant en philosophie de la biomédecine à l'Université de Sydney.
+    location : 🇦🇺 Sydney, Australia
+    social :
+      - url : https://scholar.google.com/citations?user=ceTlA00AAAAJ&hl=en
+        icon: fab fa-google
+      - url: https://www.researchgate.net/profile/Axel-Constant
+        icon: fab fa-researchgate
+      - url: https://twitter.com/constantaxel?lang=en
+        icon: fab fa-twitter
+
   - name: Denis Engemann
     position :
-      - Research Scientist and Principal Investigator at Parietal – INRIA Saclay
+      en:
+        - Research Scientist and Principal Investigator at Parietal – INRIA Saclay
+      fr:
+        - Chercheur et investigateur principal à Parietal - INRIA Saclay
     location : 🇫🇷 Palaiseau, France
     social :
       - url: https://denis-engemann.de/
@@ -208,7 +271,10 @@
   
   - name: Elvis Dohmatob
     position :
-      - Researcher at Facebook AI Research (FAIR)
+      en:
+        - Researcher at Facebook AI Research (FAIR)
+      fr:
+        - Chercheur chez Facebook AI Research (FAIR)
     location : 🇫🇷 Paris, France
     social :
       - url: https://dohmatob.github.io/
@@ -226,8 +292,12 @@
 
   - name: Jean-Arthur Micoulaud-Franchi
     position :
-      - Assistant Professor of Medical Sciences at the University of Bordeaux 
-      - Psychiatrist at CHU de Bordeaux
+      en:
+        - Senior Lecturer at the University of Bordeaux 
+        - Psychiatrist at CHU de Bordeaux
+      fr:
+        - Maître de conférences praticien hospitalier à l'Université de Bordeaux
+        - Psychiatre au CHU de Bordeaux
     location : 🇫🇷 Bordeaux, France
     social :
       - url: https://sites.google.com/site/jarthurmicoulaud/home
@@ -243,7 +313,10 @@
 
   - name: Christophe Gauld
     position :
-      - Psychiatrist at CHU Grenoble Alpes
+      en:
+        - Psychiatrist at CHU Grenoble Alpes
+      fr:
+        - Psychiatre au CHU Grenoble Alpes
     location : 🇫🇷 Saint-Étienne, France
     social :
       - url: https://www.researchgate.net/profile/Christophe-Gauld
@@ -255,7 +328,10 @@
 
   - name: Leonhard Schilbach
     position :
-      - Psychiatrist and head of the Department for General Psychiatry 2 at the LVR–Klinikum Düsseldorf
+      en:
+        - Psychiatrist and head of the Department for General Psychiatry 2 at the LVR–Klinikum Düsseldorf
+      fr:
+        - Psychiatre et chef du département de psychiatrie générale 2 de la LVR-Klinikum de Düsseldorf
     location : 🇩🇪 Munich, Germany
     social :
       - url: https://www.leoschilbach.de/
@@ -275,7 +351,11 @@
 
   - name: Juha Lahnakoski
     position :
-      - Postdoctoral researcher at Institute of Neuroscience and Medicine –– Julich Forschungszentrum
+      en:
+        - Postdoctoral researcher at Institute of Neuroscience and Medicine –– Julich Forschungszentrum
+      fr:
+        - Chercheur postdoctoral à l'Institut des neurosciences et de la médecine -- Forschungszentrum Julich
+
     location : 🇩🇪 Jülich, Germany
     social :
       - url: https://users.aalto.fi/~jlahnako/
@@ -293,7 +373,10 @@
 
   - name: Dimitris Bolis
     position :
-      - Postdoctoral researcher at the Max Planck Institute of Psychiatry Munich
+      en:
+        - Postdoctoral researcher at the Max Planck Institute of Psychiatry Munich
+      fr:
+        - Chercheur postdoctoral à l'Institut Max Planck de psychiatrie de Munich
     location : 🇩🇪 Munich, Germany
     social :
       - url: https://sites.google.com/site/dimitrisbolis/
@@ -311,8 +394,12 @@
 
   - name: Thomas Bourgeron
     position: 
-      - Professor of Human Genetics at University of Paris
-      - Head of the Human Genetics and Cognitive Functions at the Institut Pasteur
+      en:
+        - Professor of Human Genetics at University of Paris
+        - Head of the Human Genetics and Cognitive Functions at the Institut Pasteur
+      fr:
+        - Professeur de génétique humaine à l'Université de Paris
+        - Chef du service de génétique humaine et des fonctions cognitives à l'Institut Pasteur
     location : 🇫🇷 Paris, France
     social :
       - url : https://research.pasteur.fr/en/member/thomas-bourgeron/
@@ -326,8 +413,14 @@
 
   - name: Richard Delorme
     position :
-      - Professor of Psychiatry at University of Paris
-      - Psychiatrist at Hopital Robert Debré
+      en:
+        - Head of the Centre of Excellence for Autism and Neurodevelopmental Disorders (InovAND)
+        - Head of the Child and Adolescent Psychiatry Department at the Robert Debré Hospital in Paris
+        - Researcher at the Human Genetics and Cognitive Function Unit at the Pasteur Institute in Paris
+      fr:
+        - Responsable du centre d'excellence pour l'autisme et les troubles du neurodéveloppement (InovAND)
+        - Responsable du service de psychiatrie de l'enfant et de l'adolescent de l'hôpital Robert Debré à Paris
+        - Chercheur à l’Unité de Génétique Humaine et Fonction Cognitive à l’Institut Pasteur à Paris
     location : 🇫🇷 Paris, France
     social :
       - url : https://www.aphp.fr/offre-de-soin/medecin/3020151/070/20
@@ -343,9 +436,14 @@
 
   - name: Jean-Pierre Changeux
     position :
-      - Emeritus Professor of Neuroscience at the Institut Pasteur
-      - Professor in the chair of Cellular Communications at the Collège de France
-      - Honorary President of the Neuroscience Department at Institut Pasteur
+      en:
+        - Emeritus Professor of Neuroscience at the Institut Pasteur
+        - Professor in the chair of Cellular Communications at the Collège de France
+        - Honorary President of the Neuroscience Department at Institut Pasteur
+      fr:
+        - Professeur émérite de neurosciences à l'Institut Pasteur
+        - Professeur dans la chaire de Communications Cellulaires au Collège de France
+        - Président d'honneur du département des Neurosciences de l'Institut Pasteur
     location : 🇫🇷 Paris, France
     social :
       - url : https://research.pasteur.fr/en/member/jean-pierre-changeux/
@@ -361,7 +459,10 @@
 
   - name: Aline Lefebvre
     position:
-      - Psychiatrist at Hopital Robert Debré
+      en:
+        - Child and adolescent psychiatrist at Hopital Robert Debré in Paris
+      fr:
+        - Psychiatre de l'enfant et de l'adolescent à l'Hôpital Robert Debré à Paris
     location : 🇫🇷 Paris, France
     social:
       - url: https://www.aphp.fr/offre-de-soin/medecin/4086156/070/20
@@ -377,7 +478,10 @@
 
   - name: Clara Moreau
     position :
-      - Postdoctoral researcher at Institut Pasteur - Paris
+      en:
+        - Postdoctoral researcher at Institut Pasteur in Paris
+      fr:
+        - Chercheur postdoctoral à l'Institut Pasteur - Paris
     location : 🇫🇷 Paris, France
     social :
       - url: https://claramoreau9.github.io/
@@ -395,8 +499,12 @@
 
   - name: Eva Loth
     position :
-      - Senior Lecturer in Psychology at the Institute of Psychiatry, Psychology and Neuroscience (IoPPN), King's College London
-      - Deputy Director of the AIMS-2-TRIALS consortium
+      en:
+        - Senior Lecturer in Psychology at the Institute of Psychiatry, Psychology and Neuroscience (IoPPN), King's College London
+        - Deputy Director of the AIMS-2-TRIALS consortium
+      fr:
+        - Maître de conférences en psychologie à l'Institute of Psychiatry, Psychology and Neuroscience (IoPPN), King's College London
+        - Directeur adjoint du consortium AIMS-2-TRIALS
     location : 🇬🇧 London, United Kingdom
     social :
       - url : https://kclpure.kcl.ac.uk/portal/eva.loth.html
@@ -412,7 +520,10 @@
 
   - name: Merle Fairhurst
     position :
-      - Associate Professor of Biological Psychology at Universität der Bundeswehr München
+      en:
+        - Associate Professor of Biological Psychology at Universität der Bundeswehr München
+      fr:
+        - - Professeur associé de psychologie biologique à l'Universität der Bundeswehr München
     location : 🇩🇪 Munich, Germany
     social :
       - url: https://www.merlefairhurst.com/
@@ -428,8 +539,12 @@
 
   - name: Pavel Goldstein
     position :
-      - Head of Integrative Pain (iPain) lab at School of public Health, University of Haifa
-      - Head of Biostatistics MPH track at School of public Health, University of Haifa
+      en:
+        - Head of Integrative Pain (iPain) lab at School of public Health, University of Haifa
+        - Head of Biostatistics MPH track at School of public Health, University of Haifa
+      fr:
+        - Chef du laboratoire de la douleur intégrative (iPain) à l'école de santé publique de l'université de Haïfa.
+        - Chef de la filière MPH de biostatistique à l'école de santé publique de l'université de Haïfa.
     location : 🇮🇱 Haifa, Israel
     social :
       - url : https://hw.haifa.ac.il/en/people/sph/pavel-goldstein
@@ -441,7 +556,10 @@
 
   - name: Alejandro Perez
     position :
-      - Research Fellow (Marie Curie) at MRC Cognition and Brain Sciences Unit
+      en:
+        - Research Fellow (Marie Curie) at MRC Cognition and Brain Sciences Unit
+      fr:
+        - Chercheur (Marie Curie) à l'unité des sciences du cerveau et de la cognition du MRC
     location : 🇬🇧 Cambridge, United Kingdom
     social :
       - url : http://www.mrc-cbu.cam.ac.uk/people/Alejandro.Perez/
@@ -453,7 +571,11 @@
 
   - name: Suzanne Dikker
     position :
-      - Senior Research Scientist at New York University
+      en:
+        - Senior Research Scientist at New York University
+      fr:
+        - Chercheur scientifique principal à l'université de New York
+
     location : 🇺🇸 New York City, New York, United States
     social :
       - url: http://www.suzannedikker.net/
@@ -471,9 +593,14 @@
 
   - name: Sheraz Khan
     position :
-      - Assistant Professor at Massachusetts General Hospital (MGH)
-      - Assistant Professor at Harvard Medical School 
-      - Assistant Professor at Harvard–MIT Program in Health Sciences and Technology 
+      en:
+        - Assistant Professor at Massachusetts General Hospital (MGH)
+        - Assistant Professor at Harvard Medical School 
+        - Assistant Professor at Harvard–MIT Program in Health Sciences and Technology
+      fr:
+        - Professeur adjoint au Massachusetts General Hospital (MGH)
+        - Professeur adjoint à la Harvard Medical School 
+        - Professeur adjoint au programme Harvard-MIT en sciences et technologies de la santé 
     location : 🇺🇸 Boston, Massachusetts, United States
     social :
       - url: https://sheraz.mit.edu/
@@ -491,8 +618,12 @@
 
   - name: J.A. Scott Kelso
     position :
-      - Professor of Complex Systems and Brain Sciences at Florida Atlantic University
-      - Professor of Psychology, Biological Sciences and Biomedical Science at The University of Ulster
+      en:
+        - Professor of Complex Systems and Brain Sciences at Florida Atlantic University
+        - Professor of Psychology, Biological Sciences and Biomedical Science at The University of Ulster
+      fr:
+        - Professeur de systèmes complexes et de sciences du cerveau à la Florida Atlantic University
+        - Professeur de psychologie, de sciences biologiques et de sciences biomédicales à l'université d'Ulster
     location : 🇺🇸 Boca Raton, Florida, United States
     social :
       - url: http://www.ccs.fau.edu/~kelso/
@@ -508,7 +639,10 @@
 
   - name: Emmanuelle Tognoli
     position :
-      -  Research Professor of Complex Systems and Brain Sciences at Florida Atlantic University
+      en:
+        - Research Professor of Complex Systems and Brain Sciences at Florida Atlantic University
+      fr:
+        - Professeur de recherche en systèmes complexes et sciences du cerveau à la Florida Atlantic University
     location : 🇺🇸  Boca Raton, Florida, United States
     social :
       - url: http://www.ccs.fau.edu/~tognoli/
@@ -526,7 +660,10 @@
 
   - name: Mengsen Zhang
     position :
-      - Post-doc Research Associate at University of North Carolina at Chapel Hill
+      en:
+        - Postdoctoral Research Associate at University of North Carolina at Chapel Hill
+      fr:
+        - Associé de recherche postdoctorale à l'Université de Caroline du Nord à Chapel Hill
     location : 🇺🇸 Palo Alto, California, United States
     social :
       - url: https://mengsenz.github.io/
@@ -546,9 +683,14 @@
 
   - name: Ruth Feldman
     position :
-      - Professor of Developmental Social Neuroscience at the Interdisciplinary Center, Herzlia and Yale Child Study Center
-      - Director of the Center for Developmental Social Neuroscience, IDC Herzlia
-      - Psychologist at IDC Herzlia
+      en:
+        - Professor of Developmental Social Neuroscience at the Interdisciplinary Center, Herzlia and Yale Child Study Center
+        - Director of the Center for Developmental Social Neuroscience, IDC Herzlia
+        - Psychologist at IDC Herzlia
+      fr:
+        - Professeur de neuroscience sociale du développement au Centre interdisciplinaire, Herzlia et Yale Child Study Center
+        - Directeur du Centre de neurosciences sociales du développement, IDC Herzlia
+        - Psychologue à l'IDC Herzlia
     location : 🇮🇱 Herzliya, Israel
     social :
       - url: https://ruthfeldmanlab.com/
@@ -560,9 +702,14 @@
 
   - name: Tom Froese
     position :
-      - Assistant Professor of Cognitive Science at Okinawa Institute of Science and Technology
+      en:
+        - Assistant Professor of Cognitive Science at Okinawa Institute of Science and Technology
+      fr:
+        - Professeur adjoint de sciences cognitives à l'Institut des sciences et technologies d'Okinawa
     location : 🇯🇵 Okinawa, Japan
     social:
+      - url: https://groups.oist.jp/ecsu/tom-froese
+        icon: fas fa-university
       - url : https://scholar.google.com/citations?user=uKd8pmUAAAAJ&hl=en
         icon: fab fa-google
       - url: https://www.researchgate.net/scientific-contributions/Tom-Froese-70670755
@@ -570,7 +717,10 @@
 
   - name: Julien Laroche
     position :
-      - Postdoctoral researcher at the Italian Institute of Technology (CTNSC - Center for Translational Neurophysiology of Speech and Communication)
+      en:
+        - Postdoctoral researcher at the Italian Institute of Technology (CTNSC - Center for Translational Neurophysiology of Speech and Communication)
+      fr:
+      - Chercheur postdoctoral à l'Institut italien de technologie (CTNSC - Center for Translational Neurophysiology of Speech and Communication)
     location : 🇮🇹 Genova, Italy
     social :
       - url: https://www.researchgate.net/profile/Julien-Laroche
@@ -580,7 +730,10 @@
 
   - name: Ian Clark
     position :
-      - Assistant Professor of Communication at Nagoya University 
+      en:
+        - Assistant Professor of Communication at Nagoya University
+      fr:
+        - Professeur adjoint de communication à l'université de Nagoya
     location : 🇯🇵 Nagoya, Japan
     social :
       - url : https://nucba.academia.edu/IanClark
@@ -590,17 +743,28 @@
 
   - name: Mario Chavez
     position :
-      - Researcher at the Institut du Cerveau et de la Moelle Epinière, Paris
+      en: 
+        - Researcher at the Institut du Cerveau et de la Moelle Epinière, Paris
+      fr:
+        - Chercheur à l'Institut du Cerveau et de la Moelle Epinière, Paris
     location : 🇫🇷 Paris, France
     social :
       - url: https://scholar.google.com/citations?user=T9erCYMAAAAJ&hl=en
-        icon: fab fa-researchgate
+        icon: fab fa-google
 
   - name: Jacqueline Nadel
     position :
-      - Professor in Developmental Psychology at Sorbonne Université
-      - Emeritus Research Director at CNRS
-    location : 
+      en:
+        - Psychologist specialized in the role of imitation in child development
+        - Director of research emeritus at the CNRS
+        - Director of the pedagogical programs of the TEDyBEAR Center for children with autism
+        - Director of the review "Enfance"
+      fr:
+        - Psychologue spécialiste du rôle de l'imitation dans le cadre du développement de l'enfant
+        - Directeur de recherche émérite au CNRS
+        - Directrice des programmes pédagogiques du Centre TEDyBEAR pour enfants avec autisme
+        - Directrice de la revue "Enfance"
+    location : 🇫🇷 Nanterre, France
     social :
       - url: https://fr.wikipedia.org/wiki/Jacqueline_Nadel
         icon: fab fa-wikipedia-w

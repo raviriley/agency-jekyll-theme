@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top NavBar" id="Nav"  style="background-color: #212529;">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <a class="navbar-brand js-scroll-trigger" href="./">
         <div class="logo">
           <img class="logo"  src="./favicon-transparent.png"/>
@@ -12,54 +12,39 @@
             <img height="{{ site.logo.height | default: 52 }}" src="./"/>
           </div>
         {%- else -%}
-          <div class="col-sm" style="margin: auto;">
-            <span style="font-size: 0.8em;">{{ site.title }}</span>
+          <div style="margin: auto;">
+            <span style="font-size: 0.75em;">{{ site.title }}</span>
           </div>  
         {%- endif -%}
       </a>
       </div>
     </div>
     
-    <div class="col button">
+    <div class="button">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i> MEnu
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <div class="col">
+      <div class="col" style="display: contents;">
         <ul class="navbar-nav text-uppercase ml-auto">
-        {%- for link in site.data.navigation.nav -%}
+        {% for link in site.translations[site.lang]["nav"] %}
           {%- if link.url -%}
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
             </li>
           {%- elsif link.section -%}
-            {% if link.title == "Team" or link.title == "Work" %}
-              {% if link.title == "Team"  %}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Team
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./#{{ link.section }}">PPSP team</a>
-                    <a class="dropdown-item" href="./collaborators">PPSP collaborators</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                  </div>
-                </li>
-                {%- else -%}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Work
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #212629bd;">
-                    <a class="dropdown-item" href="./#{{ link.section }}">Highlights</a>
-                    <a class="dropdown-item" href="./publications">All papers</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                  </div>
-                </li>
-              {%- endif -%}
+            {% if link.subsection %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ link.title }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% for item in link.subsection %}
+                    <a class="dropdown-item" href="{{item['href']}}">{{item["title"]}}</a> 
+                  {% endfor %}
+                </div>
+              </li>
             {%- else -%}
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="./#{{ link.section }}">{{ link.title }}</a>
@@ -82,10 +67,21 @@
           <li class="nav-item location" style="margin: 0 0.5em;">
             <a class="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/maps/7E8Upxotto9NGyXdA">
               <i class="fas fa-map-marker-alt" style="font-size: 1.2em;"></i>
-                <!-- <img src="../img/icons/location_white@2x.png" alt="PPSP twitter" style="height: 40px; padding-left: 0; ;"> -->
               <div class="location"></div>
             </a>
           </li>
+          {% if site.lang == "fr" %}
+            {% capture link1 %}..{{ page.url}}{% endcapture %}
+            <li class="nav-item"> 
+              <a class="nav-link js-scroll-trigger" href="{{ link1 }}">{% t global.en %}</a>
+            </li>
+          {% elsif site.lang == "en" %}
+            {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
+            <li class="nav-item"> 
+              <a class="nav-link js-scroll-trigger" href="{{ link2 }}">{% t global.fr %}</a>
+            </li>
+          {% endif %}
+
         </div>
       </ul>
       </div>

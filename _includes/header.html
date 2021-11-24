@@ -1,11 +1,13 @@
-  <header >
+<header >
     <div class="container-fluid masthead">
-    <div class="container masthead-title ml-10">
-      <h1 class="display-1"> {{page.title | | upcase }} </h1>
+        <div class="container masthead-title ml-10">
+        {% if page.title=="Collaborators" and site.lang == "fr" %}
+            <h1 class="display-1"> NOS COLLABORATEURS </h1>
+        {% else %}
+          <h1 class="display-1"> {{ page.title | | upcase }} </h1>
+        {% endif %}
+        </div>
     </div>
-    </div>
-
-
-  </header>
+</header>
 
 <!-- </section> -->

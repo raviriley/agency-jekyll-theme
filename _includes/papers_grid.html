@@ -3,8 +3,8 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.papers.title | default: "Papers" }}</h2>
-        <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">{{ site.data.sitetext.papers.text }}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.papers.title[lang] | default: "Papers" }}</h2>
+        <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">{{ site.data.sitetext.papers.text[lang] }}</h3>
       </div>
     </div>
       <!--Carousel Wrapper-->
@@ -14,7 +14,8 @@
           <!--First slide-->
           <div class="carousel-item active">
             <div class="row">
-            {% for project in site.papers limit:6 %}
+              {% assign projects = site.data.highlights %}
+              {% for project in projects limit:6  %}
               {% if forloop.index <= 3  %}
                 <div class="col-md-3 papers-item">
                   <div class="mx-auto text-center" style="height: 110px;">
@@ -25,15 +26,15 @@
                         </div>  
                       </div>
                       <div class="card-img">
-                          <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
+                          <img class="card-img-top" src="{{ project.image }}" alt="{{ project.alt }}">
                       </div>
                     </a>
                   </div>
                   <div class="card-body">
                       <div class="col-12 papers-caption">
                         <!-- <div class="col-12" style="height: 100px;"> -->
-                          <h5 class="card-title">{{ project.highlightData.title }}</h5>
-                          <p class="text-muted" style="position: absolute; top: 100px;">{{ project.highlightData.subtitle }}</p>
+                          <h5 class="card-title">{{ project.title.[lang] }}</h5>
+                          <p class="text-muted" style="position: absolute; top: 8em; width: max-content;">{{ project.subtitle }}</p>
                         <!-- </div> -->
                       </div>
                   </div>
@@ -46,7 +47,7 @@
           <!--Second slide-->
           <div class="carousel-item ">
             <div class="row">
-              {% for project in site.papers limit:6 %}
+              {% for project in site.data.highlights limit:6 %}
                 {% if forloop.index > 3  %}
                 <div class="col-md-3 papers-item">
                   <div class="mx-auto text-center" style="height: 110px;">
@@ -57,15 +58,15 @@
                         </div>  
                       </div>
                       <div class="card-img">
-                          <img class="card-img-top" src="{{ project.highlightData.image }}" alt="{{ project.highlightData.alt }}">
+                          <img class="card-img-top" src="{{ project.image }}" alt="{{ project.alt }}">
                       </div>
                     </a>
                   </div>
                   <div class="card-body">
                       <div class="col-12 papers-caption">
                         <!-- <div class="col-12" style="height: 100px;"> -->
-                          <h5 class="card-title">{{ project.highlightData.title }}</h5>
-                          <p class="text-muted" style="position: absolute; top: 100px;">{{ project.highlightData.subtitle }}</p>
+                          <h5 class="card-title">{{ project.title[lang] }}</h5>
+                          <p class="text-muted" style="position: absolute; top: 8em; width: max-content;">{{ project.subtitle }}</p>
                         <!-- </div> -->
                       </div>
                   </div>
@@ -87,7 +88,7 @@
    
       <div class="row">
       <div class="col-sm text-center">
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=publications>{{ site.data.sitetext.papers.buttonText }}</a>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=publications>{{ site.data.sitetext.papers.buttonText[lang] }}</a>
     </div> 
   </div>
   </div> 

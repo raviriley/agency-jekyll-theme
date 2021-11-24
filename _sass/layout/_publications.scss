@@ -2,27 +2,26 @@
 
 #publications{
   @include heading-font;
-
-          .masthead{
-            height: 20vw;
-            background-image: url(../img/background-header.png);
-            @media(max-width:425px) {
-            height: 150px;
-            }
-            .section-heading{
-              color: #f3f3f3f2;
-              font-size: 2.2em;
-            }
-            .masthead-title{
-              top: 450px;
-              position: sticky;              
-              .display-1{
-                font-size: 5vw;
-              font-weight: 600;
-              color: #f8f9fa;
-              }
-            }
-        }
+  .masthead{
+    height: 20vw;
+    background-image: url(../img/background-header.png);
+    @media(max-width:425px) {
+    height: 150px;
+    }
+    .section-heading{
+      color: #f3f3f3f2;
+      font-size: 2.2em;
+    }
+    .masthead-title{
+      top: 450px;
+      position: sticky;              
+      .display-1{
+        font-size: 3.3rem;
+        font-weight: 600;
+        color: #f8f9fa;
+      }
+    }
+}
     .form-select{
         display: flex;
     }
@@ -156,3 +155,9 @@ li.list-inline.current-page{
 .path{
   display: inline-flex;
 }
+
+@media(max-width:567px) {
+    .display-1{
+      font-size: 1.6em !important;
+    }
+  }

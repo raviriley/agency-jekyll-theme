@@ -3,18 +3,18 @@
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title[lang] }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text[lang] }}</h3>
 	</div>
   </div>
   <div class="row">
   {% for person in site.data.sitetext.team.people %}
 	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 member-card">
 	  <div class="team-member">
-		<img class="col-8 rounded-circle" src="{{ person.image }}" alt="">
+		<img class="col-8 rounded-circle" src="/{{ person.image }}" alt="{{ person.name }}">
 		<h4>{{ person.name }}</h4>
 		<div>
-			<p class="text-muted">{{ person.role }}</p>
+			<p class="text-muted">{{ person.role[lang] }}</p>
 		</div>
 		<div>
 			<p class="text-muted topic" style="font-style: oblique;">{{ person.topic }}</p>
@@ -39,7 +39,7 @@
 	</div>
 	<div class="row">
 		<div class="col-12 text-center">
-			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=collaborators>{{ site.data.sitetext.team.buttonText }}</a>
+			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=collaborators>{{ site.data.sitetext.team.buttonText[lang] }}</a>
 		</div>
 	</div>
 </div>

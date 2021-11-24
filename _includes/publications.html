@@ -38,7 +38,8 @@
 
       <div class="" style="margin: 50px 0px;">
       <table id="pubTable" style="margin-bottom: 45px;"> 
-        {% for project in site.papers reversed %}
+        {% assign projects=site.papers | where:"doi", page.doi | sort: 'lang' %}
+        {% for project in projects reversed %}
           <tr>
             <td>
               <div class="container pub-item {{ project.type }}">
