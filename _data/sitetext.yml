@@ -179,7 +179,7 @@ team:
     - name: "Guillaume Dumas"
       role: 
         en: "Principal Investigator"
-        fr: "Directeur des recherches"
+        fr: "Investigateur Principal"
       image: img/team/Guillaume_Dumas.jpg
       social:
         - url: https://www.extrospection.eu
@@ -192,6 +192,22 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/deep-introspection
           icon: fab fa-github
+    - name: "Position Available"
+      role:
+        en: "PhD<br>(Social Neuro-AI)"
+        fr: "Doctorat<br>(Social Neuro-AI)"
+      image: assets/img/team/unknown.png
+      social:
+        - url: https://twitter.com/introspection/status/1463959141769265156
+          icon: fas fa-info-circle
+    - name: "Laura Peyras"
+      role: 
+        en: "Administrative Assistant"
+        fr: "Assistante Administrative"
+      image: img/team/Laura_Peyras.jpeg
+      social:
+        - url: https://www.linkedin.com/in/laura-peyras-17387913b/
+          icon: fab fa-linkedin-in
     - name: "Quentin Moreau"
       role: 
         en: "Postdoc<br>(Social Physiology)"
@@ -337,7 +353,7 @@ team:
     - name: "Germán Abrevaya"
       role: 
         en: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Mila Intern / Doctorant invité<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Stagiaire Mila / Doctorant invité<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
       image: img/team/German_Abrevaya.png
       social:
         - url: https://github.com/gabrevaya
@@ -345,7 +361,7 @@ team:
     - name: "Harshit Bokadia"
       role: 
         en: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Mila Intern<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Stagiaire Mila<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
       image: img/team/Harshit_Bokadia.jpg
       social:
         - url: https://twitter.com/harshitbokadia
@@ -355,6 +371,18 @@ team:
         - url: https://www.linkedin.com/in/hbk007/
           icon: fab fa-linkedin-in
         - url: https://github.com/hbk008
+          icon: fab fa-github
+    - name: "Pascal Notsawo"
+      role: 
+        en: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Stagiaire Mila<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+      image: img/team/Pascal_Notsawo.jpg
+      social:
+        - url: https://twitter.com/PTikeng
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/tikeng/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Tikquuss
           icon: fab fa-github
 
 contact:
