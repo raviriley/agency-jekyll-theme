@@ -262,8 +262,8 @@ team:
           icon: fab fa-github
     - name: "Lena Adel"
       role: 
-        en: "PhD Student coming soon ...<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        fr: "Doctorant <br>Prochainement...<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
+        en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
+        fr: "Doctorant<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
       image: img/team/Lena_Adel.jpg
       social:
         - url: https://twitter.com/anelleda_
@@ -276,7 +276,7 @@ team:
           icon: fab fa-github
     - name: "Mariem Hafsia"
       role: 
-        en: "MSc Student coming soon ...<br>(Computational Psychiatry)"
+        en: "MSc Student <br> coming soon ...<br>(Computational Psychiatry)"
         fr: "Étudiante en Maîtrise <br> Prochainement...<br>(Psychiatrie computationnelle)"
       image: img/team/Mariem_Hafsia.jpg
       social:
