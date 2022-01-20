@@ -11,6 +11,7 @@ The Jekyll structure of this theme includes:
 - `style.yml` enables fully customizable colors, background images, and other style-related things
 
 
+
 [template]: https://github.com/raviriley/agency-jekyll-theme-starter
 
 <!--
@@ -29,10 +30,10 @@ Includes:
 
 ## Development
 
-To set up your environment and develop this website:
+To set up your environment:
 1. [Clone this repo](https://github.com/ppsp-team/ppsp-team.github.io.git)
 2. Run `bundle install`
-3. Launch the server `bundle exec jekyll serve` 
+3. To launch the server, run `bundle exec jekyll serve` 
 4. Access your local server at `http://localhost:4000` or at `http://127.0.0.1:4000/`
 
 <!-- ## Add pages/Big changes (create a remote branch, make changes, merge request)
