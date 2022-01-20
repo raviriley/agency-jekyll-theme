@@ -1,5 +1,5 @@
 
-![screenshot](screenshot.PNG)
+![screenshot](./screenshot.png)
 
 
 The Jekyll structure of this theme includes:
