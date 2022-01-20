@@ -12,8 +12,6 @@ The Jekyll structure of this theme includes:
 
 
 
-[template]: https://github.com/raviriley/agency-jekyll-theme-starter
-
 <!--
 ## Documentation and Usage
 
@@ -40,7 +38,7 @@ To set up your environment:
 ## Add a paper (open file, copy-paste example) -->
 
 ## License
-
+This website has been created using Raviriley's [template]: https://github.com/raviriley/agency-jekyll-theme-starter.
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 <!--
