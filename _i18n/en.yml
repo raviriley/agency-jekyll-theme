@@ -28,6 +28,9 @@ nav:
       - 
         title: PPSP Collaborators 
         href: "collaborators"
+      -
+        title: Alumni
+        href: "alumni"
 
   - title: "Contact"
     section: contact
