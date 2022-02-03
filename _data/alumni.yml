@@ -1,0 +1,13 @@
+- name: "Harshit Bokadia"
+  role: 
+    en: "Dynamical NeuroAI"
+    fr: "Dynamical NeuroAI"
+  social:
+    - url: https://twitter.com/harshitbokadia
+      icon: fab fa-twitter
+    - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
+      icon: fab fa-google
+    - url: https://www.linkedin.com/in/hbk007/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/hbk008
+      icon: fab fa-github
