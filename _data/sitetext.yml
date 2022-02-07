@@ -174,12 +174,12 @@ team:
   section: team
   buttons:
     - text:
-        en: "Meet also our collaborators"
+        en: "Our collaborators"
         fr: "Rencontrez nos collaborateurs"
       link: collaborators   
     - text:
-        en: "Alumni"
-        fr: "Alumni"
+        en: "Our alumni"
+        fr: "Notre réseau alumni"
       link: alumni
   
   people:
