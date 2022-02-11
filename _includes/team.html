@@ -22,7 +22,7 @@
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
 		  <li class="list-inline-item">
-			<a href="{{ network.url }}">
+			<a href="{{ network.url }}" style=" height: auto; width: auto;">
 			  <i class="{{ network.icon }}"></i>
 			</a>
 		  </li>
@@ -38,9 +38,12 @@
 	</div>
 	</div>
 	<div class="row">
-		<div class="col-12 text-center">
-			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href=collaborators>{{ site.data.sitetext.team.buttonText[lang] }}</a>
+		{% for button in site.data.sitetext.team.buttons %}
+		<div class="col-6 text-center">
+			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href={{ button.link }}>{{ button.text[lang] }}</a>
 		</div>
+		{% endfor %}
+
 	</div>
 </div>
 </section>

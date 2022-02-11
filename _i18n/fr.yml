@@ -23,12 +23,14 @@ nav:
     section: team
     subsection:
       - 
-        title: "L'équipe PPSP"
+        title: "Membres"
         href: "./#team"
       - 
-        title: "Nos collaborateurs"
+        title: "Collaborateurs"
         href: "collaborators"
-         
+      - 
+        title: "alumni"
+        href: "alumni"        
     
 
   - title: "Contact"
