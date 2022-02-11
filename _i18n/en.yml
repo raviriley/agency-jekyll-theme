@@ -23,10 +23,10 @@ nav:
     section: team
     subsection:
       -
-        title: PPSP team
+        title: Members
         href: "./#team"
       - 
-        title: PPSP Collaborators 
+        title: Collaborators 
         href: "collaborators"
       -
         title: Alumni
