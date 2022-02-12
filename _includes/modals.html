@@ -17,7 +17,7 @@
                     </div>
                   </div> 
                     <div class="col-11">
-                    <h2 class="text-uppercase">{{ project.title-long[lang] }}</h2>
+                    <h2 class="text-uppercase">{{ project.title-long.en }}</h2>
                     <!-- <p class="item-intro text-muted">{{ project.subtitle }}</p>  -->
                   </div>
                 </div><hr>                    
@@ -34,10 +34,10 @@
                         <p> <b> Publication year:</b> {{ project.year }}</p> 
                       </li>
                       <li>
-                        <p> <b> Journal:</b> {{ project.subtitle }}</p> 
+                        <p> <b> Journal:</b> {{ project.journal }}</p> 
                       </li>
                       <li>
-                        <a class="btn btn-primary my-1 mr-1 btn-sm" href="{{ project.link }}" target="_blank" rel="noopener">
+                        <a class="btn btn-primary my-1 mr-1 btn-sm" href="{{ project.link }}" target="_blank" rel="noopener" style="width: fit-content">
                           DOI
                         </a>
                     </li>
@@ -50,8 +50,8 @@
                 <div class="row"> 
                   <div class="col-sm">
                     <h2 style="text-align: left;"> Abstract </h1>
-                    {% if project.abstract[lang] %}
-                      <p> {{ project.abstract[lang] }} </p>
+                    {% if project.abstract.en %}
+                      <p> {{ project.abstract.en }} </p>
                     {% else %}
                     <p> {{ project.abstract }} </p>
                     {% endif %}
