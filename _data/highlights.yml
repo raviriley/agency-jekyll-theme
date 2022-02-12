@@ -1,44 +1,44 @@
 
 - title: 
     en: Inter-brain synchronization during social interaction
-    fr: Synchronisation inter-cérébrale pendant l'interaction sociale
+    # fr: Inter-brain synchronization during social interaction
   title-long: 
     en: Inter-brain synchronization during social interaction
-    fr: Synchronisation inter-cérébrale pendant l'interaction sociale
+    # fr: Synchronisation inter-cérébrale pendant l'interaction sociale
   authors: Guillaume Dumas, Jacqueline Nadel, Robert Soussignan, Jacques Martinerie, Line Garnero
   year: 2010
   link: https://doi.org/10.1371/journal.pone.0012166
   type: "Journal Paper" #article, book...
-  subtitle: PLoS ONE
+  journal: PLoS ONE
   category: "Experimental"
   image: /assets/img/papers/2010_G.Dumas.png
   # alt: Experimental design and coding software.
   abstract: 
     en: "During social interaction, both participants are continuously active, each modifying their own actions in response to the continuously changing actions of the partner. This continuous mutual adaptation results in interactional synchrony to which both members contribute. Freely exchanging the role of imitator and model is a well-framed example of interactional synchrony resulting from a mutual behavioral negotiation. How the participants' brain activity underlies this process is currently a question that hyperscanning recordings allow us to explore. In particular, it remains largely unknown to what extent oscillatory synchronization could emerge between two brains during social interaction. To explore this issue, 18 participants paired as 9 dyads were recorded with dual-video and dual-EEG setups while they were engaged in spontaneous imitation of hand movements. We measured interactional synchrony and the turn-taking between model and imitator. We discovered by the use of nonlinear techniques that states of interactional synchrony correlate with the emergence of an interbrain synchronizing network in the alpha-mu band between the right centroparietal regions. These regions have been suggested to play a pivotal role in social interaction. Here, they acted symmetrically as key functional hubs in the interindividual brainweb. Additionally, neural synchronization became asymmetrical in the higher frequency bands possibly reflecting a top-down modulation of the roles of model and imitator in the ongoing interaction."
-    fr: "During social interaction, both participants are continuously active, each modifying their own actions in response to the continuously changing actions of the partner. This continuous mutual adaptation results in interactional synchrony to which both members contribute. Freely exchanging the role of imitator and model is a well-framed example of interactional synchrony resulting from a mutual behavioral negotiation. How the participants' brain activity underlies this process is currently a question that hyperscanning recordings allow us to explore. In particular, it remains largely unknown to what extent oscillatory synchronization could emerge between two brains during social interaction. To explore this issue, 18 participants paired as 9 dyads were recorded with dual-video and dual-EEG setups while they were engaged in spontaneous imitation of hand movements. We measured interactional synchrony and the turn-taking between model and imitator. We discovered by the use of nonlinear techniques that states of interactional synchrony correlate with the emergence of an interbrain synchronizing network in the alpha-mu band between the right centroparietal regions. These regions have been suggested to play a pivotal role in social interaction. Here, they acted symmetrically as key functional hubs in the interindividual brainweb. Additionally, neural synchronization became asymmetrical in the higher frequency bands possibly reflecting a top-down modulation of the roles of model and imitator in the ongoing interaction."
+    # fr: "During social interaction, both participants are continuously active, each modifying their own actions in response to the continuously changing actions of the partner. This continuous mutual adaptation results in interactional synchrony to which both members contribute. Freely exchanging the role of imitator and model is a well-framed example of interactional synchrony resulting from a mutual behavioral negotiation. How the participants' brain activity underlies this process is currently a question that hyperscanning recordings allow us to explore. In particular, it remains largely unknown to what extent oscillatory synchronization could emerge between two brains during social interaction. To explore this issue, 18 participants paired as 9 dyads were recorded with dual-video and dual-EEG setups while they were engaged in spontaneous imitation of hand movements. We measured interactional synchrony and the turn-taking between model and imitator. We discovered by the use of nonlinear techniques that states of interactional synchrony correlate with the emergence of an interbrain synchronizing network in the alpha-mu band between the right centroparietal regions. These regions have been suggested to play a pivotal role in social interaction. Here, they acted symmetrically as key functional hubs in the interindividual brainweb. Additionally, neural synchronization became asymmetrical in the higher frequency bands possibly reflecting a top-down modulation of the roles of model and imitator in the ongoing interaction."
 
 - title: 
     en: Social cognition paradox
     fr: Le paradoxe de la cognition sociale
   title-long: 
     en: Tackling the social cognition paradox through multi-scale approaches
-    fr: S'attaquer au paradoxe de la cognition sociale par des approches multi-échelles
+    # fr: S'attaquer au paradoxe de la cognition sociale par des approches multi-échelles
   authors: Guillaume Dumas, J. A. Scott Kelso and Jacqueline Nadel
   year: 2014
   link: https://doi.org/10.3389/fpsyg.2014.00882
   type: "Journal Paper" #article, book...
   category: Review
-  subtitle: Frontiers in Psychiatry
+  journal: Frontiers in Psychiatry
   image:  /assets/img/papers/2014_G.Dumas.jpg
   alt: 
   abstract: "Recent debates regarding the primacy of social interaction versus individual cognition appear to be caused by the lack of an integrative account of the multiple scales at play. We suggest that reconciling individual autonomy and dyadic interactive viewpoints requires the taking into account of different time scales (e.g., development, learning) and levels of organization (e.g., genetic, neural, behavioral, social). We argue that this challenge requires the joint development of tools for two-body and second person neuroscience, along with the theoretical concepts and methods of coordination dynamics and systems biology. Such a research program may be particularly fruitful in deciphering complex socio-developmental diseases that are known to involve alterations on multiple levels."
 
 - title: 
     en: The Human Dynamic Clamp
-    fr: Le "Human Dynamic Clamp"
+    # fr: Le "Human Dynamic Clamp"
   title-long: 
     en: The Human Dynamic Clamp as a paradigm for social interaction
-    fr: "Le 'Human Dynamic Clamp' comme paradigme de l'interaction sociale"
+    # fr: "Le 'Human Dynamic Clamp' comme paradigme de l'interaction sociale"
   authors: Guillaume Dumas, Gonzalo C. de Guzman, Emmanuelle Tognoli, and J. A. Scott Kelso
   year: 2014
   link: https://doi.org/10.1073/pnas.1407486111
@@ -46,43 +46,43 @@
   category:
     - Computational
     - Experimental
-  subtitle: PNAS
+  journal: PNAS
   image: /assets/img/papers/2012_G.Dumas.jpg
   # alt: Fig. 4.
-  abstract: "Social neuroscience has called for new experimental paradigms aimed toward real-time interactions. A distinctive feature of interactions is mutual information exchange: One member of a pair changes in response to the other while simultaneously producing actions that alter the other. Combining mathematical and neurophysiological methods, we introduce a paradigm called the human dynamic clamp (HDC), to directly manipulate the interaction or coupling between a human and a surrogate constructed to behave like a human. Inspired by the dynamic clamp used so productively in cellular neuroscience, the HDC allows a person to interact in real time with a virtual partner itself driven by well-established models of coordination dynamics. People coordinate hand movements with the visually observed movements of a virtual hand, the parameters of which depend on input from the subject’s own movements. We demonstrate that HDC can be extended to cover a broad repertoire of human behavior, including rhythmic and discrete movements, adaptation to changes of pacing, and behavioral skill learning as specified by a virtual “teacher.” We propose HDC as a general paradigm, best implemented when empirically verified theoretical or mathematical models have been developed in a particular scientific field. The HDC paradigm is powerful because it provides an opportunity to explore parameter ranges and perturbations that are not easily accessible in ordinary human interactions. The HDC not only enables to test the veracity of theoretical models, it also illuminates features that are not always apparent in real-time human social interactions and the brain correlates thereof."
+  abstract: "The human dynamic clamp (HDC) is proposed as a general paradigm for studies of elementary forms of social behavior in complex biological systems. HDC enables parametric control of real-time bidirectional interaction between humans and empirically grounded theoretical models of coordination dynamics. It thus provides necessary experimental access for laboratory investigations, while preserving the reciprocity and open boundary conditions inherent in daily life social interactions. As proof of concept, different implementations are illustrated, ranging from coordination of rhythmic and discrete movements to adaptive and directed behaviors. The HDC may be a powerful tool for blending theory and experiment at different levels of description, from neuronal populations to cognition and social behavior."
 
 
 - title: 
-    en: Interactive Psychometrics for Autism
-    fr: Psychométrie interactive pour l'autisme
+    en: Autism spectrum disorder
+    # fr: Psychométrie interactive pour l'autisme
   title-long: 
-    en: 'Interactive Psychometrics for Autism with the Human Dynamic Clamp: Interpersonal Synchrony From Sensorimotor to Sociocognitive Domains'
-    fr: "Psychométrie interactive pour l'autisme avec le Human Dynamic Clamp : Synchronie interpersonnelle du domaine sensorimoteur au domaine sociocognitif"
-  authors: Florence Baillin, Aline Lefebvre, Amandine Pedoux, Yann Beauxis, Denis A. Engemann, Anna Maruani, Frédérique Amsellem, J. A. Scott Kelso, Thomas Bourgeron1, Richard Delorme and Guillaume Dumas
-  year: 2019
+    en: 'Autism spectrum disorder'
+    # fr: "Psychométrie interactive pour l'autisme avec le Human Dynamic Clamp : Synchronie interpersonnelle du domaine sensorimoteur au domaine sociocognitif"
+  authors: Guillaume Dumas, Gonzalo C. de Guzman,  View ORCID ProfileEmmanuelle Tognoli, and J. A. Scott Kelso
+  year: 2020
   link: https://doi.org/10.3389/fpsyt.2020.510366
   type: "Journal Paper" #article, book...
   category:
     - Experimental
     - Computational
-  subtitle: Frontiers in Psychiatry
-  image: /assets/img/papers/2020_F.Baillin.png
+  journal: Nature Reviews Disease Primers
+  image: /assets/img/papers/2020_GD.png
   # alt: 
-  abstract: "The human dynamic clamp (HDC) is a human–machine interface designed on the basis of coordination dynamics for studying realistic social interaction under controlled and reproducible conditions. Here, we propose to probe the validity of the HDC as a psychometric instrument for quantifying social abilities in children with autism spectrum disorder (ASD) and neurotypical development. To study interpersonal synchrony with the HDC, we derived five standardized scores following a gradient from sensorimotor and motor to higher sociocognitive skills in a sample of 155 individuals (113 participants with ASD, 42 typically developing participants; aged 5 to 25 years; IQ > 70). Regression analyses were performed using normative modeling on global scores according to four subconditions (HDC behavior “cooperative/competitive,” human task “in-phase/anti-phase,” diagnosis, and age at inclusion). Children with ASD had lower scores than controls for motor skills. HDC motor coordination scores were the best candidates for stratification and diagnostic biomarkers according to exploratory analyses of hierarchical clustering and multivariate classification. Independently of phenotype, sociocognitive skills increased with developmental age while being affected by the ongoing task and HDC behavior. Weaker performance in ASD for motor skills suggests the convergent validity of the HDC for evaluating social interaction. Results provided additional evidence of a relationship between sensorimotor and sociocognitive skills. HDC may also be used as a marker of maturation of sociocognitive skills during real-time social interaction. Through its standardized and objective evaluation, the HDC not only represents a valid paradigm for the study of interpersonal synchrony but also offers a promising, clinically relevant psychometric instrument for the evaluation and stratification of sociomotor dysfunctions."
+  abstract: "Autism spectrum disorder is a construct used to describe individuals with a specific combination of impairments in social communication and repetitive behaviours, highly restricted interests and/or sensory behaviours beginning early in life. The worldwide prevalence of autism is just under 1%, but estimates are higher in high-income countries. Although gross brain pathology is not characteristic of autism, subtle anatomical and functional differences have been observed in post-mortem, neuroimaging and electrophysiological studies. Initially, it was hoped that accurate measurement of behavioural phenotypes would lead to specific genetic subtypes, but genetic findings have mainly applied to heterogeneous groups that are not specific to autism. Psychosocial interventions in children can improve specific behaviours, such as joint attention, language and social engagement, that may affect further development and could reduce symptom severity. However, further research is necessary to identify the long-term needs of people with autism, and treatments and the mechanisms behind them that could result in improved independence and quality of life over time. Families are often the major source of support for people with autism throughout much of life and need to be considered, along with the perspectives of autistic individuals, in both research and practice."
 
 
 - title: 
     en: From machine learning to student learning
-    fr: De l'apprentissage automatique à l'apprentissage des élèves
+    # fr: De l'apprentissage automatique à l'apprentissage des élèves
   title-long: 
     en: 'Comment on Starke et al.: ‘Computing schizophrenia: ethical challenges for machine learning in psychiatry’: from machine learning to student learning: pedagogical challenges for psychiatry'
-    fr: "Commentaire sur Starke et al : 'Computing schizophrenia : ethical challenges for machine learning in psychiatry' : de l'apprentissage automatique à l'apprentissage des étudiants : défis pédagogiques pour la psychiatrie'."
+    # fr: "Commentaire sur Starke et al : 'Computing schizophrenia : ethical challenges for machine learning in psychiatry' : de l'apprentissage automatique à l'apprentissage des étudiants : défis pédagogiques pour la psychiatrie'."
   authors: Christophe Gauld, Jean-Arthur Micoulaud-Franchi and Guillaume Dumas
   year: 2020
   link: https://doi.org/10.1017/S0033291720003906
   type: Comment #article, book...
   category: Review
-  subtitle: Psychological Medicine
+  journal: Psychological Medicine
   image: /assets/img/papers/2020_C.Gauld.jpg
   alt: 
   abstract: "We agree with Starke et al. (2020): despite the current lack of direct clinical applications, artificial intelligence (AI) will undeniably transform the future of psychiatry. AI has led to algorithms that can perform more and more complex tasks by interpreting and learning from data (Dobrev, 2012). AI applications in psychiatry are receiving more attention, with a 3-fold increase in the number of PubMed/MEDLINE articles on IA in psychiatry over the past 3 years (N = 567 results). The impact of AI on the entire psychiatric profession is likely to be significant (Brown, Story, Mourão-Miranda, & Baker, 2019; Grisanzio et al., 2018; Huys, Maia, & Frank, 2016; Torous, Stern, Padmanabhan, Keshavan, & Perez, 2015). These effects will be felt not only through the advent of advanced applications in brain imaging (Starke et al., 2020) but also through the stratification and refinement of our clinical categories, a more profound challenge which ‘lies in its long-embattled nosology’ (Kendler, 2016)."
@@ -90,16 +90,16 @@
 
 - title: 
     en: '"Social physiology" for psychiatric semiology'
-    fr: 'La "physiologie sociale" au service de la sémiologie psychiatrique'
+    # fr: 'La "physiologie sociale" au service de la sémiologie psychiatrique'
   title-long: 
     en: '“Social physiology” for psychiatric semiology: How TTOM can initiate an interactive turn for computational psychiatry?'
-    fr: "'Social physiology' pour la sémiologie psychiatrique : comment TTOM peut initier un virage interactif pour la psychiatrie computationnelle?"
+    # fr: "'Social physiology' pour la sémiologie psychiatrique : comment TTOM peut initier un virage interactif pour la psychiatrie computationnelle?"
   authors: Guillaume Dumas, Tudi Gozé and Jean-Arthur Micoulaud-Franchi
   year: 2020
   link:  https://doi.org/10.1017/S0140525X19002735
   type: "Journal Paper" #article, book...
   category: "Review"
-  subtitle: Behavioral and Brain Sciences
+  journal: Behavioral and Brain Sciences
   image:  /assets/img/papers/2020_G.Dumas.jpg
   alt: 
   abstract: "Thinking through other minds (TTOM) encompasses new dimensions in computational psychiatry: social interaction and mutual sense-making. It questions the nature of psychiatric manifestations (semiology) in light of recent data on social interaction in neuroscience. We propose the concept of “social physiology” in response to the call by the conceivers of TTOM for the renewal of computational psychiatry."
