@@ -257,8 +257,8 @@ team:
           icon: fab fa-github
     - name: "Samuele Bolotta"
       role: 
-        en: "PhD Student coming soon ...<br>(Social NeuroAI)"
-        fr: "Doctorant <br> Prochainement...<br>(Social NeuroAI)"
+        en: "PhD Student<br>(Social NeuroAI)"
+        fr: "Doctorant <br>(Social NeuroAI)"
       image: img/team/Samuele_Bolotta.jpg
       social:
         - url: https://twitter.com/SamBolotta
