@@ -1,7 +1,7 @@
-- name: "Raghu Vamshi Hemadri"
+- name: "Harshit Bokadia"
   role: 
-    en: "Social Neuro AI"
-    fr: "Neuro IA sociale"
+    en: "Dynamical NeuroAI"
+    fr: "Dynamical NeuroAI"
   social:
     - url: https://twitter.com/harshitbokadia
       icon: fab fa-twitter
@@ -12,10 +12,10 @@
     - url: https://github.com/hbk008
       icon: fab fa-github
 
-- name: "Harshit Bokadia"
+- name: "Raghu Vamshi Hemadri"
   role: 
-    en: "Dynamical NeuroAI"
-    fr: "Dynamical NeuroAI"
+    en: "Social Neuro AI"
+    fr: "Neuro IA sociale"
   social:
     - url: https://raghuhemadri.github.io/profile
       icon: fab fa-github
