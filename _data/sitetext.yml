@@ -229,8 +229,6 @@ team:
           icon: fab fa-google
         - url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
           icon: fab fa-linkedin-in
-        - url: https://www.researchgate.net/profile/Quentin-Moreau-2
-          icon: fab fa-researchgate
         - url: https://github.com/quentinmoreau
           icon: fab fa-github
     - name: "Katie Douglas"
