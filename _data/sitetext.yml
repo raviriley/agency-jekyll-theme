@@ -189,7 +189,7 @@ team:
         fr: "Investigateur Principal"
       image: img/team/Guillaume_Dumas.jpg
       social:
-        - url: https://www.extrospection.eu
+        - url: https://www.extrospection.eu 
           icon: fas fa-home
         - url: https://twitter.com/introspection
           icon: fab fa-twitter
@@ -221,6 +221,8 @@ team:
         fr: "Postdoc<br>(Physiologie sociale)"
       image: img/team/Quentin_Moreau.jpg
       social:
+        - url: https://quentinmoreau.netlify.app/
+          icon: fas fa-home
         - url: https://twitter.com/quentin_moreau
           icon: fab fa-twitter
         - url: https://scholar.google.com/citations?hl=fr&user=745WRukAAAAJ&view_op=list_works&citft=1&citft=2&citft=3&email_for_op=quentinmoreau860%40gmail.com&gmla=AJsN-F4-o-OTtJ1WYgIrr0K98q2bdye-8o7fbYtVWlQNOseEaUqrSODOo-NJjsUDm3EBcro0GWlhW_sjtpm3mn0YDhlxfs61u2Vb21RK92XBT1HsoIknd7kAejOEms3CLhLchd6W37ksrhUOYzl_c7Zi1W8t4y1VkA76CnrisNtwV5JRndL2eUR5_H372vGifg5gVmZKzquo3Dhg1y8rYpJVhjANWBZ8ktrMGz-HFGj0yJ1UEMoI3P7U6mNzv3oI8jgvcg0Uu7jyoPYr4qStSWroviQmnJ3AZQ
@@ -410,20 +412,22 @@ team:
         - url: https://github.com/Tikquuss
           icon: fab fa-github
 
-    # - name: Nicolas Coucke
-    #   role: 
-    #     en: "Visiting PhD<br> Coming soon.. <br> (Social Neuro AI)"
-    #     fr: "Doctorant invité<br> Prochainement <br> (Neuro-IA sociale)"
-    #   image: 
-    #   social:
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon:
+    - name: Nicolas Coucke
+      role: 
+        en: "Visiting PhD<br> Coming soon.. <br> (Social Neuro AI)"
+        fr: "Doctorant invité<br> Prochainement <br> (Neuro-IA sociale)"
+      image: img/team/Nicolas_Coucke.png
+      social:
+        - url: https://twitter.com/CouckeNicolas
+          icon: fab fa-twitter
+        - url: https://scholar.google.nl/citations?user=6nsctv0AAAAJ&hl=nl
+          icon: fab fa-google
+        - url: https://www.researchgate.net/profile/Nicolas-Coucke-2
+          icon: fab fa-researchgate
+        - url:  https://www.linkedin.com/in/nicolas-coucke-518133144/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/NicolasCoucke
+          icon: fab fa-github
     # - name: Vincent Chamberland
     #   role: 
     #     en: "Honors student<br> Coming soon.. <br> (Social Physiology)"
