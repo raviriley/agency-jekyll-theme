@@ -281,10 +281,38 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/lenaadel
           icon: fab fa-github
+    - name: Emmanuel Olarewaju
+      role: 
+        en: "PhD Student<br>co-supervision with Lena Palaniyappan <br> (Social Physiology)"
+        fr: "Doctorant<br>co-supervision avec Lena Palaniyappan <br> (Physiologie sociale)"
+      image: img/team/Emmanuel_Olarewaju.jpeg
+      social:
+        - url: https://orcid.org/0000-0003-1794-5599
+          icon: fab fa-orcid 
+        - url: https://www.researchgate.net/profile/Emmanuel-Olarewaju
+          icon: fab fa-researchgate
+        - url: https://www.linkedin.com/in/emmanuel-olarewaju/
+          icon: fab fa-linkedin-in
+        - url: https://scholar.google.com/citations?user=7fuk56wAAAAJ&hl=en
+          icon: fab fa-google
+    # - name: Natalie Kastel
+    #   role: 
+    #     en: "PhD Student <br> Coming soon.. <br> (Social Neuro AI)"
+    #     fr: "Doctorant<br> Prochainement <br> (Neuro-IA sociale)"
+    #   image: 
+    #   social:
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
     - name: "Mariem Hafsia"
       role: 
-        en: "MSc Student <br> coming soon ...<br>(Computational Psychiatry)"
-        fr: "Étudiante en Maîtrise <br> Prochainement...<br>(Psychiatrie computationnelle)"
+        en: "MSc Student <br> (Computational Psychiatry)"
+        fr: "Étudiante en Maîtrise <br> (Psychiatrie computationnelle)"
       image: img/team/Mariem_Hafsia.jpg
       social:
         - url: https://www.linkedin.com/in/mariemhafsia/
@@ -382,6 +410,34 @@ team:
         - url: https://github.com/Tikquuss
           icon: fab fa-github
 
+    # - name: Nicolas Coucke
+    #   role: 
+    #     en: "Visiting PhD<br> Coming soon.. <br> (Social Neuro AI)"
+    #     fr: "Doctorant invité<br> Prochainement <br> (Neuro-IA sociale)"
+    #   image: 
+    #   social:
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon:
+    # - name: Vincent Chamberland
+    #   role: 
+    #     en: "Honors student<br> Coming soon.. <br> (Social Physiology)"
+    #     fr: "Stagiaire Honors<br> Prochainement <br> (Physiologie sociale)"
+    #   image: 
+    #   social:
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
 contact:
   title: 
     en: "Contact Us"
