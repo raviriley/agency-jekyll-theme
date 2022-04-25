@@ -2,14 +2,20 @@
   <section class="py-5" id="{{ site.data.sitetext.fundings.section | default: 'fundings' }}">
     <div class="container">
       <div class="row" {% if site.data.sitetext.fundings.horizontal-scrolling == 'yes' %} id="scrolling-fundings" {% endif %}>
-	  {% for fundings in site.data.sitetext.fundings.list %}
+	      {% assign lang = site.lang %}
+        {% for fundings in site.data.sitetext.fundings.list %}
         <div class="col-md-4 col-sm-6">
-          <a href="{{ fundings.url }}">
-            <img class="col-9 img-fluid d-block mx-auto" src="/{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }}">
+        {% if fundings.logo[lang] %}  
+        <a href="{{ fundings.url }}">
+            <img class="col-9 img-fluid d-block mx-auto" src="/{{ fundings.logo[lang] }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }} ; position: relative; top: 0; left: 0; margin-top: 10px;">
           </a>
-          <br>
+          {% else %}
+          <a href="{{ fundings.url }}">
+            <img class="col-9 img-fluid d-block mx-auto" src="/{{ fundings.logo }}" alt="{{ fundings.title }}" style="max-height: {{ site.data.sitetext.fundings.max-height | default: '100px' }} ; position: relative; top: 0; left: 0; margin-top: 10px;">
+          </a>
+	      {% endif %}
         </div>
-	  {% endfor %}
+      {% endfor %}
       </div>
     </div>
   </section>
