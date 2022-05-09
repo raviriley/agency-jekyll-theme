@@ -34,17 +34,17 @@
             {% if site.data.sitetext.timeline.end %}	
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>{{ site.data.sitetext.timeline.end }}</h4>
+                  <h4>{{ site.data.sitetext.timeline.end[lang] }}</h4>
                 </div>
               </li>
             {% endif %}
           </ul>
         </div>
-        <div class="col-sm-11 col-md-8 col-lg-4 col-xl-4 mx-auto" style="    margin-top: 30px;">
+        <div class="col-sm-11 col-md-8 col-lg-4 col-xl-4 mx-auto" style="margin-top: 30px;">
           <ul class="timeline">
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4>Check Our Last News</h4>
+              <h4>{{ site.data.sitetext.timeline.twitter[lang]}}</h4>
             </div>
           </li>
           <li>

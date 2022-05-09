@@ -82,7 +82,7 @@ timeline:
     fr: "Notre histoire"
   text: 
     en: "\"Past, present, and future is where we're at.\""
-    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes..\""
+    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes.\""
   section: timeline
   events:
     - title: 
@@ -105,7 +105,7 @@ timeline:
         fr: "Juillet 2020"
       desc: 
         en: "FRQS J1 in Artificial Intelligence and Digital Medicine."
-        fr: "FRQS J1 en intelligence artificielle et médecine numérique."
+        fr: "FRQS J1 en Intelligence Artificielle et Médecine Numérique."
       image: assets/img/timeline/2.jpg
       alt: 
       align: right
@@ -133,7 +133,12 @@ timeline:
       image: assets/img/timeline/4.jpg
       alt: 
       align: right
-  end: "Be Part <br> of Our <br> Story!"
+  end: 
+    en: "Be Part <br> of Our <br> Story!"
+    fr: "Faites Partie de l'Histoire!"
+  twitter:
+    en: "Check Our Last News"
+    fr: "Nos Dernières Nouvelles"
 
 about:
   title: "About Us"
@@ -214,14 +219,14 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/deep-introspection
           icon: fab fa-github
-    - name: "Position Available"
-      role:
-        en: "PhD<br>(Social Neuro-AI)"
-        fr: "Doctorat<br>(Social Neuro-AI)"
-      image: assets/img/team/unknown.png
-      social:
-        - url: https://twitter.com/introspection/status/1463959141769265156
-          icon: fas fa-info-circle
+    # - name: "Position Available"
+    #   role:
+    #     en: "PhD<br>(Social Neuro-AI)"
+    #     fr: "Doctorat<br>(Social Neuro-AI)"
+    #   image: assets/img/team/unknown.png
+    #   social:
+    #     - url: https://twitter.com/introspection/status/1463959141769265156
+    #       icon: fas fa-info-circle
     - name: "Laura Peyras"
       role: 
         en: "Administrative Assistant"
