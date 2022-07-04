@@ -412,8 +412,8 @@ team:
 
     - name: Nicolas Coucke
       role: 
-        en: "Visiting PhD<br> Coming soon.. <br> (Social Neuro AI)"
-        fr: "Doctorant invité<br> Prochainement <br> (Neuro-IA sociale)"
+        en: "Visiting PhD<br>(Social Neuro AI)"
+        fr: "Doctorant invité<br>(Neuro-IA sociale)"
       image: img/team/Nicolas_Coucke.png
       social:
         - url: https://twitter.com/CouckeNicolas
