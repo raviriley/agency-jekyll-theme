@@ -331,9 +331,9 @@ de: &DEFAULT_DE
     buttonlink: "#Angebote"
 
   services:
-    title: "Angebote"
+    title: "Leistungen"
     text: "Was wir anbieten."
-    section: Angebote
+    section: Leistungen
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
