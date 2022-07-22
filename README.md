@@ -26,6 +26,7 @@ I also added a lot of new features that go beyond the original theme's capabilit
 - GitHub Pages support
 - [template repo][template] to get up and running in minutes
 - contact form functionality powered by [Formspree.io](https://formspree.io)
+- multiple language support (currently English, Spanish, & German)
 - custom pages
 - 404 page
 - legal/Privacy Policy page
@@ -134,9 +135,13 @@ For bug reports, follow the provided template.
 
 #### Improvements - Up for Grabs
 
-- [ ] multiple language support (~~Spanish~~, Chinese, Arabic, etc.)
+- [x] multiple language support thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
+  - [x] Spanish thanks to [@rbenitezpagan](https://github.com/rbenitezpagan)
+  - [x] German thanks to [@bkfirmen](https://github.com/bkfirmen)
+  - [ ] Chinese
+  - [ ] Arabic
+  - [ ] etc
 - [ ] customizable background coloring for each section
-- [x] ~~custom background images~~
 
 ## Development
 
