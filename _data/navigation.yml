@@ -56,3 +56,22 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  nav:
+    - title: "Leistungen"
+      section: Leistungen
+    - title: "Portfolio"
+      section: Portfolio
+    - title: "Über uns"
+      section: Ueber
+    - title: "Geschichte"
+      section: Geschichte
+    - title: "Team"
+      section: Team
+    - title: "Kontakt"
+      section: Kontakt
+    - title: "Quellcode des Themas"
+      url: https://github.com/raviriley/agency-jekyll-theme/
