@@ -14,6 +14,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
+        {% if site.locale and site.locale != "" and site.locale != nil %}
         {% for link in site.data.navigation[site.locale].nav %}
           <li class="nav-item">
             {%- if link.url -%}
@@ -25,6 +26,19 @@
             {%- endif -%}
           </li>
         {% endfor %}
+        {% else %}
+        {% for link in site.data.navigation.nav %}
+        <li class="nav-item">
+          {%- if link.url -%}
+            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+          {%- else if link.section -%}
+            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+          {%- else -%}
+            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+          {%- endif -%}
+        </li>
+        {% endfor %}
+        {% endif %}
         </ul>
       </div>
     </div>
@@ -32,6 +46,7 @@
   <!-- End Navigation -->
   
   <!-- Header -->
+  {% if site.locale and site.locale != "" and site.locale != nil %}
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
@@ -47,4 +62,21 @@
       </div>
     </div>
   </header>
+  {% else %}
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+	  {%- if site.data.sitetext.header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.button -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+	  {%- endif -%}
+      </div>
+    </div>
+  </header>
+  {% endif %}
   <!-- End Header -->
