@@ -11,17 +11,19 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
+      font-size: 15px;
+      font-weight: 3;
       line-height: 22px;
       margin-bottom: 25px;
-      @include serif-font;
+      @include heading-secondary-font;
     }
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+      letter-spacing: 0.4em;
+      // text-shadow: -1px -1px 0 rgb(131, 131, 131), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       @include heading-font;
     }
   }
@@ -33,16 +35,18 @@ header.masthead {
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
-        font-style: italic;
+        font-weight: 3;
         line-height: 40px;
         margin-bottom: 25px;
-        @include serif-font;
+        @include heading-secondary-font;
       }
       .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 100px;
+        font-weight: 3;
         line-height: 75px;
         margin-bottom: 50px;
+        letter-spacing: 0.9em;
+        // text-shadow: -1px -1px 0 rgb(131, 131, 131), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
         @include heading-font;
       }
     }

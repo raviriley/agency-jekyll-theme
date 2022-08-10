@@ -6,13 +6,15 @@
 @import "base/mixins.scss";
 
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$primary: {{ site.data.style.highlight | default: "#dcd0ff" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
+$about-image: "{{ site.data.style.about-image }}";
+$portfolio-image: "{{ site.data.style.portfolio-image }}";
 
 // Global CSS
 @import "base/page.scss";
@@ -24,6 +26,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
+@import "layout/about.scss";
 @import "layout/services.scss";
 @import "layout/portfolio.scss";
 @import "layout/timeline.scss";

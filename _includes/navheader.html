@@ -18,7 +18,7 @@
         {% for link in site.data.navigation[site.locale].nav %}
           <li class="nav-item">
             {%- if link.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ link.url | relative_url}}">{{ link.title }}</a>
             {%- else if link.section -%}
               <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
             {%- else -%}
@@ -30,7 +30,7 @@
         {% for link in site.data.navigation.nav %}
         <li class="nav-item">
           {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ link.url | relative_url }}">{{ link.title }}</a>
           {%- else if link.section -%}
             <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
