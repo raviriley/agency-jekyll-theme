@@ -3,16 +3,53 @@
   margin-bottom: 50px;
   text-align: center;
   img {
-    width: 225px;
-    height: 225px;
+    width: 150px;
+    height: 150px;
     border: 7px solid fade-out($black, 0.9);
   }
   h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color:beige
+  }
+  h3 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+    color:beige
   }
   p {
     margin-top: 0;
+    color:floralwhite;
+  }
+}
+
+.team-section {
+  padding: 100px 0;
+  background-image: url("#{$team-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 60%;
+  background-size: cover;
+  h2.section-heading {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: whitesmoke;
+    margin-bottom: 75px;
+    text-transform: none;
+    @include serif-font;
+  }
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
   }
 }

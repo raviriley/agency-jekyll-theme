@@ -19,10 +19,10 @@ en: &DEFAULT_EN
       section: about
     - title: "The Timeline"
       section: timeline
+    - title: "The Heroes"
+      section: team
     - title: "Codex"
       url: /404.html
-    - title: "Discord"
-      section: contact
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:

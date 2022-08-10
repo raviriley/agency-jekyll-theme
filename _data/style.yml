@@ -8,5 +8,6 @@ header-image: "../img/AnimatedHeader.gif"
 contact-image: "../img/contact.png"
 about-image: "../img/floating-city-banner.jpg"
 portfolio-image: "../img/ruinedcity.jpg"
+team-image: "../img/market.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

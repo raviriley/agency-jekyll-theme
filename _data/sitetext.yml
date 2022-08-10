@@ -49,6 +49,16 @@ en: &DEFAULT_EN
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
+      - title: "asfdasdfa"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "adsfasdfs"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
       - title: "An Agency is Born"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
@@ -74,32 +84,14 @@ en: &DEFAULT_EN
     body: "Approximately 500 years ago, civilization met a violent end. And the world went on. Amidst cratered mountains and magnetic anomalies, organic life survived and flourished. As biodiversity exploded, new forms of life joined the amnesiac survivors and the land of Tsamsara was born. Magic now permeates the new world, tentatively co-existing with reclaimed, old world technology. Outside the walls of growing metropolises, adventure awaits."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "The heroes of our story"
+    text: "Four souls, brought together by happenstance and a mutual, vague, disgust for each other seek to uncover the secrets of the Old World and survive the consequences. Whether they will succeed before the secrets of their past catches up to them, who knows?"
+    subtext: "Primal's Grace, what have the four of you gotten yourselves into this time? -Hallis Kob"
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Amanita"
+        role: "Hiresh"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -108,8 +100,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Niamh Diarmuid"
+        role: "Kav"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -118,8 +110,18 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Kraft"
+        role: "Phil"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Sylvass"
+        role: "Alex"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
