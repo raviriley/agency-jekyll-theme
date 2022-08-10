@@ -1,13 +1,13 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Anomalies
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  subtitle: ... Where did they all go?
+  thumbnail: assets\img\portfolio\anomaly.jpg
   
 #what displays when the item is clicked:
 title: The Anomalies
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: assets\img\portfolio\anomaly.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

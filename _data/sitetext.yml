@@ -11,52 +11,35 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Now Entering
+    title: You wake up again in
     text: TSAMSARA
-    #button: Tell Me More
-    #buttonlink: "#services"
-
-  # services:
-  #   title: "Services"
-  #   text: "Lorem ipsum"
-  #   section: services
-  #   list:
-  #     - title: "E-Commerce"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  #       icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-  #     - title: "Responsive Design"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  #       icon: fas fa-laptop
-  #     - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-  #       desc: "Your description here, full **Markdown** support"
-  #       icon: fab fa-markdown
 
   portfolio:
     title: "Pillars of the World"
-    text: "Molded by magnetic tides and reshaped by divine forces, life on Tsamsara has exploded in biodiversity."
+    text: "Molded by magnetic tides and reshaped by divine forces, life on Tsamsara is beautiful and strange. Take care you don't wander out too far."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "The Timeline"
+    text: "With the dangers inherent in reading Old World and early Tsamsaran texts, the history of our world is still shrouded in mystery and conjecture. Though for those brave enough to delve into the past and into ruins long forgotten, the truth may be revealed."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Foundation Day"
+        year: "F+0"
+        desc: "According to fragmentec historical texts and verbal records, Tsamsara was born when the first clay brick of the first new village was laid amidst the still smoking ruins of the Old World."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "asfdasdfa"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Sky Landing"
+        year: "F+51"
+        desc: "A Dwarven scholar is first to scale the floating landmass that would later become the metropolis of Benthia. He establishes a settlement and is eventually crowned King Belize de Benthos."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "adsfasdfs"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Rip Tide"
+        year: "F+99"
+        desc: "The first recorded Anomalies occur, a wave of graviturgical energy rips a monastery off its foundations, killing 43 monks. The survivors would later reform into the Shunde."
         image: assets/img/timeline/1.jpg
         alt:
       - title: "An Agency is Born"
@@ -80,7 +63,7 @@ en: &DEFAULT_EN
 
   about:
     title: "A brief primer"
-    text: "The new world"
+    text: "The New World, same as the Old World"
     body: "Approximately 500 years ago, civilization met a violent end. And the world went on. Amidst cratered mountains and magnetic anomalies, organic life survived and flourished. As biodiversity exploded, new forms of life joined the amnesiac survivors and the land of Tsamsara was born. Magic now permeates the new world, tentatively co-existing with reclaimed, old world technology. Outside the walls of growing metropolises, adventure awaits."
     section: about
 

@@ -176,3 +176,34 @@
     }
   }
 }
+.timeline-body {
+  color: whitesmoke;
+}
+.timeline-section {
+  padding: 100px 0;
+  background-image: url("#{$timeline-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 60%;
+  background-size: cover;
+  h2.section-heading {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: whitesmoke;
+    margin-bottom: 75px;
+    text-transform: none;
+    @include serif-font;
+  }
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}

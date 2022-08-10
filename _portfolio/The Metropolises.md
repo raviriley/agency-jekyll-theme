@@ -1,13 +1,13 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Metropolises
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  subtitle: Wonder which way the wall's pointing?
+  thumbnail: assets/img/portfolio/isleheim.png
   
 #what displays when the item is clicked:
 title: The Metropolises
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: assets/img/portfolio/isleheim.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

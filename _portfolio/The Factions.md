@@ -1,13 +1,13 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Factions
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  subtitle: They are powerful, beloved, and many
+  thumbnail: assets\img\portfolio\valynx's mask.png
   
 #what displays when the item is clicked:
 title: The Factions
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: assets\img\portfolio\valynx's mask.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

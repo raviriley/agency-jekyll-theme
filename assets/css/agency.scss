@@ -16,6 +16,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 $about-image: "{{ site.data.style.about-image }}";
 $portfolio-image: "{{ site.data.style.portfolio-image }}";
 $team-image: "{{ site.data.style.team-image }}";
+$timeline-image: "{{ site.data.style.timeline-image }}";
 
 // Global CSS
 @import "base/page.scss";
