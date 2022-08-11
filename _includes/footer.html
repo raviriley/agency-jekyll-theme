@@ -35,7 +35,7 @@
     </div>
   </div>
 </footer>
-{% if page.layout == "page" %}
+{% if page.layout == "page" or  page.layout == "category"%}
 <script>
   fixPageShort();
   function fixPageShort() {
