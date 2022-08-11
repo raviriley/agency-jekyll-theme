@@ -24,13 +24,30 @@ logo:     #optional, defaults to site title
   path: assets\img\Navitas.png
   height: 60 #height in px, defaults to 52px
 
+altlogo:
+  path: assets\img\NavitasAlt.png
+  height: 60 #height in px, defaults to 52px
+
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
 
 collections:
+  categories: 
+    output: true
   portfolio:
+
+defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 markdown: kramdown
 

@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Factions
-  subtitle: They are powerful, beloved, and many
+  subtitle: Wisdom states power in numbers
   thumbnail: assets\img\portfolio\valynx's mask.png
   
 #what displays when the item is clicked:

@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Origins
-  subtitle: So here's what we think happened...
+  subtitle: Well, here's what we think happened...
   thumbnail: assets\img\portfolio\primal.jpg
   
 #what displays when the item is clicked:

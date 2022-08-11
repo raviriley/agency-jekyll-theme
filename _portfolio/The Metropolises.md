@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: The Metropolises
-  subtitle: Wonder which way the wall's pointing?
+  subtitle: Who do you think the wall's protecting?
   thumbnail: assets/img/portfolio/isleheim.png
   
 #what displays when the item is clicked:

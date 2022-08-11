@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     - title: "The Heroes"
       section: team
     - title: "Codex"
-      url: /ComingSoon.html
+      url: /Codex.html
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:

@@ -1,13 +1,13 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: The Outlands
-  subtitle: There's a price to freedom
-  thumbnail: assets\img\portfolio\abandoned village.jpg
+  title: The Old World
+  subtitle: Wonders they left behind, beyond magic
+  thumbnail: assets\img\portfolio\oldworldmachine.jpg
   
 #what displays when the item is clicked:
 title: The Outlands
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets\img\portfolio\abandoned village.jpg #main image, can be a link or a file in assets/img/portfolio
+image: assets\img\portfolio\oldworldmachine.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

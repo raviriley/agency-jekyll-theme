@@ -1,9 +1,9 @@
-  <!-- Navigation -->
+  <!-- Navigation: this is the navbar that shows up on the home page -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          {%- if site.altlogo -%}
+            <img height="{{ site.altlogo.height | default: 52 }}" src="{{ site.altlogo.path }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -30,7 +30,7 @@
     </div>
   </nav>
   <!-- End Navigation -->
-  
+
   <!-- Header -->
   <header class="masthead">
     <div class="container">
