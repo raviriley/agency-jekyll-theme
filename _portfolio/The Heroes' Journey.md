@@ -6,7 +6,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: The Heroes' Journey
-subtitle: "\"Oh, those four? Really nice folk, paid for thier drinks and stay up front, though that one guy still owes me for the soup.\" -Sylvie, local bartender and self-proclaimed gaslighter."
+subtitle: "\"Oh, those four? Really nice folk, paid for the drinks and stay up front, though that one guy still owes me for the soup.\" -Sylvie, local bartender and self-proclaimed gaslighter."
 image: assets/img/portfolio/adventurermountain.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 

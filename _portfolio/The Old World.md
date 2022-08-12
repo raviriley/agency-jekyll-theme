@@ -5,8 +5,8 @@ caption: #what displays in the portfolio grid:
   thumbnail: assets\img\portfolio\oldworldmachine.jpg
   
 #what displays when the item is clicked:
-title: The Outlands
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: The Old World
+subtitle: "Alright so, the second you open the door to an Old World ruin, you're racing the clock and the clock usually wins. There's a reason the Build Guild's bounty for a functioning Old World device is so high. These things turn to dust the second they hit open air."
 image: assets\img\portfolio\oldworldmachine.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
