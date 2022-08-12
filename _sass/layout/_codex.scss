@@ -1,17 +1,10 @@
-.category-heading {
-    color: white;
-}
-
-.category-posts {
-    color: white;
-}
-
-.category-caption {
+.codex-caption {
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
     background-color: $white;
+    color: antiquewhite;
     h4 {
       margin: 0;
       text-transform: none;
@@ -23,3 +16,9 @@
       @include serif-font;
     }
   }
+
+.codex-link {
+    &:hover {
+        background-color: $primary;
+      }
+}

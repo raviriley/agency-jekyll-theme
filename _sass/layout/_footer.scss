@@ -6,6 +6,7 @@
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
+    color: whitesmoke;
     @include heading-font;
   }
   ul.quicklinks {
@@ -32,7 +33,6 @@ ul.social-buttons {
       color: white;
       border-radius: 100%;
       outline: none;
-      background-color: $gray-900;
       &:active,
       &:focus,
       &:hover {
