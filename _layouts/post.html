@@ -1,19 +1,23 @@
 ---
-layout: default
+layout: page
 ---
 {% include nav.html %}
-{% if page.background == "grey" or page.background == "gray" %}
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-{% endif %}
-<div class="container" id="pagecontainer">
-    {{ content }}
-</div>
 
-<div class="container" id="pagecontainer">
-    {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
-    {%for post in filtered_posts%}
-        <li><a href="{{post.url}}">{{post.title}}</a></li>
-    {%endfor%}
-</div>
+<section class="page-section">
+    <div class="container" id="pagecontainer">
+        <div class="row">
+            <div class="col-lg-3 portfolio-item">
+                <div class="text-center">
+                    <img class="img-fluid" src={{page.image | absolute_url}} alt="">
+                    <div class="post-caption">
+                        <h1>{{page.title}}</h1>
+                        <h4 class="text-muted">{{page.summary}}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                {{content}}
+            </div>
+        </div>
+    </div>
+</section>
