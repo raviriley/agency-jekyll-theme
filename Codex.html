@@ -14,14 +14,18 @@ background: grey
         </h3>
       </div>
     </div>
-    {% for category in site.categories%}
-        <li>
-            <h2><a href="{{category.url | relative_url}}">{{category.name}}</a></h2>
-            <h3>{{category.name}}</h3>
-            <!--the | represents a filter, what we're transforming/doing to the var. markdownify is needed to process md files we're trying to display in html-->
-            <p>{{category.content | markdownify}}</p>
-        </li>
-    {%endfor%}
+    <div class="row">
+      {% for category in site.categories%}
+        <div class="col-md-2">
+          <a class="portfolio-link" href="{{category.url | relative_url}}">
+            <img class="img-fluid" src="assets/img/Navitas.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{ category.name }}</h4>
+          </div>
+        </div>
+      {%endfor%}
+    </div>
   </div>
 </section>
 <!-- Portfolio Grid -->

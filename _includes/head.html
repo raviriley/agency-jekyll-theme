@@ -4,6 +4,7 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/png" href="assets\img\NavitasAlt.png">
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -22,7 +23,7 @@
   <link href={{"assets/css/agency.css" | absolute_url}} rel="stylesheet" />
 
   <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" or page.layout == "category" %}
+  {% if page.layout == "page" or page.layout == "category" or page.layout == "post" %}
   <style>
     #pagecontainer {
       padding-top: 150px;
@@ -30,6 +31,7 @@
     @media only screen and (max-width: 991px) {
       #pagecontainer {
         padding-top: 100px;
+        background-color: black;
       }
     }
   </style>
