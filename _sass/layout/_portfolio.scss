@@ -17,7 +17,7 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out($primary, 0.1);
+        background: fade-out(rgb(204, 204, 204), 0.1);
         &:hover {
           opacity: 1;
         }

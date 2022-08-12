@@ -18,7 +18,7 @@ en: &DEFAULT_EN
     title: "Pillars of the World"
     text: "Molded by magnetic tides and reshaped by divine forces, life on Tsamsara is beautiful and strange. Take care you don't wander out too far."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Return"
 
   timeline:
     title: "The Timeline"
@@ -35,45 +35,45 @@ en: &DEFAULT_EN
       - title: "Sky Landing"
         year: "F+51"
         desc: "A Dwarven scholar is first to scale the floating landmass that would later become the metropolis of Benthia. He establishes a settlement and is eventually crowned King Belize de Benthos."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/2.jpg
         alt:
       - title: "Rip Tide"
         year: "F+99"
         desc: "The first recorded Anomalies occur, a wave of graviturgical energy inverts the settlement of Acriman, killing 430. The survivors would later reform into the Shunde. First recorded sighting of mysterious beings deep in the Fallows. They are dubbed Druids."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/3.jpg
         alt:
       - title: "Modern Archaeology"
         year: "F+134"
         desc: "Countless ruins of Old World buildings and machines are discovered in the crater that becomes Isleheim. Primalism, an offshoot of traditional Tsanist beliefs, gains popularity."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/4.jpg
         alt:
       - title: "First Frontier"
         year: "F+177"
         desc: "The first expedition sets out for the Northern Frostlands and do not return. The Magician's Union is officially formed. Famed explorer Atelayda Aerhar disappears mapping the Kaspian Peaks."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/5.jpg
         alt: image alt text
       - title: "Last Crown"
         year: "F+252"
         desc: "The last heir of the de Benthos bloodline disappears. Rule of Benthia is passed to the fledgling House of Concord. The Build Guild mounts its first successful expedition under the Mistral Cave Network."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/6.jpg
         alt: image alt text
       - title: "An Interlude"
         year: "F+266 - F+390"
         desc: "Known as the 'Great Bore' among historians, Tsamsara enters a period of arcane, economic, and cultural stagnation, with no notable recorded events."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/7.jpg
         alt: image alt text
       - title: "Frost Fall"
         year: "F+444"
         desc: "The continent of Frigann is discovered. Rich in ore and Jintahn, mining is lucrative but dangerous. The merchant and mining ships form the Armada. Benthia restricts access to books written before F+100, citing Wild Magic concerns."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/8.jpg
       - title: "Upper Planes"
         year: "F+485"
         desc: "The first airship takes flight. A wild magic surge kills the Mayor of Prospero, triggering a witch hunt. Survivors retreat South West, establishing the city of New Acriman. Isleheim begins withdrawing from the outside world after its First Lead is assassinated."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/9.jpg
       - title: "Dark Sky"
         year: "F+524"
         desc: "Anata, a charismatic and enigmatic ship's cook takes control of the Armada and leads its fleet of warships to besiege Benthia, wiping out it's entire guard. Benthia's poor and imprisoned revolt and lead a successful counter-charge, killing Anata and scattering the Armada."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/10.jpg
         # you can enforce the alignment
         # align: right
     end: "F+534. <br>Your journey begins."
@@ -87,12 +87,12 @@ en: &DEFAULT_EN
   team:
     title: "The heroes of our story"
     text: "Four souls, brought together by happenstance and a mutual, vague, disgust for each other seek to uncover the secrets of the Old World and survive the consequences. Whether they will succeed before the secrets of their past catches up to them, who knows?"
-    subtext: "Primal's Grace, what have the four of you gotten yourselves into this time? -Hallis Kob"
+    subtext: "*Primal's Grace, what have the four of you gotten yourselves into this time?* <br>-Hallis Kob"
     section: team
     people:
       - name: "Amanita"
-        role: "Hiresh"
-        image: assets/img/team/500x500.jpg
+        role: "A renegade druid of Agaricales. Hits with stick. Played by Hiresh."
+        image: assets\img\team\amanitatoken.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -101,8 +101,8 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Niamh Diarmuid"
-        role: "Kav"
-        image: assets/img/team/2.jpg
+        role: "A bard who trades in secrets. Tolerates Kraft. Played by Kavana."
+        image: assets\img\team\niamhtoken.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -111,8 +111,8 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Kraft"
-        role: "Phil"
-        image: assets/img/team/500x500.jpg
+        role: "A rogue with no secrets, stop asking. Is tolerated by Niamh. Played by Phil."
+        image: assets\img\team\kraftoken.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -121,8 +121,8 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Sylvass"
-        role: "Alex"
-        image: assets/img/team/500x500.jpg
+        role: "A child wizard looking for answers. Wields a battleaxe. Played by Alex."
+        image: assets\img\team\sylvasstoken.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter

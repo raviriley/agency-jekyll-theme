@@ -28,6 +28,7 @@
 .team-section {
   padding: 100px 0;
   background-image: url("#{$team-image}");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("#{$team-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center 60%;
