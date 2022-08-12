@@ -11,7 +11,7 @@ image: assets/img/portfolio/isleheim.png #main image, can be a link or a file in
 alt: image alt text
 
 ---
-In the center and South of Tsamsara, stand two great cities. What started off as clusters of wooden huts became bustling centers of trade and culture. Anything one would need, the metropolises have. 
+In central and southern Tsamsara, stand two great cities. What started off as clusters of wooden huts have become bustling centers of trade and culture. Anything one would need, the metropolises have. 
 
 Nicknamed the “Floating City”, the metropolis of Benthia hovers a mile above the central lake below. The mystery of how it floats attracted scholars from all over, making Benthia the premier place to learn magic. 
 
