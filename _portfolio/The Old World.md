@@ -11,12 +11,13 @@ image: assets\img\portfolio\oldworldmachine.jpg #main image, can be a link or a 
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
 
-optional info list (delete if not using):
+Knowledge of the Old World is spotty at best, even with the combined efforts of scholars and archaeologists over the past 5 centuries. No one really knows what their society was like or even what the people even looked like.
 
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
+Although Their lives are a mystery, Their legacy surrounds and permeates the land. Tsamsara's villages are cradled within fallen Old World mega-towers, artists recreate and reinterpret faded murals depicting long-gone heroes, and artificers have repurposed the rusted shells of  vehicles into horse-pulled carriages. It was even theorized They had magic far beyond modern understanding, with lost schools of "science" on tomes They called "computers".
+
+Although many religions, schools of thought, and explorers have differing theories on how the people of the Old World disappeared, there are three facts everyone has agreed upon:
+- They had wonders beyond imagination.
+- They were all wiped out.
+- They did not go quietly.
 
