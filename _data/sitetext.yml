@@ -231,18 +231,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/quentinmoreau
           icon: fab fa-github
-    - name: "Katie Douglas"
-      role: 
-        en: "Research Assistant<br>(Social Physiology)"
-        fr: "Assistante de Recherche<br>(Physiologie sociale)"
-      image: img/team/Katie_Douglas.jpeg
-      social:
-        - url: https://twitter.com/douglascait/
-          icon: fab fa-twitter
-        - url: https://www.researchgate.net/profile/Caitriona-Douglas
-          icon: fab fa-researchgate
-        - url: https://github.com/katied-neuro
-          icon: fab fa-github
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -255,18 +244,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/sayekazem94
           icon: fab fa-github
-    - name: "Samuele Bolotta"
-      role: 
-        en: "PhD Student<br>(Social NeuroAI)"
-        fr: "Doctorant <br>(Social NeuroAI)"
-      image: img/team/Samuele_Bolotta.jpg
-      social:
-        - url: https://twitter.com/SamBolotta
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/SamueleBolotta
-          icon: fab fa-github
+
     - name: "Lena Adel"
       role: 
         en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
@@ -327,16 +305,7 @@ team:
       social:
         - url: http://www.linkedin.com/in/lisane-moses-754718210
           icon: fab fa-linkedin-in
-    - name: "Elisabeth Audet-Duchesne"
-      role: 
-        en: "MSc Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        fr: "Étudiante en Maîtrise <br>co-supervision avec Sarah Lippé<br>(Physiologie computationnelle)"
-      image: img/team/Elisabeth_Audet-Duchesne.jpeg
-      social:
-        - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
-          icon: fab fa-researchgate
-        - url: https://github.com/ElisabethAD
-          icon: fab fa-github
+
     - name: "Ghazaleh Ranjbaran"
       role: 
         en: "MSc Student<br>(Computational Physiology)"
