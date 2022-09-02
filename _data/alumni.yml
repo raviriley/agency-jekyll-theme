@@ -1,7 +1,7 @@
 - name: "Harshit Bokadia"
   role: 
-    en: "Dynamical NeuroAI"
-    fr: "Dynamical NeuroAI"
+    en: "Computational Physiology"
+    fr: "Physiologie computationelle"
   social:
     - url: https://twitter.com/harshitbokadia
       icon: fab fa-twitter
@@ -19,3 +19,38 @@
   social:
     - url: https://raghuhemadri.github.io/profile
       icon: fab fa-github
+
+- name: "Samuele Bolotta"
+  role: 
+    en: "Social NeuroAI"
+    fr: "Social NeuroAI"
+  social:
+    - url: https://twitter.com/SamBolotta
+      icon: fab fa-twitter
+    - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/SamueleBolotta
+      icon: fab fa-github
+
+- name: "Katie Douglas"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+  social:
+    - url: https://twitter.com/douglascait/
+      icon: fab fa-twitter
+    - url: https://www.researchgate.net/profile/Caitriona-Douglas
+      icon: fab fa-researchgate
+    - url: https://github.com/katied-neuro
+      icon: fab fa-github
+
+- name: "Elisabeth Audet-Duchesne"
+  role: 
+    en: "Computational Physiology"
+    fr: "Physiologie computationnelle"
+  social:
+    - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
+      icon: fab fa-researchgate
+    - url: https://github.com/ElisabethAD
+      icon: fab fa-github
+
