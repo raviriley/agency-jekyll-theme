@@ -199,14 +199,14 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/deep-introspection
           icon: fab fa-github
-    - name: "Position Available"
-      role:
-        en: "PhD<br>(Social Neuro-AI)"
-        fr: "Doctorat<br>(Social Neuro-AI)"
-      image: assets/img/team/unknown.png
-      social:
-        - url: https://twitter.com/introspection/status/1463959141769265156
-          icon: fas fa-info-circle
+    # - name: "Position Available"
+    #   role:
+    #     en: "PhD<br>(Social Neuro-AI)"
+    #     fr: "Doctorat<br>(Social Neuro-AI)"
+    #   image: assets/img/team/unknown.png
+    #   social:
+    #     - url: https://twitter.com/introspection/status/1463959141769265156
+    #       icon: fas fa-info-circle
     - name: "Laura Peyras"
       role: 
         en: "Administrative Assistant"
