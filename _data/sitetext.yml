@@ -347,8 +347,8 @@ team:
   
     - name: "Pascal Notsawo"
       role: 
-        en: "MSc Student <br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiant en Maîtrise<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+        en: "MSc Student <br>(Dynamical NeuroAI)"
+        fr: "Étudiant en Maîtrise<br>(Dynamical NeuroAI)"
       image: img/team/Pascal_Notsawo.jpg
       social:
         - url: https://twitter.com/PTikeng
