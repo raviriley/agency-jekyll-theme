@@ -248,7 +248,7 @@ team:
     - name: "Lena Adel"
       role: 
         en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        fr: "Doctorant<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
+        fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
       image: img/team/Lena_Adel.jpg
       social:
         - url: https://twitter.com/anelleda_
