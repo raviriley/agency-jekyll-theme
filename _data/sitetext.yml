@@ -344,16 +344,20 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/mahtaao
           icon: fab fa-github
-    - name: "Jean-Christophe Gagnon-Audet"
+  
+    - name: "Pascal Notsawo"
       role: 
-        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiant en Maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
-      image: img/team/Jean-Christophe_Gagnon-Audet.jpg
+        en: "MSc Student <br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiant en Maîtrise<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+      image: img/team/Pascal_Notsawo.jpg
       social:
-        - url: https://www.linkedin.com/in/jcaudet/
+        - url: https://twitter.com/PTikeng
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/tikeng/
           icon: fab fa-linkedin-in
-        - url: https://github.com/jc-audet
+        - url: https://github.com/Tikquuss
           icon: fab fa-github
+
     - name: "Germán Abrevaya"
       role: 
         en: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
@@ -366,19 +370,7 @@ team:
           icon: fab fa-google
         - url: https://twitter.com/GAbrevaya
           icon: fab fa-twitter
-    - name: "Pascal Notsawo"
-      role: 
-        en: "Mila Intern<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Stagiaire Mila<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
-      image: img/team/Pascal_Notsawo.jpg
-      social:
-        - url: https://twitter.com/PTikeng
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/tikeng/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/Tikquuss
-          icon: fab fa-github
-
+  
     - name: Nicolas Coucke
       role: 
         en: "Visiting PhD<br>(Social Neuro AI)"
