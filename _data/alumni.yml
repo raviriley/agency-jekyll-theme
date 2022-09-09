@@ -56,8 +56,8 @@
 
 - name: "Jean-Christophe Gagnon-Audet"
   role: 
-    en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-    fr: "Étudiant en Maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
+    en: "Dynamical NeuroAI"
+    fr: "NeuroAI dynamique"
   social:
     - url: https://www.linkedin.com/in/jcaudet/
       icon: fab fa-linkedin-in
