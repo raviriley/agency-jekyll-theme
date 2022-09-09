@@ -54,3 +54,12 @@
     - url: https://github.com/ElisabethAD
       icon: fab fa-github
 
+- name: "Jean-Christophe Gagnon-Audet"
+  role: 
+    en: "Dynamical NeuroAI"
+    fr: "NeuroAI dynamique"
+  social:
+    - url: https://www.linkedin.com/in/jcaudet/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/jc-audet
+      icon: fab fa-github
