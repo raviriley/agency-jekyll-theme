@@ -133,7 +133,12 @@ timeline:
       image: assets/img/timeline/4.jpg
       alt: 
       align: right
-  end: "Be Part <br> of Our <br> Story!"
+  end: 
+    en: "Be Part <br> of Our <br> Story!"
+    fr: "Faites Partie de l'Histoire!"
+  twitter:
+    en: "Check Our Last News"
+    fr: "Nos Dernières Nouvelles"
 
 about:
   title: "About Us"
@@ -236,7 +241,7 @@ team:
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
         fr: "Doctorante<br>co-supervision avec Sébastien Jacquemont<br>(Médecine de précision)"
-      image: img/team/Sayeh_Kazem.jpg
+      image: img/team/Sayeh_Kazem.png
       social:
         - url: https://twitter.com/KazemSayeh
           icon: fab fa-twitter
@@ -259,6 +264,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/lenaadel
           icon: fab fa-github
+
     - name: Emmanuel Olarewaju
       role: 
         en: "PhD Student<br>co-supervision with Lena Palaniyappan <br> (Social Physiology)"
@@ -287,6 +293,19 @@ team:
     #       icon: 
     #     - url: 
     #       icon: 
+    - name: Guillaume Lam
+      role: 
+        en: "PhD Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)<br> Coming soon..."
+        fr: "Doctorant <br> (Physiologie computationnelle)<br> Prochainement..."
+      image: img/team/Guillaume_Lam.jpeg
+      social:
+        - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
+          icon: fab fa-google
+        - url: https://github.com/GuillaumeLam
+          icon:  "fab fa-github"
+        - url: "https://www.linkedin.com/in/guillaumelam/"
+          icon: fab fa-linkedin-in
+
     - name: "Mariem Hafsia"
       role: 
         en: "MSc Student <br> (Computational Psychiatry)"
@@ -297,14 +316,19 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/Mhafsia
           icon: fab fa-github
+
     - name: "Lisane Moses"
       role: 
-        en: "MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
-        fr: "Étudiante en Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
+        en: "Research Assistant & MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
+        fr: "Assistante de Recherche et étudiante en Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
       image: img/team/Lisane_Moses.jpg
       social:
         - url: http://www.linkedin.com/in/lisane-moses-754718210
           icon: fab fa-linkedin-in
+        - url: https://twitter.com/LisaneMoses
+          icon: fab fa-twitter
+        - url: https://github.com/lisanem27
+          icon: fab fa-github
 
     - name: "Ghazaleh Ranjbaran"
       role: 
@@ -318,6 +342,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/ghazalehran
           icon: fab fa-github
+
     - name: "Annabelle Harvey"
       role: 
         en: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
@@ -330,6 +355,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/harveyaa
           icon: fab fa-github
+
     - name: "Mahta Ramezanian"
       role: 
         en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
@@ -347,8 +373,8 @@ team:
   
     - name: "Pascal Notsawo"
       role: 
-        en: "MSc Student <br>(Dynamical NeuroAI)"
-        fr: "Étudiant en Maîtrise<br>(Dynamical NeuroAI)"
+        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiant en Maîtrise<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
       image: img/team/Pascal_Notsawo.jpg
       social:
         - url: https://twitter.com/PTikeng
@@ -387,20 +413,31 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/NicolasCoucke
           icon: fab fa-github
-    # - name: Vincent Chamberland
-    #   role: 
-    #     en: "Honors student<br> Coming soon.. <br> (Social Physiology)"
-    #     fr: "Stagiaire Honors<br> Prochainement <br> (Physiologie sociale)"
-    #   image: 
-    #   social:
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
+
+    - name: Katelyn Cassar
+      role: 
+        en: "Technical Research<br>Assistant"
+        fr: "Assistante Technique<br>de Recherche "
+      image: img/team/Katelyn_Cassar.jpg
+      social:
+        - url: https://www.linkedin.com/in/katelyn-cassar-266865251/
+          icon: fab fa-linkedin-in
+
+
+    - name: Vincent Chamberland
+      role: 
+        en: "Honors student<br> (Social Physiology)"
+        fr: "Stagiaire Honors<br> (Physiologie sociale)"
+      image: img/team/Vincent_Chamberland.png
+      social:
+        - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
+          icon: fab fa-linkedin-in
+        # - url: 
+        #   icon: 
+        # - url: 
+        #   icon: 
+        # - url: 
+        #   icon: 
 contact:
   title: 
     en: "Contact Us"
