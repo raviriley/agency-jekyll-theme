@@ -82,7 +82,7 @@ timeline:
     fr: "Notre histoire"
   text: 
     en: "\"Past, present, and future is where we're at.\""
-    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes..\""
+    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes.\""
   section: timeline
   events:
     - title: 
@@ -105,7 +105,7 @@ timeline:
         fr: "Juillet 2020"
       desc: 
         en: "FRQS J1 in Artificial Intelligence and Digital Medicine."
-        fr: "FRQS J1 en intelligence artificielle et médecine numérique."
+        fr: "FRQS J1 en Intelligence Artificielle et Médecine Numérique."
       image: assets/img/timeline/2.jpg
       alt: 
       align: right
@@ -152,7 +152,9 @@ fundings:
   list:
     - title: "CHU Sainte Justine Research Center"
       url: https://research.chusj.org/en/Home
-      logo: assets/img/fundings/CHUSJ_logo.png
+      logo: 
+        fr: assets/img/fundings/CHUSJ_fr.png
+        en: assets/img/fundings/CHUSJ_en.png
     - title: "University of Montreal"
       url: https://medecine.umontreal.ca/medical-school/
       logo: assets/img/fundings/UDEM_logo.png
@@ -165,9 +167,22 @@ fundings:
     - title: "FRQS"
       url: http://www.frqs.gouv.qc.ca/en/
       logo: assets/img/fundings/FRQS_logo.png
-    - title: "Compute Canada"
-      url: https://www.computecanada.ca/
-      logo: assets/img/fundings/Compute-Canada_logo.png
+    - title: "Unique"
+      url: https://www.unique.quebec/
+      logo: assets/img/fundings/unique.png
+    - title: "The Canada Foundation for Innovation"
+      url: https://www.innovation.ca/
+      logo: 
+        fr: assets/img/fundings/CFI_fr.png
+        en: assets/img/fundings/CFI_en.png
+    - title: "Mitacs"
+      url: https://www.mitacs.ca/
+      logo: assets/img/fundings/mitacs.png
+    - title: "AllianceCan"
+      url: https://alliancecan.ca/
+      logo: 
+        fr: assets/img/fundings/alliancecan_fr.png
+        en: assets/img/fundings/alliancecan_en.png
 team:
   title: 
     en: "Our team"
