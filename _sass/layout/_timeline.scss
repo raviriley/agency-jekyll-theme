@@ -10,13 +10,12 @@
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
+    height: 1120px;
     content: '';
     background-color: $gray-200;
   }
   > li {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 10px;
+    min-height: 80px;
     &:after,
     &:before {
       display: table;
@@ -53,14 +52,14 @@
       margin-left: 0;
       text-align: center;
       color: $white;
-      border: 7px solid $gray-200;
+      border: 5px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;
       h4 {
         font-size: 10px;
         line-height: 14px;
-        margin-top: 12px;
-        padding: 2px 10px;
+        margin-top: 5px;
+        padding: 10px;
       }
     }
     &.timeline-inverted > .timeline-panel {
@@ -81,7 +80,8 @@
       }
     }
     &:last-child {
-      margin-bottom: 0;
+      margin-bottom: 70px;
+      margin-top: 50px;
     }
   }
   .timeline-heading {
@@ -109,7 +109,7 @@
     }
     > li {
       min-height: 100px;
-      margin-bottom: 20px;
+      // margin-bottom: 20px;
       .timeline-panel {
         float: left;
         width: 41%;
@@ -122,10 +122,10 @@
         height: 100px;
         margin-left: -50px;
         h4 {
-          font-size: 13px;
-          line-height: 18px;
-          margin-top: 16px;
-          padding: 2px 10px;
+          font-size: 12px;
+          line-height: 15px;
+          padding: 15px;
+          margin-top: 8px;
         }
       }
       &.timeline-inverted > .timeline-panel {
@@ -135,17 +135,12 @@
       }
     }
   }
-  .twitter-box{
-    margin: 0px auto;
-    border: #e9ecef;
-    border-style: groove;
-    border-radius: 15px;
-  }
+
 }
-@media(min-width:992px) {
+@media(min-width:1200px) {
   .timeline {
     > li {
-      min-height: 150px;
+      // min-height: 70px;
       .timeline-panel {
         padding: 0 20px 20px;
         margin-left: -20px;
@@ -155,10 +150,11 @@
         height: 150px;
         margin-left: -75px;
         h4 {
+          padding: 5px;
           font-size: 18px;
           line-height: 26px;
-          margin-top: 30px;
-          padding: 0px 20px;
+          padding: 30px;
+          margin-top: 0px;
         }
       }
       &.timeline-inverted > .timeline-panel {
@@ -168,12 +164,12 @@
     }
   }
 }
-@media(min-width:1200px) {
+@media(min-width:768px) {
   .timeline {
     > li {
-      min-height: 170px;
+      min-height: 215px;
       .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 0px 30px 50px 0px;
         margin-left: -20px;
       }
       .timeline-image {
@@ -181,12 +177,14 @@
         height: 170px;
         margin-left: -85px;
         h4 {
-          margin-top: 40px;
-          padding: 0px 30px;
+        margin-top: 0px;
+        padding: 38.9px 30px;
+        font-size: 20px;
+        line-height: 30px;
         }
       }
       &.timeline-inverted > .timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 0px 0px 50px 30px;
         margin-right: -20px;
       }
     }
@@ -194,8 +192,29 @@
 
 }
 
-@media (max-width: 576px){
+@media (max-width: 991px){
   .twitter-box{
-      margin: 50px auto; 
+      margin: 50px auto;
+  }
+  .timeline{
+    > li {
+      min-height: 125px;
+    }
+    &:before{
+      height: 930px;
+    }
+  }
+}
+@media ((max-width: 767px)){
+  // .twitter-box{
+  //     margin: 50px auto;
+  // }
+  .timeline{
+    > li {
+      min-height: 125px;
+    }
+    &:before{
+      height: 666px;
+    }
   }
 }
