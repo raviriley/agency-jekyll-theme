@@ -33,7 +33,7 @@
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
             >{{ link.title }}</a
           >
-          {%- else if link.section -%}
+          {%- elsif link.section -%}
           <a
             class="nav-link js-scroll-trigger"
             href="{{ site.baseurl }}/#{{ link.section }}"
@@ -51,7 +51,7 @@
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
             >{{ link.title }}</a
           >
-          {%- else if link.section -%}
+          {%- elsif link.section -%}
           <a
             class="nav-link js-scroll-trigger"
             href="{{ site.baseurl }}/#{{ link.section }}"

@@ -19,7 +19,7 @@
           <li class="nav-item">
             {%- if link.url -%}
               <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-            {%- else if link.section -%}
+            {%- elsif link.section -%}
               <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
             {%- else -%}
               <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
@@ -31,7 +31,7 @@
         <li class="nav-item">
           {%- if link.url -%}
             <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-          {%- else if link.section -%}
+          {%- elsif link.section -%}
             <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
             <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
