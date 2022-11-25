@@ -324,7 +324,7 @@ team:
     - name: "Mariem Hafsia"
       role: 
         en: "MSc Student <br> (Computational Psychiatry)"
-        fr: "Étudiante en Maîtrise <br> (Psychiatrie computationnelle)"
+        fr: "Étudiante à la Maîtrise <br> (Psychiatrie computationnelle)"
       image: img/team/Mariem_Hafsia.jpg
       social:
         - url: https://www.linkedin.com/in/mariemhafsia/
@@ -332,10 +332,21 @@ team:
         - url: https://github.com/Mhafsia
           icon: fab fa-github
 
+    - name: "Nynke Boiten"
+      role: 
+        en: "MSc Student <br> (Computational Psychiatry)"
+        fr: "Étudiante à la Maîtrise <br> (Psychiatrie computationnelle)"
+      image: img/team/Nynke_Boiten.JPG
+      social:
+        - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Annaother
+          icon: fab fa-github
+
     - name: "Lisane Moses"
       role: 
         en: "Research Assistant & MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
-        fr: "Assistante de Recherche et étudiante en Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
+        fr: "Assistante de Recherche et étudiante à la Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
       image: img/team/Lisane_Moses.jpg
       social:
         - url: http://www.linkedin.com/in/lisane-moses-754718210
