@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "Home"
       section: services
-    - title: "Portfolio"
-      section: portfolio
     - title: "About"
+      section: portfolio
+    - title: "Resume"
       section: about
-    - title: "Timeline"
+    - title: "Projects"
       section: timeline
-    - title: "Team"
+    - title: "Other"
       section: team
     - title: "Contact"
       section: contact
@@ -33,45 +33,7 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 es-ES:
-  <<: *DEFAULT_ES
+  <<: *DEFAULT_EN
 es-CO:
-  <<: *DEFAULT_ES
-
-# Deutsch
-# -----------------
-de: &DEFAULT_DE
-  nav:
-    - title: "Leistungen"
-      section: Leistungen
-    - title: "Portfolio"
-      section: Portfolio
-    - title: "Über uns"
-      section: Ueber
-    - title: "Geschichte"
-      section: Geschichte
-    - title: "Team"
-      section: Team
-    - title: "Kontakt"
-      section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+  <<: *DEFAULT_EN
