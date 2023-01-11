@@ -238,8 +238,8 @@ team:
 
     - name: "Adrien Dubois"
       role: 
-        en: "Engineer<br>Computational Physiology"
-        fr: "Ingénieur<br>Physiologie Computationnelle"
+        en: "Engineer<br>(Computational Physiology)"
+        fr: "Ingénieur<br>(Physiologie Computationnelle)"
       image: img/team/Adrien_Dubois.jpeg
       social:
         - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
