@@ -235,6 +235,20 @@ team:
       social:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
+
+    - name: "Adrien Dubois"
+      role: 
+        en: "Engineer<br>Computational Physiology"
+        fr: "Ingénieur<br>Physiologie Computationnelle"
+      image: img/team/Adrien_Dubois.jpeg
+      social:
+        - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/adrien-dubois-604658b2/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Dub21
+          icon: fab fa-github
+
     - name: "Quentin Moreau"
       role: 
         en: "Postdoc<br>(Social Physiology)"
@@ -310,8 +324,8 @@ team:
     #       icon: 
     - name: Guillaume Lam
       role: 
-        en: "PhD Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)<br> Coming soon..."
-        fr: "Doctorant <br> (Physiologie computationnelle)<br> Prochainement..."
+        en: "PhD Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
+        fr: "Doctorant <br>co-supervision avec  Sarah Lippé<br>(Physiologie computationnelle)"
       image: img/team/Guillaume_Lam.jpeg
       social:
         - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
@@ -324,7 +338,7 @@ team:
     - name: "Mariem Hafsia"
       role: 
         en: "MSc Student <br> (Computational Psychiatry)"
-        fr: "Étudiante à la Maîtrise <br> (Psychiatrie computationnelle)"
+        fr: "Étudiante à la maîtrise <br> (Psychiatrie computationnelle)"
       image: img/team/Mariem_Hafsia.jpg
       social:
         - url: https://www.linkedin.com/in/mariemhafsia/
@@ -335,7 +349,7 @@ team:
     - name: "Nynke Boiten"
       role: 
         en: "MSc Student <br> (Computational Psychiatry)"
-        fr: "Étudiante à la Maîtrise <br> (Psychiatrie computationnelle)"
+        fr: "Étudiante à la maîtrise <br> (Psychiatrie computationnelle)"
       image: img/team/Nynke_Boiten.JPG
       social:
         - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
@@ -343,10 +357,23 @@ team:
         - url: https://github.com/Annaother
           icon: fab fa-github
 
+    - name: "Clara El Khantour"
+      role: 
+        en: "MSc Student<br>co-supervision with Karim Jerbi <br> (Social Physiology)<br>Coming soon..."
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Karim Jerbi <br>(Physiologie sociale)<br>Prochainement..."
+      image: img/team/Clara_El_Khantour.jpeg
+      social:
+        - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/claraElk
+          icon: fab fa-github
+        - url: https://twitter.com/c_khantour
+          icon: fab fa-twitter
+
     - name: "Lisane Moses"
       role: 
         en: "Research Assistant & MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
-        fr: "Assistante de Recherche et étudiante à la Maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
+        fr: "Assistante de Recherche et étudiante à la maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
       image: img/team/Lisane_Moses.jpg
       social:
         - url: http://www.linkedin.com/in/lisane-moses-754718210
@@ -359,7 +386,7 @@ team:
     - name: "Ghazaleh Ranjbaran"
       role: 
         en: "MSc Student<br>(Computational Physiology)"
-        fr: "Étudiante en Maîtrise<br>(Physiologie computationnelle)"
+        fr: "Étudiante à la maîtrise<br>(Physiologie computationnelle)"
       image: img/team/Ghazaleh_Ranjbaran.jpeg
       social:
         - url: https://twitter.com/BioMDScience
@@ -372,7 +399,7 @@ team:
     - name: "Annabelle Harvey"
       role: 
         en: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
-        fr: "Étudiante en Maîtrise<br>co-supervision avec S. Jacquemont & P. Bellec<br>(Precision Medicine)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec S. Jacquemont & P. Bellec<br>(Precision Medicine)"
       image: img/team/Annabelle_Harvey.jpg
       social:
         - url: https://twitter.com/harvey_aa
@@ -385,7 +412,7 @@ team:
     - name: "Mahta Ramezanian"
       role: 
         en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiante en Maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
       image: img/team/Mahta_Ramezanian.jpg
       social:
         - url: https://mahtaao.github.io/bio/
@@ -400,7 +427,7 @@ team:
     - name: "Pascal Notsawo"
       role: 
         en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiant en Maîtrise<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiant à la maîtrise<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
       image: img/team/Pascal_Notsawo.jpg
       social:
         - url: https://twitter.com/PTikeng
