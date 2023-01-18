@@ -10,7 +10,13 @@
   </div>
   <div class="row">
   {% for person in site.data.sitetext[site.locale].team.people %}
-	<div class="col-sm-4">
+    {% if site.data.sitetext[site.locale].team.people.size == 1 %}
+  	  <div class="col-sm-12">
+    {% elsif site.data.sitetext[site.locale].team.people.size == 2 %}
+  	  <div class="col-sm-6">
+    {% else %}
+      <div class="col-sm-4">
+    {% endif %}
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 		<h4>{{ person.name }}</h4>
@@ -46,7 +52,13 @@
 	  </div>
 	  <div class="row">
 	  {% for person in site.data.sitetext.team.people %}
-		<div class="col-sm-4">
+		  {% if site.data.sitetext.team.people.size == 1 %}
+        <div class="col-sm-12">
+      {% elsif site.data.sitetext.team.people.size == 2 %}
+        <div class="col-sm-6">
+      {% else %}
+        <div class="col-sm-4">
+      {% endif %}
 		  <div class="team-member">
 			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 			<h4>{{ person.name }}</h4>
