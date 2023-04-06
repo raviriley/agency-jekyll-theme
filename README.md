@@ -71,7 +71,7 @@ There are three ways to install this theme:
 
 #### 1. Gem-based Theme Installation
 
-Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
+Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme/master/_config.yml).
 
 Install the gem with:
 
