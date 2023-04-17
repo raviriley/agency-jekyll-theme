@@ -75,3 +75,5 @@ de: &DEFAULT_DE
       section: Kontakt
     - title: "Quellcode des Themas"
       url: https://github.com/raviriley/agency-jekyll-theme/
+de-DE:
+  <<: *DEFAULT_DE
