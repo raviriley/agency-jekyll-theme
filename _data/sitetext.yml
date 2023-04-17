@@ -471,3 +471,5 @@ de: &DEFAULT_DE
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
+de-DE:
+  <<: *DEFAULT_DE
