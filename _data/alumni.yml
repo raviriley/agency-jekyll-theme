@@ -67,8 +67,8 @@
 
 - name: Nicolas Coucke
   role: 
-    en: "Visiting PhD<br>(Social Neuro AI)"
-    fr: "Doctorant invité<br>(Neuro-IA sociale)"
+    en: "Social Neuro AI"
+    fr: "Neuro-IA sociale"
   social:
     - url: https://twitter.com/CouckeNicolas
       icon: fab fa-twitter
