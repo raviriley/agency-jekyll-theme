@@ -63,3 +63,20 @@
       icon: fab fa-linkedin-in
     - url: https://github.com/jc-audet
       icon: fab fa-github
+
+
+- name: Nicolas Coucke
+  role: 
+    en: "Visiting PhD<br>(Social Neuro AI)"
+    fr: "Doctorant invité<br>(Neuro-IA sociale)"
+  social:
+    - url: https://twitter.com/CouckeNicolas
+      icon: fab fa-twitter
+    - url: https://scholar.google.nl/citations?user=6nsctv0AAAAJ&hl=nl
+      icon: fab fa-google
+    - url: https://www.researchgate.net/profile/Nicolas-Coucke-2
+      icon: fab fa-researchgate
+    - url:  https://www.linkedin.com/in/nicolas-coucke-518133144/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/NicolasCoucke
+      icon: fab fa-github
