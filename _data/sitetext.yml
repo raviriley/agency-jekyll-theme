@@ -398,8 +398,8 @@ team:
 
     - name: "Annabelle Harvey"
       role: 
-        en: "MSc Student<br>co-supervision with S. Jacquemont & P. Bellec<br>(Precision Medicine)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec S. Jacquemont & P. Bellec<br>(Precision Medicine)"
+        en: "MSc Student<br>co-supervision with Sébastien Jacquemont & Pierre Bellec<br>(Precision Medicine)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Sébastien Jacquemont & Pierre Bellec<br>(Precision Medicine)"
       image: img/team/Annabelle_Harvey.jpg
       social:
         - url: https://twitter.com/harvey_aa
@@ -427,7 +427,7 @@ team:
     - name: "Pascal Notsawo"
       role: 
         en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiant à la maîtrise<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Étudiant à la maîtrise<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
       image: img/team/Pascal_Notsawo.jpg
       social:
         - url: https://twitter.com/PTikeng
@@ -436,6 +436,15 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/Tikquuss
           icon: fab fa-github
+
+    - name: "Olivia Leone"
+      role: 
+        en: "MSc Student<br>co-supervision with Ian Gold<br>(Computational Psychiatry)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Ian Gold<br>(Psychiatrie computationnelle )"
+      image: img/team/Olivia_Leone.jpg
+      social:
+        - url: https://www.linkedin.com/in/olivia-leone/
+          icon: fab fa-linkedin-in
 
     - name: "Germán Abrevaya"
       role: 
