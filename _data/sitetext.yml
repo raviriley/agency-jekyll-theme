@@ -183,6 +183,13 @@ fundings:
       logo: 
         fr: assets/img/fundings/alliancecan_fr.png
         en: assets/img/fundings/alliancecan_en.png
+    - title: "NSERC"
+      url: https://www.nserc-crsng.gc.ca/index_eng.asp
+      logo: assets/img/fundings/NSERC.png
+    - title: "Cifar"
+      url: https://cifar.ca/
+      logo: assets/img/fundings/Cifar.png
+
 team:
   title: 
     en: "Our team"
