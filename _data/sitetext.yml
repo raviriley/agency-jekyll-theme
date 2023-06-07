@@ -273,6 +273,21 @@ team:
         - url: https://github.com/quentinmoreau
           icon: fab fa-github
 
+    - name: "Zahra Sheikhbahaee"
+      role: 
+        en: "Postdoc<br>(Social NeuroAI)"
+        fr: "Postdoc<br>(NeuroIA sociale)"
+      image: img/team/Zahra_SheikhBahaee.jpg
+      social:
+        - url: https://twitter.com/zah_bah
+          icon: ab fa-twitter
+        - url: https://www.researchgate.net/profile/Zahra-Sheikhbahaee-2
+          icon: fab fa-researchgate
+        - url: https://www.linkedin.com/in/zahra-sheikhbahaee/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/neuronphysics
+          icon: fab fa-github
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -366,8 +381,8 @@ team:
 
     - name: "Clara El Khantour"
       role: 
-        en: "MSc Student<br>co-supervision with Karim Jerbi <br> (Social Physiology)<br>Coming soon..."
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Karim Jerbi <br>(Physiologie sociale)<br>Prochainement..."
+        en: "MSc Student<br>co-supervision with Karim Jerbi <br> (Social Physiology)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Karim Jerbi <br>(Physiologie sociale)"
       image: img/team/Clara_El_Khantour.jpeg
       social:
         - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
