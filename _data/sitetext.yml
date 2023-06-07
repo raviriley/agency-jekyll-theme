@@ -280,7 +280,7 @@ team:
       image: img/team/Zahra_SheikhBahaee.jpg
       social:
         - url: https://twitter.com/zah_bah
-          icon: ab fa-twitter
+          icon: fab fa-twitter
         - url: https://www.researchgate.net/profile/Zahra-Sheikhbahaee-2
           icon: fab fa-researchgate
         - url: https://www.linkedin.com/in/zahra-sheikhbahaee/
