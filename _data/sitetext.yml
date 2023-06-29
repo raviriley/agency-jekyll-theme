@@ -16,9 +16,9 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
-  Resources:
+ Resources:
     title: "Resources"
-    text: "Lorem ipsum"
+    text: "All student and staff related information."
     section: resources
     list:
       - title: "Student Resources"
