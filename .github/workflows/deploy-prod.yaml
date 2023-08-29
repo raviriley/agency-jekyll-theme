@@ -17,7 +17,7 @@ jobs:
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
       - name: Clean NPM
-        run: npm cache clean
+        run: npm cache clean --force
       - name: Install deps
         run: npm install
       - name: Deploy
