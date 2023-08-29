@@ -357,6 +357,16 @@ team:
         - url: "https://www.linkedin.com/in/guillaumelam/"
           icon: fab fa-linkedin-in
 
+    - name: Chantal-Valerie Lee
+      role: 
+        en: "PhD Student<br> co-supervision with Simone Falk <br> (Computational Linguistics)"
+        fr: "Doctorante<br> co-supervision avec Simone Falk <br> (Linguistique computationnelle)"
+      image: img/team/Chantal-Valerie_Lee.jpg
+      social:
+        - url: https://github.com/clee630
+          icon: "fab fa-github"
+ 
+
     - name: "Mariem Hafsia"
       role: 
         en: "MSc Student <br> (Computational Psychiatry)"
@@ -462,11 +472,22 @@ team:
     - name: "Olivia Leone"
       role: 
         en: "MSc Student<br>co-supervision with Ian Gold<br>(Computational Psychiatry)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Ian Gold<br>(Psychiatrie computationnelle )"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Ian Gold<br>(Psychiatrie computationnelle)"
       image: img/team/Olivia_Leone.jpg
       social:
         - url: https://www.linkedin.com/in/olivia-leone/
           icon: fab fa-linkedin-in
+  
+    - name: "Juan David Vargas"
+      role: 
+        en: "MSc Student<br>co-supervision with Zahra Sheikhbahaee<br>(Social NeuroAI)"
+        fr: "Étudiant à la maîtrise<br>co-supervision avec Zahra Sheikhbahaee<br>(NeuroIA sociale)"
+      image: img/team/JuanDavid_Vargas.jpg
+      social:
+        - url: https://www.linkedin.com/in/juan-david-vargas-mazuera-07197a1a5/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/juandavidvargas19
+          icon: fab fa-github
 
     - name: "Germán Abrevaya"
       role: 
