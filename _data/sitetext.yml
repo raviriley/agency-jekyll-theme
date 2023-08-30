@@ -256,23 +256,6 @@ team:
         - url: https://github.com/Dub21
           icon: fab fa-github
 
-    - name: "Quentin Moreau"
-      role: 
-        en: "Postdoc<br>(Social Physiology)"
-        fr: "Postdoc<br>(Physiologie sociale)"
-      image: img/team/Quentin_Moreau.jpg
-      social:
-        - url: https://quentinmoreau.netlify.app/
-          icon: fas fa-home
-        - url: https://twitter.com/quentin_moreau
-          icon: fab fa-twitter
-        - url: https://scholar.google.com/citations?hl=fr&user=745WRukAAAAJ&view_op=list_works&citft=1&citft=2&citft=3&email_for_op=quentinmoreau860%40gmail.com&gmla=AJsN-F4-o-OTtJ1WYgIrr0K98q2bdye-8o7fbYtVWlQNOseEaUqrSODOo-NJjsUDm3EBcro0GWlhW_sjtpm3mn0YDhlxfs61u2Vb21RK92XBT1HsoIknd7kAejOEms3CLhLchd6W37ksrhUOYzl_c7Zi1W8t4y1VkA76CnrisNtwV5JRndL2eUR5_H372vGifg5gVmZKzquo3Dhg1y8rYpJVhjANWBZ8ktrMGz-HFGj0yJ1UEMoI3P7U6mNzv3oI8jgvcg0Uu7jyoPYr4qStSWroviQmnJ3AZQ
-          icon: fab fa-google
-        - url: https://www.linkedin.com/in/quentin-moreau-15aa22a7/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/quentinmoreau
-          icon: fab fa-github
-
     - name: "Zahra Sheikhbahaee"
       role: 
         en: "Postdoc<br>(Social NeuroAI)"
@@ -330,20 +313,7 @@ team:
           icon: fab fa-linkedin-in
         - url: https://scholar.google.com/citations?user=7fuk56wAAAAJ&hl=en
           icon: fab fa-google
-    # - name: Natalie Kastel
-    #   role: 
-    #     en: "PhD Student <br> Coming soon.. <br> (Social Neuro AI)"
-    #     fr: "Doctorant<br> Prochainement <br> (Neuro-IA sociale)"
-    #   image: 
-    #   social:
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
+
     - name: Guillaume Lam
       role: 
         en: "PhD Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
@@ -365,7 +335,21 @@ team:
       social:
         - url: https://github.com/clee630
           icon: "fab fa-github"
- 
+
+    - name: Natalie Kastel
+      role: 
+        en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
+        fr: "Doctorant<br>Prochainement...<br>(Neuro-IA sociale)"
+      image: img/team/Natalie_Kastel.jpg
+    #   social:
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon: 
+    #     - url: 
+    #       icon:  
 
     - name: "Mariem Hafsia"
       role: 
@@ -402,19 +386,6 @@ team:
         - url: https://twitter.com/c_khantour
           icon: fab fa-twitter
 
-    - name: "Lisane Moses"
-      role: 
-        en: "Research Assistant & MSc Student<br>co-supervision with Baudouin Forgeot d'Arc<br>(Computational Psychiatry)"
-        fr: "Assistante de Recherche et étudiante à la maîtrise <br>co-supervision avec Baudouin Forgeot d'Arc<br>(Physiologie computationnelle)"
-      image: img/team/Lisane_Moses.jpg
-      social:
-        - url: http://www.linkedin.com/in/lisane-moses-754718210
-          icon: fab fa-linkedin-in
-        - url: https://twitter.com/LisaneMoses
-          icon: fab fa-twitter
-        - url: https://github.com/lisanem27
-          icon: fab fa-github
-
     - name: "Ghazaleh Ranjbaran"
       role: 
         en: "MSc Student<br>(Computational Physiology)"
@@ -426,19 +397,6 @@ team:
         - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
           icon: fab fa-linkedin-in
         - url: https://github.com/ghazalehran
-          icon: fab fa-github
-
-    - name: "Annabelle Harvey"
-      role: 
-        en: "MSc Student<br>co-supervision with Sébastien Jacquemont & Pierre Bellec<br>(Precision Medicine)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Sébastien Jacquemont & Pierre Bellec<br>(Precision Medicine)"
-      image: img/team/Annabelle_Harvey.jpg
-      social:
-        - url: https://twitter.com/harvey_aa
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/harveyaa
           icon: fab fa-github
 
     - name: "Mahta Ramezanian"
@@ -501,17 +459,6 @@ team:
           icon: fab fa-google
         - url: https://twitter.com/GAbrevaya
           icon: fab fa-twitter
-  
-
-    - name: Katelyn Cassar
-      role: 
-        en: "Technical Research<br>Assistant<br> (Computational Psychiatry)"
-        fr: "Assistante Technique<br>de Recherche <br> (Psychiatrie computationelle)"
-      image: img/team/Katelyn_Cassar.jpg
-      social:
-        - url: https://www.linkedin.com/in/katelyn-cassar-266865251/
-          icon: fab fa-linkedin-in
-
 
     - name: Vincent Chamberland
       role: 
