@@ -280,6 +280,21 @@ team:
         - url: https://github.com/neuronphysics
           icon: fab fa-github
 
+    - name: "Tommaso Tosato"
+      role: 
+        en: "Postdoc<br> (Social Physiology)"
+        fr: "Postdoc<br> (Physiologie sociale)"
+      image: img/team/Tommaso_Tosato.jpg
+      social:
+        - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/tosatot
+          icon: fab fa-github
+        - url: https://twitter.com/Tommaso_Tosato
+          icon: fab fa-twitter
+        - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
+          icon: fab fa-google
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -389,21 +404,6 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/Mhafsia
           icon: fab fa-github
-
-    - name: "Tommaso Tosato"
-      role: 
-        en: "Post-Doc<br> (Social Physiology)"
-        fr: "Post-Doc<br> (Physiologie sociale)"
-      image: img/team/Tommaso_Tosato.jpg
-      social:
-        - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/tosatot
-          icon: fab fa-github
-        - url: https://twitter.com/Tommaso_Tosato
-          icon: fab fa-twitter
-        - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
-          icon: fab fa-google
 
     - name: "Nynke Boiten"
       role: 
