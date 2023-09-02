@@ -12,7 +12,6 @@
 # in the templates via {{ site.myvariable }}.
 
 theme: jekyll-agency
-
 url    : "https://ikeforpro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/gitan" # the subpath of your site, e.g. /blog
 
