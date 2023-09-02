@@ -11,20 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "가맹과정"
       section: services
-    - title: "Portfolio"
+    - title: "가맹의장점"
       section: portfolio
-    - title: "About"
+    - title: "가맹에 대하여"
       section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
+    - title: "가맹 문의 하기"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -50,8 +44,6 @@ es: &DEFAULT_ES
       section: equipo
     - title: "Contáctenos"
       section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
@@ -73,7 +65,6 @@ de: &DEFAULT_DE
       section: Team
     - title: "Kontakt"
       section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+
 de-DE:
   <<: *DEFAULT_DE

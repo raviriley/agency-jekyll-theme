@@ -1,22 +1,16 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  title: 워라벨
+  subtitle: 4시간 워라벨을 지키며 일할수있습니다.
+  thumbnail: http://res.heraldm.com/content/image/2018/05/01/20180501000144_0.jpg
   
 #what displays when the item is clicked:
-title: Title
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+title: 워라벨
+subtitle: 4시간 워라벨을 지키며 일할수있습니다.
+image: http://res.heraldm.com/content/image/2018/05/01/20180501000144_0.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
+워크 라이프 벨런스
 
-optional info list (delete if not using):
-
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
 
