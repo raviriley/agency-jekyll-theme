@@ -243,6 +243,15 @@ team:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
 
+    - name: "Gabriela Milanova"
+      role: 
+        en: "Research Assistant"
+        fr: "Assistante de Recherche"
+      image: img/team/Gabriela_Milanova.jpg
+      social:
+        - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
+          icon: fab fa-linkedin-in
+
     - name: "Adrien Dubois"
       role: 
         en: "Engineer<br>(Computational Physiology)"
@@ -271,6 +280,21 @@ team:
         - url: https://github.com/neuronphysics
           icon: fab fa-github
 
+    - name: "Tommaso Tosato"
+      role: 
+        en: "Postdoc<br> (Social Physiology)"
+        fr: "Postdoc<br> (Physiologie sociale)"
+      image: img/team/Tommaso_Tosato.jpg
+      social:
+        - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/tosatot
+          icon: fab fa-github
+        - url: https://twitter.com/Tommaso_Tosato
+          icon: fab fa-twitter
+        - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
+          icon: fab fa-google
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -287,7 +311,7 @@ team:
     - name: "Lena Adel"
       role: 
         en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Social Computational Physiology)"
+        fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Physiologie sociale et computationnelle)"
       image: img/team/Lena_Adel.jpg
       social:
         - url: https://twitter.com/anelleda_
@@ -340,21 +364,40 @@ team:
       role: 
         en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
         fr: "Doctorant<br>Prochainement...<br>(Neuro-IA sociale)"
-      image: img/team/Natalie_Kastel.jpg
-    #   social:
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon: 
-    #     - url: 
-    #       icon:  
+      image: img/team/Natalie_Kastel.jpg 
+
+    - name: "Mahta Ramezanian"
+      role: 
+        en: "PhD Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Doctorante<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
+      image: img/team/Mahta_Ramezanian.jpg
+      social:
+        - url: https://mahtaao.github.io/bio/
+          icon: fas fa-home
+        - url: https://twitter.com/Mahtaao
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/mahtaao/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/mahtaao
+          icon: fab fa-github
+  
+    - name: "Pascal Notsawo"
+      role: 
+        en: "PhD Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Doctorant<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+      image: img/team/Pascal_Notsawo.jpg
+      social:
+        - url: https://twitter.com/PTikeng
+          icon: fab fa-twitter
+        - url: https://www.linkedin.com/in/tikeng/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Tikquuss
+          icon: fab fa-github
 
     - name: "Mariem Hafsia"
       role: 
-        en: "MSc Student <br> (Computational Psychiatry)"
-        fr: "Étudiante à la maîtrise <br> (Psychiatrie computationnelle)"
+        en: "PhD Student <br> (Computational Psychiatry)"
+        fr: "Doctorante <br> (Psychiatrie computationnelle)"
       image: img/team/Mariem_Hafsia.jpg
       social:
         - url: https://www.linkedin.com/in/mariemhafsia/
@@ -399,33 +442,14 @@ team:
         - url: https://github.com/ghazalehran
           icon: fab fa-github
 
-    - name: "Mahta Ramezanian"
+    - name: Vincent Chamberland
       role: 
-        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
-      image: img/team/Mahta_Ramezanian.jpg
+        en: "MSc student<br> (Social Physiology)"
+        fr: "Étudiant à la maîtrise<br> (Physiologie sociale)"
+      image: img/team/Vincent_Chamberland.png
       social:
-        - url: https://mahtaao.github.io/bio/
-          icon: fas fa-home
-        - url: https://twitter.com/Mahtaao
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/mahtaao/
+        - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
           icon: fab fa-linkedin-in
-        - url: https://github.com/mahtaao
-          icon: fab fa-github
-  
-    - name: "Pascal Notsawo"
-      role: 
-        en: "MSc Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Étudiant à la maîtrise<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
-      image: img/team/Pascal_Notsawo.jpg
-      social:
-        - url: https://twitter.com/PTikeng
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/tikeng/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/Tikquuss
-          icon: fab fa-github
 
     - name: "Olivia Leone"
       role: 
@@ -460,20 +484,6 @@ team:
         - url: https://twitter.com/GAbrevaya
           icon: fab fa-twitter
 
-    - name: Vincent Chamberland
-      role: 
-        en: "Honors student<br> (Social Physiology)"
-        fr: "Stagiaire Honors<br> (Physiologie sociale)"
-      image: img/team/Vincent_Chamberland.png
-      social:
-        - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
-          icon: fab fa-linkedin-in
-        # - url: 
-        #   icon: 
-        # - url: 
-        #   icon: 
-        # - url: 
-        #   icon: 
 contact:
   title: 
     en: "Contact Us"
