@@ -282,8 +282,8 @@ team:
 
     - name: "Tommaso Tosato"
       role: 
-        en: "Postdoc<br> (Social Physiology)"
-        fr: "Postdoc<br> (Physiologie sociale)"
+        en: "Postdoc<br>Coming soon...<br>(Social Physiology)"
+        fr: "Postdoc<br>Prochainement...<br>(Physiologie sociale)"
       image: img/team/Tommaso_Tosato.jpg
       social:
         - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
@@ -360,12 +360,6 @@ team:
         - url: https://github.com/clee630
           icon: "fab fa-github"
 
-    - name: Natalie Kastel
-      role: 
-        en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
-        fr: "Doctorant<br>Prochainement...<br>(Neuro-IA sociale)"
-      image: img/team/Natalie_Kastel.jpg 
-
     - name: "Mahta Ramezanian"
       role: 
         en: "PhD Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
@@ -404,6 +398,25 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/Mhafsia
           icon: fab fa-github
+
+    - name: "Anne Monnier"
+      role: 
+        en: "PhD Student <br> (Social Physiology)"
+        fr: "Doctorante <br> (Physiologie sociale)"
+      image: img/team/Anne_Monnier.jpg
+      social:
+        - url: https://www.linkedin.com/in/anne-monnier-b06b4615/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/anna-monnier
+          icon: fab fa-github
+        - url: https://www.researchgate.net/profile/Anne-Monnier-2
+          icon: fab fa-researchgate
+
+    - name: Natalie Kastel
+      role: 
+        en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
+        fr: "Doctorant<br>Prochainement...<br>(Neuro-IA sociale)"
+      image: img/team/Natalie_Kastel.jpg 
 
     - name: "Nynke Boiten"
       role: 
