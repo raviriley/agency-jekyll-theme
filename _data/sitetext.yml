@@ -189,6 +189,12 @@ fundings:
     - title: "Cifar"
       url: https://cifar.ca/
       logo: assets/img/fundings/Cifar.png
+    - title: "SFARI"
+      url: https://www.sfari.org/
+      logo: assets/img/fundings/sfari.png
+    - title: "Gates Foundation"
+      url: https://www.gatesfoundation.org/
+      logo: assets/img/fundings/gates.png
 
 team:
   title: 
