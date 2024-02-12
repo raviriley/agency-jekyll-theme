@@ -16,4 +16,13 @@ fonts_urls:
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
     - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
 
-
+# Set custom fonts
+fonts:
+  - name: "Montserrat"
+    for: "heading"
+  - name: "Kaushan Script"
+    for: "script"
+  - name: "Droid Serif"
+    for: "serif"
+  - name: "Roboto Slab"
+    for: "body"
