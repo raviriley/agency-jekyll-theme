@@ -8,3 +8,12 @@ header-image: "../img/header.png"
 contact-image: "../img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+
+# Add custom fonts
+fonts_urls:
+    - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    - "https://fonts.googleapis.com/css?family=Kaushan+Script"
+    - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+    - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+
+
