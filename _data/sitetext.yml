@@ -288,8 +288,8 @@ team:
 
     - name: "Tommaso Tosato"
       role: 
-        en: "Postdoc<br>Coming soon...<br>(Social Physiology)"
-        fr: "Postdoc<br>Prochainement...<br>(Physiologie sociale)"
+        en: "Postdoc<br>(Social Physiology)"
+        fr: "Postdoc<br>(Physiologie sociale)"
       image: img/team/Tommaso_Tosato.jpg
       social:
         - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
