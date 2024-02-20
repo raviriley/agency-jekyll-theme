@@ -501,6 +501,32 @@ team:
         - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
           icon: fab fa-google
         - url: https://twitter.com/GAbrevaya
+          icon: fa-brands fa-x-twitter
+
+    - name: "Ivo Leiva"
+      role: 
+        en: "Visiting PhD <br>(Social Physiology)"
+        fr: "Doctorant invité<br>(Physiologie sociale)"
+      image: img/team/Ivo_Leiva.png
+      # social:
+      #   - url: 
+      #     icon: fab fa-linkedin-in
+      #   - url: 
+      #     icon: fab fa-github
+      #   - url: 
+      #     icon: fab fa-twitter
+      #   - url: 
+      #     icon: fab fa-google
+
+    - name: "Hannah De Laet"
+      role: 
+        en: "Visiting PhD <br>(Social Physiology)"
+        fr: "Doctorante invitée<br>(Physiologie sociale)"
+      image: img/team/Hannah_De_Laet.png"
+      social:
+        - url: https://scholar.google.be/citations?hl=nl&user=BEh4FGsAAAAJ
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/hannah-de-laet-5a72831b4/
           icon: fab fa-twitter
 
 contact:
