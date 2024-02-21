@@ -128,3 +128,14 @@
       icon: fab fa-linkedin-in
     - url: https://github.com/quentinmoreau
       icon: fab fa-github
+
+- name: "Nynke Boiten"
+  role: 
+    en: Computational Psychiatry
+    fr: Psychiatrie computationnelle
+  social:
+    - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
+      icon: fab fa-linkedin-in
+    - url: https://github.com/Annaother
+      icon: fab fa-github
+
