@@ -258,19 +258,6 @@ team:
         - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
           icon: fab fa-linkedin-in
 
-    - name: "Adrien Dubois"
-      role: 
-        en: "Engineer<br>(Computational Physiology)"
-        fr: "Ingénieur<br>(Physiologie Computationnelle)"
-      image: img/team/Adrien_Dubois.jpeg
-      social:
-        - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
-          icon: fab fa-google
-        - url: https://www.linkedin.com/in/adrien-dubois-604658b2/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/Dub21
-          icon: fab fa-github
-
     - name: "Zahra Sheikhbahaee"
       role: 
         en: "Postdoc<br>(Social NeuroAI)"
@@ -418,22 +405,24 @@ team:
         - url: https://www.researchgate.net/profile/Anne-Monnier-2
           icon: fab fa-researchgate
 
+    - name: "Adrien Dubois"
+      role: 
+        en: "PhD Student<br>(Computational Physiology)"
+        fr: "Doctorant<br>(Physiologie Computationnelle)"
+      image: img/team/Adrien_Dubois.jpeg
+      social:
+        - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/adrien-dubois-604658b2/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Dub21
+          icon: fab fa-github
+
     - name: Natalie Kastel
       role: 
         en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
-        fr: "Doctorant<br>Prochainement...<br>(Neuro-IA sociale)"
+        fr: "Doctorante<br>Prochainement...<br>(Neuro-IA sociale)"
       image: img/team/Natalie_Kastel.jpg 
-
-    - name: "Nynke Boiten"
-      role: 
-        en: "MSc Student <br> (Computational Psychiatry)"
-        fr: "Étudiante à la maîtrise <br> (Psychiatrie computationnelle)"
-      image: img/team/Nynke_Boiten.JPG
-      social:
-        - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
-          icon: fab fa-linkedin-in
-        - url: https://github.com/Annaother
-          icon: fab fa-github
 
     - name: "Clara El Khantour"
       role: 
