@@ -5,6 +5,17 @@
 @import "base/variables.scss";
 @import "base/mixins.scss";
 
+// Custom Fonts
+{% if site.data.style.fonts %}
+  {% for font in site.data.style.fonts %}
+    @mixin {{font.for}}-font {
+      font-family: "{{ font.name }}", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+  {% endfor %}
+{% endif %}
+
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
