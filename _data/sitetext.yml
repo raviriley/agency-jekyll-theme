@@ -195,6 +195,9 @@ fundings:
     - title: "Gates Foundation"
       url: https://www.gatesfoundation.org/
       logo: assets/img/fundings/gates.png
+    - title: "CIHR"
+      url: https://cihr-irsc.gc.ca/e/193.html
+      logo: assets/img/fundings/cihr.png
 
 team:
   title: 
