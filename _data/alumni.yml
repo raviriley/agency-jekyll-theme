@@ -139,3 +139,25 @@
     - url: https://github.com/Annaother
       icon: fab fa-github
 
+- name: "Hannah De Laet"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+  social:
+    - url: https://scholar.google.be/citations?hl=nl&user=BEh4FGsAAAAJ
+      icon: fab fa-google
+    - url: https://www.linkedin.com/in/hannah-de-laet-5a72831b4/
+      icon: fab fa-twitter
+
+- name: "Edoardo Chidichimo"
+  role: 
+    en: "Computational Social Neuroscience"
+    fr: "Neurosciences sociales computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/ec750/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/EdoardoChidichimo
+      icon: fab fa-github
+    - url: https://twitter.com/EdoardoChidich1
+      icon: fab fa-twitter
+
