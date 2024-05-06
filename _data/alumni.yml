@@ -161,7 +161,7 @@
     - url: https://twitter.com/EdoardoChidich1
       icon: fab fa-twitter
 
-  - name: "Ivo Leiva"
-    role: 
-      en: "Social Physiology"
-      fr: "Physiologie sociale"
+- name: "Ivo Leiva"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
