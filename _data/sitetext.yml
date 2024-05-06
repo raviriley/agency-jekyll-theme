@@ -495,11 +495,6 @@ team:
         - url: https://twitter.com/GAbrevaya
           icon: fa-brands fa-x-twitter
 
-    - name: "Ivo Leiva"
-      role: 
-        en: "Visiting PhD <br>(Social Physiology)"
-        fr: "Doctorant invité<br>(Physiologie sociale)"
-      image: img/team/Ivo_Leiva.png
       # social:
       #   - url: 
       #     icon: fab fa-linkedin-in
