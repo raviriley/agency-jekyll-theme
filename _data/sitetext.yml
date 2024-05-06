@@ -455,8 +455,8 @@ team:
 
     - name: Vincent Chamberland
       role: 
-        en: "MSc student<br> (Social Physiology)"
-        fr: "Étudiant à la maîtrise<br> (Physiologie sociale)"
+        en: "MSc student & Research Assistant<br> (Social Physiology)"
+        fr: "Étudiant à la maîtrise & Assistant de Recherche<br> (Physiologie sociale)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
