@@ -493,8 +493,13 @@ team:
         - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
           icon: fab fa-google
         - url: https://twitter.com/GAbrevaya
-          icon: fa-brands fa-x-twitter
+          icon: fa-brands fa-twitter
 
+    - name: "Camille Lanoix"
+      role:
+        en: "Bachelor's Student<br> (Social Physiology)"
+        fr: "Etudiante au Baccalauréat <br> (Physiologie sociale)"
+      image: img/team/Camille_Lanoix.png
       # social:
       #   - url: 
       #     icon: fab fa-linkedin-in
