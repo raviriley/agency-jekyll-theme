@@ -252,6 +252,26 @@ team:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
 
+    - name: "Annemarie Wolff"
+      role: 
+        en: "Visiting student <br> Research associate"
+        fr: "Étudiante invitée <br> Associée de recherche"
+      image: img/team/Annemarie_Wolff.jpg
+      social:
+        - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
+          icon: fab fa-linkedin-in
+
+
+    - name: "Jade Esper "
+      role: 
+        en: "AI Data Analyst"
+        fr: "Analyste de données en IA"
+      image: img/team/Jade_Esper.jpg
+      social:
+        - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
+          icon: fab fa-linkedin-in
+
+
     - name: "Gabriela Milanova"
       role: 
         en: "Research Assistant"
