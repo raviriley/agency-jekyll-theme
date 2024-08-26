@@ -266,9 +266,9 @@ team:
         en: "AI Data Analyst<br>co-supervision with Sébastien Jacquemont"
         fr: "Analyste de données en IA<br>co-supervision avec Sébastien Jacquemont"
       image: img/team/Jade_Esper.jpg
-      # social:
-      #   - url: #https://www.linkedin.com/in/
-      #     icon: fab fa-linkedin-in
+      social:
+        - url: https://www.linkedin.com/in/jade-esper/
+          icon: fab fa-linkedin-in
 
     - name: "Annemarie Wolff"
       role: 
