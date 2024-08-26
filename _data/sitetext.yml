@@ -267,7 +267,7 @@ team:
         fr: "Analyste de données en IA<br>co-supervision avec Sébastien Jacquemont"
       image: img/team/Jade_Esper.jpg
       # social:
-      #   - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
+      #   - url: #https://www.linkedin.com/in/
       #     icon: fab fa-linkedin-in
 
     - name: "Annemarie Wolff"
@@ -276,7 +276,7 @@ team:
         fr: "Postdoc invitée<br>(Physiologie sociale et computationnelle)"
       image: img/team/Annemarie_Wolff.jpg
       # social:
-      #   - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
+      #   - url: #https://www.linkedin.com/in/
       #     icon: fab fa-linkedin-in
 
     - name: "Zahra Sheikhbahaee"
