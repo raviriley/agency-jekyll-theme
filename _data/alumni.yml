@@ -177,3 +177,20 @@
       icon: fab fa-linkedin-in
     - url: https://github.com/ghazalehran
       icon: fab fa-github
+
+- name: "Clara El Khantour"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+  social:
+    - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/claraElk
+      icon: fab fa-github
+    - url: https://twitter.com/c_khantour
+      icon: fab fa-twitter
+
+- name: "Camille Lanoix"
+  role:
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
