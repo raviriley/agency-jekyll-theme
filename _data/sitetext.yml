@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     list:
       - title: "Who We Are"
         desc: "High-Flyers is a group of enthusiasts passionate about technology, engineering, and aerodynamics, who explore the intricacies of designing, building, and programming drones. We aim to expand our knowledge of drone applications in various fields such as scientific research, agriculture, industry, and rescue operations."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-laptop #find more at https://fontawesome.com/icons
       - title: "Our Mission"
         desc: "Our mission is to develop practical and theoretical skills in advanced drone technologies, promote innovation, and foster collaboration between students, professionals, and companies working with unmanned aerial vehicles. We also aim to contribute to the advancement of scientific and commercial drone applications."
         icon: fas fa-laptop
