@@ -17,25 +17,31 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "About us"
+    title: "OUR GOALS"
     text: ""
     section: services
     list:
-      - title: "Who We Are"
-        desc: "High-Flyers is a group of enthusiasts passionate about technology, engineering, and aerodynamics, who explore the intricacies of designing, building, and programming drones. We aim to expand our knowledge of drone applications in various fields such as scientific research, agriculture, industry, and rescue operations."
+      - title: "Advance Drone Technology Skills"
+        desc: "Developing and enhancing practical and theoretical knowledge in drone technology, including design, programming, and autonomous navigation systems."
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "Our Mission"
-        desc: "Our mission is to develop practical and theoretical skills in advanced drone technologies, promote innovation, and foster collaboration between students, professionals, and companies working with unmanned aerial vehicles. We also aim to contribute to the advancement of scientific and commercial drone applications."
+      - title: "Foster Collaboration and Innovation"
+        desc: "Creating a platform for students, professionals, and enthusiasts to collaborate on innovative drone applications across scientific, commercial, and industrial fields."
         icon: fas fa-laptop
-      - title: "What We Do"
-        desc: "Together, we build drones, test them, and experiment with various technologies, such as autonomous flight, navigation systems, and data analysis gathered by drones. Our activities combine theory and practice, providing a space for creative and ambitious students."
+      - title: "Promote Real-World Applications"
+        desc: "Exploring and implementing drone solutions in areas like environmental monitoring, agriculture, disaster response, and data analysis to address real-world challenges."
         icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: ""
     section: portfolio
     closebutton: "Close Project"
+
+  about:
+    title: "About Us"
+    text: "our story"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: about
 
   timeline:
     title: "Timeline"
@@ -67,12 +73,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients

@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Our Goals"
+    - title: "Goals"
       section: services
     - title: "Portfolio"
       section: portfolio
