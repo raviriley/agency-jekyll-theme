@@ -11,24 +11,24 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to our scientific organization!
+    text: HIGH-FLYERS
+    button: About us
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "About us"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Who We Are"
+        desc: "High-Flyers is a group of enthusiasts passionate about technology, engineering, and aerodynamics, who explore the intricacies of designing, building, and programming drones. We aim to expand our knowledge of drone applications in various fields such as scientific research, agriculture, industry, and rescue operations."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Our Mission"
+        desc: "Our mission is to develop practical and theoretical skills in advanced drone technologies, promote innovation, and foster collaboration between students, professionals, and companies working with unmanned aerial vehicles. We also aim to contribute to the advancement of scientific and commercial drone applications."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "What We Do"
+        desc: "Together, we build drones, test them, and experiment with various technologies, such as autonomous flight, navigation systems, and data analysis gathered by drones. Our activities combine theory and practice, providing a space for creative and ambitious students."
         icon: fab fa-markdown
 
   portfolio:
@@ -100,7 +100,7 @@ en: &DEFAULT_EN
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/background.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
