@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our scientific organization!
+    title: Welcome to our scientific association!
     text: HIGH-FLYERS
     button: About us
     buttonlink: "#services"
@@ -23,16 +23,16 @@ en: &DEFAULT_EN
     list:
       - title: "Advance Drone Technology Skills"
         desc: "Developing and enhancing practical and theoretical knowledge in drone technology, including design, programming, and autonomous navigation systems."
-        icon: fas fa-laptop #find more at https://fontawesome.com/icons
+        icon: fas fa-microchip #find more at https://fontawesome.com/icons
       - title: "Foster Collaboration and Innovation"
         desc: "Creating a platform for students, professionals, and enthusiasts to collaborate on innovative drone applications across scientific, commercial, and industrial fields."
-        icon: fas fa-laptop
+        icon: fas fa-users
       - title: "Promote Real-World Applications"
         desc: "Exploring and implementing drone solutions in areas like environmental monitoring, agriculture, disaster response, and data analysis to address real-world challenges."
-        icon: fab fa-markdown
+        icon: fa fa-chart-line
 
   portfolio:
-    title: "Portfolio"
+    title: "Vehicle"
     text: ""
     section: portfolio
     closebutton: "Close Project"
@@ -149,13 +149,13 @@ en: &DEFAULT_EN
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
-      - url: https://facebook.com
+      - url: https://facebook.com/high.flyers.polsl
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com
         icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://instagram.com/highflyers.polsl
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN

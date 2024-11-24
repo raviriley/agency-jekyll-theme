@@ -2,7 +2,8 @@
 #portfolio {
   .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 auto 15px;
+    max-width: 100%;
     .portfolio-link {
       position: relative;
       display: block;
@@ -65,7 +66,7 @@
 @media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
-      margin: 0 0 30px;
+      margin: 0 auto 30px;
     }
   }
 }
