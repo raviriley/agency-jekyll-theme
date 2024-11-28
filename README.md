@@ -43,7 +43,7 @@ I also added a lot of new features that go beyond the original theme's capabilit
 - custom colors with automatic gradient generation (coming soon)
 - site title logo text font customization (coming soon)
 - horizontal scrolling support for portfolio section (coming soon)
-- about section (different from the timeline) -->
+- about section -->
 
 The Jekyll structure of this theme includes:
 
