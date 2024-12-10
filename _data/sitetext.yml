@@ -309,6 +309,17 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
           icon: fab fa-google
 
+    - name: "Tony Tona Landu"
+      role: 
+        en: "Postdoc<br>(Social NeuroAI)"
+        fr: "Postdoc<br>(NeuroIA sociale)"
+      image: img/team/Tony_Tona.jpg
+      social:
+        - url: http://linkedin.com/in/tony-tona-landu-0977a617a
+          icon: fab fa-linkedin-in
+        - url: https://scholar.google.com/citations?user=DlpCJxMAAAAJ&hl=fr
+          icon: fab fa-google
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -474,20 +485,16 @@ team:
         - url: https://github.com/juandavidvargas19
           icon: fab fa-github
 
-    - name: "Germán Abrevaya"
+    - name: "Patrice Fortin"
       role: 
-        en: "Mila Intern / Visiting PhD student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Stagiaire Mila / Doctorant invité<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
-      image: img/team/German_Abrevaya.png
+        en: "MSc Student<br>co-supervision with Anne Gallagher<br>(Social NeuroAI)"
+        fr: "Étudiant à la maîtrise<br>co-supervision avec Anne Gallagher<br>(NeuroIA sociale)"
+      image: img/team/Patrice_Fortin.png
       social:
-        - url: https://www.linkedin.com/in/germ%C3%A1n-abrevaya-63a0482a5/
+        - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
           icon: fab fa-linkedin-in
-        - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
-          icon: fab fa-google
-        - url: https://github.com/gabrevaya
+        - url: https://github.com/patricefortin
           icon: fab fa-github
-        - url: https://twitter.com/GAbrevaya
-          icon: fab fa-twitter
 
 
 contact:

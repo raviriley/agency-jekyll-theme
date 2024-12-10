@@ -194,3 +194,8 @@
   role:
     en: "Social Physiology"
     fr: "Physiologie sociale"
+
+- name: "Germán Abrevaya"
+  role: 
+    en: "Dynamical NeuroAI"
+    fr: "NeuroIA Dynamique"
