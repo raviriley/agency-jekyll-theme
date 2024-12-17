@@ -439,8 +439,8 @@ team:
 
     - name: "Adrien Dubois"
       role: 
-        en: "PhD Student<br>(Computational Physiology)"
-        fr: "Doctorant<br>(Physiologie Computationnelle)"
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Computational Physiology)"
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Physiologie Computationnelle)"
       image: img/team/Adrien_Dubois.jpeg
       social:
         - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
@@ -454,7 +454,20 @@ team:
       role: 
         en: "PhD Student<br>(Social Neuro AI)"
         fr: "Doctorante<br>(Neuro-IA sociale)"
-      image: img/team/Natalie_Kastel.jpg 
+      image: img/team/Natalie_Kastel.jpg
+
+    - name: "Karoline Lippert"
+      role: 
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Médecine de Précision)"
+      image: img/team/Karoline_Lippert.jpg
+      social:
+        - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+          icon: fab fa-linkedin-in
+        # - url: https://github.com/Dub21
+        #   icon: fab fa-github  
 
     - name: Vincent Chamberland
       role: 
