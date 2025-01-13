@@ -376,14 +376,6 @@ team:
         - url: "https://www.linkedin.com/in/guillaumelam/"
           icon: fab fa-linkedin-in
 
-    - name: Chantal-Valerie Lee
-      role: 
-        en: "PhD Student<br> co-supervision with Simone Falk <br> (Computational Linguistics)"
-        fr: "Doctorante<br> co-supervision avec Simone Falk <br> (Linguistique computationnelle)"
-      image: img/team/Chantal-Valerie_Lee.jpg
-      social:
-        - url: https://github.com/clee630
-          icon: "fab fa-github"
 
     - name: "Mahta Ramezanian"
       role: 
@@ -506,18 +498,6 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/juandavidvargas19
           icon: fab fa-github
-
-    - name: "Patrice Fortin"
-      role: 
-        en: "MSc Student<br>co-supervision with Anne Gallagher<br>(Social NeuroAI)"
-        fr: "Étudiant à la maîtrise<br>co-supervision avec Anne Gallagher<br>(NeuroIA sociale)"
-      image: img/team/Patrice_Fortin.png
-      social:
-        - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/patricefortin
-          icon: fab fa-github
-
 
 contact:
   title: 
