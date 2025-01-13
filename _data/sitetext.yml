@@ -466,16 +466,25 @@ team:
           icon: fab fa-google
         - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
           icon: fab fa-linkedin-in
-        # - url: https://github.com/Dub21
-        #   icon: fab fa-github  
 
     - name: Vincent Chamberland
       role: 
-        en: "MSc student & Research Assistant<br> (Social Physiology)"
-        fr: "Étudiant à la maîtrise & Assistant de Recherche<br> (Physiologie sociale)"
+        en: "PhD student & Research Assistant<br> (Social Physiology)"
+        fr: "Étudiant au Doctorat & Assistant de Recherche<br> (Physiologie sociale)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
+          icon: fab fa-linkedin-in
+
+    - name: "Arnaud Maupas"
+      role: 
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(System Biology & Cognition)"
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Biologie des systèmes et Cognition)"
+      image: img/team/Arnaud_Maupas.jpg
+      social:
+        - url: https://scholar.google.fr/citations?user=1SsON4kAAAAJ&hl=fr&oi=ao
+          icon: fab fa-google
+        - url: https://fr.linkedin.com/in/arnaud-maupas-3646a219a
           icon: fab fa-linkedin-in
 
     - name: "Olivia Leone"
