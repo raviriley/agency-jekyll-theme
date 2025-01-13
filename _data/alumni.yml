@@ -199,3 +199,32 @@
   role: 
     en: "Dynamical NeuroAI"
     fr: "NeuroIA Dynamique"
+  social:
+    - url: https://www.linkedin.com/in/germ%C3%A1n-abrevaya-63a0482a5/
+      icon: fab fa-linkedin-in
+    - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
+      icon: fab fa-google
+    - url: https://github.com/gabrevaya
+      icon: fab fa-github
+    - url: https://twitter.com/GAbrevaya
+      icon: fab fa-twitter
+
+- name: "Patrice Fortin"
+  role: 
+    en: "Social NeuroAI"
+    fr: "NeuroIA sociale"
+  social:
+    - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/patricefortin
+      icon: fab fa-github
+
+
+- name: Chantal-Valerie Lee
+  role: 
+    en: "Computational Linguistics"
+    fr: "Linguistique computationnelle"
+  social:
+    - url: https://github.com/clee630
+      icon: "fab fa-github"
+
