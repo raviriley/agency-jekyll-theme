@@ -76,69 +76,69 @@ papers:
 
   
 
-timeline:
-  title: 
-    en: "Our story"
-    fr: "Notre histoire"
-  text: 
-    en: "\"Past, present, and future is where we're at.\""
-    fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes.\""
-  section: timeline
-  events:
-    - title: 
-        en: "Our Humble Beginnings"
-        fr: "Nos humbles débuts"
-      year: 
-        en: "May 2020"
-        fr: "Mai 2020"
-      desc: 
-        en: "With the COVID19 pandemic, the lab started online..."
-        fr: "Avec la pandémie de COVID19, le laboratoire a démarré en ligne..."
-      image: assets/img/timeline/1.jpg
-      alt: 
-      align: left
-    - title: 
-        en: "First grant!"
-        fr: "Premier financement!"
-      year: 
-        en: "July 2020"
-        fr: "Juillet 2020"
-      desc: 
-        en: "FRQS J1 in Artificial Intelligence and Digital Medicine."
-        fr: "FRQS J1 en Intelligence Artificielle et Médecine Numérique."
-      image: assets/img/timeline/2.jpg
-      alt: 
-      align: right
-    - title: 
-        en: "Affiliation to Mila"
-        fr: "Affiliation à l'institut de recherche Mila"
-      year: 
-        en: "September 2020"
-        fr: "Septembre 2020"
-      desc: 
-        en: "Guillaume joined Mila as an affiliated professor."
-        fr: "Guillaume rejoint l’équipe académique de l’institut Québécois d’intelligence artificielle."
-      image: assets/img/timeline/3.jpg
-      alt: image alt text
-      #align: #default is left       
-    - title: 
-        en: "The lab is finally opening!"
-        fr: "Le laboratoire est enfin ouvert !"
-      year: 
-        en: "November 2020"
-        fr: "Novembre 2020"
-      desc: 
-        en: "Our office is at the level A of CHUSJ Research Center."
-        fr: "Nos bureaux sont situés au niveau A du Centre de Recherche CHUSJ"
-      image: assets/img/timeline/4.jpg
-      alt: 
-      align: right
-  end: 
-    en: "Be Part <br> of Our <br> Story!"
-    fr: "Faites Partie de l'Histoire!"
-  twitter:
-    en: "Check Our Last News"
-    fr: "Nos Dernières Nouvelles"
+# timeline:
+#   title: 
+#     en: "Our story"
+#     fr: "Notre histoire"
+#   text: 
+#     en: "\"Past, present, and future is where we're at.\""
+#     fr: "\"Le passé, le présent et le futur, c'est là où nous en sommes.\""
+#   section: timeline
+#   events:
+#     - title: 
+#         en: "Our Humble Beginnings"
+#         fr: "Nos humbles débuts"
+#       year: 
+#         en: "May 2020"
+#         fr: "Mai 2020"
+#       desc: 
+#         en: "With the COVID19 pandemic, the lab started online..."
+#         fr: "Avec la pandémie de COVID19, le laboratoire a démarré en ligne..."
+#       image: assets/img/timeline/1.jpg
+#       alt: 
+#       align: left
+#     - title: 
+#         en: "First grant!"
+#         fr: "Premier financement!"
+#       year: 
+#         en: "July 2020"
+#         fr: "Juillet 2020"
+#       desc: 
+#         en: "FRQS J1 in Artificial Intelligence and Digital Medicine."
+#         fr: "FRQS J1 en Intelligence Artificielle et Médecine Numérique."
+#       image: assets/img/timeline/2.jpg
+#       alt: 
+#       align: right
+#     - title: 
+#         en: "Affiliation to Mila"
+#         fr: "Affiliation à l'institut de recherche Mila"
+#       year: 
+#         en: "September 2020"
+#         fr: "Septembre 2020"
+#       desc: 
+#         en: "Guillaume joined Mila as an affiliated professor."
+#         fr: "Guillaume rejoint l’équipe académique de l’institut Québécois d’intelligence artificielle."
+#       image: assets/img/timeline/3.jpg
+#       alt: image alt text
+#       #align: #default is left       
+#     - title: 
+#         en: "The lab is finally opening!"
+#         fr: "Le laboratoire est enfin ouvert !"
+#       year: 
+#         en: "November 2020"
+#         fr: "Novembre 2020"
+#       desc: 
+#         en: "Our office is at the level A of CHUSJ Research Center."
+#         fr: "Nos bureaux sont situés au niveau A du Centre de Recherche CHUSJ"
+#       image: assets/img/timeline/4.jpg
+#       alt: 
+#       align: right
+#   end: 
+#     en: "Be Part <br> of Our <br> Story!"
+#     fr: "Faites Partie de l'Histoire!"
+#   twitter:
+#     en: "Check Our Last News"
+#     fr: "Nos Dernières Nouvelles"
 
 about:
   title: "About Us"
@@ -252,16 +252,16 @@ team:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
 
-    - name: "Gabriela Milanova"
+    - name: "Maya_Behlouli.jpg"
       role: 
         en: "Research Assistant"
         fr: "Assistante de Recherche"
-      image: img/team/Gabriela_Milanova.jpg
+      image: img/team/Maya_Behlouli.jpg
       social:
-        - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
+        - url: https://www.linkedin.com/in/maya-behlouli/
           icon: fab fa-linkedin-in
 
-    - name: "Jade Esper "
+    - name: "Jade Esper"
       role: 
         en: "AI Data Analyst<br>co-supervision with Sébastien Jacquemont"
         fr: "Analyste de données en IA<br>co-supervision avec Sébastien Jacquemont"
@@ -442,7 +442,7 @@ team:
         - url: https://github.com/Dub21
           icon: fab fa-github
 
-    - name: Natalie Kastel
+    - name: "Natalie Kastel"
       role: 
         en: "PhD Student<br>(Social Neuro AI)"
         fr: "Doctorante<br>(Neuro-IA sociale)"
@@ -470,14 +470,29 @@ team:
 
     - name: "Arnaud Maupas"
       role: 
-        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(System Biology & Cognition)"
-        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Biologie des systèmes et Cognition)"
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>Coming soon..."
+        # (System Biology & Cognition)
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>Prochainement..."
+        # (Biologie des systèmes et Cognition)
       image: img/team/Arnaud_Maupas.jpg
       social:
         - url: https://scholar.google.fr/citations?user=1SsON4kAAAAJ&hl=fr&oi=ao
           icon: fab fa-google
         - url: https://fr.linkedin.com/in/arnaud-maupas-3646a219a
           icon: fab fa-linkedin-in
+
+    - name: "Marine Gautier Martins"
+      role: 
+        en: "PhD Student<br>co-supervision with Renaud Jardri (Université de Lille)<br>(Computational Psychiatry)"
+        fr: "Doctorant<br>co-supervision with Renaud Jardri (Lille University)<br>(Psychiatrie computationnelle)"
+      image: img/team/Marine_Gautier_Martins.jpg
+      social:
+        - url: https://scholar.google.com/citations?user=TM5IHC0AAAAJ&hl=en
+          icon: fab fa-google
+        - url: http://www.linkedin.com/in/marine-gautier--martins
+          icon: fab fa-linkedin-in
+        - url: https://github.com/mg-m
+          icon: fab fa-github
 
     - name: "Olivia Leone"
       role: 
@@ -498,6 +513,32 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/juandavidvargas19
           icon: fab fa-github
+
+    - name: "Anaïs Rourre"
+      role: 
+        en: "MSc Student<br>co-supervision with Catherine Duclos<br>(Social Physiology)"
+        fr: "Étudiant à la maîtrise<br>co-supervision avec Catherine Duclos<br>(Physiologie Sociale)"
+      image: img/team/Anaïs_Rourre.jpg
+      social:
+        - url: https://fr.linkedin.com/in/ana%C3%AFs-rourre-51491426a?trk=public_profile_browsemap
+          icon: fab fa-linkedin-in
+        # - url: 
+        #   icon: fab fa-github
+
+    - name: "Francesco Achilli"
+      role: 
+        en: "Intern<br>Precision medecine"
+        fr: "Etudiant stagiaire<br>Médecine de precision"
+      image: img/team/unknown.png
+      social:
+        - url: https://orcid.org/0000-0002-9959-1319
+          icon: fab fa-orcid 
+        - url: https://www.researchgate.net/profile/Francesco-Achilli
+          icon: fab fa-researchgate
+        - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
+          icon: fab fa-google          
+        # - url: 
+        #   icon: fab fa-github
 
 contact:
   title: 
