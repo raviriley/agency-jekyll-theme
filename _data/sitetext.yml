@@ -395,7 +395,7 @@ team:
     - name: "Pascal Notsawo"
       role: 
         en: "PhD Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
-        fr: "Doctorant<br>co-supervision avec Irina Rish<br>(Dynamical NeuroAI)"
+        fr: "Doctorant<br>co-supervision avec Irina Rish<br>(NeuroAI dynamique)"
       image: img/team/Pascal_Notsawo.jpg
       social:
         - url: https://twitter.com/PTikeng
@@ -451,7 +451,7 @@ team:
     - name: "Karoline Lippert"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
-        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Médecine de Précision)"
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Médecine de précision)"
       image: img/team/Karoline_Lippert.jpg
       social:
         - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
@@ -461,8 +461,8 @@ team:
 
     - name: Vincent Chamberland
       role: 
-        en: "PhD student & Research Assistant<br> (Social Physiology)"
-        fr: "Étudiant au Doctorat & Assistant de Recherche<br> (Physiologie sociale)"
+        en: "PhD student & Research Assistant<br>(Social Physiology)"
+        fr: "Étudiant au Doctorat & Assistant de Recherche<br>(Physiologie sociale)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
@@ -527,8 +527,8 @@ team:
 
     - name: "Francesco Achilli"
       role: 
-        en: "Intern<br>Precision medecine"
-        fr: "Etudiant stagiaire<br>Médecine de precision"
+        en: "Intern<br>(Computational Psychiatry)"
+        fr: "Etudiant stagiaire<br>(Psychiatrie Computationelle)"
       image: img/team/unknown.png
       social:
         - url: https://orcid.org/0000-0002-9959-1319
