@@ -228,3 +228,23 @@
     - url: https://github.com/clee630
       icon: "fab fa-github"
 
+- name: "Gabriela Milanova"
+  role: 
+    en: "Research Assistant"
+    fr: "Assistante de Recherche"
+  social:
+    - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
+      icon: fab fa-linkedin-in
+
+- name: Guillaume Lam
+  role: 
+    en: "Computational Physiology"
+    fr: "Physiologie computationnelle"
+  social:
+    - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
+      icon: fab fa-google
+    - url: https://github.com/GuillaumeLam
+      icon:  "fab fa-github"
+    - url: "https://www.linkedin.com/in/guillaumelam/"
+      icon: fab fa-linkedin-in
+

@@ -363,20 +363,6 @@ team:
         - url: https://scholar.google.com/citations?user=7fuk56wAAAAJ&hl=en
           icon: fab fa-google
 
-    - name: Guillaume Lam
-      role: 
-        en: "PhD Student<br>co-supervision with Sarah Lippé<br>(Computational Physiology)"
-        fr: "Doctorant <br>co-supervision avec  Sarah Lippé<br>(Physiologie computationnelle)"
-      image: img/team/Guillaume_Lam.jpeg
-      social:
-        - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
-          icon: fab fa-google
-        - url: https://github.com/GuillaumeLam
-          icon:  "fab fa-github"
-        - url: "https://www.linkedin.com/in/guillaumelam/"
-          icon: fab fa-linkedin-in
-
-
     - name: "Mahta Ramezanian"
       role: 
         en: "PhD Student<br>co-supervision with Irina Rish<br>(Dynamical NeuroAI)"
