@@ -515,7 +515,7 @@ team:
       role: 
         en: "Intern<br>(Computational Psychiatry)"
         fr: "Etudiant stagiaire<br>(Psychiatrie Computationelle)"
-      image: img/team/unknown.png
+      image: img/team/Francesco_Achilli.png
       social:
         - url: https://orcid.org/0000-0002-9959-1319
           icon: fab fa-orcid 
