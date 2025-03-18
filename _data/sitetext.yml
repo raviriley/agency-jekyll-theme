@@ -252,6 +252,20 @@ team:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
 
+    - name: "Rémy Ramadour"
+      role: 
+        en: "Research coordinator"
+        fr: "Coordonnateur de Recherche"
+      image: img/team/Rémy_Ramadour.jpg
+      social:
+        - url: https://www.linkedin.com/in/r%C3%A9my-ramadour/
+          icon: fab fa-linkedin-in
+        - url : https://github.com/Ramdam17
+          icon: fab fa-github
+        - url: https://bsky.app/profile/remyramadour.bsky.social
+          icon: fa-brands fa-square-bluesky
+
+
     - name: "Maya Behlouli"
       role: 
         en: "Research Assistant"
