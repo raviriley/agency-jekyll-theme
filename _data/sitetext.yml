@@ -461,12 +461,14 @@ team:
 
     - name: Vincent Chamberland
       role: 
-        en: "PhD student & Research Assistant<br>(Social Physiology)"
-        fr: "Étudiant au Doctorat & Assistant de Recherche<br>(Physiologie sociale)"
+        en: "PhD student<br>(Precision Neuromodulation)"
+        fr: "Étudiant au Doctorat<br>(Neuromodulation de précision)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
           icon: fab fa-linkedin-in
+        - url: https://github.com/vchamberland
+          icon: fab fa-github
 
     - name: "Arnaud Maupas"
       role: 
@@ -537,6 +539,17 @@ team:
           icon: fab fa-researchgate
         - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
           icon: fab fa-google          
+        # - url: 
+        #   icon: fab fa-github
+
+    - name: "Marvel Manoharan"
+      role: 
+        en: "Intern<br>(Social Physiology)"
+        fr: "Étudiant stagiaire<br>(Physiologie Sociale)"
+      image: img/team/Marvel_Manoharan.png
+      social:
+        - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
+          icon: fab fa-linkedin-in
         # - url: 
         #   icon: fab fa-github
 
