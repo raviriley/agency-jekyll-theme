@@ -25,7 +25,6 @@ $(function() {
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       if(username === ''){ // Disable's form submit if hidden input(username) has been filled
       $.ajax({
-
         url: url,
         type: "POST",
         dataType: "json",
@@ -37,7 +36,7 @@ $(function() {
         },
         cache: false,
 
-        success: function() {
+            success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
