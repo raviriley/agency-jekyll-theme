@@ -23,6 +23,9 @@
                   required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}">
                 <p class="help-block text-danger"></p>
               </div>
+              <div class="form-group d-none">
+                <input name="username" class="form-control" id="username" type="text" tabindex="-1" autocomplete="off">
+              </div>
               <div class="form-group">
                 <input name="_replyto" class="form-control" id="email" type="email"
                   placeholder="{{ site.data.sitetext[site.locale].contact.email | default: "Email*" }}"
@@ -83,6 +86,9 @@
                   placeholder="{{ site.data.sitetext.contact.name | default: "Name*" }}"
                   required="required" data-validation-required-message="{{ site.data.sitetext.contact.name-validation | default: "Please enter your name." }}">
                 <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group d-none">
+                <input name="username" class="form-control" id="username" type="text" tabindex="-1" autocomplete="off">
               </div>
               <div class="form-group">
                 <input name="_replyto" class="form-control" id="email" type="email"
