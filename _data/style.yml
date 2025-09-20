@@ -4,25 +4,5 @@
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header.png"
-contact-image: "../img/contact.png"
-#Font Awesome icon for portfolio grid when an item is hovered over
-#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
-
-# Add custom fonts
-fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-    - "https://fonts.googleapis.com/css?family=Kaushan+Script"
-    - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-    - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-
-# Set custom fonts
-fonts:
-  - name: "Montserrat"
-    for: "heading"
-  - name: "Kaushan Script"
-    for: "script"
-  - name: "Droid Serif"
-    for: "serif"
-  - name: "Roboto Slab"
-    for: "body"
+header-image: "../img/header-bg.jpg"
+contact-image: "../img/map-image.png"
