@@ -25,6 +25,10 @@ $black: {{ site.data.style.black | default: "#000" }} !default;
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 
+// Logo parameters for the navbar-brand class, in case a logo is provided instead of text
+$logo-height-min: {{ site.logo.min-height | default: "28px" }};
+$logo-height-max: {{ site.logo.max-height | default: "38px" }};
+
 // Global CSS
 @import "base/page.scss";
 

@@ -20,9 +20,12 @@ title      : Your Awesome Website
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+# logo: # Optional, defaults to site title
+  # path: assets/img/logo.png
+  # # Optional image heights. Defaults are 38px/28px (max/min) which are approx
+  # # heights of title text at 1.75rem/1.25rem.
+  # max-height: 60px #used on big screens.
+  # min-height: 40px #small screens, and when the nav bar shrinks after scrolling.
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 

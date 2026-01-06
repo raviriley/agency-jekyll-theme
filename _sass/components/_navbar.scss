@@ -1,3 +1,11 @@
+//in case an image is provided instead of text
+@mixin brand-img($height) {
+  img { //height is not inherited by img, so set it on that tag explicity.
+    height: $height;
+    transition: all 0.3s;
+  }
+}
+
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
@@ -14,6 +22,7 @@
   .navbar-brand {
     color: $primary;
     @include script-font;
+    @include brand-img($logo-height-min);
     &.active,
     &:active,
     &:focus,
@@ -49,6 +58,7 @@
     background-color: transparent;
     .navbar-brand {
       font-size: 1.75em;
+      @include brand-img($logo-height-max);
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -66,6 +76,7 @@
       background-color: $gray-900;
       .navbar-brand {
         font-size: 1.25em;
+        @include brand-img($logo-height-min);
         padding: 12px 0;
       }
     }
