@@ -5,3 +5,6 @@ gemspec
 # Delete the following lines if not on Windows: 
 # Performance-booster for watching directories on Windows
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
+
+# Prevent warning about logger not being a default gem in the future.
+gem "logger", "~> 1.6.4"

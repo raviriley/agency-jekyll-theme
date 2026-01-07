@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Button Styles
 .btn {
   @include heading-font;
@@ -15,8 +17,8 @@
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: color.adjust($primary, $lightness: -7.5%) !important;
+    border-color: color.adjust($primary, $lightness: -7.5%) !important;
     color: white;
   }
   &:active,

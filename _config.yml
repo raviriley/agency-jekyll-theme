@@ -12,6 +12,8 @@
 # in the templates via {{ site.myvariable }}.
 
 theme: jekyll-agency
+sass:
+  silence_deprecations: [import]
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
